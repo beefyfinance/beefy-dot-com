@@ -1,0 +1,71 @@
+export const theme = {
+  primary: '#59A662',
+  footer: '#121212',
+  cardBg: '#2D3153',
+  cardBorder: '#363B63',
+  text: {
+    primary: '#F5F5FF',
+    seconadry: '#D0D0DA',
+    label: '#999CB3',
+  },
+  spacing1: '8px',
+  spacing2: '16px',
+  spacing3: '24px',
+  spacing4: '32px',
+  h1: {
+    fontSize: '32px',
+    lineHeight: '40px',
+    fontWeight: 500,
+  },
+  h2: {
+    fontSize: '24px',
+    lineHeight: '32px',
+    fontWeight: 500,
+  },
+  h3: {
+    fontSize: '21px',
+    lineHeight: '24px',
+    fontWeight: 500,
+  },
+  bodyLg: {
+    fontSize: '16px',
+    lineHeight: '24px',
+    fontWeight: 400,
+  },
+  bodyLgMed: {
+    fontSize: '16px',
+    lineHeight: '24px',
+    fontWeight: 500,
+  },
+  bodySm: {
+    fontSize: '12px',
+    lineHeight: '20px',
+    fontWeight: 400,
+  },
+  bodySmMed: {
+    fontSize: '12px',
+    lineHeight: '20px',
+    fontWeight: 500,
+  },
+  sublineLg: {
+    fontSize: '15px',
+    lineHeight: '24px',
+    fontWeight: 500,
+    textTransform: 'uppercase',
+    letterSpacing: '0.5px',
+  },
+  sublineSm: {
+    fontSize: '12px',
+    lineHeight: '20px',
+    fontWeight: 500,
+    textTransform: 'uppercase',
+    letterSpacing: '0.5px',
+  },
+  breakpoints: {
+    xs: 0,
+    sm: 600,
+    md: 960,
+    lg: 1296,
+    xl: 1920,
+  },
+};

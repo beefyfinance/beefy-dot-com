@@ -11,6 +11,7 @@ const Wrapper = styled.div`
   grid-template-columns: minmax(0, 1fr);
   min-height: 100vh;
   width: 100%;
+  background: linear-gradient(108.4deg, #2a2b42 0%, #141520 100%);
 `;
 
 const Page = styled.div``;
