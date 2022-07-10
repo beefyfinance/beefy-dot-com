@@ -31,6 +31,7 @@ const config: GatsbyConfig = {
       },
     },
     'gatsby-plugin-sharp',
+    `gatsby-transformer-json`,
     'gatsby-transformer-sharp',
     {
       resolve: 'gatsby-transformer-remark',
@@ -62,7 +63,14 @@ const config: GatsbyConfig = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        name: 'blogArticles',
+        name: 'jsonContent',
+        path: './src/content/json',
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'blogContent',
         path: './src/content/blog/',
       },
     },

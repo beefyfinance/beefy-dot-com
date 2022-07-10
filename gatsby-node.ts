@@ -1,7 +1,13 @@
-import { BuildArgs, CreateNodeArgs } from 'gatsby';
+import { BuildArgs, CreateNodeArgs, GatsbyNode, SourceNodesArgs } from 'gatsby';
 import path from 'path';
 import slugify from 'slugify';
 import { BlogArticlesQueryReturnType, isFileSystemNode, isMarkdownNode } from './gatsby-node-types';
+import {
+  getAllPrices,
+  getApyBreakdown,
+  getVaults,
+  getVaultsWithApy,
+} from './src/data/api/beefy-api';
 
 const BLOG_ARTICLES_PER_PAGE = 12;
 
@@ -56,8 +62,8 @@ async function createBlogPages({ graphql, actions }: BuildArgs) {
   });
 }
 
-export const createPages = (args: BuildArgs) => {
-  return Promise.all([createBlogPages(args)]);
+export const createPages: GatsbyNode['createPages'] = async function (args: BuildArgs) {
+  await Promise.all([createBlogPages(args)]);
 };
 
 async function createMarkdownSlugField({ node, getNode, actions }: CreateNodeArgs) {
@@ -89,6 +95,76 @@ async function createMarkdownSlugField({ node, getNode, actions }: CreateNodeArg
   });
 }
 
-export const onCreateNode = (args: CreateNodeArgs) => {
-  return Promise.all([createMarkdownSlugField(args)]);
+export const onCreateNode: GatsbyNode['onCreateNode'] = async function (args) {
+  await Promise.all([createMarkdownSlugField(args)]);
+};
+
+async function sourceBeefyVaults({
+  actions: { createNode },
+  createContentDigest,
+  createNodeId,
+}: SourceNodesArgs) {
+  const vaults = await getVaultsWithApy();
+
+  Object.values(vaults).forEach(vault => {
+    createNode({
+      ...vault,
+      id: createNodeId(`BeefyVault-${vault.vaultId}`),
+      internal: {
+        type: 'BeefyVault',
+        contentDigest: createContentDigest(vault),
+      },
+    });
+  });
+}
+
+async function sourceBeefyPrices({
+  actions: { createNode },
+  createContentDigest,
+  createNodeId,
+}: SourceNodesArgs) {
+  const prices = await getAllPrices();
+
+  Object.entries(prices).forEach(([oracleId, price]) => {
+    createNode({
+      oracleId: oracleId,
+      price: price,
+      id: createNodeId(`BeefyPrice-${oracleId}`),
+      internal: {
+        type: 'BeefyPrice',
+        contentDigest: createContentDigest([oracleId, price]),
+      },
+    });
+  });
+}
+
+export const sourceNodes: GatsbyNode['sourceNodes'] = async function (args) {
+  await Promise.all([sourceBeefyVaults(args), sourceBeefyPrices(args)]);
+};
+
+export const createSchemaCustomization: GatsbyNode['createSchemaCustomization'] = async function ({
+  actions: { createTypes },
+}) {
+  createTypes(`
+    type BeefyVault implements Node @dontInfer {
+      vaultId: String!
+      name: String!
+      oracleId: String!
+      assets: [String!]!
+      chain: String!
+      status: String!
+      totalApy: Float!
+      totalDaily: Float!
+    }
+    
+    type BeefyPrice implements Node @dontInfer {
+      oracleId: String!
+      price: Float!
+    }
+    
+    type FeaturedVaultsJson implements Node {
+      vaultId: String!
+      vault: BeefyVault @link(by: "vaultId", from: "vaultId")
+    }
+  `);
 };

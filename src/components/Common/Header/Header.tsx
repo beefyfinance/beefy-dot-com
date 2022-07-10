@@ -4,6 +4,7 @@ import styled from '@emotion/styled';
 import { useLocation } from '@reach/router';
 import { Inner } from '../Inner';
 import { LogoLink } from './LogoLink';
+import { BIFIPrice } from './BIFIPrice';
 
 const Outer = styled.header`
   padding-top: 16px;
@@ -34,6 +35,7 @@ export const Header = memo(function Header() {
     <OuterComponent>
       <InnerRow>
         <LogoLink /> <Link to="/articles">Blog</Link>
+        <BIFIPrice />
       </InnerRow>
     </OuterComponent>
   );

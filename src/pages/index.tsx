@@ -5,6 +5,7 @@ import { EarnWithBeefy } from '../components/Home/EarnWithBeefy';
 import { Ecosystem } from '../components/Home/Ecosystem';
 import { BIFIToken } from '../components/Home/BIFIToken';
 import { LatestArticles } from '../components/Home/LatestArticles';
+import { graphql } from 'gatsby';
 
 const IndexPage = memo(function IndexPage() {
   return (

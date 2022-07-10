@@ -1,5 +1,5 @@
 import React, { memo } from 'react';
-import { useSiteMeta } from './hooks';
+import { useStaticSiteMeta } from '../../../data/queries/site-meta';
 import { Helmet } from 'react-helmet';
 import { useLocation } from '@reach/router';
 
@@ -19,7 +19,7 @@ const LocationMeta = memo<LocationMetaProps>(function LocationMeta({ baseUrl }) 
 });
 
 export const DefaultMeta = memo(function DefaultMeta() {
-  const { title, description, siteUrl: baseUrl, twitterUsername } = useSiteMeta();
+  const { title, description, siteUrl: baseUrl, twitterUsername } = useStaticSiteMeta();
 
   return (
     <>

@@ -28,7 +28,7 @@ type SiteMetadataQueryResult = {
   };
 };
 
-export function useSiteMeta(): SiteMetadata {
+export function useStaticSiteMeta(): SiteMetadata {
   const result = useStaticQuery<SiteMetadataQueryResult>(siteMetaQuery);
   return result.site.siteMetadata;
 }

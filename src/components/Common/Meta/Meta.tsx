@@ -1,13 +1,13 @@
 import React, { memo } from 'react';
 import { Helmet } from 'react-helmet';
-import { useSiteMeta } from './hooks';
+import { useStaticSiteMeta } from '../../../data/queries/site-meta';
 
 type MetaProps = {
   title?: string;
   description?: string;
 };
 export const Meta = memo<MetaProps>(function Meta({ title, description }) {
-  const siteMeta = useSiteMeta();
+  const siteMeta = useStaticSiteMeta();
   const fullTitle = title
     ? siteMeta.titleTemplate
       ? siteMeta.titleTemplate.replace('{title}', title)
