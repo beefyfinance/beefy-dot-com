@@ -1,13 +1,7 @@
 import React, { memo } from 'react';
 import styled from '@emotion/styled';
-import { Inner } from '../../Common/Inner';
-
-const Outer = styled.div``;
+import { Section } from '../../Common/Section';
 
 export const BIFIToken = memo(function BIFIToken() {
-  return (
-    <Outer>
-      <Inner>BIFI</Inner>
-    </Outer>
-  );
+  return <Section title="Bifi">{}</Section>;
 });
