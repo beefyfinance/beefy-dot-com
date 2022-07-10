@@ -1,13 +1,7 @@
 import React, { memo } from 'react';
 import styled from '@emotion/styled';
-import { Inner } from '../../Common/Inner';
-
-const Outer = styled.div``;
+import { Section } from '../../Common/Section';
 
 export const EarnWithBeefy = memo(function EarnWithBeefy() {
-  return (
-    <Outer>
-      <Inner>earn with beefy</Inner>
-    </Outer>
-  );
+  return <Section title="earn with beefy">{}</Section>;
 });
