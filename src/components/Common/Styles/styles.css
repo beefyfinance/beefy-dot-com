@@ -38,6 +38,8 @@ button,
 textarea,
 select {
     font: inherit;
+    margin: 0;
+    box-shadow: none;
 }
 
 p,

@@ -8,3 +8,7 @@ export const Inner = styled.div`
   margin-left: auto;
   margin-right: auto;
 `;
+
+export const FluidInner = styled(Inner)`
+  width: 100%; ;
+`;

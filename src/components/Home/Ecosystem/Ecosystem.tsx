@@ -1,7 +1,12 @@
 import React, { memo } from 'react';
-import styled from '@emotion/styled';
-import { Section } from '../../Common/Section';
+import { Section } from '../Section';
+import { Inner } from '../../Common/Inner';
 
 export const Ecosystem = memo(function Ecosystem() {
-  return <Section title="our ecosystem">{}</Section>;
+  return (
+    <Section title="Our Ecosystem" contentContainer="none">
+      <Inner>stats</Inner>
+      <div>logos</div>
+    </Section>
+  );
 });

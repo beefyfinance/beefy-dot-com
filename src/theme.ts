@@ -5,9 +5,9 @@ class Theme {
   public readonly cardBorder = '#363B63';
 
   public readonly text = {
-    primary: '#F5F5FF',
-    secondary: '#D0D0DA',
-    label: '#999CB3',
+    light: '#F5F5FF',
+    middle: '#D0D0DA',
+    dark: '#999CB3',
   };
 
   public readonly h1 = {
@@ -56,7 +56,7 @@ class Theme {
     fontSize: '15px',
     lineHeight: '24px',
     fontWeight: 500,
-    textTransform: 'uppercase',
+    textTransform: 'uppercase' as const,
     letterSpacing: '0.5px',
   };
 
@@ -64,7 +64,7 @@ class Theme {
     fontSize: '12px',
     lineHeight: '20px',
     fontWeight: 500,
-    textTransform: 'uppercase',
+    textTransform: 'uppercase' as const,
     letterSpacing: '0.5px',
   };
 
@@ -74,6 +74,25 @@ class Theme {
     md: 960,
     lg: 1296,
     xl: 1920,
+  };
+
+  public readonly chains: Record<string, string> = {
+    bsc: '#F0B90B',
+    heco: '#02943f',
+    avax: '#e74142',
+    polygon: '#8247e4',
+    fantom: '#1969FF',
+    harmony: '#01d8af',
+    arbitrum: '#2d374b',
+    celo: '#35cf7f',
+    moonriver: '#c3136f',
+    cronos: '#121926',
+    fuse: '#c0db64',
+    metis: '#00dacc',
+    aurora: '#70d44b',
+    moonbeam: '#211438',
+    emerald: '#0192f6',
+    optimism: '#ff0420',
   };
 
   public spacing(times: number = 1) {

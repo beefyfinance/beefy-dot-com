@@ -1,11 +1,11 @@
 import React, { memo } from 'react';
 import styled from '@emotion/styled';
 import { Inner } from '../../Common/Inner';
-import { LatestArticlesQueryEdge, useLatestArticles } from './queries/latest-articles';
+import { LatestArticlesQueryEdge, useLatestArticles } from '../../../data/queries/latest-articles';
 import { GatsbyImage } from 'gatsby-plugin-image';
 import { Link } from 'gatsby';
 import { theme } from '../../../theme';
-import { Section } from '../../Common/Section';
+import { Section } from '../Section';
 
 const ImageContainer = styled.div`
   display: flex;
@@ -32,18 +32,18 @@ const CardContent = styled.div`
 const Title = styled.h3({
   ...theme.h3,
   marginBottom: theme.spacing(1),
-  color: theme.text.primary,
+  color: theme.text.light,
 });
 
 const Text = styled.p({
   ...theme.bodyLg,
   marginBottom: theme.spacing(3),
-  color: theme.text.secondary,
+  color: theme.text.middle,
 });
 
 const Date = styled.p({
   ...theme.bodySmMed,
-  color: theme.text.label,
+  color: theme.text.dark,
 });
 
 type ArticleProps = {

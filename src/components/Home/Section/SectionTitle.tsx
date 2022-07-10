@@ -1,6 +1,6 @@
 import React, { memo } from 'react';
 import styled from '@emotion/styled';
-import { theme } from '../../../../../theme';
+import { theme } from '../../../theme';
 
 type SectionTitleProps = {
   title: string;
@@ -8,7 +8,7 @@ type SectionTitleProps = {
 
 const Title = styled.h1({
   ...theme.h1,
-  color: theme.text.primary,
+  color: theme.text.light,
   marginBottom: theme.spacing(2),
 });
 
