@@ -6,6 +6,7 @@ import { GatsbyImage } from 'gatsby-plugin-image';
 import { Link } from 'gatsby';
 import { theme } from '../../../theme';
 import { Section } from '../Section';
+import { PrimaryLink } from '../../Common/Buttons';
 
 const ImageContainer = styled.div`
   display: flex;
@@ -70,8 +71,21 @@ const Article = memo<ArticleProps>(function Article({ article }) {
 
 const ArticleList = styled.div`
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  column-gap: ${theme.spacing(3)};
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-rows: auto;
+  gap: ${theme.spacing(3)};
+  @media (min-width: ${theme.breakpoints.sm}px) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  @media (min-width: ${theme.breakpoints.lg}px) {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+`;
+
+const Buttons = styled.div`
+  text-align: center;
+  margin-top: ${theme.spacing(7)};
 `;
 
 export const LatestArticles = memo(function LatestArticles() {
@@ -84,6 +98,9 @@ export const LatestArticles = memo(function LatestArticles() {
           <Article key={edge.node.id} article={edge.node} />
         ))}
       </ArticleList>
+      <Buttons>
+        <PrimaryLink to="/articles">View all Articles</PrimaryLink>
+      </Buttons>
     </Section>
   );
 });
