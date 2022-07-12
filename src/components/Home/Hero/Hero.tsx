@@ -3,7 +3,7 @@ import styled from '@emotion/styled';
 import { Inner } from '../../Common/Inner';
 import background from '../../../images/bg.svg';
 import { theme } from '../../../theme';
-import { PrimaryAnchor, SecondaryAnchor } from '../../Common/Buttons';
+import { PrimaryExternalLink, SecondaryExternalLink } from '../../Common/Buttons';
 
 const Outer = styled.div`
   display: flex;
@@ -52,12 +52,12 @@ export const Hero = memo(function Hero() {
           Earn the highest APY’s across 16 chains with <br /> safety and efficiency in mind.
         </Subtitle>
         <Buttons>
-          <PrimaryAnchor href="https://app.beefy.com/" target="_blank">
+          <PrimaryExternalLink href="https://app.beefy.com/" target="_blank">
             Launch App
-          </PrimaryAnchor>
-          <SecondaryAnchor href="https://docs.beefy.com/" target="_blank">
+          </PrimaryExternalLink>
+          <SecondaryExternalLink href="https://docs.beefy.com/" target="_blank">
             View Docs
-          </SecondaryAnchor>
+          </SecondaryExternalLink>
         </Buttons>
       </Inner>
     </Outer>

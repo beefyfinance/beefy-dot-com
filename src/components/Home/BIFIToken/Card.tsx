@@ -1,7 +1,7 @@
 import React, { memo } from 'react';
 import styled from '@emotion/styled';
 import { theme } from '../../../theme';
-import { PrimaryAnchor } from '../../Common/Buttons';
+import { PrimaryExternalLink } from '../../Common/Buttons';
 
 const CustomCard = styled.div`
   background: ${theme.cardBg};
@@ -10,21 +10,26 @@ const CustomCard = styled.div`
   padding: calc(${theme.spacing(3)} - 2px);
 `;
 
-const Title = styled.h3({ ...theme.h3, color: theme.text.light, marginBottom: theme.spacing(1) });
+const Title = styled.h3`
+  ${theme.h3}
+  color: ${theme.text.light};
+  margin-bottom: ${theme.spacing(1)};
+`;
 
-const Description = styled.p({
-  ...theme.bodyLg,
-  color: theme.text.middle,
-  marginBottom: theme.spacing(3),
-});
+const Description = styled.p`
+  ${theme.bodyLg}
+  color: ${theme.text.middle};
+  margin-bottom: ${theme.spacing(3)};
+`;
 
 const ButtonContainer = styled.div`
   display: flex;
   justify-content: center;
-  & a {
-    width: 100%;
-    text-align: center;
-  }
+`;
+
+const ButtonLink = styled(PrimaryExternalLink)`
+  width: 100%;
+  text-align: center;
 `;
 
 interface CardProps {
@@ -40,9 +45,9 @@ export const Card = memo<CardProps>(function Card({ title, description, link, li
       <Title>{title}</Title>
       <Description>{description}</Description>
       <ButtonContainer>
-        <PrimaryAnchor href={link} target="_blank">
+        <ButtonLink href={link} target="_blank">
           {linkText}
-        </PrimaryAnchor>
+        </ButtonLink>
       </ButtonContainer>
     </CustomCard>
   );

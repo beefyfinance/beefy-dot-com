@@ -1,6 +1,7 @@
 import styled from '@emotion/styled';
 import { theme } from '../../../theme';
 import { Link } from 'gatsby';
+import React, { DetailedHTMLProps, memo } from 'react';
 
 export const Button = styled.button`
   ${theme.bodyLgMed}
@@ -20,6 +21,12 @@ export const SecondaryButton = styled(Button)`
   background: rgba(255, 255, 255, 0.1);
 `;
 
+const ExternalLink = memo<
+  DetailedHTMLProps<React.AnchorHTMLAttributes<HTMLAnchorElement>, HTMLAnchorElement>
+>(function (props) {
+  return <a target="_blank" {...props} />;
+});
+
 export const PrimaryLink = PrimaryButton.withComponent(Link);
-export const PrimaryAnchor = PrimaryButton.withComponent('a');
-export const SecondaryAnchor = SecondaryButton.withComponent('a');
+export const PrimaryExternalLink = PrimaryButton.withComponent(ExternalLink);
+export const SecondaryExternalLink = SecondaryButton.withComponent(ExternalLink);

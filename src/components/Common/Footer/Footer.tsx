@@ -37,39 +37,42 @@ const IconsContainer = styled.div`
   column-gap: ${theme.spacing(3)};
 `;
 
-const ExternalIconLink = styled('a')``;
+const ExternalIconLink = styled('a')`
+  display: block;
+  text-decoration: none;
+`;
 
 const Icon = styled.img`
   height: 24px;
 `;
 
-const ExternalAnchor = styled('a')({
-  ...theme.bodyLgMed,
-  color: theme.text.dark,
-  textDecoration: 'none',
-});
+const ExternalLink = styled('a')`
+  ${theme.bodyLgMed}
+  color: ${theme.text.dark};
+  text-decoration: none;
+`;
 
-const CustomLink = ExternalAnchor.withComponent(Link);
+const InternalLink = ExternalLink.withComponent(Link);
 
 export const Footer = memo(function Footer() {
   return (
     <Outer>
       <Inner>
         <ContentContainer>
-          <ExternalAnchor href="https://vote.beefy.finance/" target="_blank">
+          <ExternalLink href="https://vote.beefy.finance/" target="_blank">
             Vote
-          </ExternalAnchor>
-          <ExternalAnchor href="https://dashboard.beefy.finance/" target="_blank">
+          </ExternalLink>
+          <ExternalLink href="https://dashboard.beefy.finance/" target="_blank">
             Stats
-          </ExternalAnchor>
-          <CustomLink to="/articles">Blog</CustomLink>
-          <ExternalAnchor href="https://docs.beefy.finance" target="_blank">
+          </ExternalLink>
+          <InternalLink to="/articles">Blog</InternalLink>
+          <ExternalLink href="https://docs.beefy.finance" target="_blank">
             Docs
-          </ExternalAnchor>
-          <ExternalAnchor href="https://github.com/beefyfinance/beefy-audits" target="_blank">
+          </ExternalLink>
+          <ExternalLink href="https://github.com/beefyfinance/beefy-audits" target="_blank">
             Audit
-          </ExternalAnchor>
-          <CustomLink to={'/media-kit'}>Media Kit</CustomLink>
+          </ExternalLink>
+          <InternalLink to={'/media-kit'}>Media Kit</InternalLink>
         </ContentContainer>
         <IconsContainer>
           {data.map(item => (

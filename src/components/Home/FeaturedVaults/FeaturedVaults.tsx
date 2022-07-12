@@ -8,7 +8,7 @@ import { fetchVaults } from '../../../data/redux/vaults/actions';
 import { Section } from '../Section';
 import { theme } from '../../../theme';
 import { PlaceholderVault } from './PlaceholderVault';
-import { PrimaryAnchor } from '../../Common/Buttons';
+import { PrimaryExternalLink } from '../../Common/Buttons';
 
 const VaultsGrid = styled.div`
   display: grid;
@@ -53,9 +53,9 @@ export const FeaturedVaults = memo(function FeaturedVaults() {
         ))}
       </VaultsGrid>
       <Buttons>
-        <PrimaryAnchor href="https://app.beefy.com/" target="_blank">
+        <PrimaryExternalLink href="https://app.beefy.com/" target="_blank">
           Explore Vaults
-        </PrimaryAnchor>
+        </PrimaryExternalLink>
       </Buttons>
     </Section>
   );

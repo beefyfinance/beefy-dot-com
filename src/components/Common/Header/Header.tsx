@@ -3,7 +3,7 @@ import styled from '@emotion/styled';
 import { useLocation } from '@reach/router';
 import { Inner } from '../Inner';
 import { LogoLink } from './LogoLink';
-import { PrimaryAnchor } from '../Buttons';
+import { PrimaryExternalLink } from '../Buttons';
 import { theme } from '../../../theme';
 
 const Outer = styled.header`
@@ -29,7 +29,7 @@ const InnerRow = styled(Inner)`
   justify-content: space-between;
 `;
 
-const BigPrimaryAnchor = styled(PrimaryAnchor)`
+const BigPrimaryExternalLink = styled(PrimaryExternalLink)`
   padding: 8px 16px;
 `;
 
@@ -43,9 +43,9 @@ export const Header = memo(function Header() {
     <OuterComponent>
       <InnerRow>
         <LogoLink />
-        <BigPrimaryAnchor href="https://app.beefy.com/" target="_blank">
+        <BigPrimaryExternalLink href="https://app.beefy.com/" target="_blank">
           Launch App
-        </BigPrimaryAnchor>
+        </BigPrimaryExternalLink>
       </InnerRow>
     </OuterComponent>
   );
