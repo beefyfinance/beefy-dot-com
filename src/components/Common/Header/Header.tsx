@@ -1,10 +1,10 @@
 import React, { memo, useMemo } from 'react';
-import { Link } from 'gatsby';
 import styled from '@emotion/styled';
 import { useLocation } from '@reach/router';
 import { Inner } from '../Inner';
 import { LogoLink } from './LogoLink';
-import { BIFIPrice } from './BIFIPrice';
+import { PrimaryAnchor } from '../Buttons';
+import { theme } from '../../../theme';
 
 const Outer = styled.header`
   padding-top: 16px;
@@ -18,11 +18,19 @@ const OuterOnTop = styled(Outer)`
   top: 0;
   left: 0;
   right: 0;
+  @media (max-width: ${theme.breakpoints.sm}px) {
+    background-size: auto;
+  }
 `;
 
 const InnerRow = styled(Inner)`
   display: flex;
   align-items: center;
+  justify-content: space-between;
+`;
+
+const BigPrimaryAnchor = styled(PrimaryAnchor)`
+  padding: 8px 16px;
 `;
 
 export const Header = memo(function Header() {
@@ -34,8 +42,10 @@ export const Header = memo(function Header() {
   return (
     <OuterComponent>
       <InnerRow>
-        <LogoLink /> <Link to="/articles">Blog</Link>
-        <BIFIPrice />
+        <LogoLink />
+        <BigPrimaryAnchor href="https://app.beefy.com/" target="_blank">
+          Launch App
+        </BigPrimaryAnchor>
       </InnerRow>
     </OuterComponent>
   );

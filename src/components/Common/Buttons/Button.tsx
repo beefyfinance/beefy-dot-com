@@ -11,9 +11,15 @@ export const Button = styled.button`
 `;
 
 export const PrimaryButton = styled(Button)`
-  color: #fff;
+  color: ${theme.text.light};
   background: ${theme.primary};
+`;
+
+export const SecondaryButton = styled(Button)`
+  color: ${theme.text.light};
+  background: rgba(255, 255, 255, 0.1);
 `;
 
 export const PrimaryLink = PrimaryButton.withComponent(Link);
 export const PrimaryAnchor = PrimaryButton.withComponent('a');
+export const SecondaryAnchor = SecondaryButton.withComponent('a');

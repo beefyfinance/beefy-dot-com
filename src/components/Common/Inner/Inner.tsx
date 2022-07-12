@@ -15,5 +15,5 @@ export const Inner = styled.div`
 `;
 
 export const FluidInner = styled(Inner)`
-  width: 100%; ;
+  width: 100%;
 `;
