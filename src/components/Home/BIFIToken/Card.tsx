@@ -3,7 +3,7 @@ import styled from '@emotion/styled';
 import { theme } from '../../../theme';
 import { PrimaryAnchor } from '../../Common/Buttons';
 
-const _Card = styled.div`
+const CustomCard = styled.div`
   background: ${theme.cardBg};
   border-radius: 12px;
   border: 2px solid ${theme.cardBorder};
@@ -36,7 +36,7 @@ interface CardProps {
 
 export const Card = memo<CardProps>(function Card({ title, description, link, linkText }) {
   return (
-    <_Card>
+    <CustomCard>
       <Title>{title}</Title>
       <Description>{description}</Description>
       <ButtonContainer>
@@ -44,6 +44,6 @@ export const Card = memo<CardProps>(function Card({ title, description, link, li
           {linkText}
         </PrimaryAnchor>
       </ButtonContainer>
-    </_Card>
+    </CustomCard>
   );
 });

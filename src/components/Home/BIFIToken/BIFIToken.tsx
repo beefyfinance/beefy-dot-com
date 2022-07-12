@@ -1,7 +1,6 @@
 import React, { memo } from 'react';
 import styled from '@emotion/styled';
 import { Section } from '../Section';
-import { PrimaryAnchor } from '../../Common/Buttons';
 import { Card } from './Card';
 import { theme } from '../../../theme';
 
@@ -23,27 +22,27 @@ const data = [
   {
     title: 'BIFI Maxi',
     description: 'BIFI holders share in our revenue by staking their BIFI in Beefy Maxi vaults. ',
-    link: '',
+    link: 'https://app.beefy.com/',
     linkText: 'Earn BIFI',
   },
   {
     title: 'BIFI Earnings Pools',
     description:
       'Staking BIFI in a BIFI Earnings Pool rewards you with native tokens with the platform’s earnings.',
-    link: '',
+    link: 'https://app.beefy.com/',
     linkText: 'Earn Native',
   },
   {
     title: 'Vote',
     description: 'Our Snapshot governance mechanism gives your BIFI voting power in Beefy’s DAO.',
-    link: '',
+    link: 'https://vote.beefy.finance/#/',
     linkText: 'Vote',
   },
   {
     title: 'Fixed-Supply',
     description: 'A fixed supply of 80,000 BIFI acts as a control against token inflation.',
-    link: '',
-    linkText: 'Lean More',
+    link: 'https://docs.beefy.finance/#what-is-usdbifi',
+    linkText: 'Learn More',
   },
 ];
 
@@ -56,6 +55,7 @@ export const BIFIToken = memo(function BIFIToken() {
       <CardList>
         {data.map(card => (
           <Card
+            key={card.title}
             title={card.title}
             description={card.description}
             link={card.link}

@@ -10,11 +10,11 @@ import github from '../../../images/footer/github.svg';
 import reddit from '../../../images/footer/reddit.svg';
 
 const data = [
-  { name: 'github', img: github, link: '' },
-  { name: 'telegram', img: telegram, link: '' },
-  { name: 'discord', img: discord, link: '' },
-  { name: 'twitter', img: twitter, link: '' },
-  { name: 'reddit', img: reddit, link: '' },
+  { name: 'github', img: github, link: 'https://github.com/beefyfinance' },
+  { name: 'telegram', img: telegram, link: 'https://t.me/beefyfinance' },
+  { name: 'discord', img: discord, link: 'https://discord.gg/yq8wfHd' },
+  { name: 'twitter', img: twitter, link: 'https://twitter.com/beefyfinance' },
+  { name: 'reddit', img: reddit, link: 'https://www.reddit.com/r/Beefy/' },
 ];
 
 const Outer = styled.footer`
@@ -49,22 +49,31 @@ const ExternalAnchor = styled('a')({
   textDecoration: 'none',
 });
 
-const ExternalLink = ExternalAnchor.withComponent(Link);
+const CustomLink = ExternalAnchor.withComponent(Link);
 
 export const Footer = memo(function Footer() {
   return (
     <Outer>
       <Inner>
         <ContentContainer>
-          <ExternalAnchor href="/media-kit">Vote</ExternalAnchor>
-          <ExternalLink to="/media-kit">Media Kit</ExternalLink>
-          <ExternalLink to="/articles">Blog</ExternalLink>
-          <ExternalAnchor href="/docs">Docs</ExternalAnchor>
-          <ExternalAnchor href="/audit">Audit</ExternalAnchor>
+          <ExternalAnchor href="https://vote.beefy.finance/" target="_blank">
+            Vote
+          </ExternalAnchor>
+          <ExternalAnchor href="https://dashboard.beefy.finance/" target="_blank">
+            Stats
+          </ExternalAnchor>
+          <CustomLink to="/articles">Blog</CustomLink>
+          <ExternalAnchor href="https://docs.beefy.finance" target="_blank">
+            Docs
+          </ExternalAnchor>
+          <ExternalAnchor href="https://github.com/beefyfinance/beefy-audits" target="_blank">
+            Audit
+          </ExternalAnchor>
+          <CustomLink to={'/media-kit'}>Media Kit</CustomLink>
         </ContentContainer>
         <IconsContainer>
           {data.map(item => (
-            <ExternalIconLink href={item.link} target="_blank">
+            <ExternalIconLink key={item.link} href={item.link} target="_blank">
               <Icon src={item.img} alt={item.name} />
             </ExternalIconLink>
           ))}

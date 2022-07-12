@@ -29,6 +29,10 @@ const InnerRow = styled(Inner)`
   justify-content: space-between;
 `;
 
+const BigPrimaryAnchor = styled(PrimaryAnchor)`
+  padding: 8px 16px;
+`;
+
 export const Header = memo(function Header() {
   const location = useLocation();
   const OuterComponent = useMemo(() => {
@@ -39,9 +43,9 @@ export const Header = memo(function Header() {
     <OuterComponent>
       <InnerRow>
         <LogoLink />
-        <PrimaryAnchor padding="8px 16px" href="https://app.beefy.com/" target="_blank">
+        <BigPrimaryAnchor href="https://app.beefy.com/" target="_blank">
           Launch App
-        </PrimaryAnchor>
+        </BigPrimaryAnchor>
       </InnerRow>
     </OuterComponent>
   );

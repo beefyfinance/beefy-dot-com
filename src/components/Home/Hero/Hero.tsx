@@ -8,6 +8,7 @@ import { PrimaryAnchor, SecondaryAnchor } from '../../Common/Buttons';
 const Outer = styled.div`
   display: flex;
   align-items: center;
+  padding: ${40 + 24 * 2}px 0px;
   background-image: url(${background});
   background-repeat: no-repeat;
   background-position: center;
