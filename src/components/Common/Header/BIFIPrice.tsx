@@ -5,11 +5,7 @@ type BIFIPriceProps = {
   className?: string;
 };
 export const BIFIPrice = memo<BIFIPriceProps>(function TokenPrice({ className }) {
-  const [price, live] = useBIFIPrice();
+  const price = useBIFIPrice();
 
-  return (
-    <div className={className} data-source={live ? 'live' : 'build'}>
-      {price}
-    </div>
-  );
+  return <div className={className}>{price}</div>;
 });

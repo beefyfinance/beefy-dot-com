@@ -1,4 +1,5 @@
 import { graphql, useStaticQuery } from 'gatsby';
+import { useMemo } from 'react';
 
 const siteMetaQuery = graphql`
   query siteMeta {
@@ -30,5 +31,5 @@ type SiteMetadataQueryResult = {
 
 export function useStaticSiteMeta(): SiteMetadata {
   const result = useStaticQuery<SiteMetadataQueryResult>(siteMetaQuery);
-  return result.site.siteMetadata;
+  return useMemo(() => result.site.siteMetadata, [result]);
 }

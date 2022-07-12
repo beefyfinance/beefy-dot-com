@@ -1,9 +1,11 @@
-import { createSlice } from '@reduxjs/toolkit';
+import { createSelector, createSlice } from '@reduxjs/toolkit';
 import { reducerRegistry } from '../registry';
 import { AppState } from '../types';
 import { fetchVaults } from './actions';
 import { Vault, VaultsState } from './types';
 import { hasLoadedOnce, InitialLoaderState, shouldLoad } from '../type-utils';
+import { ApiVaultWithApy } from '../../api/beefy-api-types';
+import { uniq } from 'lodash';
 
 const initialState: VaultsState = {
   ...InitialLoaderState,
@@ -48,3 +50,18 @@ export function selectHasVaultsLoaded(state: AppState): boolean {
 export function selectVaultById(state: AppState, vaultId: string): Vault | null {
   return state.vaults?.byId[vaultId] || null;
 }
+
+export const selectActiveVaults = createSelector(
+  (state: AppState) => state.vaults?.byId || {},
+  (byId: VaultsState['byId']) => Object.values(byId).filter(vault => vault.status === 'active')
+);
+
+export const selectActiveVaultsCount = createSelector(
+  (state: AppState) => selectActiveVaults(state),
+  (vaults: ApiVaultWithApy[]) => vaults.length
+);
+
+export const selectChainCount = createSelector(
+  (state: AppState) => selectActiveVaults(state),
+  (vaults: ApiVaultWithApy[]) => uniq(vaults.map(vault => vault.chain)).length
+);

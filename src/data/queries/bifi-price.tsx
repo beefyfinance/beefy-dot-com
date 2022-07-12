@@ -27,7 +27,7 @@ export function useStaticBIFIPrice(): number {
   return result.beefyPrice.price;
 }
 
-export function useBIFIPrice(): [number, boolean] {
+export function useBIFIPrice(): number {
   const buildPrice = useStaticBIFIPrice();
   const dispatch = useAppDispatch();
   const shouldLoadPrice = useAppSelector(selectShouldLoadPrices);
@@ -43,5 +43,5 @@ export function useBIFIPrice(): [number, boolean] {
     }
   }, [shouldLoadPrice, dispatch]);
 
-  return [price, hasPriceLoaded];
+  return price;
 }

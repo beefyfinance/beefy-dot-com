@@ -1,5 +1,13 @@
 import fetch from 'node-fetch';
-import { ApiApys, ApiPrices, ApiVaults, ApiVaultsWithApys, isApiApy } from './beefy-api-types';
+import {
+  ApiApys,
+  ApiBuybacks,
+  ApiPrices,
+  ApiTvls,
+  ApiVaults,
+  ApiVaultsWithApys,
+  isApiApy,
+} from './beefy-api-types';
 
 const BASE_API = 'https://api.beefy.finance';
 
@@ -98,4 +106,50 @@ export async function getVaultsWithApy(): Promise<ApiVaultsWithApys> {
 
     return vaultsWithApy;
   }, {});
+}
+
+export async function getTvls(): Promise<ApiTvls> {
+  const response = await fetch(getApiUrl('tvl'));
+  const data: Record<string, Record<string, number>> = await response.json();
+
+  if (!data || !('56' in data)) {
+    throw new Error(`Failed to fetch TVL`);
+  }
+
+  return Object.values(data).reduce((tvls, chainTvls) => {
+    Object.entries(chainTvls).forEach(([vaultId, tvl]) => {
+      tvls[vaultId] = tvl;
+    });
+
+    return tvls;
+  }, {} as ApiTvls);
+}
+
+export async function getTotalTvl(): Promise<number> {
+  const tvls = await getTvls();
+
+  return Object.values(tvls).reduce((total, vaultTvl) => total + vaultTvl, 0);
+}
+
+export async function getBuyback(): Promise<ApiBuybacks> {
+  const response = await fetch(getApiUrl('bifibuyback'));
+  const data: Record<
+    string,
+    {
+      buybackTokenAmount: string;
+      buybackUsdAmount: string;
+    }
+  > = await response.json();
+
+  if (!data || !('bsc' in data)) {
+    throw new Error(`Failed to fetch buyback`);
+  }
+
+  return Object.entries(data).reduce((buybacks, [chain, chainBuyback]) => {
+    buybacks[chain] = {
+      tokens: parseFloat(chainBuyback.buybackTokenAmount),
+      usd: parseFloat(chainBuyback.buybackUsdAmount),
+    };
+    return buybacks;
+  }, {} as ApiBuybacks);
 }

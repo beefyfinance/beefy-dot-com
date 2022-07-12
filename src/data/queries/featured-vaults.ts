@@ -1,5 +1,6 @@
 import { graphql, useStaticQuery } from 'gatsby';
 import { Vault } from '../redux/vaults/types';
+import { useMemo } from 'react';
 
 const featuredVaultsQuery = graphql`
   query featuredVaults {
@@ -34,5 +35,5 @@ type FeaturedVaultsQueryResult = {
 
 export function useStaticFeaturedVaults(): Vault[] {
   const result = useStaticQuery<FeaturedVaultsQueryResult>(featuredVaultsQuery);
-  return result.allFeaturedVaultsJson.edges.map(edge => edge.node.vault);
+  return useMemo(() => result.allFeaturedVaultsJson.edges.map(edge => edge.node.vault), [result]);
 }

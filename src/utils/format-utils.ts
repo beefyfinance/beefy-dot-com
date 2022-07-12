@@ -24,3 +24,33 @@ export function formatPercent(value: number | null | undefined): string {
         minimumFractionDigits: 0,
       }) + '%';
 }
+
+export function formatUsd(value: number) {
+  if (!value) {
+    return '$0.00';
+  }
+
+  const units = ['', 'k', 'M', 'B', 'T', 'Q', 'S'];
+  const order = Math.floor(Math.log10(value) / 3);
+  let unitToDisplay = '';
+  let magnitudeValue = value;
+
+  if (order > 1) {
+    magnitudeValue = value / 1000 ** order;
+    unitToDisplay = units[order];
+
+    if (order >= units.length - 1) {
+      unitToDisplay = `🔥`;
+    }
+  }
+
+  // Format output
+  return magnitudeValue < 999
+    ? `$${magnitudeValue.toFixed(2)}${unitToDisplay}`
+    : value.toLocaleString('en-US', {
+        style: 'currency',
+        currency: 'USD',
+        maximumFractionDigits: 0,
+        minimumFractionDigits: 0,
+      });
+}
