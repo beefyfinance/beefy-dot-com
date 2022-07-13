@@ -2,6 +2,7 @@ import React, { memo } from 'react';
 import { useStaticSiteMeta } from '../../../data/queries/site-meta';
 import { Helmet } from 'react-helmet';
 import { useLocation } from '@reach/router';
+import socialImage from '!url-loader?limit=false!../../../images/social.png';
 
 type LocationMetaProps = {
   baseUrl: string;
@@ -30,18 +31,15 @@ export const DefaultMeta = memo(function DefaultMeta() {
         <meta property="og:title" content={title} />
         <meta property="og:type" content="website" />
         <meta property="og:description" content={description} />
-        {/*<meta property="og:image" content="https://app.beefy.com/assets/meta/social20220521.png" />*/}
-        {/*<meta property="og:image:width" content="1200" />*/}
-        {/*<meta property="og:image:height" content="630" />*/}
+        <meta property="og:image" content={`${baseUrl}${socialImage}`} />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:site" content={twitterUsername} />
         <meta property="twitter:creator" content={twitterUsername} />
         <meta property="twitter:title" content={title} />
         <meta property="twitter:description" content={description} />
-        {/*<meta*/}
-        {/*  property="twitter:image"*/}
-        {/*  content="https://app.beefy.com/assets/meta/social20220521.png"*/}
-        {/*/>*/}
+        <meta property="twitter:image" content={`${baseUrl}${socialImage}`} />
       </Helmet>
       <LocationMeta baseUrl={baseUrl} />
     </>

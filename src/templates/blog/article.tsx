@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 import { graphql } from 'gatsby';
 import { Meta } from '../../components/Common/Meta';
 import styled from '@emotion/styled';
@@ -110,18 +110,31 @@ type TemplateProps = {
         title?: string;
         date?: string;
         short_description?: string;
+        header_image?: {
+          childImageSharp?: {
+            fixed?: {
+              src: string;
+              width: number;
+              height: number;
+            };
+          };
+        };
       };
     };
   };
 };
 export default function Template({ data }: TemplateProps) {
-  const { markdownRemark } = data; // data.markdownRemark holds your post data
-  const frontmatter = markdownRemark.frontmatter;
-  const html = markdownRemark.html;
+  const {
+    markdownRemark: { frontmatter, html },
+  } = data;
 
   return (
     <>
-      <Meta title={frontmatter?.title} description={frontmatter?.short_description} />
+      <Meta
+        title={frontmatter?.title}
+        description={frontmatter?.short_description}
+        image={frontmatter?.header_image?.childImageSharp?.fixed}
+      />
       <Outer>
         <PostContainer>
           <PostTitle>{frontmatter?.title}</PostTitle>
@@ -141,6 +154,15 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM D, YYYY")
         short_description
+        header_image {
+          childImageSharp {
+            fixed(width: 1200) {
+              width
+              height
+              src
+            }
+          }
+        }
       }
     }
   }
