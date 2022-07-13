@@ -5,6 +5,7 @@ import { Inner } from '../Inner';
 import { LogoLink } from './LogoLink';
 import { PrimaryExternalLink } from '../Buttons';
 import { theme } from '../../../theme';
+import { BIFIPrice } from './BIFIPrice';
 
 const Outer = styled.header`
   padding-top: 16px;
@@ -26,11 +27,23 @@ const OuterOnTop = styled(Outer)`
 const InnerRow = styled(Inner)`
   display: flex;
   align-items: center;
-  justify-content: space-between;
 `;
 
 const BigPrimaryExternalLink = styled(PrimaryExternalLink)`
   padding: 8px 16px;
+`;
+
+const Logo = styled(LogoLink)`
+  margin-right: auto;
+`;
+
+const Price = styled(BIFIPrice)`
+  display: none;
+  margin-right: ${theme.spacing(3)};
+
+  @media (min-width: ${theme.breakpoints.sm}px) {
+    display: flex;
+  }
 `;
 
 export const Header = memo(function Header() {
@@ -42,7 +55,8 @@ export const Header = memo(function Header() {
   return (
     <OuterComponent>
       <InnerRow>
-        <LogoLink />
+        <Logo />
+        <Price />
         <BigPrimaryExternalLink href="https://app.beefy.com/" target="_blank">
           Launch App
         </BigPrimaryExternalLink>

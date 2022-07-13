@@ -24,17 +24,22 @@ const Outer = styled.footer`
   background-color: ${theme.footer};
 `;
 
-const ContentContainer = styled.div`
+const Links = styled.div`
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  column-gap: ${theme.spacing(3)};
+  gap: ${theme.spacing(2)};
   margin-bottom: ${theme.spacing(4)};
+  @media (min-width: ${theme.breakpoints.lg}px) {
+    gap: ${theme.spacing(3)};
+  }
 `;
 
-const IconsContainer = styled.div`
+const Icons = styled.div`
   display: flex;
   justify-content: center;
-  column-gap: ${theme.spacing(3)};
+  flex-wrap: wrap;
+  gap: ${theme.spacing(3)};
 `;
 
 const ExternalIconLink = styled('a')`
@@ -50,6 +55,7 @@ const ExternalLink = styled('a')`
   ${theme.bodyLgMed}
   color: ${theme.text.dark};
   text-decoration: none;
+  white-space: nowrap;
 `;
 
 const InternalLink = ExternalLink.withComponent(Link);
@@ -58,7 +64,7 @@ export const Footer = memo(function Footer() {
   return (
     <Outer>
       <Inner>
-        <ContentContainer>
+        <Links>
           <ExternalLink href="https://vote.beefy.finance/" target="_blank">
             Vote
           </ExternalLink>
@@ -73,14 +79,14 @@ export const Footer = memo(function Footer() {
             Audit
           </ExternalLink>
           <InternalLink to={'/media-kit'}>Media Kit</InternalLink>
-        </ContentContainer>
-        <IconsContainer>
+        </Links>
+        <Icons>
           {data.map(item => (
             <ExternalIconLink key={item.link} href={item.link} target="_blank">
               <Icon src={item.img} alt={item.name} />
             </ExternalIconLink>
           ))}
-        </IconsContainer>
+        </Icons>
       </Inner>
     </Outer>
   );

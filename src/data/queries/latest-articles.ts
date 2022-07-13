@@ -1,61 +1,30 @@
 import { graphql, useStaticQuery } from 'gatsby';
-import { FileNode } from 'gatsby-plugin-image/dist/src/components/hooks';
+import { useMemo } from 'react';
+import { ListArticlesQueryEdge, ListArticlesQueryNode } from './list-articles';
 
 export type LatestArticlesQueryResult = {
   allMarkdownRemark: {
-    edges: LatestArticlesQueryEdge[];
+    edges: ListArticlesQueryEdge[];
   };
 };
 
-export type LatestArticlesQueryEdge = {
-  node: {
-    id: string;
-    frontmatter: {
-      title?: string;
-      date?: string;
-      short_description?: string;
-      header_image?: FileNode;
-    };
-    fields: {
-      slug: string;
-    };
-  };
-};
-
-export function useLatestArticles(): LatestArticlesQueryEdge[] {
-  const result = useStaticQuery<LatestArticlesQueryResult>(graphql`
-    query latestArticles {
-      allMarkdownRemark(
-        filter: { frontmatter: { draft: { ne: true } } }
-        sort: { fields: [frontmatter___date], order: DESC }
-        limit: 4
-      ) {
-        edges {
-          node {
-            id
-            frontmatter {
-              title
-              date(formatString: "MMMM D, YYYY")
-              short_description
-              header_image {
-                childImageSharp {
-                  gatsbyImageData(
-                    layout: CONSTRAINED
-                    width: 290
-                    aspectRatio: 1.7777
-                    placeholder: BLURRED
-                  )
-                }
-              }
-            }
-            fields {
-              slug
-            }
-          }
+const latestArticlesQuery = graphql`
+  query latestArticles {
+    allMarkdownRemark(
+      filter: { frontmatter: { draft: { ne: true } } }
+      sort: { fields: [frontmatter___date], order: DESC }
+      limit: 4
+    ) {
+      edges {
+        node {
+          ...ListArticleFragment
         }
       }
     }
-  `);
+  }
+`;
 
-  return result.allMarkdownRemark.edges;
+export function useLatestArticles(): ListArticlesQueryNode[] {
+  const result = useStaticQuery<LatestArticlesQueryResult>(latestArticlesQuery);
+  return useMemo(() => result.allMarkdownRemark.edges.map(edge => edge.node), [result]);
 }

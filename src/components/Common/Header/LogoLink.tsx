@@ -1,6 +1,5 @@
 import React, { memo } from 'react';
-import logoIcon from '../../../images/logo-icon.svg';
-import logoText from '../../../images/logo-text.svg';
+import logoImg from '../../../images/logo.svg';
 import styled from '@emotion/styled';
 import { Link } from 'gatsby';
 
@@ -10,22 +9,16 @@ const HomeLink = styled(Link)`
   height: 40px;
 `;
 
-const LogoIcon = styled.img`
-  margin-right: 8px;
+const Logo = styled.img`
+  display: block;
+  height: 40px;
 `;
 
-const LogoText = styled.img`
-  display: none;
-  @media (min-width: 600px) {
-    display: block;
-  }
-`;
-
-export const LogoLink = memo(function LogoLink() {
+export type LogoLinkProps = { className?: string };
+export const LogoLink = memo<LogoLinkProps>(function LogoLink({ className }) {
   return (
-    <HomeLink to="/">
-      <LogoIcon src={logoIcon} height="40" alt="" />
-      <LogoText src={logoText} height="40" alt="Beefy" />
+    <HomeLink to="/" className={className}>
+      <Logo src={logoImg} height="40" alt="Beefy" />
     </HomeLink>
   );
 });
