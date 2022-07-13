@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react';
+import React, { memo } from 'react';
 import { graphql } from 'gatsby';
 import { Meta } from '../../components/Common/Meta';
 import styled from '@emotion/styled';
@@ -123,7 +123,8 @@ type TemplateProps = {
     };
   };
 };
-export default function Template({ data }: TemplateProps) {
+
+const Template = memo<TemplateProps>(function Template({ data }) {
   const {
     markdownRemark: { frontmatter, html },
   } = data;
@@ -144,7 +145,7 @@ export default function Template({ data }: TemplateProps) {
       </Outer>
     </>
   );
-}
+});
 
 export const pageQuery = graphql`
   query ($id: String!) {
@@ -167,3 +168,5 @@ export const pageQuery = graphql`
     }
   }
 `;
+
+export default Template;

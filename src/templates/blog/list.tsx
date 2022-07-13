@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react';
+import React, { memo, useMemo } from 'react';
 import { graphql } from 'gatsby';
 import { Meta } from '../../components/Common/Meta';
 import { ArticleGrid } from '../../components/Blog/ArticleGrid';
@@ -28,7 +28,7 @@ const Pagination = styled(ArticlePagination)`
   margin-top: ${theme.spacing(3)};
 `;
 
-export default function Template({ data, pageContext }: TemplateProps) {
+const Template = memo<TemplateProps>(function Template({ data, pageContext }) {
   const articles = useMemo(
     () => data.allMarkdownRemark.edges.map(edge => edge.node),
     [data.allMarkdownRemark.edges]
@@ -45,7 +45,7 @@ export default function Template({ data, pageContext }: TemplateProps) {
       </Outer>
     </>
   );
-}
+});
 
 export const pageQuery = graphql`
   query ($skip: Int!, $limit: Int!) {
@@ -63,3 +63,5 @@ export const pageQuery = graphql`
     }
   }
 `;
+
+export default Template;

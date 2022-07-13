@@ -1,13 +1,28 @@
 import React, { memo } from 'react';
 import styled from '@emotion/styled';
-import { Inner } from '../../Common/Inner';
+import { MediaKitGroup } from '../../../data/queries/media-kit';
+import { Group as BaseGroup } from './Group';
+import { theme } from '../../../theme';
 
-const Outer = styled.div``;
+const Group = styled(BaseGroup)``;
 
-export const Groups = memo(function Groups() {
+const GroupsOuter = styled.div`
+  ${Group} + ${Group} {
+    margin-top: ${theme.spacing(5)};
+  }
+`;
+
+export type GroupsProps = {
+  className?: string;
+  groups: MediaKitGroup[];
+};
+
+export const Groups = memo<GroupsProps>(function Groups({ className, groups }) {
   return (
-    <Outer>
-      <Inner>groups.map(...)</Inner>
-    </Outer>
+    <GroupsOuter className={className}>
+      {groups.map(group => (
+        <Group key={group.groupId} group={group} />
+      ))}
+    </GroupsOuter>
   );
 });

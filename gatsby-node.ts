@@ -207,5 +207,20 @@ export const createSchemaCustomization: GatsbyNode['createSchemaCustomization'] 
       vaultId: String!
       vault: BeefyVault @link(by: "vaultId", from: "vaultId")
     }
+    
+    type MediaKitGroupsJson implements Node {
+      groupId: String!
+      label: String!
+      items: [MediaKitItemsJson] @link(by: "groupId", from: "groupId")
+    }
+    
+    type MediaKitItemsJson implements Node {
+      itemId: String!
+      label: String!
+      groupId: String!
+      group: MediaKitGroupsJson @link(by: "groupId", from: "groupId")
+      background: String!
+      versions: [String!]!   
+    }
   `);
 };
