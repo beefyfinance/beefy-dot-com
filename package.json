@@ -42,7 +42,8 @@
     "react-dom": "^18.1.0",
     "react-helmet": "^6.1.0",
     "react-redux": "^8.0.2",
-    "slugify": "^1.6.5"
+    "slugify": "^1.6.5",
+    "swiper": "^8.3.1"
   },
   "devDependencies": {
     "@types/gatsby-transformer-remark": "^2.9.1",

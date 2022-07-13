@@ -1,8 +1,10 @@
-import React, { memo, MouseEventHandler } from 'react';
+import React, { memo } from 'react';
 import styled from '@emotion/styled';
 import { theme } from '../../../theme';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
 
-const ButtonsContainer = styled.div`
+const ButtonsContainer = styled(Swiper)`
   display: flex;
   height: 40px;
   width: fit-content;
@@ -20,9 +22,10 @@ const Button = styled.button`
   box-shadow: none;
   cursor: pointer;
   margin: 0;
-  padding: '6px 16px';
+  padding: 6px 16px;
   flex-grow: 1;
   flex-shrink: 0;
+  width: 100%;
   &:hover {
     color: #d0d0da;
     background-color: rgba(245, 245, 255, 0.08);
@@ -49,70 +52,32 @@ const options = [
 ];
 
 interface ToggleProps {
-  handler: (value: string) => MouseEventHandler<HTMLButtonElement>;
+  handler: (value: string) => void;
   value: string;
 }
 
 export const Toggle = memo<ToggleProps>(function Toggle({ handler, value }) {
   return (
     <ToggleContainer>
-      <ButtonsContainer>
+      <ButtonsContainer
+        breakpoints={{
+          [theme.breakpoints.md]: {
+            slidesPerView: 4,
+          },
+        }}
+        slidesPerView={2.5}
+      >
         {options.map(item => (
-          <Button
-            onClick={() => handler(item.value)}
-            className={item.value === value ? 'active' : ''}
-          >
-            {item.text}
-          </Button>
+          <SwiperSlide key={item.value}>
+            <Button
+              onClick={() => handler(item.value)}
+              className={item.value === value ? 'active' : ''}
+            >
+              {item.text}
+            </Button>
+          </SwiperSlide>
         ))}
       </ButtonsContainer>
     </ToggleContainer>
   );
 });
-
-/*
-buttons: {
-    display: 'flex',
-    width: 'fit-content',
-    border: 'solid 2px #303550',
-    borderRadius: '8px',
-    backgroundColor: '#262A40',
-  },
-  fullWidth: {
-    width: '100%',
-  },
-  button: {
-    ...theme.typography['body-lg-med'],
-    color: '#8A8EA8',
-    backgroundColor: 'inherit',
-    border: 'none',
-    borderRadius: '6px',
-    boxShadow: 'none',
-    cursor: 'pointer',
-    margin: 0,
-    padding: `6px 16px`,
-    flexGrow: 1,
-    flexShrink: 0,
-    '&:hover': {
-      color: '#D0D0DA',
-      backgroundColor: 'rgba(245, 245, 255, 0.08)',
-      boxShadow: 'none',
-    },
-    '&:active, &:hover:active': {
-      color: '#ffffff',
-      backgroundColor: theme.palette.primary.main,
-    },
-  },
-  selected: {
-    pointerEvents: 'none' as const,
-    color: '#ffffff',
-    backgroundColor: theme.palette.primary.main,
-    '&:hover': {
-      color: '#ffffff',
-      backgroundColor: theme.palette.primary.main,
-    },
-  },
-
-
-
-*/
