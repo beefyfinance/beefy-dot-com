@@ -9,7 +9,7 @@ title: Beefy deploys its first Vaults on Optimism
 ---
 ![](../../images/blog/optimism.png)
 
-Beefy is back with a fresh batch of Vaults for all fans of Ethereum scaling solutions. You’ll now be able to earn on Optimism, an optimistic rollup Layer 2 network. With five Vaults to stake in and a simple Optimism Bridge to use, you can get started in no time.
+Beefy is back with a fresh batch of Vaults for all fans of Ethereum scaling solutions. You’ll now be able to earn on Optimism, an optimistic rollup Layer 2 network. With 16 Vaults to stake in and a simple Optimism Bridge to use, you can get started in no time.
 
 ### What is Optimism?
 
@@ -25,9 +25,11 @@ The Optimism Collective has two chambers: the Citizens’ House and the Token Ho
 
 ### What Optimism Vaults are available?
 
-Beefy will start compounding five Beethoven-X LP vaults on Optimism.
+We deployed on the rollup the 27 of June with 5 Beethoven-X vaults
 
 ![](../../images/blog/vaults-1.png)
+
+and in only 11 days later we currently sitting at 18 different vaults for you to earn compounded interests in your deposits. From Velodrome to Curve, your best earning opportunities are in Beefy.
 
 ### How to bridge funds to Optimism
 

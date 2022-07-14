@@ -1,7 +1,6 @@
 import React, { memo, useMemo } from 'react';
 import { useStaticEcosystemIcons } from '../../../data/queries/ecosystem-icons';
 import styled from '@emotion/styled';
-import { circularFill } from '../../../utils/array-utils';
 import { useWindowSize } from '../../../utils/react-utils';
 import { shuffle } from 'lodash';
 
@@ -68,7 +67,7 @@ function useSizing() {
       : [0, 0, iconHolderSize * 0.5, iconHolderSize * 0.5, iconHolderSize * 0.5];
 
     return {
-      totalIcons,
+      iconsNeeded: totalIcons,
       gridWidth: totalWidth,
       offsetsX,
       offsetsY,
@@ -78,10 +77,12 @@ function useSizing() {
 
 export const IconsBackground = memo(function IconsBackground() {
   const allPartnerIcons = useStaticEcosystemIcons();
-  const { totalIcons, gridWidth, offsetsX, offsetsY } = useSizing();
+  const randomPartnerIcons = useMemo(() => shuffle(allPartnerIcons), [allPartnerIcons]);
+  const { iconsNeeded, gridWidth, offsetsX, offsetsY } = useSizing();
   const filledIcons = useMemo(
-    () => circularFill(shuffle(allPartnerIcons), totalIcons),
-    [allPartnerIcons, totalIcons]
+    () =>
+      new Array(Math.ceil(iconsNeeded / randomPartnerIcons.length)).fill(randomPartnerIcons).flat(),
+    [randomPartnerIcons, iconsNeeded]
   );
 
   return (

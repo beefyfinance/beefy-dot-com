@@ -1,15 +1,15 @@
 import React, { memo, useMemo } from 'react';
 import styled from '@emotion/styled';
 import { useLocation } from '@reach/router';
-import { Inner } from '../Inner';
+import { MaxInner } from '../Inner';
 import { LogoLink } from './LogoLink';
 import { PrimaryExternalLink } from '../Buttons';
 import { theme } from '../../../theme';
 import { BIFIPrice } from './BIFIPrice';
 
 const Outer = styled.header`
-  padding-top: 16px;
-  padding-bottom: 16px;
+  padding-top: ${theme.spacing(3)};
+  padding-bottom: ${theme.spacing(3)};
   background-color: #121212;
 `;
 
@@ -24,7 +24,7 @@ const OuterOnTop = styled(Outer)`
   }
 `;
 
-const InnerRow = styled(Inner)`
+const InnerRow = styled(MaxInner)`
   display: flex;
   align-items: center;
 `;

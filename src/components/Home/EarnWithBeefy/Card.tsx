@@ -30,7 +30,7 @@ const Circle = styled.div`
 
 const Title = styled.div`
   ${theme.h3};
-  color: ${theme.text.light}
+  color: ${theme.text.light};
   margin-bottom: ${theme.spacing(1)};
 `;
 

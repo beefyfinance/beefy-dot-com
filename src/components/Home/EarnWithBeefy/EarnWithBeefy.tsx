@@ -1,9 +1,9 @@
-import React, { memo, MouseEventHandler, useCallback } from 'react';
+import React, { memo, useCallback, useState } from 'react';
 import styled from '@emotion/styled';
 import { Section } from '../Section';
-import { Toggle } from './Toggle';
 import { Card } from './Card';
 import { theme } from '../../../theme';
+import { ToggleButtons } from '../../Common/ToggleButtons/ToggleButtons';
 import { Inner } from '../../Common/Inner';
 
 interface ItemType {
@@ -17,7 +17,10 @@ interface DataType {
 
 const data: DataType = {
   singleAsset: [
-    { title: 'Stake', description: 'Invest your token in a Beefy single asset Vault.' },
+    {
+      title: 'Stake',
+      description: 'Invest your token in a Beefy single asset Vault.',
+    },
     {
       title: 'Earn',
       description: 'Beefy stakes the token on an external, interest-bearing platform.',
@@ -91,6 +94,13 @@ const data: DataType = {
   ],
 };
 
+const toggleOptions: Record<keyof DataType, string> = {
+  singleAsset: 'Single Asset',
+  lp: 'Liquidity Pools',
+  earningPools: 'Earning Pools',
+  zap: 'ZAP',
+};
+
 const CardsContainer = styled.div`
   display: grid;
   grid-template-columns: minmax(0, 1fr);
@@ -105,20 +115,45 @@ const CardsContainer = styled.div`
   }
 `;
 
-export const EarnWithBeefy = memo(function EarnWithBeefy() {
-  const [section, setSection] = React.useState('singleAsset');
+const TogglesScroller = styled.div`
+  margin-bottom: ${theme.spacing(5)};
+  white-space: nowrap;
+  margin-left: auto;
+  margin-right: auto;
 
+  @media (max-width: ${theme.breakpoints.sm - 0.25}px) {
+    overflow-x: scroll;
+  }
+`;
+
+const TogglesContainer = styled.div`
+  padding-left: ${theme.spacing(2)};
+  text-align: center;
+`;
+
+const Toggles = styled(ToggleButtons)`
+  margin-right: ${theme.spacing(2)};
+`;
+
+export const EarnWithBeefy = memo(function EarnWithBeefy() {
+  const [section, setSection] = useState('singleAsset');
   const handleSection = useCallback((value: string) => setSection(value), [setSection]);
 
   return (
-    <Section title="Earn with Beefy">
-      <Toggle handler={handleSection} value={section} />
-      <CardsContainer>
-        {data[section].map((item: ItemType, index: number) => {
-          const { title, description } = item;
-          return <Card key={title} index={index + 1} title={title} description={description} />;
-        })}
-      </CardsContainer>
+    <Section title="Earn with Beefy" contentContainer="none">
+      <TogglesScroller>
+        <TogglesContainer>
+          <Toggles onChange={handleSection} value={section} options={toggleOptions} />
+        </TogglesContainer>
+      </TogglesScroller>
+      <Inner>
+        <CardsContainer>
+          {data[section].map((item: ItemType, index: number) => {
+            const { title, description } = item;
+            return <Card key={title} index={index + 1} title={title} description={description} />;
+          })}
+        </CardsContainer>
+      </Inner>
     </Section>
   );
 });

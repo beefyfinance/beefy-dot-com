@@ -70,10 +70,16 @@ class Theme {
 
   public readonly breakpoints = {
     xs: 0,
-    sm: 600,
+    sm: 768,
     md: 960,
-    lg: 1296,
-    xl: 1920,
+    lg: 1280,
+  };
+
+  public readonly containers = {
+    xs: 440,
+    sm: 768,
+    md: 768,
+    lg: 1280,
   };
 
   public readonly chains: Record<string, string> = {
