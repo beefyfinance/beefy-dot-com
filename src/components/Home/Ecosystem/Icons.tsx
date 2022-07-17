@@ -19,6 +19,7 @@ const Token = styled.img`
 
   @media (min-width: ${theme.breakpoints.sm}px) {
     display: block;
+    z-index: 10;
   }
 `;
 

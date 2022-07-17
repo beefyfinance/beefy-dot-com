@@ -1,8 +1,10 @@
-import React, { memo, useMemo } from 'react';
+import React, { memo, useMemo, useState } from 'react';
 import { useStaticEcosystemIcons } from '../../../data/queries/ecosystem-icons';
 import styled from '@emotion/styled';
-import { useWindowSize } from '../../../utils/react-utils';
 import { shuffle } from 'lodash';
+import { arrayRepeat } from '../../../utils/array-utils';
+import Ticker from 'react-ticker';
+import PageVisibility from 'react-page-visibility';
 
 const size = 80;
 const gap = 16;
@@ -12,8 +14,8 @@ const iconHolderSize = rotatedSize + rotatedGap / 2;
 const largeColumnRows = 3;
 const shortColumnRows = largeColumnRows - 1;
 const iconsPerColumnSet = largeColumnRows + shortColumnRows;
-const gridHeight = largeColumnRows * iconHolderSize;
-const holderHeight = Math.ceil(gridHeight) - Math.floor(rotatedGap);
+const gridHeight = iconHolderSize * largeColumnRows;
+const visualHeight = Math.ceil(gridHeight) - Math.floor(rotatedGap);
 
 const IconCell = styled.div`
   position: absolute;
@@ -24,7 +26,7 @@ const IconCell = styled.div`
   pointer-events: none;
 `;
 
-const Icon = styled.img`
+const IconImg = styled.img`
   width: ${size}px;
   height: ${size}px;
   display: block;
@@ -33,9 +35,8 @@ const Icon = styled.img`
 
 const Grid = styled.div`
   position: relative;
-  left: 50%;
   top: ${-rotatedGap / 2}px;
-  transform: translate(-50%, 0);
+  left: 0;
   height: ${gridHeight}px;
 `;
 
@@ -43,70 +44,75 @@ const Sizer = styled.div`
   position: relative;
   overflow: hidden;
   width: 100%;
-  height: ${holderHeight}px;
+  height: ${visualHeight}px;
 `;
 
-function useSizing() {
-  const windowSize = useWindowSize();
-  const gridColumns = useMemo(() => {
-    const minGridColumns = Math.ceil(windowSize.width / (iconHolderSize / 2));
-    return minGridColumns + (minGridColumns % 2 === 0 ? 1 : 0); // ensure odd
-  }, [windowSize.width]);
+type IconProps = {
+  index: number;
+  url: string;
+  offsetsX: number[];
+  offsetsY: number[];
+};
+const Icon = memo<IconProps>(function Icon({ index, url, offsetsX, offsetsY }) {
+  const mod = index % iconsPerColumnSet;
+  const div = Math.trunc(index / iconsPerColumnSet);
+  const x = div * iconHolderSize + offsetsX[mod];
+  const y = offsetsY[mod];
 
-  return useMemo(() => {
-    const outsideLarge = (gridColumns + 1) % 4 === 0; // true: large = small + 1; false: large = small - 1
-    const smallColumns = (gridColumns + (outsideLarge ? -1 : 1)) / 2;
-    const largeColumns = gridColumns - smallColumns;
-    const totalIcons = smallColumns * shortColumnRows + largeColumns * largeColumnRows;
-    const totalWidth = iconHolderSize * Math.ceil(gridColumns / 2);
-    const offsetsY = outsideLarge
-      ? [0, iconHolderSize, iconHolderSize * 2, iconHolderSize * 0.5, iconHolderSize * 1.5]
-      : [iconHolderSize * 0.5, iconHolderSize * 1.5, 0, iconHolderSize, iconHolderSize * 2];
-    const offsetsX = outsideLarge
-      ? [0, 0, 0, iconHolderSize * 0.5, iconHolderSize * 0.5]
-      : [0, 0, iconHolderSize * 0.5, iconHolderSize * 0.5, iconHolderSize * 0.5];
+  return (
+    <IconCell
+      key={index}
+      style={{
+        top: y,
+        left: x,
+      }}
+    >
+      <IconImg src={url} width={size} height={size} alt="" role="presentation" />
+    </IconCell>
+  );
+});
 
-    return {
-      iconsNeeded: totalIcons,
-      gridWidth: totalWidth,
-      offsetsX,
-      offsetsY,
-    };
-  }, [gridColumns]);
-}
+type IconsSetProps = {
+  icons: string[];
+};
+const IconsSet = memo<IconsSetProps>(function IconsSet({ icons }) {
+  const offsetsX = [0, 0, 0, iconHolderSize * 0.5, iconHolderSize * 0.5];
+  const offsetsY = [
+    0,
+    iconHolderSize,
+    iconHolderSize * 2,
+    iconHolderSize * 0.5,
+    iconHolderSize * 1.5,
+  ];
+
+  return (
+    <Grid
+      style={{
+        width: `${(icons.length / 5) * iconHolderSize}px`,
+      }}
+    >
+      {icons.map((url, index) => (
+        <Icon key={url} index={index} url={url} offsetsX={offsetsX} offsetsY={offsetsY} />
+      ))}
+    </Grid>
+  );
+});
 
 export const IconsBackground = memo(function IconsBackground() {
   const allPartnerIcons = useStaticEcosystemIcons();
-  const randomPartnerIcons = useMemo(() => shuffle(allPartnerIcons), [allPartnerIcons]);
-  const { iconsNeeded, gridWidth, offsetsX, offsetsY } = useSizing();
-  const filledIcons = useMemo(
-    () =>
-      new Array(Math.ceil(iconsNeeded / randomPartnerIcons.length)).fill(randomPartnerIcons).flat(),
-    [randomPartnerIcons, iconsNeeded]
-  );
+  const iconsToUse = useMemo(() => {
+    const end = allPartnerIcons.length - (allPartnerIcons.length % 5);
+    return arrayRepeat(shuffle(allPartnerIcons.slice(0, end)), 2);
+  }, [allPartnerIcons]);
+  const [pageIsVisible, setPageIsVisible] = useState(true);
 
   return (
     <Sizer>
-      <Grid style={{ width: `${gridWidth}px` }}>
-        {filledIcons.map((url, i) => {
-          const mod = i % iconsPerColumnSet;
-          const div = Math.trunc(i / iconsPerColumnSet);
-          const x = div * iconHolderSize + offsetsX[mod];
-          const y = offsetsY[mod];
-
-          return (
-            <IconCell
-              key={i}
-              style={{
-                top: y,
-                left: x,
-              }}
-            >
-              <Icon src={url} width={size} height={size} alt="" role="presentation" />
-            </IconCell>
-          );
-        })}
-      </Grid>
+      <PageVisibility onChange={setPageIsVisible}>
+        <Ticker height={visualHeight} move={pageIsVisible} mode="smooth" speed={20}>
+          {({ index }) => <IconsSet icons={iconsToUse} />}
+        </Ticker>
+      </PageVisibility>
     </Sizer>
   );
 });
