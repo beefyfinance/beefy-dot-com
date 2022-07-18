@@ -123,6 +123,9 @@ const TogglesScroller = styled.div`
 
   @media (max-width: ${theme.breakpoints.sm - 0.25}px) {
     overflow-x: scroll;
+    &::-webkit-scrollbar {
+      display: none;
+    }
   }
 `;
 
