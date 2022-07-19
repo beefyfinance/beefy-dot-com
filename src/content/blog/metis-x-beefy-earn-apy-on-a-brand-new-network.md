@@ -1,11 +1,11 @@
 ---
 date: 2022-01-17T11:00:00.000Z
-header_image: ../../images/blog/metis.png
+header_image: /src/images/blog/metis.png
 short_description: Stake and earn in 11 new vaults on the recently launched Metis network
 sub_header: Beefy now supports Metis
 title: 'Metis x Beefy: Earn APY on a brand new network'
 ---
-![](../../images/blog/metis.png)
+![](/src/images/blog/metis.png)
 
 Another day, another network. 12 to be precise. The Beefy Cow has some brand new pastures to graze on and Vaults to explore in the Metis ecosystem. Not familiar with the network? Metis is, in fact, less than two months old, and Beefy Finance isn’t the kind of DAO that likes to miss out on new opportunities. Let’s take a closer look at what Metis does and how Beefy has partnered with the new chain.
 
@@ -35,11 +35,11 @@ With Metis’ mainnet still less than two months old, staking your coins in a Me
 
 Beefy has launched 11 Netswap Vaults on Metis with more to be added in the future. To start autocompounding and maximizing your Metis gains, just drop your LP tokens into a Vault on [Beefy Finance DApp](http://beefy.finance) or Zap in with a single asset. You can keep up to date with developments by following @beefyfinance on Twitter.
 
-![](../../images/blog/image0_6.png)
+![](/src/images/blog/image0_6.png)
 
-![](../../images/blog/image0_5.png)
+![](/src/images/blog/image0_5.png)
 
-![](../../images/blog/metis_1.png)
+![](/src/images/blog/metis_1.png)
 
 ### Closing words
 

@@ -1,11 +1,11 @@
 ---
 date: 2022-03-02T11:00:00.000Z
-header_image: ../../images/blog/delegator_vault_header.png
+header_image: /src/images/blog/delegator_vault_header.png
 short_description: Swap FTM for beFTM and stake it with Beefy to collectively improve your yields
 sub_header: Maximize your FTM rewards with the Delegator Vault
 title: Introducing beFTM
 ---
-![](../../images/blog/delegator_vault_header.png)
+![](/src/images/blog/delegator_vault_header.png)
 
 As one of our most popular chains, Fantom has a wealth of investment opportunities for Beefy users. Our top DeFi strategists have been working hard in the lab to come up with more ways to maximize your FTM gains.
 

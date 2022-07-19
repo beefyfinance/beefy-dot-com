@@ -1,13 +1,13 @@
 ---
 date: 2021-11-17T03:00:00.000Z
-header_image: ../../images/blog/cronos.png
+header_image: /src/images/blog/cronos.png
 short_description: >-
   Have you heard about Crypto.com blockchain? Learn all about Cronos and their
   success in this article
 sub_header: Beefy partners with Cronos to bring users the best yields
 title: Beefy partners with Cronos to bring users the best yields
 ---
-![](../../images/blog/cronos.png)
+![](/src/images/blog/cronos.png)
 
 Beefy.Finance has recently deployed on the newly-launched Cronos blockchain to offer the safest and most reliable auto-compounding platform for DeFi users.
 
@@ -21,7 +21,7 @@ Cronos is the first Cosmos EVM chain for DeFi, NFTs, and the Metaverse. It aims 
 
 The cow never sleeps. This is why our team has been looking at VVS smart contracts to create vaults that auto-compound VVS rewards with more of the deposited token. Just take a look for yourself at the amazing opportunities on offer with Cronos:
 
-![](../../images/blog/cro3.png)
+![](/src/images/blog/cro3.png)
 
 ### How to reach Cronos
 

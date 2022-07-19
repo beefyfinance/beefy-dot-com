@@ -1,6 +1,6 @@
 ---
 date: 2021-10-26T03:00:00.000Z
-header_image: ../../images/blog/p1.png
+header_image: /src/images/blog/p1.png
 short_description: >-
   We have partnered with QiDAO and Market.xyz to bring you more use cases for
   your mooTokens, learn all about it here.
@@ -9,7 +9,7 @@ sub_header: |-
   Beefy x QiDAO x Market.xyz
 title: 'Your mooTokens are really valuable, now, even more.'
 ---
-![](../../images/blog/p1.png)
+![](/src/images/blog/p1.png)
 
 It’s well-known the Beefy Cowmoonity loves a good stablecoin. So what could be better than using your mooTokens to get stablecoins you can use to make some sweet gains? Don’t let your mooTokens gather dust and get to know our brand new partnerships with QiDao and Market.xyz. You’ll be mooving your mooTokens over in no time.
 
@@ -45,6 +45,6 @@ You can mint MAI directly from Mai.Finance, at 0% interest, and get charged a 0.
 
 Currently to get MAI you need to supply your mooTokens into market.xyz, and activate them as Collateral. After that you will be able to borrow MAI at a variable rate depending of the utilisation of the pool.
 
-![](../../images/blog/market.png)
+![](/src/images/blog/market.png)
 
 In the near future QIDAO will be accepting mooTokens as collateral to Mint MAI directly on their site, how it’s currently available with other tokens like camTokens (Compounding AAVE Market Tokens, or receipts of tokens deposited on AAVE).

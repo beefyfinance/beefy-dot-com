@@ -1,13 +1,13 @@
 ---
 date: 2022-04-22T04:00:00.000Z
-header_image: ../../images/blog/qi.png
+header_image: /src/images/blog/qi.png
 short_description: >-
   Our latest escrowed token lets you earn maxinimized QiDai rewards. How's that
   for a Beefy bonus?
 sub_header: Your QiDao rewards just got maximized
 title: Maximize your eQI rewards with beQI
 ---
-![](../../images/blog/qi.png)
+![](/src/images/blog/qi.png)
 
 One key to Beefy’s success is our advanced earning strategies. If you haven’t already noticed, we love a good escrow coin that lets users earn maximized rewards through the collective Cowmoonity power. After binSPIRIT, beFTM, and beJOE, we’ve looked towards QiDao for the next earning opportunity.
 

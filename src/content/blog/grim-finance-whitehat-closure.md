@@ -1,13 +1,13 @@
 ---
 date: 2022-02-27T03:00:00.000Z
-header_image: ../../images/blog/whitehat_closure.png
+header_image: /src/images/blog/whitehat_closure.png
 short_description: >-
   Beefy Finance redistributes salvaged Grim Finance funds via its snapshot
   mechanism
 sub_header: 'Grim Finance: Whitehat Closure'
 title: 'Grim Finance: Whitehat Closure'
 ---
-![](../../images/blog/whitehat_closure.png)
+![](/src/images/blog/whitehat_closure.png)
 
 On February 24, Beefy began the redistribution of rescued Grim Finance funds. To do this, we took a series of [snapshots](https://github.com/beefyfinance/whitehat-snapshot) beginning from the first affected vault’s genesis, valid to the block before the first whitehat exploit transaction.
 

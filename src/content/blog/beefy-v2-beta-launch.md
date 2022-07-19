@@ -1,11 +1,11 @@
 ---
 date: 2021-11-17T06:00:00.000Z
-header_image: ../../images/blog/v2_cover_3-1.png
+header_image: /src/images/blog/v2_cover_3-1.png
 short_description: 'Take part in our Beta launch of Beefy''s brand new look and feel. '
 sub_header: Get to know Beefy's new user interface
 title: The Beefy v2 Beta launch is here for the Cowmoonity to test
 ---
-![](../../images/blog/v2_cover_3-1.png)
+![](/src/images/blog/v2_cover_3-1.png)
 
 Beefy has grown hugely since its release on Binance Smart Chain back in September 2020. We’re extremely proud of its increasing numbers in TVL, revenue, users, and chains. But with a growing platform comes different needs. The team has been working hard to provide a UI that adapts to our new multi-chain user base.
 
@@ -21,7 +21,7 @@ Even if you are connected to BSC in MetaMask, you can still see all 650+ vaults 
 
 The Multichain Search feature is the gateway to exploring all the investment opportunities we have on offer. By searching for a specific token, you’ll quickly find every vault and chain the asset is available on. There’s no need to mess around with filters anymore, just search and find with a click.
 
-![](../../images/blog/f1.png)
+![](/src/images/blog/f1.png)
 
 ### Earnings Pools
 
@@ -29,7 +29,7 @@ Beefy has a revenue-sharing mechanism that distributes profits in each blockchai
 
 Each chain has an Earnings Pool to stake your $BIFI in, with the revenue shared in the chain’s native token. For example, the BSC Earnings Pool will distribute profits in BNB.
 
-![](../../images/blog/f2.png)
+![](/src/images/blog/f2.png)
 
 ### Vault Page
 
@@ -39,7 +39,7 @@ We want our users to make informed investments with their money. That’s why we
 
 Each vault now has its own vault page with full details on the vault, assets, strategy, deposit options, withdrawal options, and vault boost.
 
-![](../../images/blog/f3.png)
+![](/src/images/blog/f3.png)
 
 ### Last Harvest
 
@@ -49,13 +49,13 @@ Users can easily see when the vault was last harvested. Previously, this would a
 
 The TVL, APY, and price charts for any particular vault are clearly displayed.
 
-![](../../images/blog/f6.png)
+![](/src/images/blog/f6.png)
 
 ### Safety Score
 
 Each vault shows a detailed breakdown of the Safety Score computed by Beefy’s developers during their strategy assessment. No score can capture risk levels perfectly, but Beefy finds it a useful gauge in making decisions. The Safety Score ranks a vault from 0 (the worst) to 10 (the best).
 
-![](../../images/blog/f5.png)
+![](/src/images/blog/f5.png)
 
 Docs with full info on our Safety Score:[ ](https://docs.beefy.finance/moo/safu-protocol/beefy-safety-score)[https://docs.beefy.finance/moo/safu-protocol/beefy-safety-score](https://docs.beefy.finance/moo/safu-protocol/beefy-safety-score "https://docs.beefy.finance/moo/safu-protocol/beefy-safety-score")
 
@@ -63,13 +63,13 @@ Docs with full info on our Safety Score:[ ](https://docs.beefy.finance/moo/safu-
 
 A vault’s strategy description explains what happens at the smart contract level with deposited funds. You can easily understand where all user assets are deposited, what gets earned, and how the APY is generated. You’ll also find links here to the strategy and vault’s contract address, as well as available audits for the underlying platform.
 
-![](../../images/blog/f7.png)
+![](/src/images/blog/f7.png)
 
 ### Asset Details
 
 Here you’ll see a brief description of all the assets involved in this particular vault. The description also includes links to the token’s website plus its contract address.
 
-![](../../images/blog/f8.png)
+![](/src/images/blog/f8.png)
 
 ### Deposit and Withdraw
 
@@ -79,17 +79,17 @@ The redesigned Deposit/Withdraw module also displays all the information you nee
 
 _Note: ZAP is currently available for deposits only, support for withdrawals will be added soon._
 
-![](../../images/blog/f9.png)
+![](/src/images/blog/f9.png)
 
 ### Boosts
 
 Beefy v2 is all about streamlining, and boosts are part of that too. You can now boost your vault deposits and claim your bonus rewards without ever leaving the vault page.
 
-![](../../images/blog/f10.png)
+![](/src/images/blog/f10.png)
 
 If a vault is currently boosted you will see an extra module added to Deposit/Withdraw section. This will contain info about our Launchpool partner boosting the vault along with a link to their app and socials.
 
-![](../../images/blog/f11.png)
+![](/src/images/blog/f11.png)
 
 ### Portfolio & Platform Data
 
@@ -99,7 +99,7 @@ To make this dream a reality, the Beefy v2 homepage header now has a brand new p
 
 You can also check the updated platform data module on the homepage header to see total TVL across all networks, total active vaults, and daily BIFI buybacks on all chains combined.
 
-![](../../images/blog/f4.png)
+![](/src/images/blog/f4.png)
 
 ### Feedback and Bugs
 

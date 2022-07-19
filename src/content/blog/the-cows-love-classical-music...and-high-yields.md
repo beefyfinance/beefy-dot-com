@@ -1,6 +1,6 @@
 ---
 date: 2021-10-21T03:00:00.000Z
-header_image: ../../images/blog/beeth.png
+header_image: /src/images/blog/beeth.png
 short_description: >-
   We all watched those viral youtube videos of cows gathering around a guy
   playing the accordion. Our latest partner will sound like music to cows ears,
@@ -13,7 +13,7 @@ menu:
     name: Articles
     weight: 1
 ---
-![](../../images/blog/beeth.png)
+![](/src/images/blog/beeth.png)
 
 We all watched those viral youtube videos of cows gathering around a guy playing the accordion. Our latest partner will sound like music to cows ears, meet our undead friend, BeethovenX.
 
@@ -33,7 +33,7 @@ To provide liquidity without suffering slippage, you have to provide the tokens 
 
 Bingo! You just provided liquidity on Beethoven-x, now only what is left is depositing that LP tokens in Beefy, and let the Cow do the auto-compounding for you. Wasn’t that simple? Now that you are a Liquidity Pool expert you can enjoy these sweet APYs in the following vaults:
 
-![](../../images/blog/beet.png)
+![](/src/images/blog/beet.png)
 
 ### **What are mooTokens?**
 
@@ -45,4 +45,4 @@ Our ghastly friends over at Beethoven-x created a balanced pool for the Cowmooni
 
 You already know how to invest in this pool from the “How to deposit” section, but just in case, we will leave you an explanatory image on the process.
 
-![](../../images/blog/d6.png)
+![](/src/images/blog/d6.png)

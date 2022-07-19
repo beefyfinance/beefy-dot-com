@@ -1,13 +1,13 @@
 ---
 date: 2001-08-29T07:00:00.000Z
-header_image: ../../images/blog/moonpot.png
+header_image: /src/images/blog/moonpot.png
 short_description: >-
   Beefy and Moonpot share a lot of things in common, so why not start earning
   with both?
 sub_header: Learn more about the Beefy Moonpot connection
 title: How exactly are Beefy and Moonpot related?
 ---
-![](../../images/blog/moonpot.png)
+![](/src/images/blog/moonpot.png)
 
 If you’ve ever wondered about the relationship between Beefy and Moonpot, it’s time to set the record straight. The ties between the projects run deep, and the technology that powers them shares a lot of similarities. Much of the Moonpot team even works on Beefy too. But what does that officially mean? Let’s take a deeper look at the points above and get to the bottom of the Beefy Moonpot connection.
 

@@ -1,13 +1,13 @@
 ---
 date: 2022-01-21T02:00:00.000Z
-header_image: ../../images/blog/clover.png
+header_image: /src/images/blog/clover.png
 short_description: >-
   Stake crypto in your Clover Wallet to earn free $CLV with our Clover
   partnership
 sub_header: 'Beefy integrates Clover Wallet '
 title: Beefy partners with Clover to bring you Clover Wallet integration
 ---
-![](../../images/blog/clover.png)  
+![](/src/images/blog/clover.png)  
 Tired of constantly switching chains in your wallet to access your DeFi funds? The Beefy Cow is. If you want to navigate Beefy's vaults across blockchains with ease, you can now use Clover wallet with our platform. You can also earn 5 free $CLV for yourself and 1 $CLV for the Beefy Treasury as part of our new Clover partnership. 
 
 ### What is Clover Wallet?

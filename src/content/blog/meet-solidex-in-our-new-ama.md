@@ -1,11 +1,11 @@
 ---
 date: 2022-02-09T03:00:00.000Z
-header_image: ../../images/blog/ama_recap.png
+header_image: /src/images/blog/ama_recap.png
 short_description: 'As a possible new partner, get to know Solidex before our DAO vote'
 sub_header: Beefy meets with Solidex to discuss the new project
 title: Meet Solidex in our new AMA
 ---
-![](../../images/blog/ama_recap.png)
+![](/src/images/blog/ama_recap.png)
 
 With the recent Solidex offer to partner with Beefy, we took the chance to invite 0xbasmag to explain a bit more about the project. There are a few things to consider for Beefy and $BIFI holders, so let’s jump in and learn more about the opportunities available for Cowmoonity stakers.
 

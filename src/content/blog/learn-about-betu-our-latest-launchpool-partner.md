@@ -1,13 +1,13 @@
 ---
 date: 2021-11-19T03:00:00.000Z
-header_image: ../../images/blog/betu.png
+header_image: /src/images/blog/betu.png
 short_description: >-
   If you are into sports, either electronic or traditional, you will want to
   read about our latest partner, BetU
 sub_header: 'Learn about BetU, our latest Launchpool partner'
 title: 'Learn about BetU, our latest Launchpool partner'
 ---
-![](../../images/blog/betu.png)  
+![](/src/images/blog/betu.png)  
 The BetU project compromises two separated platforms. BetU Fantasy and BetU
 
 **BetU** is a sports and esports betting platform. Secured by smart contracts and powered by the **$BETU** Token. BetU will offer **traditional bookmaker services** along with **peer to peer** betting resulting in better odds and bigger winnings.
@@ -43,7 +43,7 @@ At the end of the week the players who accumulate the most points and arrive on 
 
 If you still have doubts you can watch [this video](https://youtu.be/OHUo-F5nGg8)
 
-![](../../images/blog/2.jpeg)
+![](/src/images/blog/2.jpeg)
 
 ### BetU
 
@@ -68,7 +68,7 @@ Also if you are interested in BetU’s governance, holding their token will gran
 Also BETU supports the BetU Charity that helps vulnerable children impacted by gambling addiction. Got to love BetU’s kindness.  
 ou can buy $BETU [directly on Pancakeswap](https://pancakeswap.finance/info/token/0x0df1b3f30865c5b324797f8db9d339514cac4e94), [Bitmart](https://www.bitmart.com/trade/en?symbol=BETU_USDT&layout=basic), and [Gate.io](https://www.gate.io/trade/BETU_USDT)
 
-![](../../images/blog/1.png)
+![](/src/images/blog/1.png)
 
 ### Beefy and BetU
 

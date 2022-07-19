@@ -34,19 +34,6 @@ const config: GatsbyConfig = {
     `gatsby-transformer-json`,
     'gatsby-transformer-sharp',
     {
-      resolve: 'gatsby-transformer-remark',
-      options: {
-        plugins: [
-          {
-            resolve: `gatsby-remark-images`,
-            options: {
-              maxWidth: 720,
-            },
-          },
-        ],
-      },
-    },
-    {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'images',
@@ -72,6 +59,25 @@ const config: GatsbyConfig = {
       options: {
         name: 'blogContent',
         path: './src/content/blog/',
+      },
+    },
+    {
+      resolve: 'gatsby-transformer-remark',
+      options: {
+        plugins: [
+          {
+            resolve: '@reflectivechimp/gatsby-remark-normalize-paths',
+            options: {
+              pathFields: ['header_image'],
+            },
+          },
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 720,
+            },
+          },
+        ],
       },
     },
   ],

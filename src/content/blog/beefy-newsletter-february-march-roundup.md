@@ -1,13 +1,13 @@
 ---
 date: 2022-04-11T10:00:00.000Z
-header_image: ../../images/blog/february__march_roundup-1.png
+header_image: /src/images/blog/february__march_roundup-1.png
 short_description: >-
   A lot's gone on the past few months, so take some time to catch up with our
   February and March Roundup
 sub_header: Get your Beefy news from February & March
 title: 'Beefy Newsletter: February & March Roundup'
 ---
-![](../../images/blog/february__march_roundup-1.png)
+![](/src/images/blog/february__march_roundup-1.png)
 
 The start of the year and Q1 can often feel like a flash in the pan. That doesn’t stop us however from filling it full of DeFi goodness. Particular highlights include two terrific tokens for maximizing rewards, powerful partnerships, new networks, and juicy staking opportunities. It’s been a bumper few months, and we’re here once to give you a round-up of the best.
 
@@ -58,7 +58,7 @@ If you heard about a project because it randomly appeared in your Telegram it’
 
 If you’ve used Beefy recently, you’ll have certainly seen our new look. After a beta period, we’ve finally rolled out a brand new UI and UX experience for all users. From safety scores to helpful hints and tips, the Cowmoonity should be able to browse our Vaults with total ease.
 
-![](../../images/blog/fo4fusywqaazk05.png)
+![](/src/images/blog/fo4fusywqaazk05.png)
 
 ### Beefy.finance becomes Beefy.com
 
@@ -68,7 +68,7 @@ Perhaps you might have missed it, but Beefy has gone through a bit of a rebrand.
 
 SPIRIT staking just got even more rewarding. binSPIRIT is Beefy’s wrapped version of inSPIRIT. By perpetually locking SPIRIT and holding inSPIRIT, Beefy maximizes the rewards gained.
 
-The more SPIRIT locked in binSPIRIT, the higher the boost will be for Beefy. binSPIRIT is transferable, unlike inSPIRIT, and can also be staked for even more gains. You can get your hands on binSPIRIT by minting it when at or over peg, or purchasing it when under peg.![](../../images/blog/spiritswap.png)
+The more SPIRIT locked in binSPIRIT, the higher the boost will be for Beefy. binSPIRIT is transferable, unlike inSPIRIT, and can also be staked for even more gains. You can get your hands on binSPIRIT by minting it when at or over peg, or purchasing it when under peg.![](/src/images/blog/spiritswap.png)
 
 ### Maximize your FTM rewards with beFTM
 
@@ -76,19 +76,19 @@ If you like the sound of binSPIRIT, then [https://blog.beefy.finance/articles/in
 
 beFTM stands for Beefy Escrowed Fantom. The token is backed 1:1 by FTM and gives stakers access to maximized validator rewards. As Beefy stakes as one entity, this gives you yield unavailable to smaller investors. Beefy’s new smart minter will also determine whether it’s more profitable to purchase $beFTM or to mint for you.
 
-![](../../images/blog/delegator_vault_header.png)
+![](/src/images/blog/delegator_vault_header.png)
 
 ### ETHDenver got a taste of Beefy back in February
 
 At the beginning of February, Weso made an in-person appearance at ETHDenver. Apart from manning the Beefy booth, Weso also took part in the JustDAOIt panel discussion. If you feel like getting a bit of Weso in your life, you can watch the panel back on the [ETHDenver Youtube channel](https://www.youtube.com/watch?v=C5tSUFOSpP0).
 
-![](../../images/blog/fl6dd10xwamydnc.jpg)
+![](/src/images/blog/fl6dd10xwamydnc.jpg)
 
 ### Vault technology powers three new Moonpots
 
 March saw our partner project Moonpot launch three new Pots on Fantom. Both binSPIRIT and beFTM holders now have two new use cases through staking with Moonpot. If you want to learn more about how Moonpot and Beefy collaborate, make sure to read our explainer
 
-### ![](../../images/blog/fojqmbbxsau5u41.jpg)
+### ![](/src/images/blog/fojqmbbxsau5u41.jpg)
 
 ### Beefy supports Moonbeam
 
@@ -96,7 +96,7 @@ Beefy loves getting in first. As Polkadot’s first fully-functional parachain, 
 
 If you’re already familiar with Moonriver, you’ll be in for a treat. Moonbeam comes from the same team and is a great place for cross-chain integration too. Read more about our partnership [here](https://blog.beefy.finance/articles/introducing-our-brand-new-moonbeam-vaults/).
 
-![](../../images/blog/moonbeam-2.png)
+![](/src/images/blog/moonbeam-2.png)
 
 ## Beefy becomes a validator on two networks
 
@@ -104,19 +104,19 @@ Becoming a network validator is part of our work in securing the highest yield p
 
 February saw Beefy become an official validator for Fuse network and Fantom. Apart from improving your gains, our validator status also shows commitment to the networks and our support for the community.
 
-![](../../images/blog/flmybjvxwamf_gt.jpg)
+![](/src/images/blog/flmybjvxwamf_gt.jpg)
 
 ### Cover your deposits with Nexus Mutual
 
 Everyone likes reducing risk, and the Cowmoonity is no different. That’s why we’ve onboarded a new insurance alternative to our UI. Nexus Mutual is an Ethereum-based project protecting its users from a range of DeFi related losses. These include Custody Cover, Yield Token Cover, and Protocol Cover. You can get started through the link in the Beefy header, and read more about it in our [blog post](https://blog.beefy.finance/articles/cover-your-deposits-with-nexus-mutual/)
 
-![](../../images/blog/nexus_replace-1.png)
+![](/src/images/blog/nexus_replace-1.png)
 
 ### Gelato decentralizes our Vault harvesting
 
 Our previous in-house solution for vault harvesting has now been laid to rest for a selection of Vaults. With [Gelato](https://blog.beefy.finance/articles/thanks-to-gelato-beefy-is-now-even-more-decentralized/), 100+ vaults will automatically harvest rewards at predefined time intervals and economic conditions. Automating key functions like harvesting via Gelato’s decentralized infrastructure offers users a better overall Beefy experience.
 
-![](../../images/blog/gelato-cow.png)
+![](/src/images/blog/gelato-cow.png)
 
 ### Buy $BIFI with fiat with Transak
 

@@ -1,13 +1,13 @@
 ---
 date: 2022-01-31T11:00:00.000Z
-header_image: ../../images/blog/aurora.png
+header_image: /src/images/blog/aurora.png
 short_description: >-
   Start earning compounded interest on your funds in Aurora, the EVM solution
   for Near
 sub_header: Beefy adds Aurora support
 title: Beefy deploys on Aurora
 ---
-![](../../images/blog/aurora.png)
+![](/src/images/blog/aurora.png)
 
 Another week, another chain. The pace never slows when it comes to new networks and the Beefy cow doesn’t disappoint. We’re happy to announce the release of our new Aurora vaults, making it the thirteenth protocol we support. How’s that for multi-chain?
 
@@ -25,9 +25,9 @@ We just deployed with Trisolaris vaults, **this means that you can start earning
   
 These are the current opportunities on Aurora Beefy, much more to come.
 
-![](../../images/blog/aurora_p2.png)  
+![](/src/images/blog/aurora_p2.png)  
   
-![](../../images/blog/aurora_p1.png)
+![](/src/images/blog/aurora_p1.png)
 
 ### What tokens can you bridge to Aurora?
 

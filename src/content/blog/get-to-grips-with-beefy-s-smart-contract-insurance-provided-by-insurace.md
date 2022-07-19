@@ -1,11 +1,11 @@
 ---
 date: 2021-12-28T11:00:00.000Z
-header_image: ../../images/blog/header.png
+header_image: /src/images/blog/header.png
 short_description: Protect your DeFi deposits for a small premium with smart contract insurance
 sub_header: Learn more about InsurAce with our in-depth AMA
 title: Get to grips with Beefy’s smart contract insurance provided by InsurAce
 ---
-![](../../images/blog/header.png)
+![](/src/images/blog/header.png)
 
 If you’ve been using Beefy recently, you’ll likely have already seen the _Insurance_ button in the website banner. To help the Cowmoonity understand how InsurAce’s smart contract insurance product works, we invited Dan Thomson, InsurAce’s Director of Business Development and Marketing, to a Discord AMA.
 
@@ -64,4 +64,4 @@ $INSUR is the protocol’s governance token, allowing users to vote on claims, p
 
 Taking our insurance on your DeFi deposits is a useful way in reducing your portfolio’s risk. It’s actually even cheaper to do it through Beefy Finance as we mentioned before. If you want to cover your deposits and get some peace of mind, make sure to click the _Insurance_ tab and minimize your portfolio’s risk.
 
-![](../../images/blog/screenshot-2021-12-28-201213.png)
+![](/src/images/blog/screenshot-2021-12-28-201213.png)

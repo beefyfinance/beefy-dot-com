@@ -1,11 +1,11 @@
 ---
 date: 2022-05-14T10:00:00.000Z
-header_image: ../../images/blog/oasis_3.png
+header_image: /src/images/blog/oasis_3.png
 short_description: Be the first to earn maximized yield on Emerald ParaTime with our Beefy Vaults
 sub_header: Start stacking APY with Beefy on Oasis Network
 title: Beefy Deploys on Oasis Network
 ---
-![](../../images/blog/oasis_3.png)
+![](/src/images/blog/oasis_3.png)
 
 We’re back again to cure your hunger for chunky APY gains on the most innovative networks. This time, we’ve selected Emerald ParaTime as our target for some serious yield compounding. The Oasis Network is finally getting the Beefy treatment, so make sure you’re ready to take advantage of this new earning opportunity.
 
@@ -27,7 +27,7 @@ To start our Oasis Network deployment, we’ve chosen to autocompound on Yuzuswa
 
 ### What Vaults has Beefy launched?
 
-![](../../images/blog/yuzu.png)
+![](/src/images/blog/yuzu.png)
 
 ### How do I bridge to Emerald ParaTime?
 
@@ -35,7 +35,7 @@ To start earning APY on Emerald, you can use [Wormhole](https://wormholenetwork.
 
 [How to Transfer ROSE into Emerald ParaTime | Oasis Network Documentation](https://docs.oasis.dev/general/manage-tokens/how-to-transfer-rose-into-emerald-paratime/#:\~:text=Under%20Emerald%20click%20on%20the,review%20and%20confirm%20the%20transaction).
 
-![](../../images/blog/bridge.png)
+![](/src/images/blog/bridge.png)
 
 ### How does supporting Oasis Network help BIFI holders?
 
