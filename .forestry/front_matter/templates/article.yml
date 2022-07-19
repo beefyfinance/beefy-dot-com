@@ -1,0 +1,21 @@
+---
+label: Article
+hide_body: false
+fields:
+- type: datetime
+  name: date
+  label: date
+- type: file
+  name: header_image
+  label: header_image
+- type: text
+  name: short_description
+  label: short_description
+- type: text
+  name: sub_header
+  label: sub_header
+- type: text
+  name: title
+  label: title
+pages:
+- src/content/blog/test-2.md
