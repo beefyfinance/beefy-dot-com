@@ -92,7 +92,13 @@ const IconsSet = memo<IconsSetProps>(function IconsSet({ icons }) {
       }}
     >
       {icons.map((url, index) => (
-        <Icon key={url} index={index} url={url} offsetsX={offsetsX} offsetsY={offsetsY} />
+        <Icon
+          key={`${url}-${index}`}
+          index={index}
+          url={url}
+          offsetsX={offsetsX}
+          offsetsY={offsetsY}
+        />
       ))}
     </Grid>
   );
@@ -109,7 +115,7 @@ export const IconsBackground = memo(function IconsBackground() {
   return (
     <Sizer>
       <PageVisibility onChange={setPageIsVisible}>
-        <Ticker height={visualHeight} move={pageIsVisible} mode="smooth" speed={20}>
+        <Ticker height={visualHeight} move={pageIsVisible} mode="smooth" speed={5}>
           {({ index }) => <IconsSet icons={iconsToUse} />}
         </Ticker>
       </PageVisibility>

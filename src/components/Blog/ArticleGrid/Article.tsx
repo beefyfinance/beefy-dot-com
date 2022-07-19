@@ -9,6 +9,8 @@ const ImageContainer = styled.div`
   display: flex;
   justify-content: center;
   border-bottom: 2px solid ${theme.cardBorder};
+  flex-grow: 0;
+  flex-shrink: 0;
 `;
 
 const Image = styled(GatsbyImage)`
@@ -21,10 +23,15 @@ const Card = styled(Link)`
   border: 2px solid ${theme.cardBorder};
   border-radius: 12px;
   text-decoration: none;
+  display: flex;
+  flex-direction: column;
 `;
 
 const CardContent = styled.div`
   padding: ${theme.spacing(3)};
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
 `;
 
 const Title = styled.h3`
@@ -42,6 +49,7 @@ const Text = styled.p`
 const Date = styled.p`
   ${theme.bodySmMed}
   color: ${theme.text.dark};
+  margin-top: auto;
 `;
 
 export type ArticleProps = {

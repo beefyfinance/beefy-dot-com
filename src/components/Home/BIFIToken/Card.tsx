@@ -8,6 +8,8 @@ const CustomCard = styled.div`
   border-radius: 12px;
   border: 2px solid ${theme.cardBorder};
   padding: calc(${theme.spacing(3)} - 2px);
+  display: flex;
+  flex-direction: column;
 `;
 
 const Title = styled.h3`
@@ -25,6 +27,7 @@ const Description = styled.p`
 const ButtonContainer = styled.div`
   display: flex;
   justify-content: center;
+  margin-top: auto;
 `;
 
 const ButtonLink = styled(PrimaryExternalLink)`
