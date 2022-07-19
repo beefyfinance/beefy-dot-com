@@ -1,6 +1,6 @@
 ---
 date: 2022-04-07T10:00:00.000Z
-header_image: /src/images/blog/com.jpg
+header_image: "/src/images/blog/com.jpg"
 short_description: >-
   Beefy's back again with another way to maximize revenue sharing rewards with
   Trader Joe

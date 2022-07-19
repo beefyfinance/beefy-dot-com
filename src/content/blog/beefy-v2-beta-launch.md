@@ -1,6 +1,6 @@
 ---
 date: 2021-11-17T06:00:00.000Z
-header_image: /src/images/blog/v2_cover_3-1.png
+header_image: "/src/images/blog/v2_cover_3-1.png"
 short_description: 'Take part in our Beta launch of Beefy''s brand new look and feel. '
 sub_header: Get to know Beefy's new user interface
 title: The Beefy v2 Beta launch is here for the Cowmoonity to test

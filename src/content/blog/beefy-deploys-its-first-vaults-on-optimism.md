@@ -1,6 +1,6 @@
 ---
 date: 2022-06-27T03:00:00.000Z
-header_image: /src/images/blog/optimism.png
+header_image: "/src/images/blog/optimism.png"
 short_description: >-
   It's simple to bridge your tokens and start earning on Optimism, an Ethereum
   Layer 2 blockchain

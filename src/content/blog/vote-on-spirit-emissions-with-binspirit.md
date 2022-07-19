@@ -1,6 +1,6 @@
 ---
 date: 2022-04-04T07:14:00.000Z
-header_image: /src/images/blog/power.png
+header_image: "/src/images/blog/power.png"
 short_description: binSPIRIT just gained more utility as holders use their tokens as voting power
 sub_header: Make your voice heard with binSPIRIT voting
 title: Vote on Spirit emissions with binSPIRIT

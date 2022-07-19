@@ -1,6 +1,6 @@
 ---
 date: 2021-12-24T11:00:00.000Z
-header_image: /src/images/blog/beefy-x-moonpot.png
+header_image: "/src/images/blog/beefy-x-moonpot.png"
 short_description: >-
   Celebrate Christmas with Beefy Finance and Moonpot with our Christmas
   giveaways

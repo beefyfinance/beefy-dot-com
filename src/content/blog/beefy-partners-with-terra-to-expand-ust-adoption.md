@@ -1,7 +1,7 @@
 ---
 date: 2022-05-09T04:00:00.000Z
 draft: true
-header_image: /src/images/blog/terra.png
+header_image: "/src/images/blog/terra.png"
 short_description: >-
   Beefy got granted 400,000 UST, learn how we will use it to expand adoption,
   strengthen the peg, and educate newcomers.

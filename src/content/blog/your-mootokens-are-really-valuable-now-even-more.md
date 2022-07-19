@@ -1,6 +1,6 @@
 ---
 date: 2021-10-26T03:00:00.000Z
-header_image: /src/images/blog/p1.png
+header_image: "/src/images/blog/p1.png"
 short_description: >-
   We have partnered with QiDAO and Market.xyz to bring you more use cases for
   your mooTokens, learn all about it here.

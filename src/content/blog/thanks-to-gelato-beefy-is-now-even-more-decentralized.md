@@ -1,6 +1,6 @@
 ---
 date: 2022-03-10T03:00:00.000Z
-header_image: /src/images/blog/g.png
+header_image: "/src/images/blog/g.png"
 short_description: 'Beefy moves to decentralized harvests, learn what it means here'
 sub_header: Beefy partners with Gelato to decentralize the harvesting of vaults
 title: 'Thanks to Gelato, Beefy is now even more decentralized'

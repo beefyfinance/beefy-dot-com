@@ -1,6 +1,6 @@
 ---
 date: 2022-02-09T03:00:00.000Z
-header_image: /src/images/blog/ama_recap.png
+header_image: "/src/images/blog/ama_recap.png"
 short_description: 'As a possible new partner, get to know Solidex before our DAO vote'
 sub_header: Beefy meets with Solidex to discuss the new project
 title: Meet Solidex in our new AMA

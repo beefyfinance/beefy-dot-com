@@ -1,6 +1,6 @@
 ---
 date: 2021-11-19T03:00:00.000Z
-header_image: /src/images/blog/betu.png
+header_image: "/src/images/blog/betu.png"
 short_description: >-
   If you are into sports, either electronic or traditional, you will want to
   read about our latest partner, BetU

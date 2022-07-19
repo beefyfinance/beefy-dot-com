@@ -1,6 +1,6 @@
 ---
 date: 2022-06-28T10:00:00.000Z
-header_image: /src/images/blog/partnerships1.png
+header_image: "/src/images/blog/partnerships1.png"
 short_description: >-
   Pony Finance's new interest-bearing strategy gives Ethereum users access to
   Beefy Finance yields and security.

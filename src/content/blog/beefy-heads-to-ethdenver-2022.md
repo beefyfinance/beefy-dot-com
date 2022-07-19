@@ -1,6 +1,6 @@
 ---
 date: 2022-01-28T11:00:00.000Z
-header_image: /src/images/blog/ethdenver.png
+header_image: "/src/images/blog/ethdenver.png"
 short_description: >-
   Chat everything DeFi and BUIDL with Weso from February 17-20, 2022 in Denver,
   Colorado.

@@ -1,6 +1,6 @@
 ---
 date: 2021-11-12T03:00:00.000Z
-header_image: /src/images/blog/insurace.png
+header_image: "/src/images/blog/insurace.png"
 short_description: >-
   Beefy's Smart Contracts just got safer. Learn how you can insure your deposits
   here

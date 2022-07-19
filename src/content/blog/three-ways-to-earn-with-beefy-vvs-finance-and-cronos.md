@@ -1,6 +1,6 @@
 ---
 date: 2021-12-06T11:00:00.000Z
-header_image: /src/images/blog/vvs.png
+header_image: "/src/images/blog/vvs.png"
 short_description: >-
   Get on board with Beefy Finance's most recently supported chain Cronos and
   Launchpool partner VVS

@@ -1,6 +1,6 @@
 ---
 date: 2022-02-22T03:00:00.000Z
-header_image: /src/images/blog/title2.png
+header_image: "/src/images/blog/title2.png"
 short_description: Incident Report
 sub_header: 'Incident Report: Grim Holiday Hack, Beefy Whitehat Response'
 title: 'Incident Report: Grim Holiday Hack, Beefy Whitehat Response'

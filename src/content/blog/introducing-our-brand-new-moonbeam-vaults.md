@@ -1,6 +1,6 @@
 ---
 date: 2022-02-11T11:00:00.000Z
-header_image: /src/images/blog/moonbeam-2.png
+header_image: "/src/images/blog/moonbeam-2.png"
 short_description: Start staking on a new chain and earn more with Beefy Finance
 sub_header: The Beefy DApp now supports Moonbeam Vaults
 title: Introducing our brand new Moonbeam vaults

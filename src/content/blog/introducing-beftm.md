@@ -1,6 +1,6 @@
 ---
 date: 2022-03-02T11:00:00.000Z
-header_image: /src/images/blog/delegator_vault_header.png
+header_image: "/src/images/blog/delegator_vault_header.png"
 short_description: Swap FTM for beFTM and stake it with Beefy to collectively improve your yields
 sub_header: Maximize your FTM rewards with the Delegator Vault
 title: Introducing beFTM

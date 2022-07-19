@@ -1,6 +1,6 @@
 ---
 date: 2022-06-16T10:00:00.000Z
-header_image: /src/images/blog/everyone.png
+header_image: "/src/images/blog/everyone.png"
 short_description: >-
   Learn more about the different ways we make sure the Beefy platform lives up
   to our high standards

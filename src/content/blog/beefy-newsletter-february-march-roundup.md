@@ -1,6 +1,6 @@
 ---
 date: 2022-04-11T10:00:00.000Z
-header_image: /src/images/blog/february__march_roundup-1.png
+header_image: "/src/images/blog/february__march_roundup-1.png"
 short_description: >-
   A lot's gone on the past few months, so take some time to catch up with our
   February and March Roundup

@@ -1,6 +1,6 @@
 ---
 date: 2022-01-10T03:00:00.000Z
-header_image: /src/images/blog/lacucina.png
+header_image: "/src/images/blog/lacucina.png"
 short_description: >-
   Mint a free Talien NFT and stake in Beefy vaults to earn $LAC with LaCucina
   and 

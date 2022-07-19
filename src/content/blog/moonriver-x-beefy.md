@@ -1,6 +1,6 @@
 ---
 date: 2021-11-03T03:00:00.000Z
-header_image: /src/images/blog/image0.png
+header_image: "/src/images/blog/image0.png"
 short_description: >-
   Beefy Finance continues believing in the multi-chain future and Moonriver
   becomes the 9th chain we deploy on. Read all about it here:

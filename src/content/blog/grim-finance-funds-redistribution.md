@@ -1,6 +1,6 @@
 ---
 date: 2022-02-24T11:00:00.000Z
-header_image: /src/images/blog/redistribution.png
+header_image: "/src/images/blog/redistribution.png"
 short_description: >-
   Beefy Finance redistributes salvaged Grim Finance funds via its snapshot
   mechanism

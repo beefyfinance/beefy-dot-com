@@ -1,6 +1,6 @@
 ---
 date: 2022-02-27T03:00:00.000Z
-header_image: /src/images/blog/whitehat_closure.png
+header_image: "/src/images/blog/whitehat_closure.png"
 short_description: >-
   Beefy Finance redistributes salvaged Grim Finance funds via its snapshot
   mechanism

@@ -1,6 +1,6 @@
 ---
 date: 2021-12-28T11:00:00.000Z
-header_image: /src/images/blog/header.png
+header_image: "/src/images/blog/header.png"
 short_description: Protect your DeFi deposits for a small premium with smart contract insurance
 sub_header: Learn more about InsurAce with our in-depth AMA
 title: Get to grips with Beefy’s smart contract insurance provided by InsurAce

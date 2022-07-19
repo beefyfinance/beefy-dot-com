@@ -1,6 +1,6 @@
 ---
 date: 2022-05-14T10:00:00.000Z
-header_image: /src/images/blog/oasis_3.png
+header_image: "/src/images/blog/oasis_3.png"
 short_description: Be the first to earn maximized yield on Emerald ParaTime with our Beefy Vaults
 sub_header: Start stacking APY with Beefy on Oasis Network
 title: Beefy Deploys on Oasis Network

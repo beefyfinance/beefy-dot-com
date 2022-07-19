@@ -1,6 +1,6 @@
 ---
 date: 2021-11-17T03:00:00.000Z
-header_image: /src/images/blog/cronos.png
+header_image: "/src/images/blog/cronos.png"
 short_description: >-
   Have you heard about Crypto.com blockchain? Learn all about Cronos and their
   success in this article

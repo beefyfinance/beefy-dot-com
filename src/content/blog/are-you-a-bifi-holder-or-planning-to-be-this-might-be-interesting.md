@@ -1,6 +1,6 @@
 ---
 date: 2021-10-28T03:00:00.000Z
-header_image: /src/images/blog/scream_partnership-1.png
+header_image: "/src/images/blog/scream_partnership-1.png"
 short_description: >-
   Adoption is key for the health of a project. Starting today, you will be able
   to lend and borrow $BIFI on Scream. Isn’t this exciting?

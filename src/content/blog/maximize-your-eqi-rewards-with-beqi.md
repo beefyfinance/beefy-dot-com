@@ -1,6 +1,6 @@
 ---
 date: 2022-04-22T04:00:00.000Z
-header_image: /src/images/blog/qi.png
+header_image: "/src/images/blog/qi.png"
 short_description: >-
   Our latest escrowed token lets you earn maxinimized QiDai rewards. How's that
   for a Beefy bonus?

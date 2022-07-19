@@ -1,6 +1,6 @@
 ---
 date: 2021-10-21T03:00:00.000Z
-header_image: /src/images/blog/beeth.png
+header_image: "/src/images/blog/beeth.png"
 short_description: >-
   We all watched those viral youtube videos of cows gathering around a guy
   playing the accordion. Our latest partner will sound like music to cows ears,

@@ -1,6 +1,6 @@
 ---
 date: 2022-03-30T11:00:00.000Z
-header_image: /src/images/blog/nexus_replace.png
+header_image: "/src/images/blog/nexus_replace.png"
 short_description: Join Nexus Mutual for a wide range of coverage on your Beefy deposits
 sub_header: Reduce your risk with Nexus Mutual
 title: Cover your deposits with Nexus Mutual insurance alternatives

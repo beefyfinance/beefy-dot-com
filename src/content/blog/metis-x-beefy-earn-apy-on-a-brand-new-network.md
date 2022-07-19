@@ -1,6 +1,6 @@
 ---
 date: 2022-01-17T11:00:00.000Z
-header_image: /src/images/blog/metis.png
+header_image: "/src/images/blog/metis.png"
 short_description: Stake and earn in 11 new vaults on the recently launched Metis network
 sub_header: Beefy now supports Metis
 title: 'Metis x Beefy: Earn APY on a brand new network'

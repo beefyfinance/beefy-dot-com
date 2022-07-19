@@ -1,6 +1,6 @@
 ---
 date: 2022-01-07T11:00:00.000Z
-header_image: /src/images/blog/fuse.png
+header_image: "/src/images/blog/fuse.png"
 short_description: Beefy adds Fuse to its list of supported blockchains bringing the number to 11
 sub_header: Beefy launches on Fuse
 title: Beefy partners with Fuse and launches its first vaults on the blockchain

@@ -1,6 +1,6 @@
 ---
 date: 2022-02-02T11:00:00.000Z
-header_image: /src/images/blog/spiritswap.png
+header_image: "/src/images/blog/spiritswap.png"
 short_description: >-
   Create binSPIRIT with Beefy to experience the power of transferable, wrapped
   inSPIRIT tokens

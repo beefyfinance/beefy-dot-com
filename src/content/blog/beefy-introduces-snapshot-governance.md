@@ -1,6 +1,6 @@
 ---
 date: 2022-02-06T11:00:00.000Z
-header_image: /src/images/blog/headersma.png
+header_image: "/src/images/blog/headersma.png"
 short_description: >-
   Voting is fairer, more powerful, and more advanced than ever with our switch
   to Snapshot

@@ -1,6 +1,6 @@
 ---
 date: 2022-01-31T11:00:00.000Z
-header_image: /src/images/blog/aurora.png
+header_image: "/src/images/blog/aurora.png"
 short_description: >-
   Start earning compounded interest on your funds in Aurora, the EVM solution
   for Near

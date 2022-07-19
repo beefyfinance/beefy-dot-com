@@ -1,6 +1,6 @@
 ---
 date: 2022-01-21T02:00:00.000Z
-header_image: /src/images/blog/clover.png
+header_image: "/src/images/blog/clover.png"
 short_description: >-
   Stake crypto in your Clover Wallet to earn free $CLV with our Clover
   partnership
