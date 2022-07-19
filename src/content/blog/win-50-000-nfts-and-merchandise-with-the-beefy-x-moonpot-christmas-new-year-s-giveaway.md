@@ -1,6 +1,6 @@
 ---
 date: 2021-12-24T11:00:00.000Z
-header_image: ../../images/blog/beefy-x-moonpot.png
+header_image: "/src/images/blog/beefy-x-moonpot.png"
 short_description: >-
   Celebrate Christmas with Beefy Finance and Moonpot with our Christmas
   giveaways
@@ -9,7 +9,7 @@ title: >-
   Win $50,000, NFTs, and merchandise with the Beefy x Moonpot Christmas & New
   Year’s Giveaway
 ---
-![](../../images/blog/beefy-x-moonpot.png)
+![](/src/images/blog/beefy-x-moonpot.png)
 
 What would the holidays be without a few DeFi presents under the Christmas tree? This year, you won’t even have to put up with a cheesy Christmas jumper either… To celebrate Christmas 2021 and New Year’s, Beefy Finance and Moonpot have teamed up to give you the chance of winning $50,000, NFTs, and some awesome merchandise. Get yourself in the Christmas spirit with both teams and celebrate a bumper year of APY, gains, and prizes.
 
@@ -41,12 +41,12 @@ Deposit your BSC mooChristmasBIFI from last year’s Christmas giveaways and win
 
 When it comes to NFTs, Galaxy is helping revolutionize the space. Projects can easily create lines of NFTs with a huge amount of flexibility. Galaxy NFTs aren't just collectibles either, they can also act as a form of digital identification. Because of these factors, we chose to partner with Galaxy to bring you our funky merchandise NFTs. Each one will be available to be seen on Galaxy at [https://galaxy.eco/beefy](https://galaxy.eco/beefy "https://galaxy.eco/beefy") and convert into merch later.
 
-![](../../images/blog/galaxy.png)
+![](/src/images/blog/galaxy.png)
 
 ### How do I collect my merchandise if I win?
 
 If you win a hoodie or T-shirt in one of the Moonpot draws, your wallet will be credited with a merchandise NFT. You can see the NFT at Galaxy.eco and use it to redeem a merchandise code after the draw on December 31. More details will be released soon on exactly how to do this.
 
-### ![](../../images/blog/gear-2.png)
+### ![](/src/images/blog/gear-2.png)
 
 So there you have it! Celebrate some Christmas and New Year’s cheer with your favorite DeFi platform and win-win savings game. It’s certainly been an exciting year for Beefy and Moonpot that’s got us all in the festive mood, so why not join us too?

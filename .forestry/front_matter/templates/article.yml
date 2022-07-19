@@ -1,0 +1,45 @@
+---
+label: Article
+hide_body: false
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+  description: Name of the post. Shown at the top of the page
+- name: date
+  type: datetime
+  description: The date the page was first created
+  config:
+    required: false
+    date_format: ''
+    time_format: ''
+    display_utc: false
+    export_format: YYYY-MM-DDThh:mm:ssZ
+  label: Publish Date
+- name: header_image
+  type: file
+  config:
+    maxSize: 64
+  label: Header Image
+- name: sub_header
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Sub Header
+- name: short_description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Short Description
+pages:
+- src/content/blog/win-50-000-nfts-and-merchandise-with-the-beefy-x-moonpot-christmas-new-year-s-giveaway.md

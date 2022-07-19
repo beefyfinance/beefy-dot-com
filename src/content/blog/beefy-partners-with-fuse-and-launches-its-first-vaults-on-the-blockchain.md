@@ -1,11 +1,11 @@
 ---
 date: 2022-01-07T11:00:00.000Z
-header_image: ../../images/blog/fuse.png
+header_image: "/src/images/blog/fuse.png"
 short_description: Beefy adds Fuse to its list of supported blockchains bringing the number to 11
 sub_header: Beefy launches on Fuse
 title: Beefy partners with Fuse and launches its first vaults on the blockchain
 ---
-![](../../images/blog/fuse.png)
+![](/src/images/blog/fuse.png)
 
 Fuse is here to empower businesses, projects, and other entities when it comes to crypto payments and DeFi. To achieve this, Fuse has created a suite of mobile-first tools that allow users to create their own blockchain solutions and implementations. Fuse is made up of:
 
@@ -35,12 +35,12 @@ You can also buy **$FUSE** on 1inch and PancakeSwap using the following token co
 
 **$BIFI** is already on Fuse thanks to Multichain (formerly Anyswap). You can bridge your **$BIFI** from any of the other 10 chains Beefy is on, directly to Fuse.
 
-![](../../images/blog/fuse-b.png)
+![](/src/images/blog/fuse-b.png)
 
 ### New Fuse vaults on Beefy
 
 There are a variety of new Beefy vaults on Fuse to let you maximize your APY returns on staked Fuse funds. As per usual, they’re autocompounding and meet Beefy’s high safety standards. Don’t forget you can always Zap into the vaults with a single token, saving you the work of entering the liquidity pool yourself.
 
-![](../../images/blog/a1.png)
+![](/src/images/blog/a1.png)
 
 That's it! You have all the information you need to earn the highest yield, in the safest way, thanks to Beefy and Fuse. We look to meeting you all in the AMA and asking the Fuse team your questions.

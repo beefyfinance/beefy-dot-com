@@ -1,11 +1,11 @@
 ---
 date: 2022-03-30T11:00:00.000Z
-header_image: ../../images/blog/nexus_replace.png
+header_image: "/src/images/blog/nexus_replace.png"
 short_description: Join Nexus Mutual for a wide range of coverage on your Beefy deposits
 sub_header: Reduce your risk with Nexus Mutual
 title: Cover your deposits with Nexus Mutual insurance alternatives
 ---
-![](../../images/blog/nexus_replace.png)
+![](/src/images/blog/nexus_replace.png)
 
 At Beefy, safety is our number one priority. That’s why we want you to have even more opportunities to reduce your risk when staking. Our new partnership with Nexus Mutual does just that. Cover your investments with the power of blockchain and rest easy knowing your funds are protected.
 
@@ -28,7 +28,7 @@ Ownership of Nexus Mutual’s token, NXM, is used to buy cover and navigate the 
 
 First, head to [Nexus Mutual](https://app.nexusmutual.io/home), connect your wallet and pay your membership fee to join the Mutual.
 
-![](../../images/blog/n1.png)
+![](/src/images/blog/n1.png)
 
 Next, head to the [Buy cover](https://app.nexusmutual.io/cover) page, search for Beefy Finance and click \[Get quote\]. You’ll now be able to choose how long you want your cover for and how much you would like to cover. You can also select the crypto you’d like a payout in and see the required fee.
 

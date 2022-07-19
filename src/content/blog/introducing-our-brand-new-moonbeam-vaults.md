@@ -1,11 +1,11 @@
 ---
 date: 2022-02-11T11:00:00.000Z
-header_image: ../../images/blog/moonbeam-2.png
+header_image: "/src/images/blog/moonbeam-2.png"
 short_description: Start staking on a new chain and earn more with Beefy Finance
 sub_header: The Beefy DApp now supports Moonbeam Vaults
 title: Introducing our brand new Moonbeam vaults
 ---
-![](../../images/blog/moonbeam-2.png)
+![](/src/images/blog/moonbeam-2.png)
 
 If you’re looking for more chains to auto-compound yields on, we’ve got you covered. Beefy now supports Moonbeam, giving you another fresh opportunity to stake and earn. You may already be familiar with Moonriver, but Moonbeam is a little different. Let’s dive into the relationship between these two chains, the new vaults on offer, and what this means for the Cowmoonity. .
 
@@ -31,9 +31,9 @@ Our first strategies for Moonbeam will make use of LPs and farms on Beamswap. Be
 
 ### Which Vaults has Beefy launched?
 
-![](../../images/blog/moonbeam_2.png)
+![](/src/images/blog/moonbeam_2.png)
 
-![](../../images/blog/moonbeam-1.png)
+![](/src/images/blog/moonbeam-1.png)
 
 ### How does supporting Moonbeam impacts BIFI holders?
 

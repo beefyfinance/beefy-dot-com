@@ -1,11 +1,11 @@
 ---
 date: 2022-04-22T10:00:00.000Z
-header_image: ../../images/blog/bnb_chain.png
+header_image: "/src/images/blog/bnb_chain.png"
 short_description: 'Here are Beefy we don''t forget where the whole journey started '
 sub_header: The Beefy relationship with BNB Chain just gets stronger
 title: Back to our Beefy BNB Chain Roots
 ---
-![](../../images/blog/bnb_chain.png)
+![](/src/images/blog/bnb_chain.png)
 
 If you’re a Beefy OG or early investor, you’ll certainly know about our roots on BNB Chain. From our launch in September 2020, we’ve come a long way and now operate across 14 different blockchains. However, we never forget where it all started and BNB Chain’s importance in our journey.
 

@@ -1,13 +1,13 @@
 ---
 date: 2021-11-12T03:00:00.000Z
-header_image: ../../images/blog/insurace.png
+header_image: "/src/images/blog/insurace.png"
 short_description: >-
   Beefy's Smart Contracts just got safer. Learn how you can insure your deposits
   here
 sub_header: You can now insure your Beefy deposits thanks to InsurAce
 title: Beefy's Smart Contracts are now insurable thanks to InsurAce
 ---
-![](../../images/blog/insurace.png)  
+![](/src/images/blog/insurace.png)  
 There’s one thing that the Beefy cow knows well, and that’s making sure your deposits are secure. It’s really our number one priority. Whenever we list a project, Beefy always commits to a thorough review of all smart contracts involved. If you can trust Beefy, you can trust the project. 
 
 Our key criteria include [Certik audits](https://www.certik.org/projects/beefyfinance), a [bug bounty program](https://immunefi.com/bounty/beefyfinance/) with Immunefi, and a thorough analysis straight from our own talented solidity developers. We constantly improve our vaults, with efficiency, security, and reliability in mind.
@@ -29,4 +29,4 @@ Contrarily if the smart contract that fails belongs to the underlying platform (
 ### What is the premium?
 
 We've worked together with InsurAce team to guarantee some of the lowest premiums (2.9% annually) available on the market. With our [**Beefy custom link**](https://app.insurace.io/Insurance/Cart?id=110&chain=BSC&referrer=95244279533280151623141934507761661103282646845), you can also enjoy a 10% rebate on $INSUR tokens. Imagine that. With just a 2.6% annual fee, your funds are more SAFU than ever.  
-![](../../images/blog/image0-1.png)
+![](/src/images/blog/image0-1.png)

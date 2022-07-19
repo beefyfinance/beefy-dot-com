@@ -1,13 +1,13 @@
 ---
 date: 2022-02-24T11:00:00.000Z
-header_image: ../../images/blog/redistribution.png
+header_image: "/src/images/blog/redistribution.png"
 short_description: >-
   Beefy Finance redistributes salvaged Grim Finance funds via its snapshot
   mechanism
 sub_header: Grim Finance Funds Redistribution
 title: Grim Finance Funds Redistribution
 ---
-![](../../images/blog/redistribution.png)
+![](/src/images/blog/redistribution.png)
 
 Beefy prides itself on security, safety, and transparency. In our February 24 Grim Finance incident report, we indicated a third party would return the salvaged whitehat funds. However, in response to community feedback, Beefy will instead return the funds directly to Grim users.
 

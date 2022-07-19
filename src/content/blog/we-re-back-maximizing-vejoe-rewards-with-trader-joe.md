@@ -1,13 +1,13 @@
 ---
 date: 2022-04-07T10:00:00.000Z
-header_image: ../../images/blog/com.jpg
+header_image: "/src/images/blog/com.jpg"
 short_description: >-
   Beefy's back again with another way to maximize revenue sharing rewards with
   Trader Joe
 sub_header: Mint beJOE to earn maximized veJOE rewards
 title: Maximize your JOE earnings on Trader Joe with Beefy‘s beJOE
 ---
-![](../../images/blog/com.jpg)
+![](/src/images/blog/com.jpg)
 
 Here’s yet another chance for the Cowmoonity to earn maximized rewards through our collective staking power. This time, our Trader Joe strategy is here to help you maximize your veJOE rewards. Don’t mess around staking yourself, simply mint beJOE and get a boost to your JOE earnings courtesy of Beefy.
 

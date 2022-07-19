@@ -1,18 +1,18 @@
 ---
 date: 2022-04-04T07:14:00.000Z
-header_image: ../../images/blog/power.png
+header_image: "/src/images/blog/power.png"
 short_description: binSPIRIT just gained more utility as holders use their tokens as voting power
 sub_header: Make your voice heard with binSPIRIT voting
 title: Vote on Spirit emissions with binSPIRIT
 ---
-![](../../images/blog/power.png)  
+![](/src/images/blog/power.png)  
 If you hold binSPIRIT and stake it with Beefy, you already enjoy the benefits of maximized staking rewards. But the advantages of holding binSPIRIT don’t stop here. You now can use your binSPIRIT to start voting on SpiritSwap farm emissions. By giving binSPIRIT holders more use cases and benefits, we also strengthen the binSPIRIT-SPIRIT peg.
 
 ### How does SpiritSwap voting work?
 
 SpiritSwap’s inSPIRIT governance token uses a vote locking model. As binSPIRIT is a wrapped version of 4-year-locked inSPIRIT, it also provides the same benefits. inSPIRIT (and binSPIRIT) holders can receive voting power, participation rewards, and boosted farming rewards. binSPIRIT holders can vote weekly on the gauges to receive SPIRIT emission allocation.
 
-![](../../images/blog/png.png)
+![](/src/images/blog/png.png)
 
 ### How to use Beefy’s voting power?
 

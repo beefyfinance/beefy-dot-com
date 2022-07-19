@@ -1,13 +1,13 @@
 ---
 date: 2022-02-02T11:00:00.000Z
-header_image: ../../images/blog/spiritswap.png
+header_image: "/src/images/blog/spiritswap.png"
 short_description: >-
   Create binSPIRIT with Beefy to experience the power of transferable, wrapped
   inSPIRIT tokens
 sub_header: Next-level SPIRIT staking with Beefy
 title: Beefy x SpiritSwap x QiDao
 ---
-![](../../images/blog/spiritswap.png)  
+![](/src/images/blog/spiritswap.png)  
 If you’re a fan of SPIRIT staking on Fantom with SpiritSwap, then you’ve come to the right Cow. From February 2, 2022, you’ll be able to mint binSPIRIT through Beefy Finance, giving you the best chance of maximizing your reward boost. But that’s not all. binSPIRIT is a fully transferable token and can also be used to borrow MAI on market.xyz through QiDao’s seeded locker.
 
 Whether you’re new to SpiritSwap farms or just need a recap, have no fear. We’ve outlined the key basics for you to get to grips with below.
@@ -32,7 +32,7 @@ Through arbitrage, binSPIRIT should maintain a 1:1 peg with SPIRIT. If binSPIRIT
 
 When binSPIRIT is more expensive than SPIRIT, SPIRIT holders will mint binSPIRIT and sell it on the market for its higher price. An increase in supply will lower the price back to its peg.
 
-![](../../images/blog/mint_binspirit.png)
+![](/src/images/blog/mint_binspirit.png)
 
 ### Beefy’s inSPIRIT voting power
 
@@ -51,13 +51,13 @@ Beefy users can get binSPIRIT by either minting it with SPIRIT tokens at a 1:1 r
 1. They can use their tokens as liquidity with SPIRIT in the binSPIRIT-SPIRIT liquidity pool on SpiritSwap and place the LP tokens in our binSPIRIT-SPIRIT Vault.
 2. They can stake binSPIRIT in a single asset Vault, with rewards coming from SpiritSwap protocol fees.
 
-   ![](../../images/blog/vaults.png)
+   ![](/src/images/blog/vaults.png)
 
 ### Use your mooTokens as collateral for MAI with QiDao
 
 If you’ve decided to deposit your binSPIRIT in a Beefy Vault, you can extract even more value out of them with QiDao. Your moobinSPIRIT and moobinSPIRIT-SPIRIT LP tokens can both be used as collateral for borrowing MAI, QiDao’s stablecoin, via pools on [_market.xyz_](http://market.xyz). You can read more about the process in our [_QiDao x Beefy article_](https://blog.beefy.finance/articles/your-mootokens-are-really-valuable-now-even-more/), as well as explore all our strategies in the infographic below:
 
-![](../../images/blog/ingographic.png)
+![](/src/images/blog/ingographic.png)
 
 These markets will be live in Fantom during the week of the 7th of February.
 

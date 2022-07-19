@@ -1,13 +1,13 @@
 ---
 date: 2021-10-28T03:00:00.000Z
-header_image: ../../images/blog/scream_partnership-1.png
+header_image: "/src/images/blog/scream_partnership-1.png"
 short_description: >-
   Adoption is key for the health of a project. Starting today, you will be able
   to lend and borrow $BIFI on Scream. Isn’t this exciting?
 sub_header: $BIFI is now accepted on Scream markets
 title: Are you a $BIFI holder or planning to be? This might be interesting...
 ---
-![](../../images/blog/scream_partnership-1.png)
+![](/src/images/blog/scream_partnership-1.png)
 
 Just in time for the spooky Halloween season, you can now utilize $BIFI on Scream on the Fantom blockchain, and use up to 55% of its current value to borrow other tokens, or borrow $BIFI against other of your deposited assets.
 
@@ -21,7 +21,7 @@ Scream is a financial platform on Fantom that provides fully decentralized borro
 
 First, head to [Scream Finance](https://scream.sh/lend) and make sure to connect your wallet. Then, it’s as easy as selecting $BIFI from _Lend Assets_ (in case you want to borrow against your $BIFI) or _Borrow Assets_ (in case you wanna borrow $BIFI against other of your deposited assets). You can also withdraw your collateral and repay loans by switching between the tabs. If this is your first time dabbling in money markets, the safest bet is to borrow stables against your $BIFI, and deposit your borrowed stables into one of the many Beefy stable vaults. This way you should only monitor the price of $BIFI to avoid liquidations. There are many more complex strategies that you can start developing when you are more comfortable with tracking more prices.
 
-![](../../images/blog/pasted-image-0.png)
+![](/src/images/blog/pasted-image-0.png)
 
 ### Why is this good for all BIFI holders?
 
@@ -29,7 +29,7 @@ Using your $BIFI as collateral unlocks even more value from your tokens and prov
 
 Even if you aren’t thinking of lending your $BIFI on Scream, this is good news for you too. More uses for the tokens means there will be less $BIFI staked on BIFI Maxi, or BIFI Earn (where you deposit $BIFI and earn $FTM), so this will result in higher APYs for people choosing to stay there. See? Win-win.
 
-![](../../images/blog/leak.png)
+![](/src/images/blog/leak.png)
 
 ### Will more platforms accept $BIFI soon?
 

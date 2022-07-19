@@ -1,13 +1,13 @@
 ---
 date: 2022-01-28T11:00:00.000Z
-header_image: ../../images/blog/ethdenver.png
+header_image: "/src/images/blog/ethdenver.png"
 short_description: >-
   Chat everything DeFi and BUIDL with Weso from February 17-20, 2022 in Denver,
   Colorado.
 sub_header: Meet the Beefy team at ETHDenver 2022
 title: Beefy heads to ETHDenver 2022
 ---
-![](../../images/blog/ethdenver.png)
+![](/src/images/blog/ethdenver.png)
 
 Coming soon to the mountains of Colorado are the Beefy cow and team, ready to meet, greet, and BUIDL with innovators in the Ethereum ecosystem. And best of all, if you want to attend [ETHDenver](https://www.ethdenver.com/) too, it’s completely free. All you need to do is [apply](https://www.ethdenver.com/apply) on the ETHDenver website to secure a spot. So why not come and introduce yourself in person and learn more about what makes Beefy Finance tick?
 

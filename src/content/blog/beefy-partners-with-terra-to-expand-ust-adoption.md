@@ -1,14 +1,14 @@
 ---
 date: 2022-05-09T04:00:00.000Z
 draft: true
-header_image: ../../images/blog/terra.png
+header_image: "/src/images/blog/terra.png"
 short_description: >-
   Beefy got granted 400,000 UST, learn how we will use it to expand adoption,
   strengthen the peg, and educate newcomers.
 sub_header: Beefy Partners with Terra to expand UST adoption
 title: Beefy Partners with Terra to expand UST adoption
 ---
-![](../../images/blog/terra.png)
+![](/src/images/blog/terra.png)
 
 Beefy has been consistently known as the best place to stake your tokens. It goes without saying, If you have crypto you should really check out the [Beefy.com](http://beefy.com) app. There you’ll find more than 800 vaults that compound interest on your tokens, all without inflationary rewards. Simply earn more of what you stake.
 
@@ -24,7 +24,7 @@ Although Terra has a wide variety of stablecoins, TerraUSD (UST) is by far the m
 
 To maintain a peg of one UST to one dollar, Terra uses algorithmic controls. 1 UST can always be converted to exactly one dollar’s worth of LUNA and vice versa. Terra burns any LUNA converted to UST, and 1 UST is always treated as being worth $1 when converting. When the currency is off its peg, arbitrage brings it back in line through market forces.
 
-![](../../images/blog/400k.jpg)
+![](/src/images/blog/400k.jpg)
 
 ### Terra & Beefy working together
 

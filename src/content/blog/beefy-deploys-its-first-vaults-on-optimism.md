@@ -1,13 +1,13 @@
 ---
 date: 2022-06-27T03:00:00.000Z
-header_image: ../../images/blog/optimism.png
+header_image: "/src/images/blog/optimism.png"
 short_description: >-
   It's simple to bridge your tokens and start earning on Optimism, an Ethereum
   Layer 2 blockchain
 sub_header: Start staking in five new Vaults on Optimism
 title: Beefy deploys its first Vaults on Optimism
 ---
-![](../../images/blog/optimism.png)
+![](/src/images/blog/optimism.png)
 
 Beefy is back with a fresh batch of Vaults for all fans of Ethereum scaling solutions. You’ll now be able to earn on Optimism, an optimistic rollup Layer 2 network. With 16 Vaults to stake in and a simple Optimism Bridge to use, you can get started in no time.
 
@@ -27,7 +27,7 @@ The Optimism Collective has two chambers: the Citizens’ House and the Token Ho
 
 We deployed on the rollup the 27 of June with 5 Beethoven-X vaults
 
-![](../../images/blog/vaults-1.png)
+![](/src/images/blog/vaults-1.png)
 
 and in only 11 days later we currently sitting at 18 different vaults for you to earn compounded interests in your deposits. From Velodrome to Curve, your best earning opportunities are in Beefy.
 
@@ -37,15 +37,15 @@ To stake in Beefy’s Optimism Vaults, you’ll need to either purchase Optimism
 
 To use the Bridge, first, connect your wallet.
 
-![](../../images/blog/screenshot_2022-06-24_at_17-08-00.png)
+![](/src/images/blog/screenshot_2022-06-24_at_17-08-00.png)
 
 In the “From” section, you can choose the network and token you want to bridge. In this case, we’re bridging ether (ERC-20) to Optimism. Simply enter the amount you want to bridge and then confirm the swap.
 
-![](../../images/blog/opt2.png)
+![](/src/images/blog/opt2.png)
 
 For networks that Optimism doesn’t support, you’ll need to pick from an alternative bridge. You can see the options below for BNB Smart Chain bridging.
 
-![](../../images/blog/opt1.png)
+![](/src/images/blog/opt1.png)
 
 ### Why Beefy chose Optimism
 

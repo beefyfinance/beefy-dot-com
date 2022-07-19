@@ -5,7 +5,7 @@ const config: GatsbyConfig = {
   siteMetadata: {
     title: 'Beefy Finance',
     titleTemplate: '{title} - Beefy Finance',
-    siteUrl: 'https://www.beefy.com',
+    siteUrl: 'https://beefy.com',
     description:
       'Beefy is a Decentralized, Multichain Yield Optimizer that allows its users to earn compound interest on their crypto holdings. Beefy earns you the highest APYs with safety and efficiency in mind.',
     twitterUsername: '@beefyfinance',
@@ -34,19 +34,6 @@ const config: GatsbyConfig = {
     `gatsby-transformer-json`,
     'gatsby-transformer-sharp',
     {
-      resolve: 'gatsby-transformer-remark',
-      options: {
-        plugins: [
-          {
-            resolve: `gatsby-remark-images`,
-            options: {
-              maxWidth: 720,
-            },
-          },
-        ],
-      },
-    },
-    {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'images',
@@ -72,6 +59,25 @@ const config: GatsbyConfig = {
       options: {
         name: 'blogContent',
         path: './src/content/blog/',
+      },
+    },
+    {
+      resolve: 'gatsby-transformer-remark',
+      options: {
+        plugins: [
+          {
+            resolve: '@reflectivechimp/gatsby-remark-normalize-paths',
+            options: {
+              pathFields: ['header_image'],
+            },
+          },
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 720,
+            },
+          },
+        ],
       },
     },
   ],
