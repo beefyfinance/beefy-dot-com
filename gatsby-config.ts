@@ -5,7 +5,7 @@ const config: GatsbyConfig = {
   siteMetadata: {
     title: 'Beefy Finance',
     titleTemplate: '{title} - Beefy Finance',
-    siteUrl: 'https://www.beefy.com',
+    siteUrl: 'https://beefy.com',
     description:
       'Beefy is a Decentralized, Multichain Yield Optimizer that allows its users to earn compound interest on their crypto holdings. Beefy earns you the highest APYs with safety and efficiency in mind.',
     twitterUsername: '@beefyfinance',
