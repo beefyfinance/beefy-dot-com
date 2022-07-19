@@ -58,6 +58,7 @@ export type ArticleProps = {
 export const Article = memo<ArticleProps>(function ListArticle({ article }) {
   const image = article.frontmatter.header_image?.childImageSharp?.gatsbyImageData;
   const title = article.frontmatter.title;
+  const sub_header = article.frontmatter.sub_header;
   const shortDescription = article.frontmatter.short_description;
   const date = article.frontmatter.date;
 
@@ -65,7 +66,7 @@ export const Article = memo<ArticleProps>(function ListArticle({ article }) {
     <Card to={`/articles/${article.fields.slug}`}>
       <ImageContainer>{!!image ? <Image image={image} alt="" /> : null}</ImageContainer>
       <CardContent>
-        <Title>{title || 'no title'}</Title>
+        <Title>{sub_header || title || 'no title'}</Title>
         <Text>{shortDescription}</Text>
         <Date>{date}</Date>
       </CardContent>

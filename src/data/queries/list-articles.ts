@@ -13,6 +13,7 @@ export type ListArticlesQueryNode = {
   id: string;
   frontmatter: {
     title?: string;
+    sub_header?: string;
     date?: string;
     short_description?: string;
     header_image?: FileNode;
@@ -29,6 +30,7 @@ export const listArticleFragment = graphql`
       title
       date(formatString: "MMMM D, YYYY")
       short_description
+      sub_header
       header_image {
         childImageSharp {
           gatsbyImageData(
