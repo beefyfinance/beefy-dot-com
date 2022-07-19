@@ -2,20 +2,81 @@
 label: Article
 hide_body: false
 fields:
-- type: datetime
-  name: date
-  label: date
-- type: file
-  name: header_image
-  label: header_image
-- type: text
-  name: short_description
-  label: short_description
-- type: text
-  name: sub_header
-  label: sub_header
-- type: text
-  name: title
-  label: title
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Title
+    description: Name of the post. Shown at the top of the page
+  - name: date
+    type: datetime
+    description: The date the page was first created
+    config:
+      required: false
+      date_format: ''
+      time_format: ''
+      display_utc: false
+      export_format: YYYY-MM-DDThh:mm:ssZ
+    label: Publish Date
+  - name: header_image
+    type: file
+    config:
+      maxSize: 64
+    label: Header Image
+  - name: sub_header
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Sub Header
+  - name: short_description
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Short Description
 pages:
-- src/content/blog/test-2.md
+  - src/content/blog/Beefy Finance integrates Clover Wallet.en.md
+  - src/content/blog/are-you-a-bifi-holder-or-planning-to-be-this-might-be-interesting.en.md
+  - src/content/blog/back-to-our-beefy-bnb-chain-roots.en.md
+  - src/content/blog/beefy-deploys-its-first-vaults-on-optimism.en.md
+  - src/content/blog/beefy-deploys-on-oasis-network.en.md
+  - src/content/blog/beefy-heads-to-ethdenver-2022.en.md
+  - src/content/blog/beefy-introduces-snapshot-governance.en.md
+  - src/content/blog/beefy-makes-cronos-the-10th-chain.en.md
+  - src/content/blog/beefy-newsletter-february-march-roundup.en.md
+  - src/content/blog/beefy-partners-with-fuse-and-launches-its-first-vaults-on-the-blockchain.en.md
+  - src/content/blog/beefy-partners-with-la-cucina-to-bring-another-level-of-earnings-to-users.en.md
+  - src/content/blog/beefy-partners-with-terra-to-expand-ust-adoption.en.md
+  - src/content/blog/beefy-s-smart-contracts-are-now-insurable-thanks-to-insurace.en.md
+  - src/content/blog/beefy-v2-beta-launch.en.md
+  - src/content/blog/beefy-x-aurora.en.md
+  - src/content/blog/beefy-x-spiritswap-x-qidao.en.md
+  - src/content/blog/cover-your-deposits-with-nexus-mutual.en.md
+  - src/content/blog/get-to-grips-with-beefy-s-smart-contract-insurance-provided-by-insurace.en.md
+  - src/content/blog/grim-finance-funds-redistribution.en.md
+  - src/content/blog/grim-finance-whitehat-closure.en.md
+  - src/content/blog/how-exactly-are-beefy-and-moonpot-related.en.md
+  - src/content/blog/incident-report-grim-holiday-hack-beefy-whitehat-response.en.md
+  - src/content/blog/introducing-beftm.en.md
+  - src/content/blog/introducing-our-brand-new-moonbeam-vaults.en.md
+  - src/content/blog/learn-about-betu-our-latest-launchpool-partner.en.md
+  - src/content/blog/maximize-your-eqi-rewards-with-beqi.en.md
+  - src/content/blog/meet-solidex-in-our-new-ama.en.md
+  - src/content/blog/metis-x-beefy-earn-apy-on-a-brand-new-network.en.md
+  - src/content/blog/moonriver-x-beefy.en.md
+  - src/content/blog/pony-finance-s-new-interest-bearing-strategy-gives-ethereum-users-access-to-beefy-finance-s-high-yields-and-security-for-the-first-time.en.md
+  - src/content/blog/thanks-to-gelato-beefy-is-now-even-more-decentralized.en.md
+  - src/content/blog/the-beefy-team-is-here-to-champion-openness-and-transparency.en.md
+  - src/content/blog/three-ways-to-earn-with-beefy-vvs-finance-and-cronos.en.md
+  - src/content/blog/vote-on-spirit-emissions-with-binspirit.en.md
+  - src/content/blog/we-re-back-maximizing-vejoe-rewards-with-trader-joe.en.md
+  - src/content/blog/win-50-000-nfts-and-merchandise-with-the-beefy-x-moonpot-christmas-new-year-s-giveaway.md
+  - src/content/blog/your-mootokens-are-really-valuable-now-even-more.en.md
+  - src/content/blog/test-2.md
