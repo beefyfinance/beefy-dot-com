@@ -4,3 +4,4 @@ node_modules/
 public
 src/gatsby-types.d.ts
 yarn-error.log
+.DS_STORE
