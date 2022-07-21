@@ -89,5 +89,12 @@
     "groupId": "tokens",
     "background": "dark",
     "versions": ["png", "svg"]
+  },
+  {
+    "itemId": "bevelo",
+    "label": "beVELO",
+    "groupId": "tokens",
+    "background": "dark",
+    "versions": ["png", "svg"]
   }
 ]
