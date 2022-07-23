@@ -25,7 +25,7 @@ const Outer = styled.div`
   text-align: center;
 
   @media (min-width: ${theme.breakpoints.sm}px) {
-    background-position: left top, right top, left bottom, right bottom;
+    background-position: left 10%, right 10%, left bottom, right bottom;
     background-size: ${(theme.breakpoints.sm - 48) / 2}px ${((theme.breakpoints.sm - 48) / 2) * r}px;
   }
 
