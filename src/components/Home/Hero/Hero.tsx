@@ -13,7 +13,7 @@ const w = 390;
 const h = 320;
 const r = h / w;
 
-const Outer = styled.div`
+const Container = styled(Inner)`
   display: flex;
   align-items: center;
   padding: ${40 + 24 * 2}px 0px;
@@ -23,17 +23,17 @@ const Outer = styled.div`
   background-size: ${(360 - 48) / 2}px ${((360 - 48) / 2) * r}px;
   min-height: 100vh;
   text-align: center;
+  flex-direction: column;
+  justify-content: center;
 
   @media (min-width: ${theme.breakpoints.sm}px) {
-    background-position: left 10%, right 10%, left bottom, right bottom;
+    background-position: left 5%, right 5%, left bottom, right bottom;
     background-size: ${(theme.breakpoints.sm - 48) / 2}px ${((theme.breakpoints.sm - 48) / 2) * r}px;
-  }
-
-  @media (min-width: ${theme.breakpoints.md}px) {
-    background-size: ${(theme.breakpoints.md - 48) / 2}px ${((theme.breakpoints.md - 48) / 2) * r}px;
+    width: 100%;
   }
 
   @media (min-width: ${theme.breakpoints.lg}px) {
+    width: ${theme.containers.lg}px;
     background-size: ${w}px ${h}px;
   }
 `;
@@ -75,21 +75,19 @@ const Buttons = styled.div`
 
 export const Hero = memo(function Hero() {
   return (
-    <Outer>
-      <Inner>
-        <Title>Multichain Yield Optimiser</Title>
-        <Subtitle>
-          Earn the highest APY’s across 16 chains with safety and efficiency in mind.
-        </Subtitle>
-        <Buttons>
-          <PrimaryExternalLink href="https://app.beefy.com/" target="_blank">
-            Launch App
-          </PrimaryExternalLink>
-          <SecondaryExternalLink href="https://docs.beefy.com/" target="_blank">
-            View Docs
-          </SecondaryExternalLink>
-        </Buttons>
-      </Inner>
-    </Outer>
+    <Container>
+      <Title>Multichain Yield Optimiser</Title>
+      <Subtitle>
+        Earn the highest APY’s across 16 chains with safety and efficiency in mind.
+      </Subtitle>
+      <Buttons>
+        <PrimaryExternalLink href="https://app.beefy.com/" target="_blank">
+          Launch App
+        </PrimaryExternalLink>
+        <SecondaryExternalLink href="https://docs.beefy.com/" target="_blank">
+          View Docs
+        </SecondaryExternalLink>
+      </Buttons>
+    </Container>
   );
 });
