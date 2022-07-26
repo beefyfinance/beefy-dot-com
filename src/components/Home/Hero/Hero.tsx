@@ -13,7 +13,7 @@ const w = 390;
 const h = 320;
 const r = h / w;
 
-const Container = styled(Inner)`
+const CustomInner = styled(Inner)`
   display: flex;
   align-items: center;
   padding: ${40 + 24 * 2}px 0px;
@@ -73,21 +73,34 @@ const Buttons = styled.div`
   justify-content: center;
 `;
 
+const Container = styled.div`
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  @media (max-height: 600px) {
+    padding: ${48 * 2}px 0px;
+  }
+`;
+
 export const Hero = memo(function Hero() {
   return (
-    <Container>
-      <Title>Multichain Yield Optimiser</Title>
-      <Subtitle>
-        Earn the highest APY’s across 16 chains with safety and efficiency in mind.
-      </Subtitle>
-      <Buttons>
-        <PrimaryExternalLink href="https://app.beefy.com/" target="_blank">
-          Launch App
-        </PrimaryExternalLink>
-        <SecondaryExternalLink href="https://docs.beefy.com/" target="_blank">
-          View Docs
-        </SecondaryExternalLink>
-      </Buttons>
-    </Container>
+    <CustomInner>
+      <Container>
+        <Title>Multichain Yield Optimiser</Title>
+        <Subtitle>
+          Earn the highest APY’s across 16 chains with safety and efficiency in mind.
+        </Subtitle>
+        <Buttons>
+          <PrimaryExternalLink href="https://app.beefy.com/" target="_blank">
+            Launch App
+          </PrimaryExternalLink>
+          <SecondaryExternalLink href="https://docs.beefy.com/" target="_blank">
+            View Docs
+          </SecondaryExternalLink>
+        </Buttons>
+      </Container>
+    </CustomInner>
   );
 });
