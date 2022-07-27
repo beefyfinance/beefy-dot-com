@@ -1,6 +1,6 @@
 import React, { memo } from 'react';
 import styled from '@emotion/styled';
-import { Inner } from '../../Common/Inner';
+import { FluidInner } from '../../Common/Inner';
 import bottomLeft from '../../../images/hero-bottom-left.png';
 import bottomRight from '../../../images/hero-bottom-right.png';
 import topLeft from '../../../images/hero-top-left.png';
@@ -13,7 +13,7 @@ const w = 390;
 const h = 320;
 const r = h / w;
 
-const CustomInner = styled(Inner)`
+const CustomInner = styled(FluidInner)`
   display: flex;
   align-items: center;
   padding: ${40 + 24 * 2}px 0px;
@@ -29,7 +29,6 @@ const CustomInner = styled(Inner)`
   @media (min-width: ${theme.breakpoints.sm}px) {
     background-position: left 5%, right 5%, left bottom, right bottom;
     background-size: ${(theme.breakpoints.sm - 48) / 2}px ${((theme.breakpoints.sm - 48) / 2) * r}px;
-    width: 100%;
   }
 
   @media (min-width: ${theme.breakpoints.lg}px) {
