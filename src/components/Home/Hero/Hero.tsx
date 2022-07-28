@@ -87,7 +87,7 @@ export const Hero = memo(function Hero() {
   return (
     <CustomInner>
       <Container>
-        <Title>Multichain Yield Optimiser</Title>
+        <Title>Multichain Yield Optimizer</Title>
         <Subtitle>
           Earn the highest APY’s across 16 chains with safety and efficiency in mind.
         </Subtitle>
