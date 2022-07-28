@@ -1,6 +1,6 @@
 import React, { memo } from 'react';
 import styled from '@emotion/styled';
-import { Inner } from '../../Common/Inner';
+import { FluidInner } from '../../Common/Inner';
 import bottomLeft from '../../../images/hero-bottom-left.png';
 import bottomRight from '../../../images/hero-bottom-right.png';
 import topLeft from '../../../images/hero-top-left.png';
@@ -13,7 +13,7 @@ const w = 390;
 const h = 320;
 const r = h / w;
 
-const Outer = styled.div`
+const CustomInner = styled(FluidInner)`
   display: flex;
   align-items: center;
   padding: ${40 + 24 * 2}px 0px;
@@ -23,17 +23,16 @@ const Outer = styled.div`
   background-size: ${(360 - 48) / 2}px ${((360 - 48) / 2) * r}px;
   min-height: 100vh;
   text-align: center;
+  flex-direction: column;
+  justify-content: center;
 
   @media (min-width: ${theme.breakpoints.sm}px) {
-    background-position: left top, right top, left bottom, right bottom;
+    background-position: left 5%, right 5%, left bottom, right bottom;
     background-size: ${(theme.breakpoints.sm - 48) / 2}px ${((theme.breakpoints.sm - 48) / 2) * r}px;
   }
 
-  @media (min-width: ${theme.breakpoints.md}px) {
-    background-size: ${(theme.breakpoints.md - 48) / 2}px ${((theme.breakpoints.md - 48) / 2) * r}px;
-  }
-
   @media (min-width: ${theme.breakpoints.lg}px) {
+    width: ${theme.containers.lg}px;
     background-size: ${w}px ${h}px;
   }
 `;
@@ -73,11 +72,22 @@ const Buttons = styled.div`
   justify-content: center;
 `;
 
+const Container = styled.div`
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  @media (max-height: 600px) {
+    padding: ${48 * 2}px 0px;
+  }
+`;
+
 export const Hero = memo(function Hero() {
   return (
-    <Outer>
-      <Inner>
-        <Title>Multichain Yield Optimiser</Title>
+    <CustomInner>
+      <Container>
+        <Title>Multichain Yield Optimizer</Title>
         <Subtitle>
           Earn the highest APY’s across 16 chains with safety and efficiency in mind.
         </Subtitle>
@@ -89,7 +99,7 @@ export const Hero = memo(function Hero() {
             View Docs
           </SecondaryExternalLink>
         </Buttons>
-      </Inner>
-    </Outer>
+      </Container>
+    </CustomInner>
   );
 });
