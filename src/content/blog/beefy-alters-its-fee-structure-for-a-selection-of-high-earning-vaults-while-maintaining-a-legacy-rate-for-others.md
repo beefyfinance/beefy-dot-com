@@ -8,13 +8,13 @@ short_description: The Beefy DAO implements a new fee structure to support susta
   on the platform.
 
 ---
-**Saturday, July 30, 2022** – As part of a restructuring initiative, The Beefy team will alter its top 20 - 50 performing Vaults’ fee structure on the Multichain Yield Optimizer Dapp. The platform will introduce a new 9.5% performance fee within two weeks on users’ accrued gains while optimizing their deposits.  
-  
+**Saturday, July 30, 2022** – As part of a restructuring initiative, The Beefy team will alter its top 20 - 50 performing Vaults’ fee structure on the Multichain Yield Optimizer Dapp. The platform will introduce a new 9.5% performance fee within two weeks on users’ accrued gains while optimizing their deposits.
+
 As with most major operative Beefy decisions, the change was planned and coordinated through the community run Beefy DAO. Several weeks of deliberation took place to establish suitable and fair guidelines in the \[[BIP-45](https://vote.beefy.finance/#/proposal/0xb070348f6c2cc229f2bcdc0c042077ee8eab4307a307b89537f8a78089b0c2eb)\] proposal. All $BIFI holders were then eligible to take part in the decentralized decision-making process. With the implementation of the proposal, the fee restructure showcases the Cowmoonity’s desire for protocol stability and will to build for longevity.
 
 Previously, the majority of the performance fee was distributed to $BIFI stakers in the $BIFI Maxi Vault and $BIFI Earnings pool. The new split and raise will, however, give the treasury a larger share of the fee and to strengthen the sustainability of the platform. This fact is key to Beefy having the resources needed to grow and fund its development and marketing activities.
 
-An updated 63/36 fee-batch split of the 9.5% performance fee will also ensure no noticeable impact for $BIFI stakers. This simply means that 64% of a Vault’s revenue will go to Beefy’s treasury and 36% to BIFI Stakers (the fee-batch split).
+An updated 63/36 fee-batch split of the 9.5% performance fee will also ensure no noticeable impact for $BIFI stakers. This simply means that 64% of a Vault’s revenue will go to Beefy’s treasury and 36% to $BIFI stakers (the fee-batch split).
 
 Apart from applying to the top 20 - 50 Vaults, all new Vaults will follow the updated structure. Older Vaults not in these categories will maintain their legacy rate with a 4.5% fee.
 
