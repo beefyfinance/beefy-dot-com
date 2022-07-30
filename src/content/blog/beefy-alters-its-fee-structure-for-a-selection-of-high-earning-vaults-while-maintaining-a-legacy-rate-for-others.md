@@ -8,6 +8,8 @@ short_description: The Beefy DAO implements a new fee structure to support susta
   on the platform.
 
 ---
+![](/src/images/blog/image_6483441.JPG)
+
 **Saturday, July 30, 2022** – As part of a restructuring initiative, The Beefy team will alter its top 20 - 50 performing Vaults’ fee structure on the Multichain Yield Optimizer Dapp. The platform will introduce a new 9.5% performance fee within two weeks on users’ accrued gains while optimizing their deposits.
 
 As with most major operative Beefy decisions, the change was planned and coordinated through the community run Beefy DAO. Several weeks of deliberation took place to establish suitable and fair guidelines in the \[[BIP-45](https://vote.beefy.finance/#/proposal/0xb070348f6c2cc229f2bcdc0c042077ee8eab4307a307b89537f8a78089b0c2eb)\] proposal. All $BIFI holders were then eligible to take part in the decentralized decision-making process. With the implementation of the proposal, the fee restructure showcases the Cowmoonity’s desire for protocol stability and will to build for longevity.
