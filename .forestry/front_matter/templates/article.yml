@@ -41,3 +41,5 @@ fields:
     schema:
       format: markdown
   label: Short Description
+pages:
+- src/content/blog/beefy-alters-its-fee-structure-for-a-selection-of-high-earning-vaults-while-maintaining-a-legacy-rate-for-others.md
