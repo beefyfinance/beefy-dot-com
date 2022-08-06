@@ -9,6 +9,7 @@ import styled from '@emotion/styled';
 import { theme } from '../../../theme';
 import { formatPercent } from '../../../utils/format-utils';
 import { TokenIcon } from './TokenIcon';
+import { useAppUrl } from '../../../utils/react-utils';
 
 const VaultLink = styled(Card)`
   color: ${theme.text.light};
@@ -68,8 +69,10 @@ export const FeaturedVault = memo<FeaturedVaultProps>(function FeaturedVault({ s
     return <PlaceholderVault />;
   }
 
+  const AppUrl = useAppUrl();
+
   return (
-    <VaultLink href={`https://app.beefy.com/vault/${vault.vaultId}`} target="_blank">
+    <VaultLink href={`${AppUrl}vault/${vault.vaultId}`} target="_blank">
       <Network chainId={vault.chain} />
       <LogoTitle>
         <Logo>

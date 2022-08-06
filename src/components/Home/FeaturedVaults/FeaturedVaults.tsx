@@ -9,6 +9,7 @@ import { Section } from '../Section';
 import { theme } from '../../../theme';
 import { PlaceholderVault } from './PlaceholderVault';
 import { PrimaryExternalLink } from '../../Common/Buttons';
+import { useAppUrl } from '../../../utils/react-utils';
 
 const VaultsGrid = styled.div`
   display: grid;
@@ -36,6 +37,8 @@ export const FeaturedVaults = memo(function FeaturedVaults() {
   const shouldLoadVaults = useAppSelector(selectShouldLoadVaults);
   const placeholderVaults = Array.from(Array(6 - vaults.length).keys());
 
+  const AppUrl = useAppUrl();
+
   useEffect(() => {
     if (shouldLoadVaults) {
       dispatch(fetchVaults());
@@ -53,7 +56,7 @@ export const FeaturedVaults = memo(function FeaturedVaults() {
         ))}
       </VaultsGrid>
       <Buttons>
-        <PrimaryExternalLink href="https://app.beefy.com/" target="_blank">
+        <PrimaryExternalLink href={AppUrl} target="_blank">
           Explore Vaults
         </PrimaryExternalLink>
       </Buttons>

@@ -6,6 +6,7 @@ import { LogoLink } from './LogoLink';
 import { PrimaryExternalLink } from '../Buttons';
 import { theme } from '../../../theme';
 import { BIFIPrice } from './BIFIPrice';
+import { useAppUrl } from '../../../utils/react-utils';
 
 const Outer = styled.header`
   padding-top: ${theme.spacing(3)};
@@ -52,12 +53,14 @@ export const Header = memo(function Header() {
     return location.pathname === '/' ? OuterOnTop : Outer;
   }, [location.pathname]);
 
+  const AppUrl = useAppUrl();
+
   return (
     <OuterComponent>
       <InnerRow>
         <Logo />
         <Price />
-        <BigPrimaryExternalLink href="https://app.beefy.com/" target="_blank">
+        <BigPrimaryExternalLink href={AppUrl} target="_blank">
           Launch App
         </BigPrimaryExternalLink>
       </InnerRow>
