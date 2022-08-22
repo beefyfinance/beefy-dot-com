@@ -7,6 +7,7 @@ import topLeft from '../../../images/hero-top-left.png';
 import topRight from '../../../images/hero-top-right.png';
 import { theme } from '../../../theme';
 import { PrimaryExternalLink, SecondaryExternalLink } from '../../Common/Buttons';
+import { useAppUrl } from '../../../utils/react-utils';
 
 // Background images
 const w = 390;
@@ -84,6 +85,8 @@ const Container = styled.div`
 `;
 
 export const Hero = memo(function Hero() {
+  const AppUrl = useAppUrl();
+
   return (
     <CustomInner>
       <Container>
@@ -92,7 +95,7 @@ export const Hero = memo(function Hero() {
           Earn the highest APY’s across 16 chains with safety and efficiency in mind.
         </Subtitle>
         <Buttons>
-          <PrimaryExternalLink href="https://app.beefy.com/" target="_blank">
+          <PrimaryExternalLink href={AppUrl} target="_blank">
             Launch App
           </PrimaryExternalLink>
           <SecondaryExternalLink href="https://docs.beefy.com/" target="_blank">

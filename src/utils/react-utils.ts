@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useMemo } from 'react';
 
 const events = ['resize', 'load', 'orientationchange'];
 
@@ -27,4 +27,16 @@ export function useWindowSize() {
   }, [setWindowSize]);
 
   return windowSize;
+}
+
+export function useAppUrl() {
+  const [url, setUrl] = useState('https://app.beefy.com/');
+
+  useEffect(() => {
+    if (typeof window !== 'undefined' && window.location.hostname === 'app.beefy.finance') {
+      setUrl('https://app.beefy.finance/');
+    }
+  }, [setUrl]);
+
+  return url;
 }
