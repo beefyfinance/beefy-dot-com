@@ -36,8 +36,7 @@ export const FeaturedVaults = memo(function FeaturedVaults() {
   const dispatch = useAppDispatch();
   const shouldLoadVaults = useAppSelector(selectShouldLoadVaults);
   const placeholderVaults = Array.from(Array(6 - vaults.length).keys());
-
-  const AppUrl = useAppUrl();
+  const appUrl = useAppUrl();
 
   useEffect(() => {
     if (shouldLoadVaults) {
@@ -56,7 +55,7 @@ export const FeaturedVaults = memo(function FeaturedVaults() {
         ))}
       </VaultsGrid>
       <Buttons>
-        <PrimaryExternalLink href={AppUrl} target="_blank">
+        <PrimaryExternalLink href={appUrl} target="_blank">
           Explore Vaults
         </PrimaryExternalLink>
       </Buttons>

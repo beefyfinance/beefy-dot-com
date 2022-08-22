@@ -69,10 +69,10 @@ export const FeaturedVault = memo<FeaturedVaultProps>(function FeaturedVault({ s
     return <PlaceholderVault />;
   }
 
-  const AppUrl = useAppUrl();
+  const appUrl = useAppUrl();
 
   return (
-    <VaultLink href={`${AppUrl}vault/${vault.vaultId}`} target="_blank">
+    <VaultLink href={`${appUrl}vault/${vault.vaultId}`} target="_blank">
       <Network chainId={vault.chain} />
       <LogoTitle>
         <Logo>

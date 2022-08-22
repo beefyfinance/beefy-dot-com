@@ -52,15 +52,14 @@ export const Header = memo(function Header() {
   const OuterComponent = useMemo(() => {
     return location.pathname === '/' ? OuterOnTop : Outer;
   }, [location.pathname]);
-
-  const AppUrl = useAppUrl();
+  const appUrl = useAppUrl();
 
   return (
     <OuterComponent>
       <InnerRow>
         <Logo />
         <Price />
-        <BigPrimaryExternalLink href={AppUrl} target="_blank">
+        <BigPrimaryExternalLink href={appUrl} target="_blank">
           Launch App
         </BigPrimaryExternalLink>
       </InnerRow>

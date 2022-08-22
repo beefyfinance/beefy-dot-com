@@ -85,7 +85,7 @@ const Container = styled.div`
 `;
 
 export const Hero = memo(function Hero() {
-  const AppUrl = useAppUrl();
+  const appUrl = useAppUrl();
 
   return (
     <CustomInner>
@@ -95,7 +95,7 @@ export const Hero = memo(function Hero() {
           Earn the highest APY’s across 16 chains with safety and efficiency in mind.
         </Subtitle>
         <Buttons>
-          <PrimaryExternalLink href={AppUrl} target="_blank">
+          <PrimaryExternalLink href={appUrl} target="_blank">
             Launch App
           </PrimaryExternalLink>
           <SecondaryExternalLink href="https://docs.beefy.com/" target="_blank">
