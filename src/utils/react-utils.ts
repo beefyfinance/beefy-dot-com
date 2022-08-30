@@ -33,7 +33,7 @@ export function useAppUrl() {
   const [url, setUrl] = useState('https://app.beefy.com/');
 
   useEffect(() => {
-    if (typeof window !== 'undefined' && window.location.hostname === 'app.beefy.finance') {
+    if (typeof window !== 'undefined' && window.location.hostname === 'beefy.finance') {
       setUrl('https://app.beefy.finance/');
     }
   }, [setUrl]);
