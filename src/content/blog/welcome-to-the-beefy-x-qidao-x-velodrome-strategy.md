@@ -1,5 +1,5 @@
 ---
-title: Welcome to the Beefy x QiDao x Velodrome Strategy
+title: Welcome to the Beefy x QiDao x Velodrome strategy
 date: 2022-09-12T10:00:00+00:00
 header_image: "/src/images/blog/advanced.png"
 sub_header: Experience Beefy's new QiDao x Veledrome optimized strategy
