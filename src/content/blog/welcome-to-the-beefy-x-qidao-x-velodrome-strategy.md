@@ -2,13 +2,13 @@
 title: Welcome to the Beefy x QiDao x Velodrome strategy
 date: 2022-09-12T10:00:00+00:00
 header_image: "/src/images/blog/advanced.png"
-sub_header: Experience Beefy's new QiDao x Veledrome optimized strategy
+sub_header: Experience Beefy's new QiDao x Velodrome optimized strategy
 short_description: Deposit WETH, WBTC, or DAI for highly-optimizted APY returns
 
 ---
 ![](/src/images/blog/advanced.png)
 
-For holders of DAI, WETH, and WBTC on Optimism, Beefy’s new earning strategy offers a new way to earn native rewards of your deposited token. By using QiDao protocol’s collateralized loans system and Veledrome’s incentivized liquidity pools, you can start earning highly-optimized WBTC, WETH, and DAI rewards with just one Vault.
+For holders of DAI, WETH, and WBTC on Optimism, Beefy’s new earning strategy offers a new way to earn native rewards of your deposited token. By using QiDao protocol’s collateralized loans system and Velodrome’s incentivized liquidity pools, you can start earning highly-optimized WBTC, WETH, and DAI rewards with just one Vault.
 
 ### What is QiDao?
 
