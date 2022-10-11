@@ -1,5 +1,5 @@
 ---
-title: 'Beefy Partners With Lido to Bring wstETH Vaults to Arbitrum and Optimism '
+title: 'Beefy Bring wstETH Lido Vaults to Arbitrum and Optimism '
 date: 2022-10-11T10:00:00+00:00
 header_image: "/src/images/blog/lido.png"
 sub_header: Start staking your wstETH in Beefy's new Vaults on Arbitrum and Optimism
@@ -8,7 +8,7 @@ short_description: Four new wstETH Vaults let Beefy users earn optimized yields.
 ---
 ![](/src/images/blog/lido.png)
 
-**Tuesday, October 11, 2022** – Beefy has launched four new wstETH Vaults across Arbitrum and Optimism for users to earn optimized rewards. These new yield opportunities come in partnership with [Lido](https://lido.fi/), a liquid staking protocol for a selection of crypto assets across different blockchain networks.
+**Tuesday, October 11, 2022** – Beefy has launched four new wstETH Vaults across Arbitrum and Optimism for users to earn optimized rewards. These new yield opportunities are made possible through [Lido](https://lido.fi/), a liquid staking protocol for a selection of crypto assets across different blockchain networks.
 
 Lido works to unlock the value of your staked and locked assets with transferable, yield-bearing tokens. Creating this liquidity allows the user to transfer, stake, and collateralize the locked asset’s value.
 
@@ -22,10 +22,10 @@ Lido's wstETH is a wrapped version of stETH. It avoids the rebasability issue by
 
 Beefy’s new wstETH Vaults provide four earning opportunities across Arbitrum and Optimism:
 
-1. wstETH-ETH on Optimism
-2. wstETH-USDC on Optimism
-3. Lido Shuffle (bbrfaWETH and wstETH) on Arbitrum
-4. Yellow Submarine, Our Yield Machine (bbrfaWBTC, bbrfaUSD, and wstETH) on Arbitrum
+1. wstETH-ETH on Arbitrum
+2. wstETH-USDC on Arbitrum
+3. Lido Shuffle on Optimism
+4. Yellow Submarine, Our Yield Machine on Optimism
 
 —
 
