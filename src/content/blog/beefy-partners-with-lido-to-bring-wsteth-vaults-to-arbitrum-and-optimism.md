@@ -12,9 +12,9 @@ short_description: Four new wstETH Vaults let Beefy users earn optimized yields.
 
 Lido works to unlock the value of your staked and locked assets with transferable, yield-bearing tokens. Creating this liquidity allows the user to transfer, stake, and collateralize the locked asset’s value.
 
-“Liquid staking has proved to be a new essential in the DeFi world” notes Weso, Beefy's Head of Strategic Partnerships and Developer Operations
+“Liquid staking gives access to validator yields that otherwise would require locking assets for an undetermined time.” notes Weso, Beefy's Head of Strategic Partnerships and Developer Operations
 
-“With staked ETH’s value now available to use across even more blockchains, our work with Lido has created a basket of new yield opportunities for liquid staking.”
+“With staked ETH’s value now available to use across even more blockchains, our Lido Vault work has created a basket of new yield opportunities for liquid staking.”
 
 stETH is a transferable token provided to users who stake ETH in Lido. Its value represents the initial ETH deposit’s value plus staking rewards. Your stETH token is rebasable, meaning your balance updates daily in line with the current ETH staking APR. As the token is transferable, it can be used in a variety of other DeFi applications to extract more value. However, not all DApps are operable with stETH due to its rebasable nature.
 
