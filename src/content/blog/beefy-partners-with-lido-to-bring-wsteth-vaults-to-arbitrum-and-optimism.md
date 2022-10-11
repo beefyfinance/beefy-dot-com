@@ -1,5 +1,5 @@
 ---
-title: 'Beefy Bring wstETH Lido Vaults to Arbitrum and Optimism '
+title: 'Beefy Brings wstETH Lido Vaults to Arbitrum and Optimism '
 date: 2022-10-11T10:00:00+00:00
 header_image: "/src/images/blog/lido.png"
 sub_header: Start staking your wstETH in Beefy's new Vaults on Arbitrum and Optimism
