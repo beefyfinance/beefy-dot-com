@@ -33,7 +33,7 @@ Beefy’s new wstETH Vaults provide four earning opportunities across Arbitrum a
 
 Beefy is the Decentralized, Multi-Chain Yield Optimizer platform that allows its users to earn compound interest on their crypto holdings.
 
-Through a set of investment strategies secured and enforced by smart contracts, Beefy automatically maximizes the user rewards from various liquidity pools (LPs),‌ ‌automated market making (AMM) projects,‌ ‌and‌ ‌other yield‌ farming ‌opportunities in the DeFi ecosystem.
+Through a set of investment strategies secured and enforced by smart contracts, Beefy automatically maximizes the user rewards from various liquidity pools (LPs),‌ ‌automated market maker (AMM) projects,‌ ‌and‌ ‌other yield‌ farming ‌opportunities in the DeFi ecosystem.
 
 The main product offered by Beefy is its 'Vaults' in which you stake your crypto tokens. The investment strategy tied to the specific vault will automatically increase your deposited token amount by compounding arbitrary yield farm reward tokens back into your initially deposited asset. Despite what the name 'Vault' suggests, your funds are never locked in any vault on Beefy: you can always withdraw at any moment in time.
 
