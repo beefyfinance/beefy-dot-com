@@ -43,6 +43,7 @@ fields:
   label: Short Description
 pages:
 - src/content/blog/beefy-alters-its-fee-structure-for-a-selection-of-high-earning-vaults-while-maintaining-a-legacy-rate-for-others.md
+- src/content/blog/beefy-helps-grow-the-optimism-community-with-a-650-000-op-grant.md
 - src/content/blog/beefy-partners-with-lido-to-bring-wsteth-vaults-to-arbitrum-and-optimism.md
 - src/content/blog/beefy-x-giddy-collaboration-brings-single-tap-staking-and-defi-earning-to-a-wider-audience.md
 - src/content/blog/welcome-to-the-beefy-x-qidao-x-velodrome-strategy.md
