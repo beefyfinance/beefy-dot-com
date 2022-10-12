@@ -11,7 +11,7 @@ short_description: After a successful proposal for an Optimism grant, Beefy has 
 
 **Wednesday, October 12, 2022** – After a successful proposal for an Optimism grant, Beefy has begun to distribute 650,000 OP in boosts to selected Vaults, farms, and contributors. The incentives will help develop and support the Optimism ecosystem while also introducing it to Beefy’s users and vice versa.
 
-Beefy and Optimism plan to create constructive partnerships with Optimism protocols that benefit all stakeholders. The grant will help grow Optimism’s user base and ultimately show them the unique products and offers available through Optimism and Beefy. It will also create and develop stronger partnerships with high TVL protocols in the space like Synthetix, Lido, and Velodrome.
+Beefy and Optimism plan to create constructive partnerships with Optimism protocols that benefit all stakeholders. The grant will help grow Optimism’s user base and ultimately show them the unique products and offers available through Optimism and Beefy. It will also create and develop stronger partnerships with high-TVL protocols in the space like Synthetix, Lido, and Velodrome.
 
 Along with the 650,000 OP in incentives, Beefy will also create educational opportunities for new Optimism users. These will cover the network’s defining features and methods to engage with its DApps and protocols.
 
