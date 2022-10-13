@@ -22,10 +22,10 @@ Lido's wstETH is a wrapped version of stETH. It avoids the rebasability issue by
 
 Beefy’s new wstETH Vaults provide four earning opportunities across Arbitrum and Optimism:
 
-1. wstETH-ETH on Arbitrum
-2. wstETH-USDC on Arbitrum
-3. Lido Shuffle on Optimism
-4. Yellow Submarine, Our Yield Machine on Optimism
+1. [wstETH-ETH](https://app.beefy.finance/vault/balancer-wsteth-eth) on Arbitrum
+2. [wstETH-USDC](https://app.beefy.finance/vault/balancer-wsteth-usdc) on Arbitrum
+3. [Lido Shuffle](https://app.beefy.finance/vault/beets-lido-shuffle) on Optimism
+4. [Yellow Submarine, Our Yield Machine](https://app.beefy.finance/vault/beets-yellow-submarine) on Optimism
 
 —
 
