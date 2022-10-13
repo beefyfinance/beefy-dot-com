@@ -12,7 +12,7 @@ short_description: Four new wstETH Vaults let Beefy users earn optimized yields.
 
 Lido works to unlock the value of your staked and locked assets with transferable, yield-bearing tokens. Creating this liquidity allows the user to transfer, stake, and collateralize the locked asset’s value.
 
-“Liquid staking gives access to validator yields that otherwise would require locking assets for an indeterminate amount of time.” notes Weso, Beefy's Head of Strategic Partnerships and Developer Operations
+“Liquid staking gives access to validator yields that otherwise would require locking assets for an indeterminate amount of time.” notes Weso, Beefy's Head of Strategic Partnerships and Developer Operations.
 
 “With staked ETH’s value now available to use across even more blockchains, our Lido Vault work has created a basket of new yield-earning opportunities.”
 
