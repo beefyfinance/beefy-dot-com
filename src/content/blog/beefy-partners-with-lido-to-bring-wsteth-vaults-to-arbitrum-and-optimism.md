@@ -24,8 +24,9 @@ Beefy’s new wstETH Vaults provide four earning opportunities across Arbitrum a
 
 1. [wstETH-ETH](https://app.beefy.finance/vault/balancer-wsteth-eth) on Arbitrum
 2. [wstETH-USDC](https://app.beefy.finance/vault/balancer-wsteth-usdc) on Arbitrum
-3. [Lido Shuffle](https://app.beefy.finance/vault/beets-lido-shuffle) on Optimism
-4. [Yellow Submarine, Our Yield Machine](https://app.beefy.finance/vault/beets-yellow-submarine) on Optimism
+3. [wstETH-ETH sLP](https://app.beefy.com/vault/velodrome-wsteth-weth) on Optimism
+4. [Lido Shuffle](https://app.beefy.finance/vault/beets-lido-shuffle) on Optimism
+5. [Yellow Submarine, Our Yield Machine](https://app.beefy.finance/vault/beets-yellow-submarine) on Optimism
 
 —
 
