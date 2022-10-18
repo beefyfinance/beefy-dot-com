@@ -18,7 +18,7 @@ Kava also runs the [Kava Rise](https://www.kava.io/rise#:\~:text=The%20Kava%20Ri
 
 When deploying on the chain, the Beefy team considered many factors. These included the chain’s level of decentralization, its infrastructure set in place, and last but not least, the DeFi landscape.
 
-Kava is currently home to some of the most recognized names in DeFi: Curve and Sushiswap, and now, Beefy. Beefy just launched the Curve 3pool Vault (USDC/USDT/DAI) and now has a range of Sushiswap Vaults to stake in.
+Kava is currently home to some of the most recognized names in DeFi: Curve and Sushiswap, and now, Beefy. Beefy has launched the Curve 3pool Vault (USDC/USDT/DAI) and also has a range of Sushiswap Vaults to stake in.
 
 ## Ecosystem grants
 
