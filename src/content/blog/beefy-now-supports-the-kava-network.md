@@ -18,7 +18,7 @@ Kava also runs the [Kava Rise](https://www.kava.io/rise#:\~:text=The%20Kava%20Ri
 
 When deploying on the chain, the Beefy team considered many factors. These included the chain’s level of decentralization, its infrastructure set in place, and last but not least, the DeFi landscape.
 
-Kava is currently home to some of the most recognized names in DeFi: Curve and Sushiswap, and now, Beefy. Beefy has launched the Curve 3pool Vault (USDC/USDT/DAI) and also has a range of Sushiswap Vaults to stake in.
+Kava is currently home to some of the most recognized names in DeFi: Curve and SushiSwap, and now, Beefy. Beefy has launched the Curve 3pool Vault (USDC/USDT/DAI) and also has a range of SushiSwap Vaults to stake in.
 
 ## Ecosystem grants
 
@@ -28,7 +28,7 @@ With its highly transparent incentive program, Kava attracts the best protocols 
 
 Multichain (formerly Anyswap) supports Kava, and there is a wide selection of tokens you can bridge. These include BTC, ETH, USDC, USDT, and DAI. You can also get a small amount of KAVA from [Surfswap’s Faucet](https://app.surfdex.io/bridge/faucet) for gas fees when making your first swaps and transactions.
 
-There are currently five Sushiswap farms available:
+There are currently five SushiSwap farms available:
 
 1. [USDC-KAVA LP Vault](https://app.beefy.finance/vault/sushi-kava-wkava-usdc)
 2. [SUSHI-KAVA LP Vault](https://app.beefy.finance/vault/sushi-kava-sushi-wkava)
