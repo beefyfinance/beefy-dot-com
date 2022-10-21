@@ -45,4 +45,4 @@ Once you’re holding beVELO, you can stake it in the [beVELO Vault](https://app
 
 ## What do I get from holding beVELO?
 
-beVELO will use 100% of its voting power on advantageous gauges (those that earn the most in bribes and trading fees, but not voting for Beefy’s own pairs). beVELO will harvest the tokens (fees and bribes) and sell those for more VELO. These purchased tokens will then be distributed to the beVELO Vault and distributed as beVELO rewards.
+beVELO will use 100% of its voting power on advantageous gauges (those that earn the most in bribes and trading fees, but not voting for Beefy’s own pairs). beVELO will harvest the tokens (fees and bribes) and sell those for more VELO. These purchased tokens will then be distributed to the beVELO Vault and given out as beVELO rewards.
