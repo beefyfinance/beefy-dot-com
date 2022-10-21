@@ -29,7 +29,7 @@ Stakers can mint beVELO by depositing VELO in our Vault at a 1:1 rate. There wil
 
 ## Why should I lock VELO in return for beVELO?
 
-beVELO provides an ERC20 token you can stake in the beVELO Vault that auto-compounds VELO into more beVELO. Another benefit for beVELO holders is the ability to exit their VELO position via the withdrawal reserve while also enjoying max locking of the veNFT.
+beVELO provides an ERC20 token you can stake in the beVELO Vault. The Vault auto-compounds VELO into more beVELO. Another benefit for beVELO holders is the ability to exit their VELO position via the withdrawal reserve while also enjoying max locking of the veNFT.
 
 ## How do I withdraw my VELO?
 
