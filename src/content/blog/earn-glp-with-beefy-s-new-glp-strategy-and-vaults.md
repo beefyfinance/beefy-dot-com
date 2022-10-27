@@ -2,7 +2,7 @@
 title: Earn GLP with Beefy’s new GLP strategy and Vaults
 date: 2022-10-27T10:00:00+00:00
 header_image: "/src/images/blog/gmx.png"
-sub_header: 'Beefy is now taking GLP deposits on both Arbitrum and Avalanche. '
+sub_header: Beefy is now taking GLP deposits on both Arbitrum and Avalanche
 short_description: Learn about Beefy's new strategy for GLP, a token minted to liquidity
   providers on GMX.
 
