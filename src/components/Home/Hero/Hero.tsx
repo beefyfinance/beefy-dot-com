@@ -8,6 +8,7 @@ import topRight from '../../../images/hero-top-right.png';
 import { theme } from '../../../theme';
 import { PrimaryExternalLink, SecondaryExternalLink } from '../../Common/Buttons';
 import { useAppUrl } from '../../../utils/react-utils';
+import { useChainCount } from '../../../data/queries/total-chains';
 
 // Background images
 const w = 390;
@@ -86,13 +87,14 @@ const Container = styled.div`
 
 export const Hero = memo(function Hero() {
   const appUrl = useAppUrl();
+  const chains = useChainCount();
 
   return (
     <CustomInner>
       <Container>
         <Title>Multichain Yield Optimizer</Title>
         <Subtitle>
-          Earn the highest APY’s across 16 chains with safety and efficiency in mind.
+          Earn the highest APY’s across {chains} chains with safety and efficiency in mind.
         </Subtitle>
         <Buttons>
           <PrimaryExternalLink href={appUrl} target="_blank">
