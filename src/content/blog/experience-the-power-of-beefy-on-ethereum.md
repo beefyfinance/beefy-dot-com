@@ -17,7 +17,7 @@ As the network that gave us smart contracts, Ethereum’s history and role in th
 
 ## What does Beefy do?
 
-Beefy is a decentralized, multi-chain yield optimizer that allows its users to earn compounded interest on their crypto holdings. Through a set of investment strategies secured and enforced by smart contracts, Beefy automatically maximizes user rewards from various liquidity pools (LPs),‌ ‌automated market making (AMM) projects,‌ ‌and‌ ‌other yield‌ farming ‌opportunities in the DeFi ecosystem.
+Beefy is a decentralized, multi-chain yield optimizer that allows its users to earn compounded interest on their crypto holdings. Through a set of investment strategies secured and enforced by smart contracts, Beefy automatically maximizes user rewards from various liquidity pools (LPs),‌ ‌automated market maker (AMM) projects,‌ ‌and‌ ‌other yield‌ farming ‌opportunities in the DeFi ecosystem.
 
 The main product offered by Beefy is its 'Vaults' where users stake their crypto tokens. The investment strategy tied to the specific vault will automatically increase your deposited token amount by compounding arbitrary yield farm reward tokens back into your initially deposited asset. Despite what the name 'Vault' suggests, your funds are never locked in any vault on Beefy: you can always withdraw at any moment in time.
 
