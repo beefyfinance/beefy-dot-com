@@ -13,7 +13,7 @@ Beefy users can now start staking across a variety of Vaults on Ethereum. This r
 
 # What is Ethereum?
 
-As the network that gave us smart contracts, Ethereum’s history and role in the blockchain space is well known. Ethereum has maintained a dominant position regarding TVL, DApps, and users ever since its founding by a team of developers as a programmable alternative to Bitcoin in 2015. Ethereum also boasts some of the most famous and innovative DeFi DApps that set the standards for the rest of the industry, including Curve, Uniswap, and Yearn.
+As the network that gave us smart contracts, Ethereum’s history and role in the blockchain space is well known. Ethereum has maintained a dominant position regarding TVL, DApps, and users ever since its founding by a team of developers as a programmable alternative to Bitcoin in 2015. Ethereum also boasts some of the most famous and innovative DeFi DApps that set the standards for the rest of the industry, including Curve and Uniswap.
 
 ## What does Beefy do?
 
