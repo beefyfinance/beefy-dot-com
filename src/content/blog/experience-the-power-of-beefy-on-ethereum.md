@@ -13,7 +13,7 @@ Beefy users can now start staking across a variety of Vaults on Ethereum. This r
 
 # What is Ethereum?
 
-As the network that gave us smart contracts, Ethereum’s history and role in the blockchain space is well known. Ethereum has maintained a dominating position regarding TVL, DApps, and users ever since its founding by a team of developers as a programmable alternative to Bitcoin in 2015. Ethereum also boasts some of the most famous and innovative DeFi DApps that set the standards for the rest of the industry, including Curve, Uniswap, and Yearn.
+As the network that gave us smart contracts, Ethereum’s history and role in the blockchain space is well known. Ethereum has maintained a dominant position regarding TVL, DApps, and users ever since its founding by a team of developers as a programmable alternative to Bitcoin in 2015. Ethereum also boasts some of the most famous and innovative DeFi DApps that set the standards for the rest of the industry, including Curve, Uniswap, and Yearn.
 
 ## What does Beefy do?
 
@@ -29,7 +29,7 @@ Beefy has already established itself as a trusted platform when it comes to yiel
 
 As per usual, Beefy will offer the typical yield-optimizing Vault experience on the network for single tokens and LP tokens. In the future, there will also be opportunities to explore escrow strategies and other advanced earning mechanics.
 
-What Vaults have been launched?
+## What Vaults have been launched?
 
 Beefy has launched 14 Vaults to start its Ethereum earning experience. You can access them all with the [Beefy Ethereum search filter](https://app.beefy.com/). These include:
 
@@ -50,4 +50,4 @@ Beefy has launched 14 Vaults to start its Ethereum earning experience. You can a
 
 ![](/src/images/blog/r1.PNG)
 
-Remember, to use these Vaults you‘ll need an ETH balance to pay gas fees. Make sure to check EthScan‘s gas fee tool to estimate the amount you‘ll need. Depending on the network‘s traffic, gas prices sometimes be high due to demand.
+Remember, to use these Vaults you‘ll need an ETH balance to pay gas fees. Make sure to check EthScan‘s gas fee tool to estimate the amount you‘ll need. Depending on the network‘s traffic, gas prices sometimes can be high due to demand.
