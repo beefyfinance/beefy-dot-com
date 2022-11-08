@@ -10,7 +10,7 @@ short_description: Beefy‘s long-awaited Ethereum launch is now live with a sel
 ![](/src/images/blog/53b4a3fe-f359-441f-a0c4-9bbde6c50dbb.png)  
 Beefy users can now start staking across a variety of Vaults on Ethereum. This release marks Beefy’s eighteenth supported blockchain and a significant milestone for the yield optimizer. The Ethereum network´s position as the home of DeFi and its large TVL make it a natural choice for Beefy Vaults, and the team is happy to now offer services to one of the largest blockchain communities out there.
 
-# What is Ethereum?
+## What is Ethereum?
 
 As the network that gave us smart contracts, Ethereum’s history and role in the blockchain space is well known. Ethereum has maintained a dominant position regarding TVL, DApps, and users ever since its founding by a team of developers as a programmable alternative to Bitcoin in 2015. Ethereum also boasts some of the most famous and innovative DeFi DApps that set the standards for the rest of the industry, including Curve and Uniswap.
 
@@ -24,7 +24,7 @@ The main product offered by Beefy is its 'Vaults' where users stake their crypto
 
 Beefy has already established itself as a trusted platform when it comes to yield optimizing across a large selection of blockchains. With Beefy also comes the opportunity for increasing TVL in the Ethereum ecosystem in the secure manner we all expect from the protocol.
 
-# What strategies will Beefy offer on Ethereum?
+## What strategies will Beefy offer on Ethereum?
 
 As per usual, Beefy will offer the typical yield-optimizing Vault experience on the network for single tokens and LP tokens. In the future, there will also be opportunities to explore escrow strategies and other advanced earning mechanics.
 
