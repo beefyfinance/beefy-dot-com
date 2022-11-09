@@ -47,6 +47,6 @@ Beefy has launched 14 Vaults to start its Ethereum earning experience. You can a
 * Balancer Boosted USD (bb-a-USD)
 * BIFI Earnings Pool (Earn WETH)
 
-![](/src/images/blog/r1.PNG)
+![](/src/images/blog/r5.PNG)
 
 Remember, to use these Vaults you‘ll need an ETH balance to pay gas fees. Make sure to check EthScan‘s gas fee tool to estimate the amount you‘ll need. Depending on the network‘s traffic, gas prices sometimes can be high due to demand.
