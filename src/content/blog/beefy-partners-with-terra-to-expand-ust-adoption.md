@@ -36,7 +36,7 @@ The 4pool is a key component to keep UST pegged to other stablecoins. Curve is t
 
 We also won’t be just using the grant for boosts. We'll also share educational content about stablecoins, so you can make the best decisions with your tokens, and do giveaways to raise awareness.
 
-If you have another vault candidate to boost, please [join our Discord Server](http://discord.gg/beefyfinance) and let us know which one you would like to see boosted with $UST.
+If you have another vault candidate to boost, please [join our Discord Server](http://beefy.finance/discord) and let us know which one you would like to see boosted with $UST.
 
 ### What does this mean for $BIFI holders
 

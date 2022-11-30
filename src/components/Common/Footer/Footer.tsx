@@ -12,7 +12,7 @@ import reddit from '../../../images/footer/reddit.svg';
 const data = [
   { name: 'github', img: github, link: 'https://github.com/beefyfinance' },
   { name: 'telegram', img: telegram, link: 'https://t.me/beefyfinance' },
-  { name: 'discord', img: discord, link: 'https://discord.gg/yq8wfHd' },
+  { name: 'discord', img: discord, link: 'https://beefy.finance/discord' },
   { name: 'twitter', img: twitter, link: 'https://twitter.com/beefyfinance' },
   { name: 'reddit', img: reddit, link: 'https://www.reddit.com/r/Beefy/' },
 ];
