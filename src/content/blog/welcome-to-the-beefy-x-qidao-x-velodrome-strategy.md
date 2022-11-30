@@ -46,4 +46,4 @@ Note that the initial debt ceilings for the MAI vaults are set at:
 
 ### Join the Cowmoonity
 
-[Twitter](https://twitter.com/beefyfinance) | [Discord](https://discord.gg/PZGeS2E) | [Website](https://beefy.finance/) | [Github](https://github.com/beefyfinance) | [Telegram](https://t.me/beefyfinance)
+[Twitter](https://twitter.com/beefyfinance) | [Discord](https://beefy.finance/discord) | [Website](https://beefy.finance/) | [Github](https://github.com/beefyfinance) | [Telegram](https://t.me/beefyfinance)

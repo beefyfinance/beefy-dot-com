@@ -25,7 +25,7 @@ The cow never sleeps. This is why our team has been looking at VVS smart contrac
 
 ### How to reach Cronos
 
-The best way to get money into Cronos (and into these vaults) is through the Crypto.com app and exchange. That's not much of a surprise! All you need to do is have your tokens on your Crypto.com account, and withdraw them to an external wallet. You can also use the [Crypto.com DeFi Wallet](https://crypto.com/defi-wallet) or [Cronos Bridge web app](https://cronos.crypto.org/bridge/) to bridge CRO from the Crypto.org chain to Cronos using the official decentralized bridge. The process is super straightforward, and if you run into any trouble, head to our [Discord server](https://discord.gg/DRw3wCdP) for support.
+The best way to get money into Cronos (and into these vaults) is through the Crypto.com app and exchange. That's not much of a surprise! All you need to do is have your tokens on your Crypto.com account, and withdraw them to an external wallet. You can also use the [Crypto.com DeFi Wallet](https://crypto.com/defi-wallet) or [Cronos Bridge web app](https://cronos.crypto.org/bridge/) to bridge CRO from the Crypto.org chain to Cronos using the official decentralized bridge. The process is super straightforward, and if you run into any trouble, head to our [Discord server](https://beefy.finance/discord) for support.
 
 Under our Discord's #cronos channel, you will find a pinned message with a step-by-step tutorial guiding you through the whole process. Keep in mind that you will need an account with KYC to take this approach. You will also find other alternatives there, like [Anyswap](https://anyswap.exchange/bridge) or [Elk](https://anyswap.exchange/#/router).
 
