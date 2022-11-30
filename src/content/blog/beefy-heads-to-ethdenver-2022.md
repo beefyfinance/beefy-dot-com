@@ -17,7 +17,7 @@ As the longest-running and largest Ethereum event globally, ETHDenver is a great
 
 ### Meet the Beefy team
 
-If you want to talk about everything DeFi, BUIDLing, or whatever else is on your mind, come and meet some of the Beefy team. You’re welcome to get in touch via our [Discord](https://discord.gg/yq8wfHd), [Twitter](https://twitter.com/beefyfinance), or [Telegram](https://t.me/beefyfinance). Weso will be in attendance from February 17-20, 2022, so make sure to arrange a chat before the event for the best chance of meeting our team. You can also visit our booth and even get your hands on some free Beefy t-shirts.
+If you want to talk about everything DeFi, BUIDLing, or whatever else is on your mind, come and meet some of the Beefy team. You’re welcome to get in touch via our [Discord](https://beefy.finance/discord), [Twitter](https://twitter.com/beefyfinance), or [Telegram](https://t.me/beefyfinance). Weso will be in attendance from February 17-20, 2022, so make sure to arrange a chat before the event for the best chance of meeting our team. You can also visit our booth and even get your hands on some free Beefy t-shirts.
 
 ### Where can I learn more about your tech before the event?
 
