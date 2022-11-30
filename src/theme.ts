@@ -99,6 +99,8 @@ class Theme {
     moonbeam: '#211438',
     emerald: '#0192f6',
     optimism: '#ff0420',
+    kava: '#FF564F',
+    ethereum: '#627ee9',
   };
 
   public spacing(times: number = 1) {
