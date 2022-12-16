@@ -1,11 +1,11 @@
 ---
-date: 2021-11-19T03:00:00.000Z
+date: 2021-11-19T03:00:00.000+00:00
 header_image: "/src/images/blog/betu.png"
-short_description: >-
-  If you are into sports, either electronic or traditional, you will want to
-  read about our latest partner, BetU
-sub_header: 'Learn about BetU, our latest Launchpool partner'
-title: 'Learn about BetU, our latest Launchpool partner'
+short_description: If you are into sports, either electronic or traditional, you will
+  want to read about our latest partner, BetU
+sub_header: Learn about BetU, our latest Launchpool partner
+title: Learn about BetU, our latest Launchpool partner
+
 ---
 ![](/src/images/blog/betu.png)  
 The BetU project compromises two separated platforms. BetU Fantasy and BetU
@@ -73,19 +73,3 @@ ou can buy $BETU [directly on Pancakeswap](https://pancakeswap.finance/info/toke
 ### Beefy and BetU
 
 BetU has chosen the leading yield optimizer to be the only place where you can stake your $BETU and earn compounded interest on your deposit. We will follow BetU success closely and bring to Beefy all the farming opportunities on their token.
-
-### Follow BetU on socials
-
-[Youtube](https://www.youtube.com/channel/UCgwmS0tGe20H9tz0-_9AWow)
-
-[Telegram](https://t.me/betucommunity)
-
-[Discord](https://discord.gg/betufantasy)
-
-[Twitter BetU Fantasy](https://twitter.com/BetuFantasy)
-
-[Twitter BetU](https://twitter.com/betuglobal)
-
-[Instagram BetU Fantasy](https://www.instagram.com/betufantasy/)
-
-[Instagram BetU](https://www.youtube.com/channel/UCgwmS0tGe20H9tz0-_9AWow)
