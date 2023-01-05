@@ -34,3 +34,5 @@ With the new Dashboard, you can get a summary figure for our total holdings acro
 We’ve also included an overarching “Asset Diversity” figure, which shows the total number of unique assets held by our treasury (including different bridged versions of the same token). There’s even a “Token Exposure” chart, which displays the proportions of our treasury occupied by the largest asset groups, like stablecoins.
 
 We hope that you’ll be as interested as we are to dig into the details of Beefy’s current financial position, and that the Dashboard makes this process easier than ever. And we also look forward to building more tooling for trust in the near future, to reach a better decentralised financial system for everyone.
+
+[Treasury Dashboard](https://app.beefy.finance/treasury "Treasury Dashboard")
