@@ -2,7 +2,8 @@
 title: Optimize your OPX yields with beOPX
 date: 2023-01-03T03:00:00+00:00
 header_image: "/src/images/blog/beopx.png"
-sub_header: ''
+sub_header: Deploying Beefy’s exceptional escrow model to maximize your rewards on
+  OPX.
 short_description: Deploying Beefy’s exceptional escrow model to maximize your rewards
   on OPX.
 
