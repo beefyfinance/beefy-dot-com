@@ -2,8 +2,7 @@
 title: Offering True Transparency with Beefy’s Treasury Dashboard
 date: 2023-01-05T12:00:00+00:00
 header_image: "/src/images/blog/treasury-dashboard.png"
-sub_header: Explore our latest UI addition for trustworthy insights into Beefy’s treasury
-  and financials.
+sub_header: Offering True Transparency with Beefy’s Treasury Dashboard
 short_description: Explore our latest UI addition for trustworthy insights into Beefy’s
   treasury and financials.
 
