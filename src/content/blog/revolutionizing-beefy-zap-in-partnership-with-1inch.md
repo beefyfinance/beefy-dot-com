@@ -25,7 +25,7 @@ The solution is a ZAP product which removes the need for an initial swap, taking
 
 We think 1inch is the perfect partner to help us deliver on our dream ZAP tooling. Querying 1inch’s public API, the Beefy application can display the rates offered by 1inch to our users, to give an accurate picture of how much it will cost to enter our vaults in one click (with all fees included)!
 
-![](https://lh6.googleusercontent.com/cLK5wvT_HxA4pkQPtfNwavXJwIfWU36dTaNlcBfIO4t_F2wWJOtvy4QlK4jdHa44zz-vge_jNs7Z144Xc2-lquOoKu1Rma99Bi1MomkAr3AzgM9GJZ-MWSPpWg6MUpTNIJxlZ4FJnQiluYq16TKEcCd8rbxvYWPyKLVQ54MjZNp4snPOFqg5zQVXX8guQw =624x351)
+![](/src/images/blog/1_click.png)
 
 **Launching Beefy ZAP V2 powered by 1inch**
 
@@ -39,7 +39,7 @@ ZAP V2 also works for withdrawals. Simply navigate to the “Withdraw” tab and
 
 Where ZAP V2 isn’t yet available, you’ll still be able to access our the V1 tool in exactly the same way. And, where both ZAP methods are available based on the token you’ve selected, our app will select the method with the best swap rate by default, and allow you to select your preferred method by clicking on the right arrow in the header of the “Zap Route” section.
 
-![](https://lh3.googleusercontent.com/hQ4_oKdTp3xJ6bhSS9SKOm6e5zSFTSpc1RIBb1WSJFd7VBok96AQHI752i6722NmP2bkEwNfabDZ-Tp0xBnT6nxjm9NwOLUf4Ul3aPzUxGC_HNyhZkRfMFhf_sTbEQqx8gWOJgRl82UzDIFgOtEa4W0bXCUZ9JyTGlaVBx-LMUH_uOrM4KCNfJvjdQEs6Q =624x351)
+![](/src/images/blog/zap_infographic_.png)
 
 **Launch Party**
 
