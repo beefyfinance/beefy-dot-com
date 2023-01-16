@@ -8,7 +8,7 @@ short_description: Enjoy all the benefits of Multichain’s latest product combi
 
 ---
 ![](/src/images/blog/multichain.png)  
-_Isn’t the original always the best?_
+_Isn’t the original always the best?_ 
 
 Though we at Beefy are proud EVM-chain natives, we can’t help but harbor a soft spot for Bitcoin and the passionate support of the orange coin community. That’s why, since the earliest days of our protocol, we have sought to bring our users access to amazing autocompounding returns on their Bitcoin through EVM derivatives, like Wrapped Bitcoin (wBTC) and Synthetix’s Synthetic Bitcoin (sBTC).
 
