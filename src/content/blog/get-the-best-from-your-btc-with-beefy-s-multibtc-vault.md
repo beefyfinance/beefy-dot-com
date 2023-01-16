@@ -18,7 +18,7 @@ Now, we are excited to bring users the latest Bitcoin derivative on the market -
 
 Multichain is the ultimate cross-chain router protocol for Web 3.0, which facilitates the bridging of over 3,000 different crypto assets. The protocol currently supports over 80 different chains, by amassing liquidity in supported assets on each chain to facilitate bridging requests by users. Fees are typically charged as a percentage of the amount bridged.
 
-Multichain’s proprietary technology is also used across the industry as an open and permissionless protocol to facilitate cross-chain experiences and functionality. A good example is our [$BIFI Bridge](https://app.beefy.finance/bridge), which allows users to seamlessly transfer their $BIFI tokens between any of our 18 chains directly from our web application. The bridge was built on top of and in partnership with Multichain as one of the only bridging providers who could keep up with the number of chains Beefy has deployed to.
+Multichain’s proprietary technology is also used across the industry as an open and permissionless protocol to facilitate cross-chain experiences and functionality. A good example is our [$BIFI Bridge](https://app.beefy.finance/bridge), which allows users to seamlessly transfer their $BIFI tokens between any of our 18 chains directly from our web application. The bridge was built on top of and in partnership with Multichain as one of the only bridging providers who could keep up with the number of chains Beefy has deployed to.  
 
 **What is multiBTC?**
 
