@@ -34,7 +34,9 @@ As part of these efforts, MultiDAO has approved a sizeable spending package on e
 
 Needless to say, this presents an amazing opportunity for the yield farming community to earn outsized returns on their BTC.
 
-![](/src/images/blog/multi-diagram.jpg)_Image by Multichain, used with author’s consent. © 2023 Multichain._
+![](/src/images/blog/multi-diagram.jpg)
+
+_Image by Multichain, used with author’s consent. © 2023 Multichain._
 
 **New Vaults**
 
