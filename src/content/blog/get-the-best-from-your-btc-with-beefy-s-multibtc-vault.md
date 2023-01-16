@@ -8,7 +8,7 @@ short_description: Enjoy all the benefits of Multichain’s latest product combi
 
 ---
 ![](/src/images/blog/multichain.png)  
-_Isn’t the original always the best?_ 
+_Isn’t the original always the best?_
 
 Though we at Beefy are proud EVM-chain natives, we can’t help but harbor a soft spot for Bitcoin and the passionate support of the orange coin community. That’s why, since the earliest days of our protocol, we have sought to bring our users access to amazing autocompounding returns on their Bitcoin through EVM derivatives, like Wrapped Bitcoin (wBTC) and Synthetix’s Synthetic Bitcoin (sBTC).
 
@@ -16,9 +16,9 @@ Now, we are excited to bring users the latest Bitcoin derivative on the market -
 
 **Introducing Multichain**
 
-Multichain is the ultimate cross-chain router protocol for Web 3.0, which facilitates the bridging of over 3,000 different crypto assets. The protocol currently supports over 80 different chains, by amassing liquidity in supported assets on each chain to facilitate bridging requests by users. Fees are typically charged as a percentage of the amount bridged.
+Multichain is the ultimate cross-chain router protocol for Web 3.0, which facilitates the bridging of over 3,000 different crypto assets. The protocol currently supports over 80 different chains, by amassing liquidity in supported assets on each chain to facilitate bridging requests by users. Fees are typically charged as a percentage of the amount bridged.     
 
-Multichain’s proprietary technology is also used across the industry as an open and permissionless protocol to facilitate cross-chain experiences and functionality. A good example is our [$BIFI Bridge](https://app.beefy.finance/bridge), which allows users to seamlessly transfer their $BIFI tokens between any of our 18 chains directly from our web application. The bridge was built on top of and in partnership with Multichain as one of the only bridging providers who could keep up with the number of chains Beefy has deployed to.  
+Multichain’s proprietary technology is also used across the industry as an open and permissionless protocol to facilitate cross-chain experiences and functionality. A good example is our [$BIFI Bridge](https://app.beefy.finance/bridge), which allows users to seamlessly transfer their $BIFI tokens between any of our 18 chains directly from our web application. The bridge was built on top of and in partnership with Multichain as one of the only bridging providers who could keep up with the number of chains Beefy has deployed to.
 
 **What is multiBTC?**
 
