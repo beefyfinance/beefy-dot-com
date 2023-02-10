@@ -27,6 +27,8 @@ To get things started, we’re deploying 5 brand new vaults on top of [Canto DEX
 
 All 5 vaults are now open for business on our app, with more products already in the pipeline. We're also looking forward to welcoming a range of new partners on Canto in the coming months, as we help to build out this new ecosystem and its vital public goods.
 
+![](/src/images/blog/canto-vaults.png)
+
 **Get Me There**
 
 We’re sure by now you’re feeling every bit as excited as we are to get started on Canto. Well, we have all the information you need to lift off!
