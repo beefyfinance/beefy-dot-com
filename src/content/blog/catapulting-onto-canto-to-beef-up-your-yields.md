@@ -11,7 +11,7 @@ short_description: 'Celebrating the arrival of Beefy onto chain #19 - Canto - wi
 
 We love it when a new chain deployment comes together. There’s nothing quite like the feeling of welcoming new natives into our flourishing Cowmoonity, or taking the chance to explore the frontiers of innovation on a brand new chain.
 
-Today we’re delighted to announce Beefy’s launch on the Canto blockchain, one of the hottest rising L1s in all of Web 3.0. We think this one’s gonna be fun, so hop on board and get ready for the ride. 🎉 .
+Today we’re delighted to announce Beefy’s launch on the Canto blockchain, one of the hottest rising L1s in all of Web 3.0. We think this one’s gonna be fun, so hop on board and get ready for the ride. 🎉 
 
 **About Canto**
 
