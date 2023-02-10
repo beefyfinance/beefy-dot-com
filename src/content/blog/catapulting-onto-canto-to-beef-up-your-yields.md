@@ -29,7 +29,7 @@ All 5 vaults are now open for business on our app, with more products already in
 
 **Get Me There**
 
-We’re sure by now you’re feeling every bit as excited as we are to get started on Canto. Well, we have all the information you need to lift off! 
+We’re sure by now you’re feeling every bit as excited as we are to get started on Canto. Well, we have all the information you need to lift off!
 
 To get started, head over to either the [Canto Bridge](https://canto.io/bridge) or the [Synapse Bridge](https://synapseprotocol.com/). Before you can bridge your assets onto Canto, you’ll need to generate a Canto public key by signing an Ethereum transaction with your EVM wallet. Follow the [Canto Bridging Guide](https://docs.canto.io/user-guides/bridging-assets/to-canto) in the Canto documentation for more details.
 
@@ -41,6 +41,6 @@ For those arriving for the first time, you may need to get ahold of some $CANTO 
 
 We love a new chain christening at Beefy. With each ecosystem added, we move one step closer to realizing our multichain destiny. We’re delighted to welcome the Canto community on board with Beefy, and can’t wait to venture out into these new lands and explore all that Canto has to offer.
 
-So come and share in the adventure with us! Join in the discussions in our #♍︎-canto channel on the Beefy Discord. ⬧︎♏︎︎♏︎︎ ⍓︎︎□︎︎◆︎︎ ⧫︎︎♒︎︎♏︎︎❒︎︎♏︎︎📪︎ ♍︎♒︎︎♋︎︎♎︎︎⬧︎︎✏︎
+So come and share in the adventure with us! Join in the discussions in our #🍈-canto channel on the Beefy Discord. ⬧︎♏︎︎♏︎︎ ⍓︎︎□︎︎◆︎︎ ⧫︎︎♒︎︎♏︎︎❒︎︎♏︎︎📪︎ ♍︎♒︎︎♋︎︎♎︎︎⬧︎︎✏︎
 
 [Canto Explorer](https://evm.explorer.canto.io/) | [Canto Bridge](https://canto.io/bridge) | [Canto Gas Station](https://www.cpms.wtf/gas) | [Canto DEX](https://canto.io/lp) | [Beefy App](https://app.beefy.finance/)
