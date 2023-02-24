@@ -1,8 +1,8 @@
 ---
-title: Revolutionizing Beefy ZAP in partnership with 1inch
+title: Revolutionizing Beefy ZAP in Partnership with 1inch
 date: 2023-01-12T12:00:00+00:00
 header_image: "/src/images/blog/oneinch.png"
-sub_header: Revolutionizing Beefy ZAP in partnership with 1inch
+sub_header: Revolutionizing Beefy ZAP in Partnership with 1inch
 short_description: Get into and out of your favourite Beefy vaults with more ease
   and composability than ever before.
 
