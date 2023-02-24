@@ -1,14 +1,12 @@
 ---
 title: Catapulting onto Canto to Beef Up Your Yields
 date: 2023-02-24T12:00:00+00:00
-header_image: "/src/images/blog/beefy-canto-header.png"
+header_image: ''
 sub_header: Catapulting onto Canto to Beef Up Your Yields
 short_description: 'Celebrating the arrival of Beefy onto chain #19 - Canto - with
   the launch of our new Canto DEX vaults.'
 
 ---
-![](/src/images/blog/beefy-canto-header.png)
-
 We love it when a new chain deployment comes together. There’s nothing quite like the feeling of welcoming new natives into our flourishing Cowmoonity, or taking the chance to explore the frontiers of innovation on a brand new chain.
 
 Today we’re delighted to announce Beefy’s launch on the Canto blockchain, one of the hottest rising L1s in all of Web 3.0. We think this one’s gonna be fun, so hop on board and get ready for the ride. 🎉
@@ -26,8 +24,6 @@ Canto is also banking on its vision of a developer’s utopia, rooted in the Con
 To get things started, we’re deploying 5 brand new vaults on top of [Canto DEX](https://canto.io/lp), the FPI primitive DEX built directly into the chain. Canto DEX allows users to access a range of established assets on Canto, and earn native $CANTO token rewards for providing liquidity. $CANTO rewards can be staked to contribute to securing the chain, earning more $CANTO rewards as a result. Alternatively, users can come to Beefy to have those rewards autocompounded back into your favorite LP.
 
 All 5 vaults are now open for business on our app, with more products already in the pipeline. We're also looking forward to welcoming a range of new partners on Canto in the coming months, as we help to build out this new ecosystem and its vital public goods.
-
-![](/src/images/blog/canto-card.png)
 
 **Get Me There**
 
