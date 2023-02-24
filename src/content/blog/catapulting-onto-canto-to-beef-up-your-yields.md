@@ -1,6 +1,6 @@
 ---
 title: Catapulting onto Canto to Beef Up Your Yields
-date: 2023-02-10T12:00:00+00:00
+date: 2023-02-24T12:00:00+00:00
 header_image: "/src/images/blog/canto.png"
 sub_header: Catapulting onto Canto to Beef Up Your Yields
 short_description: 'Celebrating the arrival of Beefy onto chain #19 - Canto - with
@@ -11,7 +11,7 @@ short_description: 'Celebrating the arrival of Beefy onto chain #19 - Canto - wi
 
 We love it when a new chain deployment comes together. There’s nothing quite like the feeling of welcoming new natives into our flourishing Cowmoonity, or taking the chance to explore the frontiers of innovation on a brand new chain.
 
-Today we’re delighted to announce Beefy’s launch on the Canto blockchain, one of the hottest rising L1s in all of Web 3.0. We think this one’s gonna be fun, so hop on board and get ready for the ride. 🎉 
+Today we’re delighted to announce Beefy’s launch on the Canto blockchain, one of the hottest rising L1s in all of Web 3.0. We think this one’s gonna be fun, so hop on board and get ready for the ride. 🎉
 
 **About Canto**
 
@@ -27,7 +27,7 @@ To get things started, we’re deploying 5 brand new vaults on top of [Canto DEX
 
 All 5 vaults are now open for business on our app, with more products already in the pipeline. We're also looking forward to welcoming a range of new partners on Canto in the coming months, as we help to build out this new ecosystem and its vital public goods.
 
-![](/src/images/blog/canto-vaults.png)
+![](/src/images/blog/canto-card.png)
 
 **Get Me There**
 
