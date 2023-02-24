@@ -1,13 +1,13 @@
 ---
 title: Catapulting onto Canto to Beef Up Your Yields
 date: 2023-02-24T12:00:00+00:00
-header_image: "/src/images/blog/canto.png"
+header_image: "/src/images/blog/beefy-canto-header.png"
 sub_header: Catapulting onto Canto to Beef Up Your Yields
 short_description: 'Celebrating the arrival of Beefy onto chain #19 - Canto - with
   the launch of our new Canto DEX vaults.'
 
 ---
-![](/src/images/blog/canto.png)
+![](/src/images/blog/beefy-canto-header.png)
 
 We love it when a new chain deployment comes together. There’s nothing quite like the feeling of welcoming new natives into our flourishing Cowmoonity, or taking the chance to explore the frontiers of innovation on a brand new chain.
 
