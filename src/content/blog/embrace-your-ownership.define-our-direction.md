@@ -1,13 +1,13 @@
 ---
 title: Embrace Your Ownership. Define Our Direction.
 date: 2023-02-25T12:00:00+00:00
-header_image: "/src/images/blog/timelock.png"
+header_image: "/src/images/blog/gov.png"
 sub_header: Embrace Your Ownership. Define Our Direction.
 short_description: Decentralized governance is at the center of what we do. Be the
   change you’d like to see by having your say.
 
 ---
-![](/src/images/blog/timelock.png)
+![](/src/images/blog/gov.png)
 
 The promise of Web 3.0 is the opportunity to revolutionize human coordination for everyone. But the solutions offered by today’s technology are really only the beginning. It’s how we seize this opportunity that will decide its impact.
 
