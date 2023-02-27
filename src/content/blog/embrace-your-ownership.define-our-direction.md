@@ -7,6 +7,8 @@ short_description: Decentralized governance is at the center of what we do. Be t
   change you’d like to see by having your say.
 
 ---
+![](/src/images/blog/timelock.png)
+
 The promise of Web 3.0 is the opportunity to revolutionize human coordination for everyone. But the solutions offered by today’s technology are really only the beginning. It’s how we seize this opportunity that will decide its impact.
 
 But creating real change is often far harder than it sounds, especially on the decentralized internet. It should come as no surprise that an industry built around the scrutiny of centralized power often struggles to direct itself or accept the steer of others. Perhaps that’s the reason that DAO governance is still so far from directing the world. And yet, there is ultimately no real alternative to open governance in DeFi… users are simply far less willing to trust entities where governance is closed.
