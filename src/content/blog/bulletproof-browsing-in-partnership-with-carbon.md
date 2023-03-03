@@ -35,7 +35,7 @@ Finally, Carbon has built up an established network of partners that $CSIX rewar
 
 We’re thrilled to be partnering with Carbon to help bring DeFi safely and securely to the masses. To celebrate, we’re also coming together to launch a new [CSIX-CAKE Beefy vault](https://app.beefy.finance/vault/cakev2-csix-cake) on Binance Smart Chain (**BSC**), to let users compound their $CSIX direct with Beefy.
 
-![](/src/images/blog/v1.gif)
+![](/src/images/blog/csix.gif)
 
 But that’s not all! We’ll also be running a special launchpool boost on our [Thena BUSD-BNB vault on BSC](https://app.beefy.finance/vault/thena-wbnb-busd) as well. Extra $CSIX boosted rewards will kick off on Thursday 2 March, and run for a limited period of 4 weeks. To participate, simply enter the boosted vault and stake your mooTokens in the Boost section on the vault page.
 
