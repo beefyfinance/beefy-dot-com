@@ -9,7 +9,7 @@ short_description: 'Dive deeper into the miracle of autocompounding with the lat
 ---
 ![](/src/images/blog/yield_module.png)
 
-I’m sure it’s happened to most of us before… you rush into a new opportunity for some incredible DeFi yields, only to find yourself backing out a few weeks later, disappointed that the promise never materialized into reality. We all know that performance so rarely reflects promise, but that’s easy to forget when promise is all you have to go on.
+I’m sure it’s happened to most of us before… you rush into a new opportunity for some incredible DeFi yields, only to find yourself struggling to keep track of things a few weeks later,  and confused as to whether the promise ever materialized into reality. We all know that performance is never exactly as promised, but that’s easy to forget when promise is all you have to go on.
 
 The problem here is that performance in DeFi is hard to measure, precisely because of just how flexible and composable the technology is. Consider for example the average Beefy vault, which relies on swapping between at least 3 separate underlying assets whilst each is constantly fluctuating in price, volume and liquidity against the others. Too often, users have settled for approximations and best guesses to measure their progress. We can and should expect more.
 
