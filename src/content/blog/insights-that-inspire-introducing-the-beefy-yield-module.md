@@ -13,7 +13,7 @@ I’m sure it’s happened to most of us before… you rush into a new opportuni
 
 The problem here is that performance in DeFi is hard to measure, precisely because of just how flexible and composable the technology is. Consider for example the average Beefy vault, which relies on swapping between at least 3 separate underlying assets whilst each is constantly fluctuating in price, volume and liquidity against the others. Too often, users have settled for approximations and best guesses to measure their progress. We can and should expect more.
 
-So the Beefy team has been back in the Data Barn, calibrating and testing their latest UI innovation, to deliver insights that inspire live and direct to your display. The hope is that, by providing you with a clearer picture of your real underlying performance, we can minimize user reliance on trust and promises in the pursuit of their yield.
+So the Beefy team has been back in the Data Barn, calibrating and testing their latest UI innovation, to deliver insights that inspire live and direct to your display. The hope is that, by providing you with a clearer picture of your real underlying performance, we can minimize reliance on trust and promises in the pursuit of their yield.
 
 **Yield Module**
 
