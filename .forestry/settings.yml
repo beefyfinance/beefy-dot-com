@@ -17,8 +17,8 @@ use_front_matter_path: false
 file_template: ":filename:"
 build:
   preview_output_directory: public
-  install_dependencies_command: npm install
-  preview_docker_image: forestryio/node:12
+  install_dependencies_command: yarn install --frozen-lockfile
+  preview_docker_image: forestryio/node:16
   mount_path: "/srv"
   working_dir: "/srv"
-  instant_preview_command: npm run develop
+  instant_preview_command: yarn run develop -p 8080
