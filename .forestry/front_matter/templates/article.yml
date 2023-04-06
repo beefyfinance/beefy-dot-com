@@ -42,6 +42,7 @@ fields:
       format: markdown
   label: Short Description
 pages:
+- src/content/blog/autocompounding-overnight-with-usd-on-beefy.md
 - src/content/blog/beefy-alters-its-fee-structure-for-a-selection-of-high-earning-vaults-while-maintaining-a-legacy-rate-for-others.md
 - src/content/blog/beefy-helps-grow-the-optimism-community-with-a-650-000-op-grant.md
 - src/content/blog/beefy-now-supports-the-kava-network.md
