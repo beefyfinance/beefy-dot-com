@@ -10,7 +10,7 @@ short_description: Our friends at Ethereum continue to ship big improvements to 
 ---
 ![](/src/images/blog/the_next_big_thing.png)
 
-Fresh off the heels of their flawless execution of The Merge, the Ethereum core developer team is fast in pursuit of their next goal: the Shanghai network upgrade. Slated to be implemented by the network during the course of March, the Shanghai upgrade (also known as Capella and Shapella) promises substantial improvements to benefit the ecosystem of validators and liquid staking derivatives on Ethereum.
+Fresh off the heels of their flawless execution of The Merge, the Ethereum core developer team is fast in pursuit of their next goal: the Shanghai network upgrade. Slated to be implemented by the network during the course of March, the Shanghai upgrade (also known as Capella and Shapella) promises substantial improvements to benefit the ecosystem of validators and liquid staking derivatives on Ethereum. 
 
 Since launching Beefy on Ethereum in November, we’re pleased to have brought our users access to over 50 vaults across 5 different platforms. With over $40 million in TVL on the chain, we’re proud to call ourselves a part of the Ethereum community, and to voice our support for the Shanghai upgrade. This article reviews the background to the upgrade, its impact for users, and what it means for Beefy.
 
