@@ -24,7 +24,7 @@ Since [launching on Kava last October](https://beefy.finance/articles/beefy-now-
 
 To celebrate our blossoming partnership, Kava, Équilibre and Beefy are coming together to launch a comprehensive Rewards Campaign in May. We’ll kick things off on May 4th with a joint Twitter Space at 15:00 UTC, to talk about all things Kava and introduce the campaign to our communities.
 
-![](/src/images/blog/beefy-kava-equilibre-get-more-this-may/ama.gif)
+![](/src/images/blog/beefy-kava-equilibre-get-more-this-may/ama.png)
 
 Starting with their 9th epoch on the same day, Équilibre will launch its Trade & Earn scheme, where users of the DEX will be rewarded with additional tokens corresponding to their trading volume in the promotional period. At the same time, Beefy and Kava will be launching a Vault Boost on our [Équilibre WETH-KAVA vault](https://app.beefy.finance/vault/equilibre-wkava-eth), to ratchet up your earnings to the next level. Finally, all three projects will redirect voting power on Équilibre towards the [WETH-KAVA LP](https://equilibrefinance.com/liquidity/0xb593e0a2e93864ff5f75689dade29f5f6dec64ef), to increase the rate of emissions to the liquidity pool (and consequently the vault on Beefy as well!). And the one final flourish, the LP will be receiving addition KAVA bribes to supercharge its emissions.
 
