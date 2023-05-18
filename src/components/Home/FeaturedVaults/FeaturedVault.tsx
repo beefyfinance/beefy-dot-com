@@ -63,13 +63,12 @@ export const FeaturedVault = memo<FeaturedVaultProps>(function FeaturedVault({ s
   const vault = useMemo(() => {
     return liveVault || staticVault;
   }, [staticVault, liveVault]);
+  const appUrl = useAppUrl();
 
   // Vault could have been active at build time, but not active now
   if (vault.status !== 'active') {
     return <PlaceholderVault />;
   }
-
-  const appUrl = useAppUrl();
 
   return (
     <VaultLink href={`${appUrl}vault/${vault.vaultId}`} target="_blank">

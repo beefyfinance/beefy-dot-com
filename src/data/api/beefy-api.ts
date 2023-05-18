@@ -12,7 +12,9 @@ import {
 const BASE_API = 'https://api.beefy.finance';
 
 function getCacheBuster(): number {
-  return Math.trunc(Date.now() / (1000 * 60));
+  const d = new Date();
+  d.setSeconds(0, 0);
+  return d.getTime();
 }
 
 function getApiUrl(path: string): string {
