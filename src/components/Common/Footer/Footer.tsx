@@ -8,6 +8,7 @@ import twitter from '../../../images/footer/twitter.svg';
 import telegram from '../../../images/footer/telegram.svg';
 import github from '../../../images/footer/github.svg';
 import reddit from '../../../images/footer/reddit.svg';
+import debank from '../../../images/footer/debank.svg';
 
 const data = [
   { name: 'github', img: github, link: 'https://github.com/beefyfinance' },
@@ -15,6 +16,7 @@ const data = [
   { name: 'discord', img: discord, link: 'https://beefy.finance/discord' },
   { name: 'twitter', img: twitter, link: 'https://twitter.com/beefyfinance' },
   { name: 'reddit', img: reddit, link: 'https://www.reddit.com/r/Beefy/' },
+  { name: 'debank', img: debank, link: 'https://debank.com/official-account/110448' },
 ];
 
 const Outer = styled.footer`
