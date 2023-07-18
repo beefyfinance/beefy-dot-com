@@ -1,20 +1,20 @@
 [
   {
-    "vaultId": "convex-steth"
+    "vaultId": "conic-usdc"
   },
   {
-    "vaultId": "optimism-bifi-maxi"
+    "vaultId": "balancer-zkevm-wsteth-reth"
   },
   {
-    "vaultId": "curve-ftm-tricrypto"
+    "vaultId": "balancer-maticx-bbawmatic"
   },
   {
-    "vaultId": "balancer-stmatic-bbawmatic"
+    "vaultId": "velodrome-v2-weth-op"
   },
   {
-    "vaultId": "ellipsis-bnb-bnbx-crypto"
+    "vaultId": "curve-arb-tricrypto"
   },
   {
-    "vaultId": "curve-kava-3pool"
+    "vaultId": "thena-gamma-bnbx-bnb"
   }
 ]

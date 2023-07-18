@@ -86,7 +86,7 @@ class Theme {
     bsc: '#F0B90B',
     heco: '#02943f',
     avax: '#e74142',
-    polygon: '#8247e4',
+    polygon: '#f5f0fd',
     fantom: '#1969FF',
     harmony: '#01d8af',
     arbitrum: '#2d374b',
@@ -101,6 +101,9 @@ class Theme {
     optimism: '#ff0420',
     kava: '#FF564F',
     ethereum: '#627ee9',
+    canto: '#06fc99',
+    zksync: '#fff',
+    zkevm: '#8247e4',
   };
 
   public spacing(times: number = 1) {
