@@ -3,11 +3,11 @@ date: 2022-06-28T10:00:00.000Z
 header_image: "/src/images/blog/partnerships1.png"
 short_description: >-
   Pony Finance's new interest-bearing strategy gives Ethereum users access to
-  Beefy Finance yields and security.
+  Beefy yields and security.
 sub_header: Beefy and PONY Finance partner to create a Passive Omnichain Net Yield Index
 title: >-
   Pony Finance's new interest-bearing strategy gives Ethereum users access to
-  Beefy Finance's high yields and security for the first time.
+  Beefy's high yields and security for the first time.
 ---
 ![](/src/images/blog/pony-index.png)
 

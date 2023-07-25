@@ -20,6 +20,6 @@ All our vaults have a harvest() function that any account can call. Calling this
 
 ### Harvesting with Gelato
 
-Beefy Finance chose Gelato Ops to harvest 100+ vaults automatically at predefined time intervals and economic conditions. Gelato Bots call these functions only when these conditions are met and a harvest makes economic sense. Automating key functions via Gelato’s decentralized infrastructure offers a slicker user experience, and saves precious development resources while maximizing compounding efficiency, all to the benefit of the Beefy Community.
+Beefy chose Gelato Ops to harvest 100+ vaults automatically at predefined time intervals and economic conditions. Gelato Bots call these functions only when these conditions are met and a harvest makes economic sense. Automating key functions via Gelato’s decentralized infrastructure offers a slicker user experience, and saves precious development resources while maximizing compounding efficiency, all to the benefit of the Beefy Community.
 
 ![](/src/images/blog/gelato-cow.png)

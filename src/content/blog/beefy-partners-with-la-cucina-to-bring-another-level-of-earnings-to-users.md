@@ -55,6 +55,6 @@ We will also release more LaCucina Vaults with _Ovens_ in the future denoted wit
 
 ### LaCucina and Beefy are bringing about DeFi innovation
 
-LaCucina is a fitting partner for us here at Beefy Finance as we value innovation highly. The concept of boosting your APY and rewards without leaving a pool makes our Beefy Vaults the perfect match. While you typically would have to move to a Beefy Boost Vault, with LaCucina there’s no need.
+LaCucina is a fitting partner for us here at Beefy as we value innovation highly. The concept of boosting your APY and rewards without leaving a pool makes our Beefy Vaults the perfect match. While you typically would have to move to a Beefy Boost Vault, with LaCucina there’s no need.
 
 And much like Beefy, LaCucina has multi-chain dreams. In the future, Beefy will offer LaCucina Vaults on new blockchains as support for them comes.

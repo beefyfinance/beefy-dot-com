@@ -2,18 +2,18 @@
 date: 2021-11-03T03:00:00.000Z
 header_image: "/src/images/blog/image0.png"
 short_description: >-
-  Beefy Finance continues believing in the multi-chain future and Moonriver
+  Beefy continues believing in the multi-chain future and Moonriver
   becomes the 9th chain we deploy on. Read all about it here:
-sub_header: Beefy Finance integrates with Moonriver to expand their DeFi ecosystem
+sub_header: Beefy integrates with Moonriver to expand their DeFi ecosystem
 title: >-
-  Moonriver x Beefy: Beefy Finance integrates with Moonriver to expand their
+  Moonriver x Beefy: Beefy integrates with Moonriver to expand their
   DeFi ecosystem
 ---
 ![](/src/images/blog/image0.png)
 
 The lunar tidal influence on rivers is undeniable. While the effect might not be the same on cows, they are at least gathering to drink from these new sources of DeFi water!
 
-Beefy Finance truly believes in the multi-chain future with Moonriver becoming the 9th chain we deploy on. In this blog, we will learn a bit about the Moonriver parachain, how you can reach it, and the vaults we have deployed. Let’s get started!
+Beefy truly believes in the multi-chain future with Moonriver becoming the 9th chain we deploy on. In this blog, we will learn a bit about the Moonriver parachain, how you can reach it, and the vaults we have deployed. Let’s get started!
 
 ### About Moonriver
 

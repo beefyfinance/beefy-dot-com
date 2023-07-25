@@ -3,8 +3,8 @@ import type { GatsbyConfig } from 'gatsby';
 const config: GatsbyConfig = {
   trailingSlash: 'always',
   siteMetadata: {
-    title: 'Beefy Finance',
-    titleTemplate: '{title} - Beefy Finance',
+    title: 'Beefy',
+    titleTemplate: '{title} - Beefy',
     siteUrl: 'https://beefy.com',
     description:
       'Beefy is a Decentralized, Multichain Yield Optimizer that allows its users to earn compound interest on their crypto holdings. Beefy earns you the highest APYs with safety and efficiency in mind.',
@@ -22,7 +22,7 @@ const config: GatsbyConfig = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'Beefy Finance',
+        name: 'Beefy',
         short_name: 'Beefy',
         start_url: '/',
         background_color: '#1B1E31',

@@ -2,7 +2,7 @@
 date: 2021-12-24T11:00:00.000Z
 header_image: "/src/images/blog/beefy-x-moonpot.png"
 short_description: >-
-  Celebrate Christmas with Beefy Finance and Moonpot with our Christmas
+  Celebrate Christmas with Beefy and Moonpot with our Christmas
   giveaways
 sub_header: 'Win $50,000, NFTs, and merchandise this Christmas and New Year''s'
 title: >-
@@ -11,7 +11,7 @@ title: >-
 ---
 ![](/src/images/blog/beefy-x-moonpot.png)
 
-What would the holidays be without a few DeFi presents under the Christmas tree? This year, you won’t even have to put up with a cheesy Christmas jumper either… To celebrate Christmas 2021 and New Year’s, Beefy Finance and Moonpot have teamed up to give you the chance of winning $50,000, NFTs, and some awesome merchandise. Get yourself in the Christmas spirit with both teams and celebrate a bumper year of APY, gains, and prizes.
+What would the holidays be without a few DeFi presents under the Christmas tree? This year, you won’t even have to put up with a cheesy Christmas jumper either… To celebrate Christmas 2021 and New Year’s, Beefy and Moonpot have teamed up to give you the chance of winning $50,000, NFTs, and some awesome merchandise. Get yourself in the Christmas spirit with both teams and celebrate a bumper year of APY, gains, and prizes.
 
 ### What exactly is the competition?
 

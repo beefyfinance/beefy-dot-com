@@ -17,7 +17,7 @@ Fuse also has its own token, **$FUSE**, used for staking, governance, transactio
 
 ### Working together
 
-We have been working with Fuse since November, developing the best partnership for both ecosystems beyond simple co-marketing. 100,000 FUSE tokens are now in the hands of Beefy Finance to create our **Beefy validator for the chain, strengthening its decentralization.** Both projects will also provide $BIFI and $FUSE in equal parts to create a $BIFI-FUSE LP on [fuse.fi](http://fuse.fi). This will allow Fuse users to buy and sell $BIFI on the blockchain’s biggest DEX.
+We have been working with Fuse since November, developing the best partnership for both ecosystems beyond simple co-marketing. 100,000 FUSE tokens are now in the hands of Beefy to create our **Beefy validator for the chain, strengthening its decentralization.** Both projects will also provide $BIFI and $FUSE in equal parts to create a $BIFI-FUSE LP on [fuse.fi](http://fuse.fi). This will allow Fuse users to buy and sell $BIFI on the blockchain’s biggest DEX.
 
 When it comes to bridging, [Multichain.io](http://multichain.io) (formerly Anyswap) has already deployed contracts to bridge **$BIFI** to Fuse. It’s official… **$BIFI** is now on 11 chains. As always, the supply stays the same (80,000 **$BIFI**) so there’s never any inflation.
 
@@ -25,7 +25,7 @@ We see Fuse as a forward-thinking team with a deep will for collaboration. This 
 
 ### Meet Fuse
 
-If you’ve got more questions on the project, why not ask them yourself? This **Thursday 13 January at 14:00 UTC**, Beefy will host an AMA with the Fuse team. There will also be the opportunity to earn some **$BIFI** and **$FUSE** in the event. To join in the broadcast, head to Fuse or Beefy’s Telegram channel at the mentioned time, or listen directly from Beefy Finance's Twitter Space. We’ll also be collecting questions from the team on Discord and Twitter.
+If you’ve got more questions on the project, why not ask them yourself? This **Thursday 13 January at 14:00 UTC**, Beefy will host an AMA with the Fuse team. There will also be the opportunity to earn some **$BIFI** and **$FUSE** in the event. To join in the broadcast, head to Fuse or Beefy’s Telegram channel at the mentioned time, or listen directly from Beefy's Twitter Space. We’ll also be collecting questions from the team on Discord and Twitter.
 
 ### How to bridge to Fuse
 

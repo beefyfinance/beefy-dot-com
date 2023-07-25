@@ -37,7 +37,7 @@ Apart from hacks and bugs, InsurAce also covers custody insurance for funds kept
 
 ### What’s the relationship between Beefy and InsurAce?
 
-When analyzing Beefy Finance, InsurAce noted Beefy’s high level of security even while operating across multiple different blockchains. Their in-depth risk audit included looking at Beefy’s code, team, community, and reviews. This whole combination allows InsurAce to offer some of its lowest premiums ever for a yield optimizer.
+When analyzing Beefy, InsurAce noted Beefy’s high level of security even while operating across multiple different blockchains. Their in-depth risk audit included looking at Beefy’s code, team, community, and reviews. This whole combination allows InsurAce to offer some of its lowest premiums ever for a yield optimizer.
 
 ### What’s needed for the DeFi insurance industry to take off?
 
@@ -62,6 +62,6 @@ $INSUR is the protocol’s governance token, allowing users to vote on claims, p
 
 ### Secure your deposits with our Beefy discount
 
-Taking our insurance on your DeFi deposits is a useful way in reducing your portfolio’s risk. It’s actually even cheaper to do it through Beefy Finance as we mentioned before. If you want to cover your deposits and get some peace of mind, make sure to click the _Insurance_ tab and minimize your portfolio’s risk.
+Taking our insurance on your DeFi deposits is a useful way in reducing your portfolio’s risk. It’s actually even cheaper to do it through Beefy as we mentioned before. If you want to cover your deposits and get some peace of mind, make sure to click the _Insurance_ tab and minimize your portfolio’s risk.
 
 ![](/src/images/blog/screenshot-2021-12-28-201213.png)

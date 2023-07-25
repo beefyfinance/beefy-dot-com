@@ -8,7 +8,7 @@ sub_header: Next-level SPIRIT staking with Beefy
 title: Beefy x SpiritSwap x QiDao
 ---
 ![](/src/images/blog/spiritswap.png)  
-If you’re a fan of SPIRIT staking on Fantom with SpiritSwap, then you’ve come to the right Cow. From February 2, 2022, you’ll be able to mint binSPIRIT through Beefy Finance, giving you the best chance of maximizing your reward boost. But that’s not all. binSPIRIT is a fully transferable token and can also be used to borrow MAI on market.xyz through QiDao’s seeded locker.
+If you’re a fan of SPIRIT staking on Fantom with SpiritSwap, then you’ve come to the right Cow. From February 2, 2022, you’ll be able to mint binSPIRIT through Beefy, giving you the best chance of maximizing your reward boost. But that’s not all. binSPIRIT is a fully transferable token and can also be used to borrow MAI on market.xyz through QiDao’s seeded locker.
 
 Whether you’re new to SpiritSwap farms or just need a recap, have no fear. We’ve outlined the key basics for you to get to grips with below.
 

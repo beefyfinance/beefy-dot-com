@@ -9,7 +9,7 @@ title: Beefy heads to ETHDenver 2022
 ---
 ![](/src/images/blog/ethdenver.png)
 
-Coming soon to the mountains of Colorado are the Beefy cow and team, ready to meet, greet, and BUIDL with innovators in the Ethereum ecosystem. And best of all, if you want to attend [ETHDenver](https://www.ethdenver.com/) too, it’s completely free. All you need to do is [apply](https://www.ethdenver.com/apply) on the ETHDenver website to secure a spot. So why not come and introduce yourself in person and learn more about what makes Beefy Finance tick?
+Coming soon to the mountains of Colorado are the Beefy cow and team, ready to meet, greet, and BUIDL with innovators in the Ethereum ecosystem. And best of all, if you want to attend [ETHDenver](https://www.ethdenver.com/) too, it’s completely free. All you need to do is [apply](https://www.ethdenver.com/apply) on the ETHDenver website to secure a spot. So why not come and introduce yourself in person and learn more about what makes Beefy tick?
 
 ### Why we’re looking forward to ETHDenver 2022
 

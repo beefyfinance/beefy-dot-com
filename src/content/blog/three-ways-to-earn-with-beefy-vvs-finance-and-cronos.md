@@ -2,10 +2,10 @@
 date: 2021-12-06T11:00:00.000Z
 header_image: "/src/images/blog/vvs.png"
 short_description: >-
-  Get on board with Beefy Finance's most recently supported chain Cronos and
+  Get on board with Beefy's most recently supported chain Cronos and
   Launchpool partner VVS
 sub_header: >-
-  Beefy Finance gives you three opportunites to earn with your $BIFI, $VVS, and
+  Beefy gives you three opportunites to earn with your $BIFI, $VVS, and
   $CRO
 title: 'Three ways to earn with Beefy, VVS Finance, and Cronos'
 ---
@@ -36,7 +36,7 @@ By heading to the [VVS Glitter Mines](https://vvs.finance/mines ) and connecting
 
 ### Stake $BIFI and earn $CRO or $BIFI
 
-On our [Beefy Finance Cronos Vaults](https://app.beefy.finance/#/cronos), you can stake $BIFI with a single click to earn $BIFI rewards.
+On our [Beefy Cronos Vaults](https://app.beefy.finance/#/cronos), you can stake $BIFI with a single click to earn $BIFI rewards.
 
 ![](/src/images/blog/vvs2.png)
 
@@ -58,7 +58,7 @@ If you have $BIFI and $CRO in your Cronos wallet, you can stake them together on
 
 ### Stake $BIFI-$CRO LP and earn more LP tokens
 
-To earn more LP tokens, follow step one from the previous section. Next, head to the [Beefy Finance Cronos Vaults](https://app.beefy.finance/#/cronos) and search for the [$BIFI-$CRO LP Vault](https://app.beefy.finance/#/cronos/vault/vvs-cro-bifi). Stake your LP tokens and begin to autocompound your interest for more $BIFI-$CRO LP tokens.
+To earn more LP tokens, follow step one from the previous section. Next, head to the [Beefy Cronos Vaults](https://app.beefy.finance/#/cronos) and search for the [$BIFI-$CRO LP Vault](https://app.beefy.finance/#/cronos/vault/vvs-cro-bifi). Stake your LP tokens and begin to autocompound your interest for more $BIFI-$CRO LP tokens.
 
 ![](/src/images/blog/vvs7.png)
 
@@ -68,4 +68,4 @@ You can also use the Zap feature if you only have $BIFI, $CRO, or $WCRO in your 
 
 ### Closing words
 
-There's always an opportunity to earn with Beefy Finance and explore new blockchains at the same time. Make sure to learn more about VVS Finance before making any investment decisions and following the steps in our guide.
+There's always an opportunity to earn with Beefy and explore new blockchains at the same time. Make sure to learn more about VVS Finance before making any investment decisions and following the steps in our guide.

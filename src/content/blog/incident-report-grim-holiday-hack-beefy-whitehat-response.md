@@ -11,7 +11,7 @@ The safety of user funds is a core Beefy value and we take our commitment to it 
 
 ### Summary
 
-We have been made aware of unfounded accusations against Beefy Finance in regards to the Grim exploit. After explaining to the Grim team why they needed to take action due to an outstanding smart-contract exploit, Beefy devs showed Grim an exploit transaction to prove the possibility of an exploit. **A slow and inadequate response from the Grim team was followed by a hacker then exploiting $32 million of the platform’s $100+ million TVL.** 
+We have been made aware of unfounded accusations against Beefy in regards to the Grim exploit. After explaining to the Grim team why they needed to take action due to an outstanding smart-contract exploit, Beefy devs showed Grim an exploit transaction to prove the possibility of an exploit. **A slow and inadequate response from the Grim team was followed by a hacker then exploiting $32 million of the platform’s $100+ million TVL.** 
 
 The whitehat-hack contract address was shared with their team at 18:40 UTC, December 18, 2021, **before our knowledge of the blackhat attack taking place**. Grim Finance had the whitehat contract in their hands 24 hours before the safety operation was executed. Though Grim had knowledge via Beefy of the possible exploit, Grim left vaults unpaused and vulnerable. Beefy initiated whitehat operations in an attempt to save funds from the multiple blackhat attackers.
 
@@ -42,7 +42,7 @@ The rescued funds were swapped from altcoins to stables and bluechips to hold va
 | Notified Beefy.finance | 16:22 | 9h 10m |  |
 | Grim vaults exploited (approx.) | 19:50 | 12h 38 |  |
 
-**8:27 UTC:** An alert is posted in Beefy’s Discord by a Beefy moderator that Charge Defi has been hacked. In the ensuing hours, Beefy pieces together that Charge Defi’s code is a fork of Grim Finance's and that Grim’s code is a fork of Beefy Finance’s.  
+**8:27 UTC:** An alert is posted in Beefy’s Discord by a Beefy moderator that Charge Defi has been hacked. In the ensuing hours, Beefy pieces together that Charge Defi’s code is a fork of Grim Finance's and that Grim’s code is a fork of Beefy’s.  
 ![](/src/images/blog/1-1.png)
 
 Beefy’s first order of business is to determine whether the matter affects the Beefy platform. We determined that it does not, simply because the exploited code section is not present in Beefy’s contracts. The precise form of the exploit takes time to trace out.

@@ -30,7 +30,7 @@ First, head to [Nexus Mutual](https://app.nexusmutual.io/home), connect your wal
 
 ![](/src/images/blog/n1.png)
 
-Next, head to the [Buy cover](https://app.nexusmutual.io/cover) page, search for Beefy Finance and click \[Get quote\]. You’ll now be able to choose how long you want your cover for and how much you would like to cover. You can also select the crypto you’d like a payout in and see the required fee.
+Next, head to the [Buy cover](https://app.nexusmutual.io/cover) page, search for Beefy and click \[Get quote\]. You’ll now be able to choose how long you want your cover for and how much you would like to cover. You can also select the crypto you’d like a payout in and see the required fee.
 
 ### How much does it cost?
 

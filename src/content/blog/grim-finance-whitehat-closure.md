@@ -2,7 +2,7 @@
 date: 2022-02-27T03:00:00.000Z
 header_image: "/src/images/blog/whitehat_closure.png"
 short_description: >-
-  Beefy Finance redistributes salvaged Grim Finance funds via its snapshot
+  Beefy redistributes salvaged Grim Finance funds via its snapshot
   mechanism
 sub_header: 'Grim Finance: Whitehat Closure'
 title: 'Grim Finance: Whitehat Closure'
