@@ -6,8 +6,9 @@ sub_header: "Quarterly Report Q2 2023"
 title: "Quarterly Report Q2 2023"
 
 ---
-*See and download the published PDF report [here](https://www.docdroid.net/cPRwo7j/beefy-quarterly-report-june-2023-pdf) or view in line below.*
+![](/src/images/blog/quarterly-report-q2-2023/cover.png)
 
+*See and download the published PDF report [here](https://www.docdroid.net/cPRwo7j/beefy-quarterly-report-june-2023-pdf) or view in line below.*
 
 ![](/src/images/blog/quarterly-report-q2-2023/Frame1.png)
 
