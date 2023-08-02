@@ -6,13 +6,13 @@
     "vaultId": "balancer-zkevm-wsteth-reth"
   },
   {
-    "vaultId": "balancer-maticx-bbawmatic"
+    "vaultId": "balancer-tbtc-weth"
   },
   {
     "vaultId": "velodrome-v2-weth-op"
   },
   {
-    "vaultId": "curve-arb-tricrypto"
+    "vaultId": "convex-tricrypto-usdc"
   },
   {
     "vaultId": "thena-gamma-bnbx-bnb"
