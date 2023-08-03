@@ -4,7 +4,6 @@ header_image: "/src/images/blog/exactly/cover.png"
 short_description: "To celebrate our partnership with Exactly, we introduce their next-generation credit protocol and announce some tantalizing new incentives on Beefy’s Exactly vaults.👀"
 sub_header: "Decentralizing Credit Markets with Exactly on Beefy"
 title: "Decentralizing Credit Markets with Exactly on Beefy"
-
 ---
 ![](/src/images/blog/exactly/cover.png)
 
