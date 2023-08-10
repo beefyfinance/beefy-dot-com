@@ -7,7 +7,7 @@ title: "A New Era: the $BIFI Token Migration"
 ---
 ![](/src/images/blog/bifi-migration/cover.png)
 
-In mid May, the DeFi world waited on eggshells as the latest protocol failure wreaked havoc on markets. One of the largest cross-chain bridges - Multichain - was suffering from various router failures, causing stuck transactions, chain isolation and potential loss of user funds. The media coverage wasn’t helping matters, circulating rumors that the project’s lead developer had been “disappeared” by the Chinese Community Party (**CCP**), and that the project’s operational wallets had actually been in his sole custody the entire time. 😨
+In mid May, the DeFi world waited on eggshells as the latest protocol failure wreaked havoc on markets. One of the largest cross-chain bridges - Multichain - was suffering from various router failures, causing stuck transactions, chain isolation and potential loss of user funds. The media coverage wasn’t helping matters, circulating rumors that the project’s lead developer had been “disappeared” by the Chinese Communist Party (**CCP**), and that the project’s operational wallets had actually been in his sole custody the entire time. 😨
 
 It took the Multichain team a rollercoaster couple of weeks to get the routers fixed and for things to finally settle down. The market sentiment towards Multichain soon tempered… just another day in DeFi, right? In a world so filled with extravagant characters, governmental meddling and catastrophic failures, it seemed as if all the rumors were… well, just that: rumors.
 
