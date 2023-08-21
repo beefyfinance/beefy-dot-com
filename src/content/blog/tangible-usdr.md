@@ -1,4 +1,3 @@
-
 ---
 date: 2023-08-21T12:00:00Z
 header_image: "/src/images/blog/tangible-usdr/cover.png"
@@ -6,7 +5,6 @@ short_description: "Discover the magic of Tangible's real world luxury assets, a
 sub_header: "The Luxury of Liquidity: Real World Yields with Tangible x Beefy"
 title: "The Luxury of Liquidity: Real World Yield with Tangible x Beefy"
 ---
-
 ![](/src/images/blog/tangible-usdr/cover.png)
 
 Doesn't everybody aspire to a bit of luxury in life? A small portfolio of properties, investments in gold, and of course a stack of tokens... I mean, you've got to spend *some* of that pile of autocompounded earnings that Beefy's been building up for you, right? And what better way than by diversifying into some luxury.
