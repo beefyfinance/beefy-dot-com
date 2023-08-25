@@ -1,5 +1,5 @@
 ---
-date: 2023-08-24T12:00:00Z
+date: 2023-08-26T12:00:00Z
 header_image: "/src/images/blog/lz-aura/cover.png"
 short_description: "Announcing a paradigm shift in Beefy's product lineup, with the introduction of LayerZero crosschain strategies in partnership with Aura Finance."
 sub_header: "The Next Generation: Crosschain Yield Optimization with Beefy x LayerZero x Aura"
