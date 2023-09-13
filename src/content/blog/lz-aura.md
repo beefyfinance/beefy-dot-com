@@ -1,5 +1,5 @@
 ---
-date: 2023-08-26T12:00:00Z
+date: 2023-09-13T12:00:00Z
 header_image: "/src/images/blog/lz-aura/cover.png"
 short_description: "Announcing a paradigm shift in Beefy's product lineup, with the introduction of LayerZero crosschain strategies in partnership with Aura Finance."
 sub_header: "The Next Generation: Crosschain Yield Optimization with Beefy x LayerZero x Aura"
@@ -12,7 +12,7 @@ Every once in a while, an innovation comes along that changes the way the game i
 
 Today, Beefy is proud to announce the latest evolution of our product lineup. Today, we welcome the introduction of **crosschain strategies**! 
 
-Together with our friends at LayerZero and Aura, we've been working collectively and tirelessly towards our shared dream of full crosschain DeFi. That dream is one where governance, tokenomics and yield opportunities from opposite sides of the EVM universe can be brought together seamlessly, and users can access optimal yields no matter whose blockspace they inhabit. And together, we're pleased to deliver our first demonstration of that concept - our [Gyroscope wstETH-ETH vault](https://app.beefy.finance/vault/beets-eclp-wsteth-eth) on Optimism... a next-generation yield strategy that unleashes the full potential of crosschain yield optimization.
+Together with our friends at LayerZero and Aura, we've been working collectively and tirelessly towards our shared dream of full crosschain DeFi. That dream is one where governance, tokenomics and yield opportunities from opposite sides of the EVM universe can be brought together seamlessly, and users can access optimal yields no matter whose blockspace they inhabit. And together, we're pleased to deliver our first demonstrations of that concept - our new [Gyroscope wstETH-ETH vault](https://app.beefy.finance/vault/beets-eclp-wsteth-eth) and [Gyroscope stMATIC-MATIC vault](https://app.beefy.finance/vault/aura-polygon-gyro-matic-stmatic)... two next-generation yield strategies that unleashes the full potential of crosschain yield optimization.
 
 ### LayerZero
 
@@ -36,18 +36,18 @@ Having started on Balancer’s native Ethereum, Aura has gradually expanded its 
 
 ### Crosschain Strategies
 
-Bringing together the power and the potential of both LayerZero and Aura, Beefy is proud to launch our [Gyroscope wstETH-ETH vault](https://app.beefy.finance/vault/beets-eclp-wsteth-eth) on Optimism; our first strategy to take advantage of crosschain liquidity to optimize your yield. 
+Bringing together the power and the potential of both LayerZero and Aura, Beefy is proud to launch our [Gyroscope wstETH-ETH vault](https://app.beefy.finance/vault/beets-eclp-wsteth-eth) and [Gyroscope stMATIC-MATIC vault](https://app.beefy.finance/vault/aura-polygon-gyro-matic-stmatic); our first strategies to take advantage of crosschain liquidity to optimize your yield. 
 
 ![](/src/images/blog/lz-aura/vault.png)
 
-How does it work? Simple! First, Beefy takes your correlated wstETH-ETH liquidity in [Beethoven X's liquidity bootstrapping pool with Gyroscope](https://op.beets.fi/pool/0x7ca75bdea9dede97f8b13c6641b768650cb837820002000000000000000000d5) which is earning $BAL rewards. Then, it deposits that liquidity into [Aura's vault](https://app.aura.finance/#/10/pool/6) to earn additional $AURA rewards for you. Next, it aims to trade those rewards for $ETH to reinvest; at this stage it uses Aura's LayerZero OFT to bridge the $AURA rewards to Arbitrum and access the better liquidity available there. To get those rewards back to users, the received $ETH is bridged back to Optimism using Stargate. Finally, the $ETH is redeposited into the wstETH-ETH liquidity pool, to trigger the autocompounding effect which our users know and love.
+How does it work? Simple! First, Beefy takes your correlated liquidity - for instance in [Beethoven X's liquidity bootstrapping pool with Gyroscope](https://op.beets.fi/pool/0x7ca75bdea9dede97f8b13c6641b768650cb837820002000000000000000000d5) - which is already earning $BAL rewards. Then, it deposits that liquidity into [Aura's vaults](https://app.aura.finance/#/10/pool/6) to earn additional $AURA rewards for you. Next, it aims to trade those rewards for the principal asset to reinvest; at this stage it uses Aura's LayerZero OFT to bridge the $AURA rewards to Arbitrum and access the better liquidity available there. To get those rewards back to users, the received tokens are bridged back to the relevant chain using Stargate. Finally, the tokens are redeposited into the liquidity pool, to trigger the autocompounding effect which our users know and love.
 
-Okay, so maybe the new strategy isn't *that* simple. But the ramifications are unprecedented: users can relax knowing that Beefy is automatically reinvesting all of their rewards for them; autocompounding achieves higher APYs than you can earn directly; bridging to Arbitrum means more organized liquidity for Aura and more efficient swaps; and tying it all together means more activity and use cases for LayerZero, Stargate, Aura, BeethovenX, Balancer and Beefy. Oh... and you get an exceptional level of return on your $ETH. It's a win-win-win-win-win-win-win.
+Okay, so maybe the new strategy isn't *that* simple. But the ramifications are unprecedented: users can relax knowing that Beefy is automatically reinvesting all of their rewards for them; autocompounding achieves higher APYs than you can earn directly; bridging to Arbitrum means more organized liquidity for Aura and more efficient swaps; and tying it all together means more activity and use cases for LayerZero, Stargate, Aura, BeethovenX, Balancer and Beefy. It's a win-win-win-win-win-win-win.
 
 ### The Next Generation
 
-Hopefully by now we've driven home the significance of this one small strategy. By demonstrating what's possible when yield optimization meets crosschain messaging, we open the floodgates to an enormous range of opportunities to optimize your yield. This added precision also helps partners to manage the liquidity of their tokens more efficiently, by steering Beefy's strategies to their preferred base chain for liquidity. Altogether, it's one small strategy for Beefy, one giant leap for DeFi.
+Hopefully by now we've driven home the significance of this new yield farming technique. By demonstrating what's possible when yield optimization meets crosschain messaging, we open the floodgates to an enormous range of opportunities to optimize your yield. This added precision also helps partners to manage the liquidity of their tokens more efficiently, by steering Beefy's strategies to their preferred base chain for liquidity. Altogether, it's one small strategy for Beefy, one giant leap for DeFi.
 
 As the dust settles, we expect that hundreds of new use cases will emerge, where the potential of crosschain bridging can be harnessed to offer access to better yields from wherever users keep their assets. And Beefy will be soaking up each and everyone of them, to unite our users, protocols and liquidity through the miracle of autocompounding. The next generation is here.
 
-[LayerZero](https://layerzero.network/) | [Stargate](https://stargate.finance/) | [Aura](https://aura.finance/) | [Gyroscope wstETH-ETH vault](https://app.beefy.finance/vault/beets-eclp-wsteth-eth)
+[LayerZero](https://layerzero.network/) | [Stargate](https://stargate.finance/) | [Aura](https://aura.finance/) | [Gyroscope wstETH-ETH vault](https://app.beefy.finance/vault/beets-eclp-wsteth-eth) | [Gyroscope stMATIC-MATIC vault](https://app.beefy.finance/vault/aura-polygon-gyro-matic-stmatic)
