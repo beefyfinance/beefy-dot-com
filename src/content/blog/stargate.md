@@ -1,5 +1,5 @@
 ---
-date: 2023-09-25T12:00:00Z
+date: 2023-09-26T12:00:00Z
 header_image: "/src/images/blog/stargate/cover.png"
 short_description: "A deepspace exploration of one of Beefy's key Omnichain partners - Stargate."
 sub_header: "Beefy x Stargate: Enter the Omnichain"
@@ -23,7 +23,7 @@ Stargate is a community-driven organization that has produced and maintains the 
 
 Users new to Stargate should take a look at their [comprehensive documentation](https://stargateprotocol.gitbook.io/stargate/v/user-docs/), which sets out how the protocol works. Stargate offers a simple transfer service where tokens are swapped on one chain for another (with a short delay for bridging). Similar to other decentralized exchanges, users can also contribute to the protocol by supplying liquidity to its various pools, and earn incentives on that liquidity through $STG token farms. Finally, by locking your $STG with the protocol, you can accrue vote-escrowed STG (**"veSTG"**) and participate in Stargate's governance.
 
-Beefy is proud to be working closely with the Stargate community to support the liquidity of its $STG token. Through our recent [Stargate governance proposal](https://snapshot.org/#/stgdao.eth/proposal/0xd6bb6427e285ae4e269ebb9f4d0396808d2de356c654c19877402da4e3e8c44a), it has been agreed that Beefy will handle $3 million of $STG liquidity through our existing [STG-USDC vault](https://app.beefy.com/vault/velodrome-v2-stg-usdc) on OP Mainnet. We will also implement extra $OP boosts for this vault to incentivize new and existing liquidity providers. Together, Beefy and Stargate aim to anchor liquidity through our proposal, to facilitate and encourage participation in Stargate's governance and community on Optimism. 
+Beefy is proud to be working closely with the Stargate community to support the liquidity of its $STG token. Through our recent [Stargate governance proposal](https://snapshot.org/#/stgdao.eth/proposal/0xd6bb6427e285ae4e269ebb9f4d0396808d2de356c654c19877402da4e3e8c44a), it has been agreed that Beefy will handle $3 million of $STG liquidity through our existing [STG-USDCe vault](https://app.beefy.com/vault/velodrome-v2-stg-usdc) on OP Mainnet. We will also implement extra $OP boosts for this vault to incentivize new and existing liquidity providers. Together, Beefy and Stargate aim to anchor liquidity through our proposal, to facilitate and encourage participation in Stargate's governance and community on Optimism. 
 
 ### LayerZero Technology
 
@@ -37,7 +37,7 @@ Avid readers will be all too familiar the next generation potential of Stargate 
 
 To celebrate our longstanding partnership, Stargate and Beefy have teamed up to bring you another celestial boost that's truly out of this world!
 
-Starting on Monday 25 September, we will be boosting the Beefy [STG-USDC vault](https://app.beefy.com/vault/velodrome-v2-stg-usdc) vault on Optimism with copious quantities of $OP tokens. All you need to do to participate is zap into the vault with one transaction, pre-stake with the **"Boost Vault"** button when we notify you, and then sit back and soak up your share of these stratospheric boosted rewards!
+Starting on 26 September, we will be boosting the Beefy [STG-USDCe vault](https://app.beefy.com/vault/velodrome-v2-stg-usdc) vault on Optimism with copious quantities of $OP tokens. All you need to do to participate is zap into the vault with one transaction, pre-stake with the **"Boost Vault"** button when we notify you, and then sit back and soak up your share of these stratospheric boosted rewards!
 
 ### Enter the Omnichain
 
@@ -47,4 +47,4 @@ Stargate is at the forefront of this mission, pushing the boundaries of what we 
 
 The Omnichain is Here.
 
-[Stargate App](https://stargate.finance/) | [Stargate Docs](https://stargateprotocol.gitbook.io/stargate/v/user-docs/) | [Beefy Proposal](https://snapshot.org/#/stgdao.eth/proposal/0xd6bb6427e285ae4e269ebb9f4d0396808d2de356c654c19877402da4e3e8c44a) | [STG-USDC Vault](https://app.beefy.com/vault/velodrome-v2-stg-usdc)
+[Stargate App](https://stargate.finance/) | [Stargate Docs](https://stargateprotocol.gitbook.io/stargate/v/user-docs/) | [Beefy Proposal](https://snapshot.org/#/stgdao.eth/proposal/0xd6bb6427e285ae4e269ebb9f4d0396808d2de356c654c19877402da4e3e8c44a) | [STG-USDCe Vault](https://app.beefy.com/vault/velodrome-v2-stg-usdc)
