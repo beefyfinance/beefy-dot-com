@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Optimism",
+    "url": "https://www.optimism.io",
+    "logo": "optimism.svg",
+    "category": "blockchain",
+    "description": "OP Mainnet is a fast, stable, and scalable L2 blockchain built by Ethereum developers, for Ethereum developers. Built as a minimal extension to existing Ethereum software, OP Mainnet's EVM-equivalent architecture scales your Ethereum apps without surprises."
+  },
+  {
+    "name": "Gelato",
+    "url": "https://www.gelato.network",
+    "logo": "gelato.svg",
+    "category": "automation",
+    "description": "Gelato is web3’s decentralized backend empowering builders to create augmented smart contracts that are automated, gasless & off-chain aware on all major EVM-compatible blockchains."
+  },
+  {
+    "name": "LayerZero",
+    "url": "https://www.layerzero.network",
+    "logo": "layerzero.svg",
+    "category": "crosschain",
+    "description": "LayerZero is a User Application (UA) configurable on-chain endpoint that runs a ULN. LayerZero relies on two parties to transfer messages between on-chain endpoints: the Oracle and the Relayer."
+  },
+  {
+    "name": "OpenZeppelin",
+    "url": "https://www.openzeppelin.com",
+    "logo": "openzeppelin.svg",
+    "category": "auditing",
+    "description": "Securely Code, Deploy and Operate your Smart Contracts. Technology, processes, and people to minimize risk when launching and scaling. Ship faster and more safely."
+  }
+]
