@@ -13,6 +13,7 @@ const Container = styled.div`
   width: 100%;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   align-items: baseline;
   gap: ${theme.spacing(2)};
   margin-bottom: ${theme.spacing(4)};
