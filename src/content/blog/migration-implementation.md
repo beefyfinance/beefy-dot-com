@@ -15,7 +15,7 @@ In July, [we shared updates](https://beefy.com/articles/bifi-migration/) on our 
 
 Today, we have released an updated draft snapshot on the [Beefy Web App](https://snapshot.beefy.finance/). This sample snapshot is a proof of concept to show all the work we’ve done to unpick the distribution of the old $BIFI token and allocate those positions ready for the new token. This includes all of the stuck Multichain transactions, which we released in draft over the last couple of months, as well as all $BIFI in our Maxi Vaults and Governance Pools, and the vast majority of $BIFI liquidity pools held on externals DEXs. 
 
-**Please note that neither the draft nor the final snapshot capture the allocation of assets for CEX users, as CEX holdings are aggregated across groups of users.** Your CEX will manage the receipt and distribution of new $BIFI tokens on your behalf.
+**Please note that neither the draft nor the official snapshot capture the allocation of assets for CEX users, as CEX holdings are aggregated across groups of users.** Your CEX will manage the receipt and distribution of new $BIFI tokens on your behalf.
 
 This draft snapshot was updated on 9 October at 14:00 UTC/GMT, so activity after this will not be visible. The draft snapshot will be replaced in time with the full snapshot, with both being available at https://snapshot.beefy.finance/. Any issues should be flagged to us as soon as possible, ideally in the #🐄-general and #🤠-cowmoonity channels on the Beefy Discord, as this will impact on the timescales for the final distribution.
 
@@ -23,9 +23,9 @@ There are still a surprising amount of contracts out there holding $BIFI which a
 
 **As a reminder, all users are strongly encouraged to: (1) break any remaining $BIFI LP positions; (2) exit all remaining BIFI Maxi vault positions; and (3) bridge back any BEP2 $BIFI tokens held on BNB Chain to BEP20 versions.**
 
-### Final Snapshot
+### Official Snapshot
 
-The final snapshot will be captured around 00:00:00 UTC on October 17th (midnight at the end of 16 October). For the avoidance of doubt, specific block numbers for all 20 deployed chains for the old $BIFI token will be used for the snapshot. As most chains do not add blocks each second, in many cases the final block will not be issued at exactly 00:00:00. There is no reliable way to predict the block numbers for each chain in advance, so users are strongly advised not to take actions (e.g. trading) which assume a specific block number for the snapshot.
+The official snapshot will be captured around 00:00:00 UTC on October 17th (midnight at the end of 16 October). For the avoidance of doubt, specific block numbers for all 20 deployed chains for the old $BIFI token will be used for the snapshot. As most chains do not add blocks each second, in many cases the final block will not be issued at exactly 00:00:00. There is no reliable way to predict the block numbers for each chain in advance, so users are strongly advised not to take actions (e.g. trading) which assume a specific block number for the snapshot.
 
 It’s vitally important that fair notice is given ahead of the snapshot to allow users to plan their activity accordingly, and ensure they can avoid harm from trading in $BIFI in and around the snapshot. A week’s additional notice after the latest draft snapshot allows a further window for issues to be raised and fixes to be added if need be.
 
@@ -33,7 +33,7 @@ The process of gathering, combining and massaging the snapshot data takes a coup
 
 Given that the snapshot will mark the end of all use cases for the existing $BIFI token, it is expected that there may be significant trading volume around this time. All users are strongly advised not to trade the snapshot, as the combination of 20 different blockchains in the snapshot does leave some small room for unexpected issues (e.g. network outage). It is foreseeable that efforts to trade immediately after the snapshot could interfere with your captured allocation.
 
-In the week following the final snapshot, liquidity for the new $BIFI token will be established and the migration to the new revenue bridge will be completed. The final action will be the distribution transactions.
+In the week following the official snapshot, liquidity for the new $BIFI token will be established and the migration to the new revenue bridge will be completed. The final action will be the distribution transactions.
 
 ![](/src/images/blog/migration-implementation/timeline.png)
 
