@@ -1,19 +1,5 @@
 [
   {
-    "itemId": "primary-dark",
-    "label": "Primary - Dark",
-    "groupId": "logos",
-    "background": "light",
-    "versions": ["png", "svg"]
-  },
-  {
-    "itemId": "primary-light",
-    "label": "Primary - Light",
-    "groupId": "logos",
-    "background": "dark",
-    "versions": ["png", "svg"]
-  },
-  {
     "itemId": "mono-dark",
     "label": "Mono - Dark",
     "groupId": "logos",
@@ -23,6 +9,20 @@
   {
     "itemId": "mono-light",
     "label": "Mono - Light",
+    "groupId": "logos",
+    "background": "dark",
+    "versions": ["png", "svg"]
+  },
+  {
+    "itemId": "mono-dark-autocompound",
+    "label": "Mono Autocompound - Dark",
+    "groupId": "logos",
+    "background": "light",
+    "versions": ["png", "svg"]
+  },
+  {
+    "itemId": "mono-light-autocompound",
+    "label": "Mono Autocompound - Light",
     "groupId": "logos",
     "background": "dark",
     "versions": ["png", "svg"]
@@ -56,29 +56,15 @@
     "versions": ["png", "svg"]
   },
   {
+    "itemId": "mooBIFI",
+    "label": "mooBIFI",
+    "groupId": "tokens",
+    "background": "dark",
+    "versions": ["png", "svg"]
+  },
+  {
     "itemId": "beftm",
     "label": "beFTM",
-    "groupId": "tokens",
-    "background": "dark",
-    "versions": ["png", "svg"]
-  },
-  {
-    "itemId": "binspirit",
-    "label": "binSPIRIT",
-    "groupId": "tokens",
-    "background": "dark",
-    "versions": ["png", "svg"]
-  },
-  {
-    "itemId": "binspirit-lp",
-    "label": "binSPIRIT LP",
-    "groupId": "tokens",
-    "background": "dark",
-    "versions": ["png", "svg"]
-  },
-  {
-    "itemId": "bejoe",
-    "label": "beJOE",
     "groupId": "tokens",
     "background": "dark",
     "versions": ["png", "svg"]
