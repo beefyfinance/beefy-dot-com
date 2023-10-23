@@ -49,7 +49,7 @@ To ensure the interaction is smooth, the distribution will be effected by a core
 
 Once the distribution is complete, incentive distribution and governance will resume shortly, and users will be able to bridge between chains, switch between incentive programmes and contribute to liquidity for the new $BIFI token.
 
-As a reminder, the new token has now been [audited](https://github.com/beefyfinance/beefy-audits/blob/master/2023-08-30-Beefy-Zellic-BIFI-Token-Audit.pdf) and deployed to the Ethereum treasury, so is available already for independent by any tokenholders or prospective buyers to review. The new token's hexadecimal address on Ethereum is [0xb1f1ee126e9c96231cc3d3fad7c08b4cf873b1f1](https://etherscan.io/address/0xb1f1ee126e9c96231cc3d3fad7c08b4cf873b1f1).
+As a reminder, the new token has now been [audited](https://github.com/beefyfinance/beefy-audits/blob/master/2023-08-30-Beefy-Zellic-BIFI-Token-Audit.pdf) and deployed to the Ethereum treasury, so is available already for independent by any tokenholders or prospective buyers to review. The new $BIFI token's hexadecimal address on Ethereum is [0xb1f1ee126e9c96231cc3d3fad7c08b4cf873b1f1](https://etherscan.io/address/0xb1f1ee126e9c96231cc3d3fad7c08b4cf873b1f1). The addresses for $mooBIFI are [0xBEEF8e0982874e0292E6C5751C5A4092b3e1BEEF](https://etherscan.io/address/0xBEEF8e0982874e0292E6C5751C5A4092b3e1BEEF) on Ethereum, and [0xc55E93C62874D8100dBd2DfE307EDc1036ad5434](https://optimistic.etherscan.io/address/0xc55E93C62874D8100dBd2DfE307EDc1036ad5434) on Optimism.
 
 ### Using New $BIFI
 
