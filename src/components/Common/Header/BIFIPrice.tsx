@@ -1,6 +1,6 @@
 import React, { memo } from 'react';
 import { useBIFIPrice } from '../../../data/queries/bifi-price';
-import beefyToken from '../../../images/assets/BIFI.png';
+import beefyToken from '../../../images/assets/BIFI.svg';
 import { formatUsd } from '../../../utils/format-utils';
 import styled from '@emotion/styled';
 import { theme } from '../../../theme';
