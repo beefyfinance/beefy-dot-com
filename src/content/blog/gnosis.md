@@ -1,5 +1,5 @@
 ---
-date: 2023-10-26 T12:00:00Z
+date: 2023-10-26T12:00:00Z
 header_image: "/src/images/blog/gnosis/cover.png"
 short_description: "Announcing the arrival of autocompounding on Beefy's 23rd blockchain - Gnosis Chain."
 sub_header: "Compounding For The Community: Beefy on Gnosis Chain"
