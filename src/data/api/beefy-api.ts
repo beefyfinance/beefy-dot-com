@@ -1,7 +1,6 @@
 import fetch from 'node-fetch';
 import {
   ApiApys,
-  ApiBuybacks,
   ApiPrices,
   ApiTvls,
   ApiVaults,
