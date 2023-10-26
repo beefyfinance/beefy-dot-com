@@ -89,10 +89,39 @@ export async function getVaults(): Promise<ApiVaults> {
   }, {});
 }
 
-export async function getVaultsWithApy(): Promise<ApiVaultsWithApys> {
-  const [vaults, apys] = await Promise.all([getVaults(), getApyBreakdown()]);
+export async function getGovVaults(): Promise<ApiVaults> {
+  const response = await fetch(getApiUrl('gov-vaults'));
+  const data = await response.json();
 
-  return Object.entries(vaults).reduce<ApiVaultsWithApys>((vaultsWithApy, [id, vault]) => {
+  if (!data || !Array.isArray(data)) {
+    throw new Error(`Failed to fetch vaults`);
+  }
+
+  return data.reduce<ApiVaults>((vaults, vault) => {
+    const vaultId = vault.id;
+
+    delete vault.id;
+
+    vaults[vaultId] = {
+      vaultId,
+      ...vault,
+    };
+
+    return vaults;
+  }, {});
+}
+
+export async function getVaultsWithApy(): Promise<ApiVaultsWithApys> {
+  const [vaults, govVaults, apys] = await Promise.all([
+    getVaults(),
+    getGovVaults(),
+    getApyBreakdown(),
+  ]);
+
+  const fullVaultList = { ...vaults, ...govVaults };
+
+  console.log(fullVaultList);
+  return Object.entries(fullVaultList).reduce<ApiVaultsWithApys>((vaultsWithApy, [id, vault]) => {
     const apy = apys[id] || { totalApy: 0 };
     const tradingApr = 'tradingApr' in apy ? apy.tradingApr || 0 : 0;
     const vaultApr =
@@ -120,6 +149,7 @@ export async function getTvls(): Promise<ApiTvls> {
 
   return Object.values(data).reduce((tvls, chainTvls) => {
     Object.entries(chainTvls).forEach(([vaultId, tvl]) => {
+      if (vaultId === 'bifi-pool') console.log('aaaa')
       tvls[vaultId] = tvl;
     });
 
@@ -131,27 +161,4 @@ export async function getTotalTvl(): Promise<number> {
   const tvls = await getTvls();
 
   return Object.values(tvls).reduce((total, vaultTvl) => total + vaultTvl, 0);
-}
-
-export async function getBuyback(): Promise<ApiBuybacks> {
-  const response = await fetch(getApiUrl('bifibuyback'));
-  const data: Record<
-    string,
-    {
-      buybackTokenAmount: string;
-      buybackUsdAmount: string;
-    }
-  > = await response.json();
-
-  if (!data || !('bsc' in data)) {
-    throw new Error(`Failed to fetch buyback`);
-  }
-
-  return Object.entries(data).reduce((buybacks, [chain, chainBuyback]) => {
-    buybacks[chain] = {
-      tokens: parseFloat(chainBuyback.buybackTokenAmount),
-      usd: parseFloat(chainBuyback.buybackUsdAmount),
-    };
-    return buybacks;
-  }, {} as ApiBuybacks);
 }
