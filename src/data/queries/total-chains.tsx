@@ -44,8 +44,5 @@ export function useChainCount(): number {
     }
   }, [shouldLoadVaults, dispatch]);
 
-  return count - eolChainIds.length;
+  return count;
 }
-
-//TODO : add chain endpoint to fetch chains and know if there are eol
-const eolChainIds = ['aurora', 'emerald', 'celo', 'heco', 'harmony'];
