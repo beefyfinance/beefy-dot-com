@@ -119,7 +119,6 @@ export async function getVaultsWithApy(): Promise<ApiVaultsWithApys> {
 
   const fullVaultList = { ...vaults, ...govVaults };
 
-  console.log(fullVaultList);
   return Object.entries(fullVaultList).reduce<ApiVaultsWithApys>((vaultsWithApy, [id, vault]) => {
     const apy = apys[id] || { totalApy: 0 };
     const tradingApr = 'tradingApr' in apy ? apy.tradingApr || 0 : 0;
@@ -148,7 +147,6 @@ export async function getTvls(): Promise<ApiTvls> {
 
   return Object.values(data).reduce((tvls, chainTvls) => {
     Object.entries(chainTvls).forEach(([vaultId, tvl]) => {
-      if (vaultId === 'bifi-pool') console.log('aaaa')
       tvls[vaultId] = tvl;
     });
 
