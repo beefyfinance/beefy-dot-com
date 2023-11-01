@@ -35,10 +35,3 @@ export type ApiVaultWithApy = ApiVault & {
 export type ApiVaultsWithApys = Record<string, ApiVaultWithApy>;
 
 export type ApiTvls = Record<string, number>;
-
-export type ApiBuyback = {
-  tokens: number;
-  usd: number;
-};
-
-export type ApiBuybacks = Record<string, ApiBuyback>;

@@ -2,7 +2,7 @@ import { BuildArgs, CreateNodeArgs, GatsbyNode, SourceNodesArgs } from 'gatsby';
 import path from 'path';
 import slugify from 'slugify';
 import { BlogArticlesQueryReturnType, isFileSystemNode, isMarkdownNode } from './gatsby-node-types';
-import { getAllPrices, getBuyback, getTvls, getVaultsWithApy } from './src/data/api/beefy-api';
+import { getAllPrices, getTvls, getVaultsWithApy } from './src/data/api/beefy-api';
 
 const BLOG_ARTICLES_PER_PAGE = 12;
 
@@ -153,34 +153,8 @@ async function sourceBeefyTvl({
   });
 }
 
-async function sourceBeefyBuyback({
-  actions: { createNode },
-  createContentDigest,
-  createNodeId,
-}: SourceNodesArgs) {
-  const buybacks = await getBuyback();
-
-  Object.entries(buybacks).forEach(([chain, buyback]) => {
-    createNode({
-      chain: chain,
-      usd: buyback.usd,
-      tokens: buyback.tokens,
-      id: createNodeId(`BeefyBuyback-${chain}`),
-      internal: {
-        type: 'BeefyBuyback',
-        contentDigest: createContentDigest([chain, buyback.usd]),
-      },
-    });
-  });
-}
-
 export const sourceNodes: GatsbyNode['sourceNodes'] = async function (args) {
-  await Promise.all([
-    sourceBeefyVaults(args),
-    sourceBeefyPrices(args),
-    sourceBeefyTvl(args),
-    sourceBeefyBuyback(args),
-  ]);
+  await Promise.all([sourceBeefyVaults(args), sourceBeefyPrices(args), sourceBeefyTvl(args)]);
 };
 
 export const createSchemaCustomization: GatsbyNode['createSchemaCustomization'] = async function ({
