@@ -26,20 +26,24 @@ const PartnersWrapper = styled.div`
 `;
 
 const Partners = memo<PartnersPageProps>(function Partners({ data }) {
+  console.info(data.allPartnersJson)
   const allPartners = useMemo(
     () => data.allPartnersJson.edges.map(edge => edge.node),
     [data.allPartnersJson.edges]
-  );
+  ).sort((a, b) => a.name.toLowerCase().localeCompare(b.name.toLowerCase()));
+  console.log(allPartners)
 
   const [filteredResults, setFilteredResults] = useState<PartnerItem[]>(allPartners);
   const [selectedFilter, setSelectedFilter] = useState<string>('all');
 
   const updateSelectedFilter = (newFilter: string) => {
     setSelectedFilter(newFilter);
+    const newList = allPartners.filter(
+        partner => newFilter === 'all' || partner.category.toLowerCase() === newFilter.toLowerCase()
+    )
+    console.info(newList)
     setFilteredResults(
-      allPartners.filter(
-        partner => newFilter === 'all' || partner.category === newFilter.toLowerCase()
-      )
+      newList
     );
   };
 

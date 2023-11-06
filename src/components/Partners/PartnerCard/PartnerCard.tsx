@@ -82,7 +82,12 @@ const Description = styled.div`
 `;
 
 function getLogoUrl(logoName: string) {
-    return require(`!url-loader?limit=false!../../../images/partners/${logoName}`).default;
+    try {
+        return require(`!url-loader?limit=false!../../../images/partners/${logoName}`).default;
+    } catch (error) {
+        console.error(logoName, 'is missing.')
+        return null;
+    }
 }
 
 function truncateString(inputString: string): string {
@@ -99,7 +104,7 @@ export const PartnerCard = memo<PartnerCardProps>(function PartnerCard({partner,
                 <Image src={getLogoUrl(partner.logo)} alt={partner.name} />
                 <div>
                     <Title>{partner.name}</Title>
-                    <PartnerLink target="_blank" href={partner.url}>{partner.url.replace(/^https?:\/\/www./, '')}</PartnerLink>
+                    <PartnerLink target="_blank" href={partner.url}>{partner.url.replace(/^(https?:\/\/)?(www\.)?/, '')}</PartnerLink>
                 </div>
             </CardHeader>
             <Description>

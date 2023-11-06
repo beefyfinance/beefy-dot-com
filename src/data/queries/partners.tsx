@@ -4,7 +4,7 @@ export type PartnerItem = {
     name: string;
     url: string;
     logo: string;
-    category: 'blockchain' | 'automation' | 'crosschain' | 'wallets' | 'auditing' | 'accounting' | 'aggregation';
+    category: string;
     description: string;
 }
 

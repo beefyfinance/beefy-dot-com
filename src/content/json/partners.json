@@ -3,8 +3,8 @@
     "name": "Optimism",
     "url": "https://www.optimism.io",
     "logo": "optimism.svg",
-    "category": "blockchain",
-    "description": "OP Mainnet is a fast, stable, and scalable L2 blockchain built by Ethereum developers, for Ethereum developers. Built as a minimal extension to existing Ethereum software, OP Mainnet's EVM-equivalent architecture scales your Ethereum apps without surprises."
+    "category": "grants/bridge",
+    "description": "OP Mainnet is a fast, stable, and scalable L2 blockchain built by Ethereum developers, for Ethereum developers. Built as a minimal extension to existing Ethereum software, OP Mainnet's EVM-equivalent architecture scales your Ethereum apps without surprises. If it works on Ethereum, it works on OP Mainnet at a fraction of the cost."
   },
   {
     "name": "Gelato",
@@ -17,14 +17,196 @@
     "name": "LayerZero",
     "url": "https://www.layerzero.network",
     "logo": "layerzero.svg",
-    "category": "crosschain",
+    "category": "bridge",
     "description": "LayerZero is a User Application (UA) configurable on-chain endpoint that runs a ULN. LayerZero relies on two parties to transfer messages between on-chain endpoints: the Oracle and the Relayer."
+  },
+  {
+    "name": "Safe",
+    "url": "https://www.safe.global",
+    "logo": "safe.svg",
+    "category": "wallets",
+    "description": "Safe is the account abstraction leader on Ethereum and the EVM with the most secure smart wallet infrastructure and platform"
   },
   {
     "name": "OpenZeppelin",
     "url": "https://www.openzeppelin.com",
     "logo": "openzeppelin.svg",
-    "category": "auditing",
+    "category": "security",
     "description": "Securely Code, Deploy and Operate your Smart Contracts. Technology, processes, and people to minimize risk when launching and scaling. Ship faster and more safely."
+  },
+  {
+    "name": "Cryptio",
+    "url": "https://www.cryptio.co",
+    "logo": "cryptio.svg",
+    "category": "accounting",
+    "description": "Enterprise-grade accounting, audit and tax software for your digital assets"
+  },
+  {
+    "name": "1inch",
+    "url": "https://www.1inch.io",
+    "logo": "1inch.svg",
+    "category": "aggregation",
+    "description": "The 1inch spot price aggregator is a set of smart contracts that extract price data for tokens traded on DEXes from the blockchain."
+  },
+  {
+    "name": "Axelar",
+    "url": "https://axelar.network",
+    "logo": "axelar.svg",
+    "category": "bridge",
+    "description": "Axelar delivers secure cross-chain communication for Web3. Our infrastructure enables dApp users to interact with any asset or application, on any chain, with one click."
+  },
+  {
+    "name": "Chainlink CCIP",
+    "url": "https://chain.link/cross-chain",
+    "logo": "chainlinkccip.svg",
+    "category": "bridge",
+    "description": "Chainlink CCIP provides a single simple interface through which dApps and web3 entrepreneurs can securely meet all their cross-chain needs. You can use CCIP to transfer data, tokens, or both data and tokens across chains."
+  },
+  {
+    "name": "Zellic",
+    "url": "https://www.zellic.io",
+    "logo": "zellic.svg",
+    "category": "security",
+    "description": "Zellic specializes in securing emerging technologies. Developers, founders, and investors trust our security assessments to ship quickly, confidently, and without critical vulnerabilities."
+  },
+  {
+    "name": "Certik",
+    "url": "https://www.certik.com",
+    "logo": "certik.svg",
+    "category": "onramp",
+    "description": "CertiK is Web3's leading smart contract auditor and provides a comprehensive suite of tools to secure the industry at scale."
+  },
+  {
+    "name": "Snapshot",
+    "url": "https://snapshot.org",
+    "logo": "snapshot.svg",
+    "category": "governance",
+    "description": "Snapshot is a voting platform that allows DAOs, DeFi protocols, or NFT communities to vote easily and without gas fees."
+  },
+  {
+    "name": "System 9",
+    "url": "https://system9.io",
+    "logo": "system9.svg",
+    "category": "market maker",
+    "description": "System 9 is a global market maker and software development company that offers crypto projects and institutions the expertise, flexibility, and transparency they need to succeed."
+  },
+  {
+    "name": "Gitbook",
+    "url": "https://www.gitbook.com",
+    "logo": "gitbook.svg",
+    "category": "docs",
+    "description": "GitBook makes it easy to plan, centralize and share knowledge, from start to ship."
+  },
+  {
+    "name": "Railgun",
+    "url": "https://www.railgun.org",
+    "logo": "railgun.svg",
+    "category": "privacy",
+    "description": "RAILGUN is the only uncompromising on-chain privacy solution with unparalleled encryption, security, and just as much DeFi functionality as any other wallet."
+  },
+  {
+    "name": "Kava",
+    "url": "https://docs.kava.io/docs/intro",
+    "logo": "kava.svg",
+    "category": "grants",
+    "description": "The Kava Network is the first Layer-1 blockchain to combine the speed and scalability of the Cosmos SDK with the developer support of Ethereum."
+  },
+  {
+    "name": "Stargate",
+    "url": "https://stargate.finance",
+    "logo": "stargate.svg",
+    "category": "grants/bridge",
+    "description": "Stargate is a fully composable liquidity transport protocol that lives at the heart of Omnichain DeFi"
+  },
+  {
+    "name": "New Aggregators",
+    "url": "https://www.",
+    "logo": "newaggregators.svg",
+    "category": "aggregation",
+    "description": ""
+  },
+  {
+    "name": "Lido",
+    "url": "https://lido.fi",
+    "logo": "lido.svg",
+    "category": "liquidty-staking products",
+    "description": "Liquidity for staked tokens; Simplified and secure participation in staking."
+  },
+  {
+    "name": "DeBank",
+    "url": "https://debank.com",
+    "logo": "debank.svg",
+    "category": "monitoring/marketing",
+    "description": "The web3-native messenger & the best web3 portfolio tracker that covers all your tokens, DeFi protocols, NFTs across all EVM chains."
+  },
+  {
+    "name": "QiDao",
+    "url": "https://app.mai.finance",
+    "logo": "qidao.svg",
+    "category": "cdp/beefy collateral",
+    "description": "QiDao is an overcollateralized stablecoin protocol that allows users to mint stablecoins (MAI) against the value of their decentralized token collaterals."
+  },
+  {
+    "name": "Binance",
+    "url": "https://www.binance.com",
+    "logo": "binance.svg",
+    "category": "cex token listing",
+    "description": "Binance is a global company that operates the largest cryptocurrency exchange in terms of daily trading volume of cryptocurrencies."
+  },
+  {
+    "name": "Crypto.com",
+    "url": "https://crypto.com",
+    "logo": "crypto.com.svg",
+    "category": "cex token listing",
+    "description": "The World’s Leading Cryptocurrency Platform"
+  },
+  {
+    "name": "Nexus Mutual",
+    "url": "https://nexusmutual.io",
+    "logo": "nexusmutual.svg",
+    "category": "coverage",
+    "description": "Deep capacity meets complete transparency"
+  },
+  {
+    "name": "InsurAce.io",
+    "url": "https://www.insurace.io",
+    "logo": "insurace.io.svg",
+    "category": "coverage",
+    "description": "We provide reliable, robust, and secure protection services to DeFi users, allowing them to secure investment assets against various risks."
+  },
+  {
+    "name": "Connext xERC20",
+    "url": "https://www.connext.network/xerc20",
+    "logo": "connextxerc20.svg",
+    "category": "bridged tokens",
+    "description": "Bridge your token to any chain with zero slippage, fungibility with canonical bridges, and granular risk settings — all while maintaining ownership of your token contracts."
+  },
+  {
+    "name": "Coinbase Wallet",
+    "url": "https://www.coinbase.com/wallet",
+    "logo": "coinbasewallet.svg",
+    "category": "wallets",
+    "description": "Store and manage all of your crypto, NFTs, and multiple wallets in one place"
+  },
+  {
+    "name": "Fireblocks",
+    "url": "https://www.fireblocks.com",
+    "logo": "fireblocks.svg",
+    "category": "wallets",
+    "description": "Fireblocks provides a suite of applications to manage digital asset operations and a complete development platform to build your business on the blockchain."
+  },
+  {
+    "name": "Rabby",
+    "url": "https://rabby.io",
+    "logo": "rabby.svg",
+    "category": "wallets",
+    "description": "The game-changing wallet for 120 blockchains"
+  },
+  {
+    "name": "Shopify",
+    "url": "https://www.shopify.com/",
+    "logo": "shopify.svg",
+    "category": "gear",
+    "description": "Shopify is supporting the next generation of entrepreneurs, the world’s biggest brands, and everyone in between"
   }
 ]

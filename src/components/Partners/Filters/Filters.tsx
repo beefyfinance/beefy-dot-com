@@ -2,6 +2,7 @@ import React, {memo} from 'react'
 import styled from "@emotion/styled";
 import {theme} from "../../../theme";
 import {FilterButton} from "../FilterButton/FilterButton";
+import partners from "../../../content/json/partners.json"
 
 type FiltersProps = {
     selectedFilter: string
@@ -21,7 +22,10 @@ const Container = styled.div`
 
 
 export const Filters = memo<FiltersProps>(function Filters(props) {
-    const filterOptions = ['all', 'blockchain', 'automation', 'crosschain', 'wallets', 'auditing', 'accounting', 'aggregation']
+    const filterOptions = partners.map(partner => partner.category.toLowerCase())
+    const uniqueSet = new Set(filterOptions);
+    const uniqueArray = [...uniqueSet].sort((a, b) => a.toLowerCase().localeCompare(b.toLowerCase()))
+    uniqueArray.unshift('all');
 
     const handleFilterClick = (filter: string) => {
         props.updateSelectedFilter(filter)
@@ -30,7 +34,7 @@ export const Filters = memo<FiltersProps>(function Filters(props) {
     return (
         <Container>
             {
-                filterOptions.map(option => <FilterButton onClick={() => handleFilterClick(option)} key={option} isActive={option === props.selectedFilter} text={option.toUpperCase()} />)
+                uniqueArray.map(option => <FilterButton onClick={() => handleFilterClick(option)} key={option} isActive={option === props.selectedFilter} text={option.toUpperCase()} />)
             }
         </Container>
     )
