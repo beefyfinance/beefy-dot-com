@@ -11,7 +11,6 @@ class ReducerRegistry {
   }
 
   register(name: string, reducer: Reducer) {
-    console.log('register', name);
     this.reducers = { ...this.reducers, [name]: reducer };
 
     if (this.emitOnChange) {

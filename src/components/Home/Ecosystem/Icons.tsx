@@ -1,7 +1,7 @@
 import React, { memo } from 'react';
 import styled from '@emotion/styled';
 import { IconsBackground } from './IconsBackground';
-import beefyToken from '../../../images/assets/BIFI.png';
+import beefyToken from '../../../images/assets/BIFI.svg';
 import { theme } from '../../../theme';
 
 const Holder = styled.div`
