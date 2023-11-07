@@ -21,17 +21,15 @@ const Outer = styled.div`
 
 const PartnersWrapper = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(328px, 1fr));
   gap: ${theme.spacing(3)};
 `;
 
 const Partners = memo<PartnersPageProps>(function Partners({ data }) {
-  console.info(data.allPartnersJson)
   const allPartners = useMemo(
     () => data.allPartnersJson.edges.map(edge => edge.node),
     [data.allPartnersJson.edges]
   ).sort((a, b) => a.name.toLowerCase().localeCompare(b.name.toLowerCase()));
-  console.log(allPartners)
 
   const [filteredResults, setFilteredResults] = useState<PartnerItem[]>(allPartners);
   const [selectedFilter, setSelectedFilter] = useState<string>('all');
@@ -39,12 +37,9 @@ const Partners = memo<PartnersPageProps>(function Partners({ data }) {
   const updateSelectedFilter = (newFilter: string) => {
     setSelectedFilter(newFilter);
     const newList = allPartners.filter(
-        partner => newFilter === 'all' || partner.category.toLowerCase() === newFilter.toLowerCase()
-    )
-    console.info(newList)
-    setFilteredResults(
-      newList
+      partner => newFilter === 'all' || partner.category.toLowerCase() === newFilter.toLowerCase()
     );
+    setFilteredResults(newList);
   };
 
   return (

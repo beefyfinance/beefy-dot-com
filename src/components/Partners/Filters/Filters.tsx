@@ -3,6 +3,8 @@ import styled from "@emotion/styled";
 import {theme} from "../../../theme";
 import {FilterButton} from "../FilterButton/FilterButton";
 import partners from "../../../content/json/partners.json"
+import {useWindowSize} from "../../../utils/react-utils";
+import {DropDownFilter} from "../DropDownFilter/DropDownFilter";
 
 type FiltersProps = {
     selectedFilter: string
@@ -22,6 +24,8 @@ const Container = styled.div`
 
 
 export const Filters = memo<FiltersProps>(function Filters(props) {
+    const { width, height } = useWindowSize()
+    const isScreenSmall = width <=1280 || height <= 1000;
     const filterOptions = partners.map(partner => partner.category.toLowerCase())
     const uniqueSet = new Set(filterOptions);
     const uniqueArray = [...uniqueSet].sort((a, b) => a.toLowerCase().localeCompare(b.toLowerCase()))
@@ -34,7 +38,14 @@ export const Filters = memo<FiltersProps>(function Filters(props) {
     return (
         <Container>
             {
-                uniqueArray.map(option => <FilterButton onClick={() => handleFilterClick(option)} key={option} isActive={option === props.selectedFilter} text={option.toUpperCase()} />)
+                isScreenSmall ?
+                    <DropDownFilter onClick={handleFilterClick} filterList={uniqueArray} />
+                    :
+                    <>
+                        {
+                            uniqueArray.map(option => <FilterButton onClick={() => handleFilterClick(option)} key={option} isActive={option === props.selectedFilter} text={option.toUpperCase()} />)
+                        }
+                    </>
             }
         </Container>
     )
