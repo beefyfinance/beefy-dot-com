@@ -24,11 +24,13 @@ const Option = styled("option")`
 `
 
 export const DropDownFilter = memo<DropDownFilterProps>(function DropDownFilter(props: DropDownFilterProps) {
-
+    const handleChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
+        props.onClick(event.target.value);
+    };
     return (
-        <Select>
+        <Select onChange={handleChange}>
             {
-                props.filterList.map(option => <Option onClick={() => props.onClick(option)}>{option.toUpperCase()}</Option>)
+                props.filterList.map(option => <Option value={option}>{option.toUpperCase()}</Option>)
             }
         </Select>
     )
