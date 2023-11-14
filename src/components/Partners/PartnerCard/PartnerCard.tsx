@@ -62,7 +62,7 @@ const CardHeader = styled.div`
 
 const Image = styled.img`
   height: 64px;
-  width: auto;
+  max-width: 64px;
   margin-right: 20px;
 `
 

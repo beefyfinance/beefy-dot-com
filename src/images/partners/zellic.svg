@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="45.743599"
+   height="40"
+   viewBox="0 0 45.743599 40"
+   fill="none"
+   version="1.1"
+   id="svg19"
+   sodipodi:docname="zellic.svg"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview19"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="18.335672"
+     inkscape:cx="71.609048"
+     inkscape:cy="27.269249"
+     inkscape:window-width="3840"
+     inkscape:window-height="2321"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g19" />
+  <g
+     clip-path="url(#clip0_404_20094)"
+     id="g19">
+    <path
+       d="M 13.7179,0.384766 V 16.2257 L 11.1025,14.7153 V 0.384766 Z"
+       fill="#28281e"
+       id="path8"
+       style="fill:#cccccc" />
+    <path
+       d="M 18.9489,0.384766 V 19.2448 L 16.3335,17.7344 V 0.384766 Z"
+       fill="#28281e"
+       id="path9"
+       style="fill:#cccccc" />
+    <path
+       d="M 1.30768,18.1198 15.0263,26.0403 12.4106,27.5501 0,20.3848 Z"
+       fill="#28281e"
+       id="path10"
+       style="fill:#cccccc" />
+    <path
+       d="M 3.92292,13.5898 20.2562,23.0199 17.6405,24.5297 2.61523,15.8548 Z"
+       fill="#28281e"
+       id="path11"
+       style="fill:#cccccc" />
+    <path
+       d="m 10.4614,37.735 13.7187,-7.9204 -4e-4,3.0201 L 11.7691,40 Z"
+       fill="#28281e"
+       id="path12"
+       style="fill:#cccccc" />
+    <path
+       d="M 7.84619,33.2051 24.1795,23.775 24.1791,26.7952 9.15387,35.47 Z"
+       fill="#28281e"
+       id="path13"
+       style="fill:#cccccc" />
+    <path
+       d="M 32.0259,39.6152 V 23.7743 l 2.6153,1.5104 v 14.3305 z"
+       fill="#28281e"
+       id="path14"
+       style="fill:#cccccc" />
+    <path
+       d="m 26.7949,39.6152 v -18.86 l 2.6154,1.5104 v 17.3496 z"
+       fill="#28281e"
+       id="path15"
+       style="fill:#cccccc" />
+    <path
+       d="M 44.4359,21.8802 30.7173,13.9597 33.333,12.45 45.7436,19.6152 Z"
+       fill="#28281e"
+       id="path16"
+       style="fill:#cccccc" />
+    <path
+       d="M 41.8206,26.4102 25.4873,16.9801 28.103,15.4703 43.1283,24.1452 Z"
+       fill="#28281e"
+       id="path17"
+       style="fill:#cccccc" />
+    <path
+       d="M 35.2821,2.26497 21.5635,10.1854 21.5638,7.16528 33.9744,0 Z"
+       fill="#28281e"
+       id="path18"
+       style="fill:#cccccc" />
+    <path
+       d="M 37.8977,6.79494 21.5645,16.225 21.5648,13.2048 36.5901,4.52997 Z"
+       fill="#28281e"
+       id="path19"
+       style="fill:#cccccc" />
+  </g>
+  <defs
+     id="defs19">
+    <clipPath
+       id="clip0_404_20094">
+      <rect
+         width="143.82001"
+         height="40"
+         fill="#ffffff"
+         id="rect19"
+         x="0"
+         y="0" />
+    </clipPath>
+  </defs>
+</svg>
