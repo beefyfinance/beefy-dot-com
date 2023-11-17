@@ -16,7 +16,7 @@ const data = [
   { name: 'discord', img: discord, link: 'https://beefy.finance/discord' },
   { name: 'twitter', img: twitter, link: 'https://twitter.com/beefyfinance' },
   { name: 'reddit', img: reddit, link: 'https://www.reddit.com/r/Beefy/' },
-  { name: 'debank', img: debank, link: 'https://debank.com/official-account/110448' },
+  { name: 'debank', img: debank, link: 'https://debank.com/official/Beefy/' },
 ];
 
 const Outer = styled.footer`
