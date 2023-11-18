@@ -1,13 +1,13 @@
 [
   {
-    "itemId": "mono-dark",
+    "itemId": "mono-text-dark",
     "label": "Mono - Dark",
     "groupId": "logos",
     "background": "light",
     "versions": ["png", "svg"]
   },
   {
-    "itemId": "mono-light",
+    "itemId": "mono-text-light",
     "label": "Mono - Light",
     "groupId": "logos",
     "background": "dark",
@@ -44,6 +44,20 @@
   {
     "itemId": "qr",
     "label": "Beefy.com QR Code",
+    "groupId": "logos",
+    "background": "dark",
+    "versions": ["png", "svg"]
+  },
+   {
+    "itemId": "mono-dark",
+    "label": "Mono - Dark - Square",
+    "groupId": "logos",
+    "background": "light",
+    "versions": ["png", "svg"]
+  },
+  {
+    "itemId": "mono-light",
+    "label": "Mono - Light - Square",
     "groupId": "logos",
     "background": "dark",
     "versions": ["png", "svg"]
