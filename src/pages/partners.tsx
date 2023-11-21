@@ -1,7 +1,7 @@
 import React, { memo, useCallback, useMemo, useState } from 'react';
 import { Meta } from '../components/Common/Meta';
 import { graphql } from 'gatsby';
-import { NormalizedPartnerItem, PartnersQueryResult } from '../data/queries/partners';
+import { NormalizedPartnerItem, PartnerItem, PartnersQueryResult } from '../data/queries/partners';
 import { Inner } from '../components/Common/Inner';
 import { PartnerCard } from '../components/Partners/PartnerCard/PartnerCard';
 import { HeaderBox } from '../components/Partners/HeaderBox/HeaderBox';
@@ -26,14 +26,24 @@ const PartnersWrapper = styled.div`
   gap: ${theme.spacing(3)};
 `;
 
+function urlToFriendlyUrl(url: string): string {
+  const uri = new URL(url);
+  return uri.hostname.replace(/^www\./i, '');
+}
+
+function normalizePartnerItem(partner: PartnerItem): NormalizedPartnerItem {
+  return {
+    ...partner,
+    categoryKey: partner.category.toLowerCase(),
+    friendlyUrl: urlToFriendlyUrl(partner.url),
+  };
+}
+
 const Partners = memo<PartnersPageProps>(function Partners({ data }) {
   const allPartners = useMemo(
     () =>
       sortBy(
-        data.allPartnersJson.edges.map(edge => ({
-          ...edge.node,
-          categoryKey: edge.node.category.toLowerCase(),
-        })),
+        data.allPartnersJson.edges.map(edge => normalizePartnerItem(edge.node)),
         p => p.name.toLowerCase()
       ),
     [data.allPartnersJson.edges]

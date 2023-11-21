@@ -10,6 +10,7 @@ export type PartnerItem = {
 
 export type NormalizedPartnerItem = PartnerItem & {
   categoryKey: string;
+  friendlyUrl: string;
 };
 
 export type PartnersQueryResult = {

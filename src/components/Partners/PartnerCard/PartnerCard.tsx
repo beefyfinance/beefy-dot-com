@@ -1,11 +1,11 @@
 import React, { memo } from 'react';
-import { PartnerItem } from '../../../data/queries/partners';
+import { NormalizedPartnerItem } from '../../../data/queries/partners';
 import styled from '@emotion/styled';
 import { theme } from '../../../theme';
 import { keyframes } from '@emotion/react';
 
 export type PartnerCardProps = {
-  partner: PartnerItem;
+  partner: NormalizedPartnerItem;
   visible: boolean;
 };
 
@@ -39,6 +39,7 @@ const Card = styled.div<AnimatedItemProps>`
   transition-duration: 0.15s;
   opacity: 0;
   animation: ${({ visible }) => (visible ? fadeIn : fadeOut)} 0.3s ease-in-out forwards;
+
   &.exit {
     animation: ${fadeOut} 0.3s ease-in-out forwards;
   }
@@ -90,11 +91,6 @@ function getLogoUrl(logoName: string) {
   }
 }
 
-function truncateString(inputString: string): string {
-  const maxLen = 200;
-  return inputString.length <= maxLen ? inputString : inputString.slice(0, maxLen) + '...';
-}
-
 export const PartnerCard = memo<PartnerCardProps>(function PartnerCard({ partner, visible }) {
   return (
     <Card visible={visible}>
@@ -103,12 +99,12 @@ export const PartnerCard = memo<PartnerCardProps>(function PartnerCard({ partner
         <Image src={getLogoUrl(partner.logo)} alt={partner.name} />
         <div>
           <Title>{partner.name}</Title>
-          <PartnerLink target="_blank" href={partner.url}>
-            {partner.url.replace(/^(https?:\/\/)?(www\.)?/, '')}
+          <PartnerLink target="_blank" rel="noopener" href={partner.url}>
+            {partner.friendlyUrl}
           </PartnerLink>
         </div>
       </CardHeader>
-      <Description>{truncateString(partner.description)}</Description>
+      <Description>{partner.description}</Description>
     </Card>
   );
 });
