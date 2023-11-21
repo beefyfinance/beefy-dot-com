@@ -11,6 +11,7 @@ export const FilterButtons = memo<FilterProps>(function FilterButtons({
     <>
       {options.map(option => (
         <FilterButton
+          key={option.key}
           selected={option.key === selected}
           text={option.text}
           value={option.key}
