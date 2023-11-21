@@ -3,15 +3,10 @@ import styled from "@emotion/styled";
 import {theme} from "../../../theme";
 
 const Container = styled.div`
-  // height: 250px;
-  // border: 2px solid ${theme.cardBorder};
-  // background-color: ${theme.cardBg};
-  // border-radius: 12px;
-  // padding: ${theme.spacing(2)};
   margin-bottom: ${theme.spacing(4)};
 `
 
-const Heading = styled.h1``;
+const Header = styled.h1``;
 
 const Description = styled.p`
   ${theme.h3};
@@ -22,8 +17,8 @@ const Description = styled.p`
 export const HeaderBox = () => {
     return (
         <Container>
-            <Heading>Beefy Partners</Heading>
-            <Description>Below are Beefy's valued partners, the cornerstone of our collaborative ecosystem that fuels the functionality of our platform. All hand-picked and thoroughly vetted, our partners and projects work together to provide you with an unparalleled experience.</Description>
+            <Header>Beefy Partners</Header>
+            <Description>Explore the ecosystem of partners that make Beefy tick. Beefy's protocol and DAO rely heavily on collaboration through neutral and decentralized technology to offer a secure, permissionless and trust-minimized service to the world. We would be nothing without our frens across the stack.</Description>
         </Container>
     );
 }

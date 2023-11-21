@@ -25,7 +25,7 @@ const Container = styled.div`
 
 export const Filters = memo<FiltersProps>(function Filters(props) {
     const { width, height } = useWindowSize()
-    const isScreenSmall = width <=1280 || height <= 1000;
+    const isScreenSmall = width <=925 ;
     const filterOptions = partners.map(partner => partner.category.toLowerCase())
     const uniqueSet = new Set(filterOptions);
     const uniqueArray = [...uniqueSet].sort((a, b) => a.toLowerCase().localeCompare(b.toLowerCase()))
