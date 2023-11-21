@@ -1,14 +1,16 @@
-import React, { memo } from 'react';
+import React, { memo, useMemo } from 'react';
 import styled from '@emotion/styled';
 import { theme } from '../../../theme';
-import { FilterButton } from '../FilterButton/FilterButton';
-import partners from '../../../content/json/partners.json';
 import { useWindowSize } from '../../../utils/react-utils';
-import { DropDownFilter } from '../DropDownFilter/DropDownFilter';
+import { FilterDropdown } from './FilterDropdown';
+import { sortBy, uniqBy } from 'lodash';
+import { NormalizedPartnerItem } from '../../../data/queries/partners';
+import { FilterButtons } from './FilterButtons';
 
 type FiltersProps = {
-  selectedFilter: string;
-  updateSelectedFilter: (newFilter: string) => void;
+  partners: NormalizedPartnerItem[];
+  selected: string;
+  onChange: (newFilter: string) => void;
 };
 
 const Container = styled.div`
@@ -22,34 +24,28 @@ const Container = styled.div`
   margin-bottom: ${theme.spacing(4)};
 `;
 
-export const Filters = memo<FiltersProps>(function Filters(props) {
-  const { width, height } = useWindowSize();
+export const Filters = memo<FiltersProps>(function Filters({ onChange, selected, partners }) {
+  const { width } = useWindowSize();
   const isScreenSmall = width <= 925;
-  const filterOptions = partners.map(partner => partner.category.toLowerCase());
-  const uniqueSet = new Set(filterOptions);
-  const uniqueArray = [...uniqueSet].sort((a, b) => a.toLowerCase().localeCompare(b.toLowerCase()));
-  uniqueArray.unshift('all');
-
-  const handleFilterClick = (filter: string) => {
-    props.updateSelectedFilter(filter);
-  };
+  const options = useMemo(() => {
+    const uniqOptions = sortBy(
+      uniqBy(
+        partners.map(partner => ({
+          key: partner.categoryKey,
+          text: partner.category,
+        })),
+        o => o.key
+      ),
+      o => o.key
+    );
+    uniqOptions.unshift({ key: 'all', text: 'ALL' });
+    return uniqOptions;
+  }, [partners]);
+  const FilterComponent = isScreenSmall ? FilterDropdown : FilterButtons;
 
   return (
     <Container>
-      {isScreenSmall ? (
-        <DropDownFilter onClick={handleFilterClick} filterList={uniqueArray} />
-      ) : (
-        <>
-          {uniqueArray.map(option => (
-            <FilterButton
-              onClick={() => handleFilterClick(option)}
-              key={option}
-              isActive={option === props.selectedFilter}
-              text={option.toUpperCase()}
-            />
-          ))}
-        </>
-      )}
+      <FilterComponent options={options} onChange={onChange} selected={selected} />
     </Container>
   );
 });

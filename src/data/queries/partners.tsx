@@ -8,6 +8,10 @@ export type PartnerItem = {
   description: string;
 };
 
+export type NormalizedPartnerItem = PartnerItem & {
+  categoryKey: string;
+};
+
 export type PartnersQueryResult = {
   allPartnersJson: {
     edges: {

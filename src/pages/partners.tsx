@@ -1,13 +1,14 @@
-import React, { memo, useMemo, useState } from 'react';
+import React, { memo, useCallback, useMemo, useState } from 'react';
 import { Meta } from '../components/Common/Meta';
 import { graphql } from 'gatsby';
-import { PartnerItem, PartnersQueryResult } from '../data/queries/partners';
-import styled from '@emotion/styled';
-import { theme } from '../theme';
+import { NormalizedPartnerItem, PartnersQueryResult } from '../data/queries/partners';
 import { Inner } from '../components/Common/Inner';
 import { PartnerCard } from '../components/Partners/PartnerCard/PartnerCard';
 import { HeaderBox } from '../components/Partners/HeaderBox/HeaderBox';
 import { Filters } from '../components/Partners/Filters/Filters';
+import { sortBy } from 'lodash';
+import styled from '@emotion/styled';
+import { theme } from '../theme';
 
 type PartnersPageProps = {
   data: {
@@ -27,20 +28,30 @@ const PartnersWrapper = styled.div`
 
 const Partners = memo<PartnersPageProps>(function Partners({ data }) {
   const allPartners = useMemo(
-    () => data.allPartnersJson.edges.map(edge => edge.node),
+    () =>
+      sortBy(
+        data.allPartnersJson.edges.map(edge => ({
+          ...edge.node,
+          categoryKey: edge.node.category.toLowerCase(),
+        })),
+        p => p.name.toLowerCase()
+      ),
     [data.allPartnersJson.edges]
-  ).sort((a, b) => a.name.toLowerCase().localeCompare(b.name.toLowerCase()));
-
-  const [filteredResults, setFilteredResults] = useState<PartnerItem[]>(allPartners);
+  );
+  const [filteredResults, setFilteredResults] = useState<NormalizedPartnerItem[]>(allPartners);
   const [selectedFilter, setSelectedFilter] = useState<string>('all');
 
-  const updateSelectedFilter = (newFilter: string) => {
-    setSelectedFilter(newFilter);
-    const newList = allPartners.filter(
-      partner => newFilter === 'all' || partner.category.toLowerCase() === newFilter.toLowerCase()
-    );
-    setFilteredResults(newList);
-  };
+  const updateSelectedFilter = useCallback(
+    (newFilter: string) => {
+      const newList =
+        newFilter === 'all'
+          ? allPartners
+          : allPartners.filter(partner => partner.categoryKey === newFilter);
+      setSelectedFilter(newFilter);
+      setFilteredResults(newList);
+    },
+    [setSelectedFilter, setFilteredResults, allPartners]
+  );
 
   return (
     <>
@@ -51,7 +62,11 @@ const Partners = memo<PartnersPageProps>(function Partners({ data }) {
       <Outer>
         <Inner>
           <HeaderBox />
-          <Filters selectedFilter={selectedFilter} updateSelectedFilter={updateSelectedFilter} />
+          <Filters
+            selected={selectedFilter}
+            onChange={updateSelectedFilter}
+            partners={allPartners}
+          />
           <PartnersWrapper>
             {filteredResults.map(partner => (
               <PartnerCard key={partner.name} partner={partner} visible={true} />
