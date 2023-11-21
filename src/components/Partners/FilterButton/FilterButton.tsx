@@ -1,16 +1,16 @@
-import React from 'react'
-import styled from "@emotion/styled";
-import {theme} from "../../../theme";
+import React from 'react';
+import styled from '@emotion/styled';
+import { theme } from '../../../theme';
 
 type FilterButtonProps = {
-    isActive: boolean
-    text: string
-    onClick: () => void
-}
+  isActive: boolean;
+  text: string;
+  onClick: () => void;
+};
 
 type ButtonProps = {
-    isActive: boolean
-}
+  isActive: boolean;
+};
 
 const Button = styled.p<ButtonProps>`
   border-radius: 12px;
@@ -20,11 +20,13 @@ const Button = styled.p<ButtonProps>`
   text-align: center;
   margin: 0;
   cursor: pointer;
-  color: ${props => props.isActive ? 'inherit' : theme.text.dark}
-`
+  color: ${props => (props.isActive ? 'inherit' : theme.text.dark)};
+`;
 
-export const FilterButton = ({isActive, text, onClick}: FilterButtonProps) => {
-    return (
-        <Button onClick={onClick} isActive={isActive}>{text}</Button>
-    )
-}
+export const FilterButton = ({ isActive, text, onClick }: FilterButtonProps) => {
+  return (
+    <Button onClick={onClick} isActive={isActive}>
+      {text}
+    </Button>
+  );
+};

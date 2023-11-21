@@ -1,199 +1,198 @@
 [
-    {
-      "name": "Optimism",
-      "url": "https://www.optimism.io",
-      "logo": "optimism.svg",
-      "category": "BRIDGE",
-      "description": "OP Mainnet is a fast, stable, and scalable L2 blockchain built by Ethereum developers, for Ethereum developers. The OP Bridge facilitates secure interactions between various EVM chains and OP Mainnet with dozens of your favourite digital assets."
-    },
-    {
-      "name": "Gelato",
-      "url": "https://www.gelato.network",
-      "logo": "gelato.svg",
-      "category": "INFRA",
-      "description": "Gelato is web3’s decentralized backend empowering builders to create augmented smart contracts that are automated, gasless & off-chain aware on all major EVM-compatible blockchains."
-    },
-    {
-      "name": "LayerZero",
-      "url": "https://www.layerzero.network",
-      "logo": "layerzero.svg",
-      "category": "BRIDGE",
-      "description": "LayerZero is a leading network for crosschain messaging across over dozens of EVM blockchains. It facilitates flexible and near-instant bridging transactions, making working across different chains easier and more accessible for everyone."
-    },
-    {
-      "name": "Safe",
-      "url": "https://www.safe.global",
-      "logo": "safe.svg",
-      "category": "WALLET",
-      "description": "Safe is a leading account abstraction tooling provider for EVM blockchains. It offers a range of smart wallets and multisignature authorisation infrastructure, making it easier to manage shared funds."
-    },
-    {
-      "name": "OpenZeppelin",
-      "url": "https://www.openzeppelin.com",
-      "logo": "openzeppelin.svg",
-      "category": "SECURITY",
-      "description": "OpenZeppelin sets the standards for smart contracts across the EVM universe. As one of the leading auditing teams and contributors to the Solidity language, their brand is synonymous with onchain security."
-    },
-    {
-      "name": "Cryptio",
-      "url": "https://www.cryptio.co",
-      "logo": "cryptio.svg",
-      "category": "GOVERNANCE",
-      "description": "Enterprise-grade accounting, audit and tax software for digital assets. Cryptio helps Beefy to transparently monitor and display treasury operations, and manage the project's financial health."
-    },
-    {
-      "name": "1inch",
-      "url": "https://www.1inch.io",
-      "logo": "1inch.svg",
-      "category": "EXCHANGE",
-      "description": "1inch is a leading price aggregator that delivers the very best of exchange pricing for your digital assets. Through Beefy ZAP, you can enter any vault at optimal prices faciliated by 1inch."
-    },
-    {
-      "name": "Axelar",
-      "url": "https://axelar.network",
-      "logo": "axelar.svg",
-      "category": "BRIDGE",
-      "description": "Axelar delivers secure cross-chain communication for Web3. Our infrastructure enables dApp users to interact with any asset or application, on any chain, with one click."
-    },
-    {
-      "name": "Chainlink CCIP",
-      "url": "https://chain.link/cross-chain",
-      "logo": "chainlinkccip.svg",
-      "category": "BRIDGE",
-      "description": "Chainlink CCIP provides a single interface for dApps and web3 organizations to securely transfer data and tokens across chains, to build truly decentralized and permissionless applications."
-    },
-    {
-      "name": "Zellic",
-      "url": "https://www.zellic.io",
-      "logo": "zellic.svg",
-      "category": "SECURITY",
-      "description": "Zellic specializes in securing emerging technologies. Beefy relies on Zellic's comprehensive security assessments to catch vulnerabilities and weaknesses in smart contracts and protect user funds."
-    },
-    {
-      "name": "Transak",
-      "url": "https://transak.com",
-      "logo": "transak.svg",
-      "category": "ONRAMP",
-      "description": "Transak is a leading Web 3.0 on-ramp service, that allows you to get funds from your bank account in to Beefy vaults in just a few clicks."
-    },
-    {
-      "name": "Snapshot",
-      "url": "https://snapshot.org",
-      "logo": "snapshot.svg",
-      "category": "GOVERNANCE",
-      "description": "Snapshot is the go-to voting platform that allows DAOs, DeFi protocols and NFT communities to easily vote and resolve governance questions securely and without expensive gas fees."
-    },
-    {
-      "name": "System 9",
-      "url": "https://system9.io",
-      "logo": "system9.svg",
-      "category": "EXCHANGE",
-      "description": "System 9 is a global market maker and software development company that offers crypto projects like Beefy the expertise, flexibility and transparency they need to achieve successful liquidity both on and off the blockchain."
-    },
-    {
-      "name": "RAILGUN",
-      "url": "https://www.railgun.org",
-      "logo": "railgun.svg",
-      "category": "SECURITY",
-      "description": "RAILGUN is an uncompromising on-chain privacy solution with unparalleled encryption, security. It delivers all the DeFi functionality of a typical wallet, but with privacy embedded at its core."
-    },
-    {
-      "name": "Stargate",
-      "url": "https://stargate.finance",
-      "logo": "stargate.svg",
-      "category": "BRIDGE",
-      "description": "Stargate is a fully composable liquidity transport protocol that lives at the heart of Omnichain DeFi. The protocol facilitates near instantaneous bridging transactions using LayerZero's lightning-fast technology."
-    },
-    {
-      "name": "Lido",
-      "url": "https://lido.fi",
-      "logo": "lido.svg",
-      "category": "DEFI",
-      "description": "Lido is the leading liquid-staking protocol for Ethereum, offering easy access to staking services and high yields on your Ether with none of the complexity of managing your own validators."
-    },
-    {
-      "name": "Stader Labs",
-      "url": "https://www.staderlabs.com",
-      "logo": "stader.svg",
-      "category": "DEFI",
-      "description": "One of the leading staking services for assets across the EVM universe, Stader abstracts the difficulties of deploying and managing validators, giving users easy access to high yields on their native chain assets."
-    },
-    {
-      "name": "DeBank",
-      "url": "https://debank.com",
-      "logo": "debank.svg",
-      "category": "INFRA",
-      "description": "The web3-native messenger & portfolio tracking appliation that brings together all of your tokens, DeFi protocols, NFTs and other digital assets across all EVM chains."
-    },
-    {
-      "name": "QiDao",
-      "url": "https://app.mai.finance",
-      "logo": "qidao.svg",
-      "category": "DEFI",
-      "description": "QiDao is the original cross-chain overcollateralized stablecoin protocol, which allows users to mint stablecoins (MAI) against the value of their decentralized token collaterals."
-    },
-    {
-      "name": "Binance",
-      "url": "https://www.binance.com",
-      "logo": "binance.svg",
-      "category": "EXCHANGE",
-      "description": "Binance is one of the largest global cryptocurrency exchange, handling millions of dollars in trading volume each day. Among other services, Binance maintains its BNB Chain as an advanced and easy to use EVM blockchain for DeFi activities like yield farming."
-    },
-    {
-      "name": "Crypto.com",
-      "url": "https://crypto.com",
-      "logo": "crypto.com.svg",
-      "category": "EXCHANGE",
-      "description": "One of the world's largest digital asset exchanges, Crypto.com offers access to hundreds of digital assets at the click of a button. CDC also built and maintain the Cronos blockchain, an EVM chain that has Beefy for over 2 years."
-    },
-    {
-      "name": "Nexus Mutual",
-      "url": "https://nexusmutual.io",
-      "logo": "nexusmutual.svg",
-      "category": "COVERAGE",
-      "description": "Nexus is one of the original coverage protocols, allowing members to protect themselves from onchain risks by pooling funds to offer coverage positions for hundreds of protocols and DeFi assets."
-    },
-    {
-      "name": "InsurAce.io",
-      "url": "https://www.insurace.io",
-      "logo": "insurace.io.svg",
-      "category": "COVERAGE",
-      "description": "InsurAce provide reliable, robust, and secure protection services to DeFi users, allowing them to secure investment assets against various risks with onchain coverage products."
-    },
-    {
-      "name": "Connext xERC20",
-      "url": "https://www.connext.network/xerc20",
-      "logo": "connextxerc20.svg",
-      "category": "BRIDGE",
-      "description": "Connext's xERC20 standard facilitates the secure canonical bridging of digital assets across the EVM universe using any number of different bridging services. With xERC20, Beefy users can bridge their $mooBIFI seemlessly using the provider that they prefer"
-    },
-    {
-      "name": "Coinbase Wallet",
-      "url": "https://www.coinbase.com/wallet",
-      "logo": "coinbasewallet.svg",
-      "category": "WALLET",
-      "description": "Store and manage all of your crypto, NFTs, and multiple wallets in one place with Coinbase's flagship wallet. Seemless deposit and withdraw onchain assets onto Coinbase Exchange with just a few taps."
-    },
-    {
-      "name": "Fireblocks",
-      "url": "https://www.fireblocks.com",
-      "logo": "fireblocks.svg",
-      "category": "WALLET",
-      "description": "Fireblocks provides a comprehensive suite of applications to manage digital asset operations and a complete development platform to build your business on the blockchain. Access incredible yields on Beefy with the security of Fireblocks in just a few clicks."
-    },
-    {
-      "name": "Rabby",
-      "url": "https://rabby.io",
-      "logo": "rabby.svg",
-      "category": "WALLET",
-      "description": "Rabby is THE game-changing wallet, offering you access to assets on 120 different blockchains, with leading user experience and functionality. Integrated with DeBank's portfolio tracker, Rabby helps users to seemlessly manage their portfolios."
-    },
-    {
-      "name": "ANKR",
-      "url": "https://www.ankr.com",
-      "logo": "ankr.svg",
-      "category": "INFRA",
-      "description": "ANKR is a leading provider of decentralized infrastructure, with a global RPC network and advanced APIs for accessing onchain data. As a key partner for RPCs, ANKR delivers the data that users need to track their onchain positions and profits through the Beefy application."
-    }
-  ]
-  
+  {
+    "name": "Optimism",
+    "url": "https://www.optimism.io",
+    "logo": "optimism.svg",
+    "category": "BRIDGE",
+    "description": "OP Mainnet is a fast, stable, and scalable L2 blockchain built by Ethereum developers, for Ethereum developers. The OP Bridge facilitates secure interactions between various EVM chains and OP Mainnet with dozens of your favourite digital assets."
+  },
+  {
+    "name": "Gelato",
+    "url": "https://www.gelato.network",
+    "logo": "gelato.svg",
+    "category": "INFRA",
+    "description": "Gelato is web3’s decentralized backend empowering builders to create augmented smart contracts that are automated, gasless & off-chain aware on all major EVM-compatible blockchains."
+  },
+  {
+    "name": "LayerZero",
+    "url": "https://www.layerzero.network",
+    "logo": "layerzero.svg",
+    "category": "BRIDGE",
+    "description": "LayerZero is a leading network for crosschain messaging across over dozens of EVM blockchains. It facilitates flexible and near-instant bridging transactions, making working across different chains easier and more accessible for everyone."
+  },
+  {
+    "name": "Safe",
+    "url": "https://www.safe.global",
+    "logo": "safe.svg",
+    "category": "WALLET",
+    "description": "Safe is a leading account abstraction tooling provider for EVM blockchains. It offers a range of smart wallets and multisignature authorisation infrastructure, making it easier to manage shared funds."
+  },
+  {
+    "name": "OpenZeppelin",
+    "url": "https://www.openzeppelin.com",
+    "logo": "openzeppelin.svg",
+    "category": "SECURITY",
+    "description": "OpenZeppelin sets the standards for smart contracts across the EVM universe. As one of the leading auditing teams and contributors to the Solidity language, their brand is synonymous with onchain security."
+  },
+  {
+    "name": "Cryptio",
+    "url": "https://www.cryptio.co",
+    "logo": "cryptio.svg",
+    "category": "GOVERNANCE",
+    "description": "Enterprise-grade accounting, audit and tax software for digital assets. Cryptio helps Beefy to transparently monitor and display treasury operations, and manage the project's financial health."
+  },
+  {
+    "name": "1inch",
+    "url": "https://www.1inch.io",
+    "logo": "1inch.svg",
+    "category": "EXCHANGE",
+    "description": "1inch is a leading price aggregator that delivers the very best of exchange pricing for your digital assets. Through Beefy ZAP, you can enter any vault at optimal prices faciliated by 1inch."
+  },
+  {
+    "name": "Axelar",
+    "url": "https://axelar.network",
+    "logo": "axelar.svg",
+    "category": "BRIDGE",
+    "description": "Axelar delivers secure cross-chain communication for Web3. Our infrastructure enables dApp users to interact with any asset or application, on any chain, with one click."
+  },
+  {
+    "name": "Chainlink CCIP",
+    "url": "https://chain.link/cross-chain",
+    "logo": "chainlinkccip.svg",
+    "category": "BRIDGE",
+    "description": "Chainlink CCIP provides a single interface for dApps and web3 organizations to securely transfer data and tokens across chains, to build truly decentralized and permissionless applications."
+  },
+  {
+    "name": "Zellic",
+    "url": "https://www.zellic.io",
+    "logo": "zellic.svg",
+    "category": "SECURITY",
+    "description": "Zellic specializes in securing emerging technologies. Beefy relies on Zellic's comprehensive security assessments to catch vulnerabilities and weaknesses in smart contracts and protect user funds."
+  },
+  {
+    "name": "Transak",
+    "url": "https://transak.com",
+    "logo": "transak.svg",
+    "category": "ONRAMP",
+    "description": "Transak is a leading Web 3.0 on-ramp service, that allows you to get funds from your bank account in to Beefy vaults in just a few clicks."
+  },
+  {
+    "name": "Snapshot",
+    "url": "https://snapshot.org",
+    "logo": "snapshot.svg",
+    "category": "GOVERNANCE",
+    "description": "Snapshot is the go-to voting platform that allows DAOs, DeFi protocols and NFT communities to easily vote and resolve governance questions securely and without expensive gas fees."
+  },
+  {
+    "name": "System 9",
+    "url": "https://system9.io",
+    "logo": "system9.svg",
+    "category": "EXCHANGE",
+    "description": "System 9 is a global market maker and software development company that offers crypto projects like Beefy the expertise, flexibility and transparency they need to achieve successful liquidity both on and off the blockchain."
+  },
+  {
+    "name": "RAILGUN",
+    "url": "https://www.railgun.org",
+    "logo": "railgun.svg",
+    "category": "SECURITY",
+    "description": "RAILGUN is an uncompromising on-chain privacy solution with unparalleled encryption, security. It delivers all the DeFi functionality of a typical wallet, but with privacy embedded at its core."
+  },
+  {
+    "name": "Stargate",
+    "url": "https://stargate.finance",
+    "logo": "stargate.svg",
+    "category": "BRIDGE",
+    "description": "Stargate is a fully composable liquidity transport protocol that lives at the heart of Omnichain DeFi. The protocol facilitates near instantaneous bridging transactions using LayerZero's lightning-fast technology."
+  },
+  {
+    "name": "Lido",
+    "url": "https://lido.fi",
+    "logo": "lido.svg",
+    "category": "DEFI",
+    "description": "Lido is the leading liquid-staking protocol for Ethereum, offering easy access to staking services and high yields on your Ether with none of the complexity of managing your own validators."
+  },
+  {
+    "name": "Stader Labs",
+    "url": "https://www.staderlabs.com",
+    "logo": "stader.svg",
+    "category": "DEFI",
+    "description": "One of the leading staking services for assets across the EVM universe, Stader abstracts the difficulties of deploying and managing validators, giving users easy access to high yields on their native chain assets."
+  },
+  {
+    "name": "DeBank",
+    "url": "https://debank.com",
+    "logo": "debank.svg",
+    "category": "INFRA",
+    "description": "The web3-native messenger & portfolio tracking appliation that brings together all of your tokens, DeFi protocols, NFTs and other digital assets across all EVM chains."
+  },
+  {
+    "name": "QiDao",
+    "url": "https://app.mai.finance",
+    "logo": "qidao.svg",
+    "category": "DEFI",
+    "description": "QiDao is the original cross-chain overcollateralized stablecoin protocol, which allows users to mint stablecoins (MAI) against the value of their decentralized token collaterals."
+  },
+  {
+    "name": "Binance",
+    "url": "https://www.binance.com",
+    "logo": "binance.svg",
+    "category": "EXCHANGE",
+    "description": "Binance is one of the largest global cryptocurrency exchange, handling millions of dollars in trading volume each day. Among other services, Binance maintains its BNB Chain as an advanced and easy to use EVM blockchain for DeFi activities like yield farming."
+  },
+  {
+    "name": "Crypto.com",
+    "url": "https://crypto.com",
+    "logo": "crypto.com.svg",
+    "category": "EXCHANGE",
+    "description": "One of the world's largest digital asset exchanges, Crypto.com offers access to hundreds of digital assets at the click of a button. CDC also built and maintain the Cronos blockchain, an EVM chain that has Beefy for over 2 years."
+  },
+  {
+    "name": "Nexus Mutual",
+    "url": "https://nexusmutual.io",
+    "logo": "nexusmutual.svg",
+    "category": "COVERAGE",
+    "description": "Nexus is one of the original coverage protocols, allowing members to protect themselves from onchain risks by pooling funds to offer coverage positions for hundreds of protocols and DeFi assets."
+  },
+  {
+    "name": "InsurAce.io",
+    "url": "https://www.insurace.io",
+    "logo": "insurace.io.svg",
+    "category": "COVERAGE",
+    "description": "InsurAce provide reliable, robust, and secure protection services to DeFi users, allowing them to secure investment assets against various risks with onchain coverage products."
+  },
+  {
+    "name": "Connext xERC20",
+    "url": "https://www.connext.network/xerc20",
+    "logo": "connextxerc20.svg",
+    "category": "BRIDGE",
+    "description": "Connext's xERC20 standard facilitates the secure canonical bridging of digital assets across the EVM universe using any number of different bridging services. With xERC20, Beefy users can bridge their $mooBIFI seemlessly using the provider that they prefer"
+  },
+  {
+    "name": "Coinbase Wallet",
+    "url": "https://www.coinbase.com/wallet",
+    "logo": "coinbasewallet.svg",
+    "category": "WALLET",
+    "description": "Store and manage all of your crypto, NFTs, and multiple wallets in one place with Coinbase's flagship wallet. Seemless deposit and withdraw onchain assets onto Coinbase Exchange with just a few taps."
+  },
+  {
+    "name": "Fireblocks",
+    "url": "https://www.fireblocks.com",
+    "logo": "fireblocks.svg",
+    "category": "WALLET",
+    "description": "Fireblocks provides a comprehensive suite of applications to manage digital asset operations and a complete development platform to build your business on the blockchain. Access incredible yields on Beefy with the security of Fireblocks in just a few clicks."
+  },
+  {
+    "name": "Rabby",
+    "url": "https://rabby.io",
+    "logo": "rabby.svg",
+    "category": "WALLET",
+    "description": "Rabby is THE game-changing wallet, offering you access to assets on 120 different blockchains, with leading user experience and functionality. Integrated with DeBank's portfolio tracker, Rabby helps users to seemlessly manage their portfolios."
+  },
+  {
+    "name": "ANKR",
+    "url": "https://www.ankr.com",
+    "logo": "ankr.svg",
+    "category": "INFRA",
+    "description": "ANKR is a leading provider of decentralized infrastructure, with a global RPC network and advanced APIs for accessing onchain data. As a key partner for RPCs, ANKR delivers the data that users need to track their onchain positions and profits through the Beefy application."
+  }
+]

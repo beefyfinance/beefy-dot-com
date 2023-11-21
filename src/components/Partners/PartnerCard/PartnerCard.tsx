@@ -1,16 +1,16 @@
-import React, {memo} from 'react'
-import {PartnerItem} from "../../../data/queries/partners";
-import styled from "@emotion/styled";
-import {theme} from "../../../theme";
-import {keyframes} from "@emotion/react";
+import React, { memo } from 'react';
+import { PartnerItem } from '../../../data/queries/partners';
+import styled from '@emotion/styled';
+import { theme } from '../../../theme';
+import { keyframes } from '@emotion/react';
 
 export type PartnerCardProps = {
-    partner: PartnerItem
-    visible: boolean
-}
+  partner: PartnerItem;
+  visible: boolean;
+};
 
 interface AnimatedItemProps {
-    visible: boolean;
+  visible: boolean;
 }
 
 const fadeIn = keyframes`
@@ -36,13 +36,13 @@ const Card = styled.div<AnimatedItemProps>`
   background-color: ${theme.cardBg};
   border-radius: 12px;
   padding: ${theme.spacing(4)};
-  transition-duration: .15s;
+  transition-duration: 0.15s;
   opacity: 0;
   animation: ${({ visible }) => (visible ? fadeIn : fadeOut)} 0.3s ease-in-out forwards;
   &.exit {
     animation: ${fadeOut} 0.3s ease-in-out forwards;
   }
-`
+`;
 
 const PartnerType = styled.p`
   position: absolute;
@@ -52,19 +52,19 @@ const PartnerType = styled.p`
   margin: 0;
   padding: 6px 12px;
   background-color: #2a2b42;
-`
+`;
 
 const CardHeader = styled.div`
   display: flex;
   flex-direction: row;
   margin-bottom: 18px;
-`
+`;
 
 const Image = styled.img`
   height: 64px;
   max-width: 64px;
   margin-right: 20px;
-`
+`;
 
 const Title = styled.h2`
   ${theme.h3};
@@ -73,8 +73,8 @@ const Title = styled.h2`
 `;
 
 const PartnerLink = styled.a`
-    color: ${theme.text.middle};
-`
+  color: ${theme.text.middle};
+`;
 
 const Description = styled.div`
   ${theme.bodyLg};
@@ -82,34 +82,33 @@ const Description = styled.div`
 `;
 
 function getLogoUrl(logoName: string) {
-    try {
-        return require(`!url-loader?limit=false!../../../images/partners/${logoName}`).default;
-    } catch (error) {
-        console.error(logoName, 'is missing.')
-        return null;
-    }
+  try {
+    return require(`!url-loader?limit=false!../../../images/partners/${logoName}`).default;
+  } catch (error) {
+    console.error(logoName, 'is missing.');
+    return null;
+  }
 }
 
 function truncateString(inputString: string): string {
-    const maxLen = 200;
-    return inputString.length <= maxLen ? inputString : inputString.slice(0, maxLen) + '...';
+  const maxLen = 200;
+  return inputString.length <= maxLen ? inputString : inputString.slice(0, maxLen) + '...';
 }
 
-export const PartnerCard = memo<PartnerCardProps>(function PartnerCard({partner, visible}) {
-
-    return (
-        <Card visible={visible}>
-            <PartnerType>{partner.category}</PartnerType>
-            <CardHeader>
-                <Image src={getLogoUrl(partner.logo)} alt={partner.name} />
-                <div>
-                    <Title>{partner.name}</Title>
-                    <PartnerLink target="_blank" href={partner.url}>{partner.url.replace(/^(https?:\/\/)?(www\.)?/, '')}</PartnerLink>
-                </div>
-            </CardHeader>
-            <Description>
-                {truncateString(partner.description)}
-            </Description>
-        </Card>
-    )
+export const PartnerCard = memo<PartnerCardProps>(function PartnerCard({ partner, visible }) {
+  return (
+    <Card visible={visible}>
+      <PartnerType>{partner.category}</PartnerType>
+      <CardHeader>
+        <Image src={getLogoUrl(partner.logo)} alt={partner.name} />
+        <div>
+          <Title>{partner.name}</Title>
+          <PartnerLink target="_blank" href={partner.url}>
+            {partner.url.replace(/^(https?:\/\/)?(www\.)?/, '')}
+          </PartnerLink>
+        </div>
+      </CardHeader>
+      <Description>{truncateString(partner.description)}</Description>
+    </Card>
+  );
 });
