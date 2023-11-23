@@ -6,7 +6,6 @@ import { keyframes } from '@emotion/react';
 
 export type PartnerCardProps = {
   partner: NormalizedPartnerItem;
-  visible: boolean;
 };
 
 interface AnimatedItemProps {
@@ -31,14 +30,14 @@ const fadeOut = keyframes`
   }
 `;
 
-const Card = styled.div<AnimatedItemProps>`
+const Card = styled.div`
   position: relative;
   background-color: ${theme.cardBg};
   border-radius: 12px;
   padding: ${theme.spacing(4)};
   transition-duration: 0.15s;
   opacity: 0;
-  animation: ${({ visible }) => (visible ? fadeIn : fadeOut)} 0.3s ease-in-out forwards;
+  animation: ${fadeIn} 0.3s ease-in-out forwards;
 
   &.exit {
     animation: ${fadeOut} 0.3s ease-in-out forwards;
@@ -91,9 +90,9 @@ function getLogoUrl(logoName: string) {
   }
 }
 
-export const PartnerCard = memo<PartnerCardProps>(function PartnerCard({ partner, visible }) {
+export const PartnerCard = memo<PartnerCardProps>(function PartnerCard({ partner }) {
   return (
-    <Card visible={visible}>
+    <Card>
       <PartnerType>{partner.category}</PartnerType>
       <CardHeader>
         <Image src={getLogoUrl(partner.logo)} alt={partner.name} />
