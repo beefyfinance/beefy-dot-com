@@ -48,7 +48,7 @@
     "background": "dark",
     "versions": ["png", "svg"]
   },
-   {
+  {
     "itemId": "mono-dark",
     "label": "Mono - Dark - Square",
     "groupId": "logos",
