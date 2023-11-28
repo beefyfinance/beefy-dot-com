@@ -33,8 +33,9 @@ const fadeOut = keyframes`
 const Card = styled.div`
   position: relative;
   background-color: ${theme.cardBg};
-  border-radius: 12px;
-  padding: ${theme.spacing(4)};
+  border-radius: 8px;
+  border: 2px solid ${theme.cardHeader};
+  padding: ${theme.spacing(1)};
   transition-duration: 0.15s;
   opacity: 0;
   animation: ${fadeIn} 0.3s ease-in-out forwards;
@@ -48,22 +49,23 @@ const PartnerType = styled.p`
   position: absolute;
   top: 0;
   right: 0;
-  border-radius: 0 12px 0 12px;
+  border-bottom-left-radius: 8px;
   margin: 0;
   padding: 6px 12px;
-  background-color: #2a2b42;
+  background-color: ${theme.cardHeader};
 `;
 
 const CardHeader = styled.div`
   display: flex;
   flex-direction: row;
-  margin-bottom: 18px;
+  margin-bottom: 12px;
+  padding: 8px;
 `;
 
 const Image = styled.img`
-  height: 64px;
-  max-width: 64px;
-  margin-right: 20px;
+  height: 48px;
+  max-width: 48px;
+  margin-right: 16px;
 `;
 
 const Title = styled.h2`
@@ -79,6 +81,7 @@ const PartnerLink = styled.a`
 const Description = styled.div`
   ${theme.bodyLg};
   color: ${theme.text.middle};
+  padding: 8px;
 `;
 
 function getLogoUrl(logoName: string) {

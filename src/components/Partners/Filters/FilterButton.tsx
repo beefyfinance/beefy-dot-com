@@ -8,7 +8,8 @@ type ButtonProps = {
 };
 
 const Button = styled.button<ButtonProps>`
-  background: transparent;
+  ${theme.bodySmMed};
+  background: ${({ selected }) => (selected ? theme.button : theme.cardHeader)};
   outline: none;
   box-shadow: none;
   border-radius: 12px;

@@ -68,12 +68,9 @@ export const Footer = memo(function Footer() {
       <Inner>
         <Links>
           <ExternalLink href="https://vote.beefy.finance/" target="_blank">
-            Vote
+            Proposals
           </ExternalLink>
-          <ExternalLink href="https://dashboard.beefy.finance/" target="_blank">
-            Stats
-          </ExternalLink>
-          <InternalLink to="/articles">Blog</InternalLink>
+          <InternalLink to="/articles">News</InternalLink>
           <ExternalLink href="https://docs.beefy.finance" target="_blank">
             Docs
           </ExternalLink>

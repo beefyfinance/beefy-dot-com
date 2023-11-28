@@ -7,7 +7,7 @@ import { theme } from '../../../theme';
 
 const Price = styled.div`
   ${theme.bodyLgMed}
-  color: #707489;
+  color: ${theme.text.middle};
   margin-left: ${theme.spacing()};
 `;
 

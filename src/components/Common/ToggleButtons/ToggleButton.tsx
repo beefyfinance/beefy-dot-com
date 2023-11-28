@@ -19,7 +19,7 @@ const Button = styled.button<ButtonProps>`
   border: none;
   white-space: nowrap;
   color: ${({ selected }) => (selected ? theme.text.light : theme.text.dark)};
-  background-color: ${({ selected }) => (selected ? theme.primary : '#262A40')};
+  background-color: ${({ selected }) => (selected ? theme.primary : theme.cardHeader)};
   cursor: ${({ selected }) => (selected ? 'default' : 'pointer')};
 `;
 

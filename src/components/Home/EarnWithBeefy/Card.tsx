@@ -17,8 +17,8 @@ const CardContainer = styled.div`
 
 const Circle = styled.div`
   ${theme.h3};
-  color: #acb0d2;
-  background-color: #3f4474;
+  color: ${theme.text.middle};
+  background-color: #121421;
   border-radius: 40px;
   height: 30px;
   width: 30px;

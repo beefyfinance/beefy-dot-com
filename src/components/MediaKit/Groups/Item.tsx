@@ -6,8 +6,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
 
 const Card = styled.div`
-  background-color: ${theme.cardBg};
-  border: 2px solid ${theme.cardBorder};
+  background-color: ${theme.cardHeader};
+  border: 2px solid ${theme.cardHeader};
   border-radius: 12px;
   text-decoration: none;
 `;
@@ -19,10 +19,10 @@ const MediaHolder = styled.div<MediaHolderProps>`
   justify-content: center;
   height: 125px;
   padding: ${theme.spacing(4)};
-  background: ${({ background }) => (background === 'light' ? '#F5F5FF' : '#363B63')};
-  border-top-left-radius: 12px;
-  border-top-right-radius: 12px;
-  border-bottom: 2px solid ${theme.cardBorder};
+  background: ${({ background }) => (background === 'light' ? '#F5F5FF' : theme.cardLight)};
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom: 2px solid ${theme.cardHeader};
 `;
 
 const Media = styled.img`
@@ -54,7 +54,7 @@ const Version = styled.a`
   text-decoration: none;
   padding: 2px 8px;
   border-radius: 4px;
-  background: #363b63;
+  background: ${theme.button};
 `;
 
 const Icon = styled(FontAwesomeIcon)`
