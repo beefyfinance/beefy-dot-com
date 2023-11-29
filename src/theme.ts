@@ -6,6 +6,7 @@ class Theme {
   public readonly cardHeader = '#1C1E32'
   public readonly cardBorder = '#363B63';
   public readonly button = '#363B63'
+  public readonly buttonHover = '#495086'
 
   public readonly text = {
     light: '#F5F5FF',

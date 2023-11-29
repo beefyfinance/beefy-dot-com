@@ -78,6 +78,7 @@ export const Footer = memo(function Footer() {
             Audit
           </ExternalLink>
           <InternalLink to={'/media-kit'}>Media Kit</InternalLink>
+          <InternalLink to={'/partners'}>Partners</InternalLink>
         </Links>
         <Icons>
           {data.map(item => (

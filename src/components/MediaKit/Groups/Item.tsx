@@ -7,7 +7,7 @@ import { faDownload } from '@fortawesome/free-solid-svg-icons';
 
 const Card = styled.div`
   background-color: ${theme.cardHeader};
-  border: 2px solid ${theme.cardHeader};
+  border: 2px solid ${theme.cardBg};
   border-radius: 12px;
   text-decoration: none;
 `;
@@ -19,10 +19,10 @@ const MediaHolder = styled.div<MediaHolderProps>`
   justify-content: center;
   height: 125px;
   padding: ${theme.spacing(4)};
-  background: ${({ background }) => (background === 'light' ? '#F5F5FF' : theme.cardLight)};
+  background: ${({ background }) => (background === 'light' ? '#D9D9D9' : theme.cardLight)};
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
-  border-bottom: 2px solid ${theme.cardHeader};
+  border-bottom: 2px solid ${theme.cardBg};
 `;
 
 const Media = styled.img`
