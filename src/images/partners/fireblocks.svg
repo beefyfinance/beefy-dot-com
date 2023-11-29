@@ -1,41 +1,10 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Generator: Adobe Illustrator 25.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-
-<svg
-   version="1.0"
-   id="Layer_1"
-   x="0px"
-   y="0px"
-   viewBox="0 0 25.299999 25"
-   enable-background="new 0 0 165.5 25"
-   xml:space="preserve"
-   sodipodi:docname="fireblocks.svg"
-   width="25.299999"
-   height="25"
-   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg"><defs
-   id="defs3" /><sodipodi:namedview
-   id="namedview3"
-   pagecolor="#ffffff"
-   bordercolor="#000000"
-   borderopacity="0.25"
-   inkscape:showpageshadow="2"
-   inkscape:pageopacity="0.0"
-   inkscape:pagecheckerboard="0"
-   inkscape:deskcolor="#d1d1d1"
-   inkscape:zoom="7.9939383"
-   inkscape:cx="114.46173"
-   inkscape:cy="8.756635"
-   inkscape:window-width="3840"
-   inkscape:window-height="2321"
-   inkscape:window-x="0"
-   inkscape:window-y="0"
-   inkscape:window-maximized="1"
-   inkscape:current-layer="g3" />&#10;<g
-   id="g3">&#10;	&#10;	<g
-   id="g2">&#10;		<path
-   d="m 24.3,0 c 0.6,0 1,0.4 1,1 v 0 23 c 0,0.6 -0.4,1 -1,1 v 0 H 1 C 0.4,25 0,24.6 0,24 V 24 1 C 0,0.4 0.4,0 1,0 V 0 Z M 12.7,6.9 5.7,18 h 14.1 z"
-   id="path2" />&#10;	</g>&#10;</g>&#10;</svg>
+<svg width="26" height="25" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_155_9)">
+<path d="M24.3 0C24.9 0 25.3 0.4 25.3 1V24C25.3 24.6 24.9 25 24.3 25H1C0.4 25 0 24.6 0 24V1C0 0.4 0.4 0 1 0H24.3ZM12.7 6.9L5.7 18H19.8L12.7 6.9Z" fill="white"/>
+</g>
+<defs>
+<clipPath id="clip0_155_9">
+<rect width="25.3" height="25" fill="white"/>
+</clipPath>
+</defs>
+</svg>

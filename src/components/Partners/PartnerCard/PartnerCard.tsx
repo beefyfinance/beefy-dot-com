@@ -33,6 +33,7 @@ const fadeOut = keyframes`
 
 const Card = styled.div`
   background-color: ${theme.cardBg};
+  border: 2px solid ${theme.cardBg};
   border-radius: 8px;
   transition-duration: 0.15s;
   opacity: 0;
@@ -68,6 +69,7 @@ const Text = styled.div`
 const Title = styled.h2`
   ${theme.h2};
   color: ${theme.text.light};
+  margin-bottom: 0px;
 `;
 
 const Tag = styled.div`

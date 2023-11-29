@@ -33,7 +33,7 @@ const Media = styled.img`
 `;
 
 const DetailsHolder = styled.div`
-  padding: ${theme.spacing(3)};
+  padding: ${theme.spacing(2)};
 `;
 
 const Label = styled.div`
