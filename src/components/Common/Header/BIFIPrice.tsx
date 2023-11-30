@@ -33,7 +33,7 @@ export const BIFIPrice = memo<BIFIPriceProps>(function TokenPrice({ className })
   return (
     <Holder className={className}>
       <Token src={beefyToken} alt="BIFI" width="24" height="24" />
-      <Price>{formatUsd(price)}</Price>
+      <Price>{formatUsd(price, 0)}</Price>
     </Holder>
   );
 });

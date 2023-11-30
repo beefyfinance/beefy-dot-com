@@ -9,7 +9,7 @@ interface CardProps {
 }
 
 const CardContainer = styled.div`
-  border: 2px solid ${theme.cardBorder};
+  border: 2px solid ${theme.cardHeader};
   background-color: ${theme.cardBg};
   padding: calc(${theme.spacing(3)} - 2px);
   border-radius: 12px;
@@ -18,7 +18,7 @@ const CardContainer = styled.div`
 const Circle = styled.div`
   ${theme.h3};
   color: ${theme.text.middle};
-  background-color: #121421;
+  background-color: ${theme.cardLight};
   border-radius: 40px;
   height: 30px;
   width: 30px;

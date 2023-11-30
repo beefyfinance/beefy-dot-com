@@ -20,12 +20,12 @@ export function formatPercent(value: number | null | undefined): string {
   return magnitudePercent < 999
     ? `${magnitudePercent.toFixed(2)}${unitToDisplay}%`
     : originalPercent.toLocaleString('en-US', {
-        maximumFractionDigits: 0,
-        minimumFractionDigits: 0,
-      }) + '%';
+      maximumFractionDigits: 0,
+      minimumFractionDigits: 0,
+    }) + '%';
 }
 
-export function formatUsd(value: number) {
+export function formatUsd(value: number, decimals = 2) {
   if (!value) {
     return '$0.00';
   }
@@ -46,11 +46,11 @@ export function formatUsd(value: number) {
 
   // Format output
   return magnitudeValue < 999
-    ? `$${magnitudeValue.toFixed(2)}${unitToDisplay}`
+    ? `$${magnitudeValue.toFixed(decimals)}${unitToDisplay}`
     : value.toLocaleString('en-US', {
-        style: 'currency',
-        currency: 'USD',
-        maximumFractionDigits: 0,
-        minimumFractionDigits: 0,
-      });
+      style: 'currency',
+      currency: 'USD',
+      maximumFractionDigits: 0,
+      minimumFractionDigits: 0,
+    });
 }
