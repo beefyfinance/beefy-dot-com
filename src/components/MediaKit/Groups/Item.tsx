@@ -59,6 +59,8 @@ const Version = styled.a`
 
 const Icon = styled(FontAwesomeIcon)`
   margin-right: ${theme.spacing(1)};
+  width: 16px;
+  height: 16px;
 `;
 
 function getMediaUrl(groupId: string, itemId: string, version: string) {
