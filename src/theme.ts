@@ -1,8 +1,12 @@
 class Theme {
-  public readonly primary = '#59A662';
-  public readonly footer = '#121212';
-  public readonly cardBg = '#2D3153';
+  public readonly primary = '#4DB258';
+  public readonly footer = '#020203';
+  public readonly cardBg = '#242842';
+  public readonly cardLight = '#2D3153'
+  public readonly cardHeader = '#1C1E32'
   public readonly cardBorder = '#363B63';
+  public readonly button = '#363B63'
+  public readonly buttonHover = '#495086'
 
   public readonly text = {
     light: '#F5F5FF',

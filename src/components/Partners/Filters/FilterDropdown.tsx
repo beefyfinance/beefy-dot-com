@@ -1,6 +1,7 @@
 import React, { memo, useCallback } from 'react';
 import { FilterProps } from './types';
 import styled from '@emotion/styled';
+import { theme } from '../../../theme';
 
 const Select = styled('select')`
   width: 100%;
@@ -10,8 +11,8 @@ const Select = styled('select')`
   border-radius: 8px;
   text-transform: none;
   color: #f5f5ff;
-  border: solid 2px #303550;
-  background-color: #262a40;
+  border: solid 2px ${theme.cardBorder};
+  background-color: ${theme.cardBg};
   outline: 0;
 `;
 

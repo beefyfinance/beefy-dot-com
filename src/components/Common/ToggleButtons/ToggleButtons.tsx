@@ -1,6 +1,7 @@
 import React, { FC, memo, useCallback } from 'react';
 import styled from '@emotion/styled';
 import { ToggleButton, ToggleButtonProps } from './ToggleButton';
+import { theme } from '../../../theme';
 
 type ToggleButtonsProps = {
   value: string;
@@ -12,8 +13,8 @@ type ToggleButtonsProps = {
 
 const Buttons = styled.div`
   display: inline-flex;
-  background-color: #262a40;
-  border: 2px solid #303550;
+  background-color: ${theme.cardHeader};
+  border: 2px solid ${theme.cardBg};
   border-radius: 8px;
 `;
 

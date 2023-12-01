@@ -36,7 +36,7 @@ const Template = memo<TemplateProps>(function Template({ data, pageContext }) {
 
   return (
     <>
-      <Meta title="Blog" description="Keep up to date with the latest Beefy Blog articles." />
+      <Meta title="News" description="Keep up to date with the latest Beefy News articles." />
       <Outer>
         <Inner>
           <ArticleGrid articles={articles} />

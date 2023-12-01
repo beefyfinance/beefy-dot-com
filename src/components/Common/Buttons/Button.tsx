@@ -18,7 +18,7 @@ export const PrimaryButton = styled(Button)`
 
 export const SecondaryButton = styled(Button)`
   color: ${theme.text.light};
-  background: rgba(255, 255, 255, 0.1);
+  background: ${theme.button};
 `;
 
 const ExternalLink = memo<

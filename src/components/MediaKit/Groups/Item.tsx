@@ -6,8 +6,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
 
 const Card = styled.div`
-  background-color: ${theme.cardBg};
-  border: 2px solid ${theme.cardBorder};
+  background-color: ${theme.cardHeader};
+  border: 2px solid ${theme.cardBg};
   border-radius: 12px;
   text-decoration: none;
 `;
@@ -19,10 +19,10 @@ const MediaHolder = styled.div<MediaHolderProps>`
   justify-content: center;
   height: 125px;
   padding: ${theme.spacing(4)};
-  background: ${({ background }) => (background === 'light' ? '#F5F5FF' : '#363B63')};
-  border-top-left-radius: 12px;
-  border-top-right-radius: 12px;
-  border-bottom: 2px solid ${theme.cardBorder};
+  background: ${({ background }) => (background === 'light' ? '#D9D9D9' : theme.cardLight)};
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom: 2px solid ${theme.cardBg};
 `;
 
 const Media = styled.img`
@@ -33,7 +33,7 @@ const Media = styled.img`
 `;
 
 const DetailsHolder = styled.div`
-  padding: ${theme.spacing(3)};
+  padding: ${theme.spacing(2)};
 `;
 
 const Label = styled.div`
@@ -54,11 +54,13 @@ const Version = styled.a`
   text-decoration: none;
   padding: 2px 8px;
   border-radius: 4px;
-  background: #363b63;
+  background: ${theme.button};
 `;
 
 const Icon = styled(FontAwesomeIcon)`
   margin-right: ${theme.spacing(1)};
+  width: 16px;
+  height: 16px;
 `;
 
 function getMediaUrl(groupId: string, itemId: string, version: string) {

@@ -8,7 +8,7 @@ const GroupOuter = styled.div``;
 
 const Label = styled.h2`
   ${theme.h3}
-  color: {$theme.text.middle};
+  color: ${theme.text.middle};
 `;
 
 export type GroupProps = {

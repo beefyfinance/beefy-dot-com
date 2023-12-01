@@ -3,6 +3,7 @@ import { NormalizedPartnerItem } from '../../../data/queries/partners';
 import styled from '@emotion/styled';
 import { theme } from '../../../theme';
 import { keyframes } from '@emotion/react';
+import webSvg from '../../../images/web.svg';
 
 export type PartnerCardProps = {
   partner: NormalizedPartnerItem;
@@ -31,10 +32,9 @@ const fadeOut = keyframes`
 `;
 
 const Card = styled.div`
-  position: relative;
   background-color: ${theme.cardBg};
-  border-radius: 12px;
-  padding: ${theme.spacing(4)};
+  border: 2px solid ${theme.cardBg};
+  border-radius: 8px;
   transition-duration: 0.15s;
   opacity: 0;
   animation: ${fadeIn} 0.3s ease-in-out forwards;
@@ -44,41 +44,69 @@ const Card = styled.div`
   }
 `;
 
-const PartnerType = styled.p`
-  position: absolute;
-  top: 0;
-  right: 0;
-  border-radius: 0 12px 0 12px;
-  margin: 0;
-  padding: 6px 12px;
-  background-color: #2a2b42;
-`;
-
 const CardHeader = styled.div`
   display: flex;
   flex-direction: row;
-  margin-bottom: 18px;
+  align-items: flex-start;
+  column-gap: 16px;
+  padding: 16px;
+  background-color: ${theme.cardHeader};
+  border-radius: 8px 8px 0px 0px;
 `;
 
 const Image = styled.img`
-  height: 64px;
-  max-width: 64px;
-  margin-right: 20px;
+  height: 48px;
+  max-width: 48px;
+`;
+
+const Text = styled.div`
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: flex-start;
 `;
 
 const Title = styled.h2`
-  ${theme.h3};
+  ${theme.h2};
   color: ${theme.text.light};
-  margin-bottom: ${theme.spacing(1)};
+  margin-bottom: 0px;
+`;
+
+const Tag = styled.div`
+  ${theme.sublineSm};
+  font-weight: 700;
+  border-radius: 4px;
+  background-color: ${theme.button};
+  padding: 2px 8px;
+  color: ${theme.text.middle};
+  white-space: nowrap;
+  flex-shrink: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 0;
 `;
 
 const PartnerLink = styled.a`
   color: ${theme.text.middle};
+  border-radius: 4px;
+  background-color: ${theme.button};
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  :hover: {
+    background-color: ${theme.buttonHover};
+  }
 `;
 
 const Description = styled.div`
   ${theme.bodyLg};
   color: ${theme.text.middle};
+  padding: 16px;
+`;
+
+const WebSvg = styled.img`
+  fill: ${theme.text.middle};
+  height: 18px;
 `;
 
 function getLogoUrl(logoName: string) {
@@ -93,13 +121,15 @@ function getLogoUrl(logoName: string) {
 export const PartnerCard = memo<PartnerCardProps>(function PartnerCard({ partner }) {
   return (
     <Card>
-      <PartnerType>{partner.category}</PartnerType>
       <CardHeader>
         <Image src={getLogoUrl(partner.logo)} alt={partner.name} />
-        <div>
+        <Text>
           <Title>{partner.name}</Title>
+          <Tag>{partner.category}</Tag>
+        </Text>
+        <div>
           <PartnerLink target="_blank" rel="noopener" href={partner.url}>
-            {partner.friendlyUrl}
+            <WebSvg src={webSvg} alt="svg" />
           </PartnerLink>
         </div>
       </CardHeader>

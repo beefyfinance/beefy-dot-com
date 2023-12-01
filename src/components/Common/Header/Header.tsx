@@ -11,7 +11,7 @@ import { useAppUrl } from '../../../utils/react-utils';
 const Outer = styled.header`
   padding-top: ${theme.spacing(3)};
   padding-bottom: ${theme.spacing(3)};
-  background-color: #121212;
+  background-color: ${theme.footer};
 `;
 
 const OuterOnTop = styled(Outer)`
