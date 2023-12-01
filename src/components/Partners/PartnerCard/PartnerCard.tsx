@@ -47,11 +47,12 @@ const Card = styled.div`
 const CardHeader = styled.div`
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
   column-gap: 16px;
-  padding: 16px;
+  padding: ${16 - 2}px;
   background-color: ${theme.cardHeader};
   border-radius: 8px 8px 0px 0px;
+  height: 88px;
 `;
 
 const Image = styled.img`
@@ -69,7 +70,7 @@ const Text = styled.div`
 const Title = styled.h2`
   ${theme.h2};
   color: ${theme.text.light};
-  margin-bottom: 0px;
+  margin-bottom: 4px;
 `;
 
 const Tag = styled.div`
@@ -97,11 +98,14 @@ const PartnerLink = styled.a`
     background-color: ${theme.buttonHover};
   }
 `;
+const PartnerLinkContainer = styled.div`
+  margin-bottom: auto;
+`;
 
 const Description = styled.div`
   ${theme.bodyLg};
   color: ${theme.text.middle};
-  padding: 16px;
+  padding: ${16 - 2}px;
 `;
 
 const WebSvg = styled.img`
@@ -127,11 +131,11 @@ export const PartnerCard = memo<PartnerCardProps>(function PartnerCard({ partner
           <Title>{partner.name}</Title>
           <Tag>{partner.category}</Tag>
         </Text>
-        <div>
+        <PartnerLinkContainer>
           <PartnerLink target="_blank" rel="noopener" href={partner.url}>
             <WebSvg src={webSvg} alt="svg" />
           </PartnerLink>
-        </div>
+        </PartnerLinkContainer>
       </CardHeader>
       <Description>{partner.description}</Description>
     </Card>
