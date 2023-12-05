@@ -20,6 +20,7 @@ const OuterOnTop = styled(Outer)`
   top: 0;
   left: 0;
   right: 0;
+  z-index: 10;
   @media (max-width: ${theme.breakpoints.sm}px) {
     background-size: auto;
   }

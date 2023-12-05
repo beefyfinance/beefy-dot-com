@@ -94,10 +94,10 @@ class Theme {
     fantom: '#1969FF',
     harmony: '#01d8af',
     arbitrum: '#2d374b',
-    celo: '#35cf7f',
+    celo: '#FCFF52',
     moonriver: '#c3136f',
     cronos: '#121926',
-    fuse: '#c0db64',
+    fuse: '#B4F9BA',
     metis: '#00dacc',
     aurora: '#70d44b',
     moonbeam: '#211438',
@@ -108,6 +108,8 @@ class Theme {
     canto: '#06fc99',
     zksync: '#fff',
     zkevm: '#8247e4',
+    base: '#fff',
+    gnosis: '#133629',
   };
 
   public spacing(times: number = 1) {

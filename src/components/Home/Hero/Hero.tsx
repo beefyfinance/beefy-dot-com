@@ -1,14 +1,11 @@
 import React, { memo } from 'react';
 import styled from '@emotion/styled';
 import { FluidInner } from '../../Common/Inner';
-import bottomLeft from '../../../images/hero-bottom-left.png';
-import bottomRight from '../../../images/hero-bottom-right.png';
-import topLeft from '../../../images/hero-top-left.png';
-import topRight from '../../../images/hero-top-right.png';
 import { theme } from '../../../theme';
 import { PrimaryExternalLink, SecondaryExternalLink } from '../../Common/Buttons';
 import { useAppUrl } from '../../../utils/react-utils';
 import { useChainCount } from '../../../data/queries/total-chains';
+import { Background } from './Background';
 
 // Background images
 const w = 390;
@@ -16,27 +13,14 @@ const h = 320;
 const r = h / w;
 
 const CustomInner = styled(FluidInner)`
+  position: relative;
   display: flex;
   align-items: center;
   padding: ${40 + 24 * 2}px 0px;
-  background-image: url(${topLeft}), url(${topRight}), url(${bottomLeft}), url(${bottomRight});
-  background-repeat: no-repeat;
-  background-position: left 64px, right 64px, left bottom, right bottom;
-  background-size: ${(360 - 48) / 2}px ${((360 - 48) / 2) * r}px;
   min-height: 100vh;
   text-align: center;
   flex-direction: column;
   justify-content: center;
-
-  @media (min-width: ${theme.breakpoints.sm}px) {
-    background-position: left 5%, right 5%, left bottom, right bottom;
-    background-size: ${(theme.breakpoints.sm - 48) / 2}px ${((theme.breakpoints.sm - 48) / 2) * r}px;
-  }
-
-  @media (min-width: ${theme.breakpoints.lg}px) {
-    width: ${theme.containers.lg}px;
-    background-size: ${w}px ${h}px;
-  }
 `;
 
 const Title = styled.div`
@@ -74,7 +58,8 @@ const Buttons = styled.div`
   justify-content: center;
 `;
 
-const Container = styled.div`
+const Centered = styled.div`
+  position: relative;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -91,7 +76,8 @@ export const Hero = memo(function Hero() {
 
   return (
     <CustomInner>
-      <Container>
+      <Background />
+      <Centered>
         <Title>Multichain Yield Optimizer</Title>
         <Subtitle>
           Earn the highest APYs across {chains} chains with safety and efficiency in mind.
@@ -104,7 +90,7 @@ export const Hero = memo(function Hero() {
             View Docs
           </SecondaryExternalLink>
         </Buttons>
-      </Container>
+      </Centered>
     </CustomInner>
   );
 });
