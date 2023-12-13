@@ -1,8 +1,14 @@
 import { BuildArgs, CreateNodeArgs, GatsbyNode, SourceNodesArgs } from 'gatsby';
 import path from 'path';
 import slugify from 'slugify';
-import { BlogArticlesQueryReturnType, isFileSystemNode, isMarkdownNode } from './gatsby-node-types';
+import {
+  BlogArticlesApiQueryReturnType,
+  BlogArticlesQueryReturnType,
+  isFileSystemNode,
+  isMarkdownNode,
+} from './gatsby-node-types';
 import { getAllPrices, getTvls, getVaultsWithApy } from './src/data/api/beefy-api';
+import { mkdir, writeFile } from 'fs/promises';
 
 const BLOG_ARTICLES_PER_PAGE = 12;
 
@@ -57,8 +63,49 @@ async function createBlogPages({ graphql, actions }: BuildArgs) {
   });
 }
 
+async function createBlogApi({ graphql }: BuildArgs) {
+  const result = await graphql<BlogArticlesApiQueryReturnType>(`
+    query {
+      allMarkdownRemark(
+        filter: { frontmatter: { draft: { ne: true } } }
+        sort: { fields: [frontmatter___date], order: DESC }
+      ) {
+        edges {
+          node {
+            frontmatter {
+              title
+              date(formatString: "X")
+              short_description
+            }
+            fields {
+              slug
+            }
+          }
+        }
+      }
+    }
+  `);
+
+  if (result.errors || !result.data) {
+    throw result.errors || 'No data';
+  }
+
+  const articles = result.data.allMarkdownRemark.edges.map(edge => ({
+    id: edge.node.fields.slug,
+    title: edge.node.frontmatter.title,
+    description: edge.node.frontmatter.short_description,
+    date: Number(edge.node.frontmatter.date),
+    url: `https://beefy.com/articles/${edge.node.fields.slug}`,
+  }));
+
+  const outputPath = path.join(__dirname, 'public', 'api', 'articles.json');
+  const outputDirectory = path.dirname(outputPath);
+  await mkdir(outputDirectory, { recursive: true });
+  await writeFile(outputPath, JSON.stringify(articles));
+}
+
 export const createPages: GatsbyNode['createPages'] = async function (args: BuildArgs) {
-  await Promise.all([createBlogPages(args)]);
+  await Promise.all([createBlogPages(args), createBlogApi(args)]);
 };
 
 async function createMarkdownSlugField({ node, getNode, actions }: CreateNodeArgs) {

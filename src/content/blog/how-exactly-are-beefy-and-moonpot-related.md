@@ -1,5 +1,5 @@
 ---
-date: 2001-08-29T07:00:00.000Z
+date: 2021-08-29T07:00:00.000Z
 header_image: "/src/images/blog/moonpot.png"
 short_description: >-
   Beefy and Moonpot share a lot of things in common, so why not start earning

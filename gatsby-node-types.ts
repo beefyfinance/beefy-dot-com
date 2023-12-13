@@ -14,6 +14,23 @@ export type BlogArticlesQueryReturnType = {
   };
 };
 
+export type BlogArticlesApiQueryReturnType = {
+  allMarkdownRemark: {
+    edges: {
+      node: {
+        frontmatter: {
+          title: string;
+          short_description: string;
+          date: string;
+        };
+        fields: {
+          slug: string;
+        };
+      };
+    }[];
+  };
+};
+
 interface MarkdownRemarkNode extends Node {
   frontmatter?: {
     slug?: string;
