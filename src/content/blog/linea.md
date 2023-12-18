@@ -12,7 +12,7 @@ If there’s one thing in Web 3.0 that’s sorely underestimated, it’s the val
 
 It can be tempting to think about community in engineering terms or logical first principles, or to focus solely on what the onchain data reveals about our users. But community is far too intangible to be dealt with so neatly. Instead, it’s very difficult to perceive and appreciate the full range of strengths, weaknesses, experience, attitudes and reliability across large groups of contributors and to move collectively in a single direction. Yet, the strength of a community is demonstrable through ongoing participation by growing numbers with broad talents, together contributing a net value add. This is no easy feat.
 
-These reflections are helpful for Beefy as we consider how we grow our community and strengthen our ties with others. It’s part of the reason we’re often so excited to announce new partnerships and wider contributions to other projects and goals. And it’s also why we’re excited to announce Beefy’s launch on chain #24 - [Linea](https://linea.build/) - a chain that's built from the ground up for communities of builders.
+These reflections are helpful for Beefy as we consider how we grow our community and strengthen our ties with others. It’s part of the reason we’re often so excited to announce new partnerships and wider contributions to other projects and goals. And it’s also why we’re excited to announce Beefy’s launch on chain number 24 - [Linea](https://linea.build/) - a chain that's built from the ground up for communities of builders.
 
 ### Linea
 
