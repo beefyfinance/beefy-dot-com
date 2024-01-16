@@ -1,5 +1,5 @@
 ---
-date: 2024-01-08T12:00:00Z
+date: 2024-01-17T12:00:00Z
 header_image: "/src/images/blog/mantle/cover.png"
 short_description: "Launching into the New Year with our next new chain - Mantle Network."
 sub_header: "Upper Crust Farmers - Yield Optimization for Mantle Network"
