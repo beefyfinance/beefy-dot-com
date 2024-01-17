@@ -2,11 +2,11 @@ class Theme {
   public readonly primary = '#4DB258';
   public readonly footer = '#020203';
   public readonly cardBg = '#242842';
-  public readonly cardLight = '#2D3153'
-  public readonly cardHeader = '#1C1E32'
+  public readonly cardLight = '#2D3153';
+  public readonly cardHeader = '#1C1E32';
   public readonly cardBorder = '#363B63';
-  public readonly button = '#363B63'
-  public readonly buttonHover = '#495086'
+  public readonly button = '#363B63';
+  public readonly buttonHover = '#495086';
 
   public readonly text = {
     light: '#F5F5FF',
@@ -87,27 +87,31 @@ class Theme {
   };
 
   public readonly chains: Record<string, string> = {
-    bsc: '#F0B90B',
-    heco: '#02943f',
-    avax: '#e74142',
-    polygon: '#f5f0fd',
-    fantom: '#1969FF',
-    harmony: '#01d8af',
     arbitrum: '#2d374b',
-    celo: '#35cf7f',
-    moonriver: '#c3136f',
-    cronos: '#121926',
-    fuse: '#c0db64',
-    metis: '#00dacc',
     aurora: '#70d44b',
-    moonbeam: '#211438',
-    emerald: '#0192f6',
-    optimism: '#ff0420',
-    kava: '#FF564F',
-    ethereum: '#627ee9',
+    avax: '#e74142',
+    base: '#ffffff',
+    bsc: '#F0B90B',
     canto: '#06fc99',
-    zksync: '#fff',
+    celo: '#35cf7f',
+    cronos: '#121926',
+    emerald: '#0192f6',
+    ethereum: '#627ee9',
+    fantom: '#1969FF',
+    fuse: '#c0db64',
+    gnosis: '#133629',
+    harmony: '#01d8af',
+    heco: '#02943f',
+    kava: '#FF564F',
+    linea: '#000000',
+    mantle: '#000000',
+    metis: '#00dacc',
+    moonbeam: '#211438',
+    moonriver: '#c3136f',
+    optimism: '#ff0420',
+    polygon: '#f5f0fd',
     zkevm: '#8247e4',
+    zksync: '#fff',
   };
 
   public spacing(times: number = 1) {
