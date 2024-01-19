@@ -38,14 +38,14 @@ The main gas token used in Mantle is the $MNT token, which you'll need to obtain
 
 Once you’re up and running, you can check out your balances and transactions using the [Mantle Explorer](https://mantlescan.org/). From there, you can find a huge range of applications on the [Mantle ecosystem page](https://www.mantle.xyz/ecosystem), or via our trusted frens at [DefiLlama](https://defillama.com/chain/Mantle).
 
-And for those wanting to get started acquiring exciting new project tokens from the Mantle ecosystem, or just farming the blossoming yields on the chain, check out the hottest new DEX in town - [Merchant Moe](https://merchantmoe.com/trade). Moe’s run by our longstanding frens Trader Joe, who’ve been a key contributor to the growth of the Avalanche and Arbitrum ecosystems. Now keen to push onto new frontiers with their sister project Moe, you can expect big things as the teamwork to build liquidity on Mantle (and prepare for their next [big airdrop](https://merchantmoe.com/airdrop)). Or if you’re wanting to benefit passively from Moe’s rise, you can always take part through [Beefy](https://app.beefy.com/)...
+Why not kick things off with some awesome yields and bountiful borrowing opportunities on [Lendle Protocol](https://www.lendle.xyz/), the leading lending market on Mantle. With Lendle, you can participate in capital markets with your $MNT or several blue chip tokens and stablecoins, and earn bonus $LEND tokens on your assets. Or if you’re wanting to benefit passively from all of the epic opportunities on Lendle, you can always take part through [Beefy](https://app.beefy.com/)...
 
 ### Upper Crust Farmers
 
 Mantle Network’s reimagined modular approach to rollup technology is a key step forwards that’s well worth exploring. As the project continues picking up steam with its goal of forming the upper crust of planet Ethereum, Beefy will be there every step of the way to optimize your farming on these fertile new soils. 
 
-That’s why we’re excited today to announce our first few vaults with Merchant Moe which are now live for your autocompounding needs. And with many more in the pipeline, make sure to follow along as your Trusted Yield Optimizer takes the Mantle ecosystem by storm.
+That’s why we’re excited today to announce our first few vaults with Lendle which are now live for your autocompounding needs. And with many more in the pipeline, make sure to follow along as your Trusted Yield Optimizer takes the Mantle ecosystem by storm.
 
 Now… back to farming 🚜
 
-[Mantle Docs](https://docs.mantle.xyz/network/introduction/overview) | [Mantle Explorer](https://mantlescan.org/) | [Mantle Bridge](https://bridge.mantle.xyz/) | [Merchant Moe](https://merchantmoe.com/trade) | [Beefy App](https://app.beefy.com/)
+[Mantle Docs](https://docs.mantle.xyz/network/introduction/overview) | [Mantle Explorer](https://mantlescan.org/) | [Mantle Bridge](https://bridge.mantle.xyz/) | [Lendle Protocol](https://www.lendle.xyz/) | [Beefy App](https://app.beefy.com/)
