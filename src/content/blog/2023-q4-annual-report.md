@@ -4,6 +4,7 @@ header_image: "/src/images/blog/2023-q4-annual-report/cover.jpg"
 short_description: "Explore the full financial report for Beefy's activities across 2023."
 sub_header: "Annual Report 2023"
 title: "Annual Report 2023"
+draft: true
 ---
 
 ![](/src/images/blog/2023-q4-annual-report/cover.jpg)
