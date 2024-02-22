@@ -10,11 +10,11 @@ title: "beQI: The Next Evolution"
 
 It is time for the next evolution of the Beefy Escrowed QI (beQI) token!
 
-As a recap, beQi was a perpetually locked Qi tokens.  80% of QI deposits into beQI were locked to eQI and 20% remained available as a reserve pool where users could burn beQI for an equal amount of QI. The beQI could then be staked into the beQI Earnings Pool to earn QI or the beQI vault to have the QI rewards converted to beQI and get compounded rewards!
+As a recap, beQi was a perpetually locked Qi tokens. 80% of QI deposits into beQI were locked to eQI and 20% remained available as a reserve pool where users could burn beQI for an equal amount of QI. The beQI could then be staked into the beQI Earnings Pool to earn QI or the beQI vault to have the QI rewards converted to beQI and get compounded rewards!
 
 Qi Dao updated their eQI functionality to aveQI as  part of their token relaunch on Ethereum so that 80-20 QI-ETH Balancer Pool Tokens (BPTs)  instead of just QI tokens are locked, increasing the liquidity over the long haul.
 
-### Enter beQI v2.
+### Enter beQI V2
 
 A lot will remain the same.
 * Users can mint beQI which is perpetually locked for maximum rewards
@@ -27,7 +27,7 @@ Some things will also be changing, to align with aveQI mechanics:
 
 vQI will be joining the fray!  1 vQI is counted the same as 1 beQI for calculating the disbursement of rbeQI.
 
-beQI v2 is not 1:1 with old beQI due to BPTs being locked instead of QI.  The sum of beQI v1 and vQI is 4,801,892.42 and the amount of rbeQI (beQI staked in the beQI Earnings Pool) is 584,813.04 for a ratio of rbeQI:beQI v1 of 0.1218.
+beQI v2 is not 1:1 with old beQI due to BPTs being locked instead of QI.  The sum of beQI v1 and vQI is 4,801,892.42 and the amount of rbeQI (beQI staked in the beQI Earnings Pool) is 584,813.04 for a ratio of rbeQI-beQI v1 of 0.1218.
 
 There were no reserves available for beQI v1 and beQI v2 will launch without a reserve. New beQI minted will fill the reserves before locking any additional QI-ETH BPTs as previously mentioned.
 
