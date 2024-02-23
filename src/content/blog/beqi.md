@@ -34,8 +34,8 @@ There were no reserves available for beQI v1 and beQI v2 will launch without a r
 ### Distribution
 
 The distribution will occur as follows
-* EOA addresses with greater than or equal to  300 beQI/vQI will receive rbeQI on ETH [txn link]
-* All addresses with less than 300 beQI/vQI will receive the USDC equivalent value of their share of beQI/vQI on Polygon Network
+* EOA addresses with greater than or equal to 300 beQI/vQI will receive rbeQI on ETH [txn link](https://etherscan.io/tx/0x695b8cb5ef26ac81fa01adc9ddf6dd8aad61704b9f865289c5461eebc6aab960)
+* All addresses with less than 300 beQI/vQI will receive the USDC equivalent value of their share of beQI/vQI on Polygon Network [txn link](https://polygonscan.com/tx/0x732db79cfb279ff2b12d789e04a59519addf46da9652390c41dd7e9dba208770)
     * This decision was made because  gas costs to distribute on Ethereum mainnet would be greater than the value of the token
     * Addresses with owed amounts less than $0.50 will be considered dust and distribution will not occur
 * Contracts will be handled separately. For vault type contracts Beefy will snapshot depositors and distribute accordingly
