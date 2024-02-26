@@ -19,7 +19,7 @@ Qi Dao updated their eQI functionality to aveQI as  part of their token relaunch
 A lot will remain the same.
 * Users can mint beQI which is perpetually locked for maximum rewards
 * When new beQI is minted, the reserves will be filled first before additional locking (Reserves > 20% of beQI supply)
-* 100% of rewards will go to the [beQI Earnings Pool](app.beefy.com/vault/beqiv2-pool)
+* 100% of rewards will go to the [beQI Earnings Pool](https://app.beefy.com/vault/beqiv2-pool)
 * beQI will need to be staked in order to receive rewards
 
 Some things will also be changing, to align with aveQI mechanics:
@@ -44,6 +44,6 @@ The distribution will occur as follows
 
 Beefy has enjoyed years of working with Qi Dao and is thrilled to continue working together. Beefy certainly agrees with the Qi Dao’s decision to redeploy their token on Ethereum, having done so ourselves last year.
 
-[beQI Earnings Pool](app.beefy.com/vault/beqiv2-pool)
+[beQI Earnings Pool](https://app.beefy.com/vault/beqiv2-pool)
 
 ![](/src/images/blog/beqi/upgrade.png)
