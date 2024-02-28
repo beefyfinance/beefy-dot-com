@@ -1,15 +1,14 @@
 ---
-date: 2024-02-20T12:00:00Z
+date: 2024-02-28T12:00:00Z
 header_image: "/src/images/blog/2023-q4-annual-report/cover.jpg"
 short_description: "Explore the full financial report for Beefy's activities across 2023."
 sub_header: "Annual Report 2023"
 title: "Annual Report 2023"
-draft: true
 ---
 
 ![](/src/images/blog/2023-q4-annual-report/cover.jpg)
 
-*See and download the published PDF report [here](https://jumpshare.com/s/pG7iAqTyJt8H6oib5VOE) or view in line below.*
+*See and download the published PDF report [here](https://jmp.sh/JmuNa2c5) or view in line below.*
 
 ![](/src/images/blog/2023-q4-annual-report/1.png)
 
