@@ -8,7 +8,7 @@ title: "The Restaking Renaissance: PoS, Points and Peripheral Yield"
 
 ![](/src/images/blog/restaking/cover.png)
 
-    Renaissance - a revival of or renewed interest in a given subject matter, often characterised by rapid change or new innovations after a long period of stability or consistency.
+*"Renaissance - a revival of or renewed interest in a given subject matter, often characterised by rapid change or new innovations after a long period of stability or consistency."*
 
 Renaissance is a term that we hear all too frequently when indulging in the excitement of Web 3.0. That’s because it captures more than just an inspiring innovation or a sudden significant change. A renaissance is an era of evolution, captured by hundreds of thousands of individual innovations and pioneering personas. What truly characterises a renaissance isn’t the scope of its individual change… it’s the wonder of knowing we’re far from finished changing the world.
 
