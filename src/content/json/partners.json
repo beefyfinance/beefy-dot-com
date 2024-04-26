@@ -195,10 +195,18 @@
     "category": "INFRA",
     "description": "ANKR is a leading provider of decentralized infrastructure, with a global RPC network and advanced APIs for accessing onchain data. As a key partner for RPCs, ANKR delivers the data that users need to track their onchain positions and profits through the Beefy application."
   },
-  {"name": "Mt Pelerin",
+  {
+    "name": "Mt Pelerin",
     "url": "https://www.mtpelerin.com/",
     "logo": "mtpelerin.svg",
     "category": "ONRAMP",
-    "description":"Mt Pelerin is an on/off-ramp service regulated in Switzerland allowing you to buy, bridge and cash out crypto easily, with low fees and no identification required."
+    "description": "Mt Pelerin is an on/off-ramp service regulated in Switzerland allowing you to buy, bridge and cash out crypto easily, with low fees and no identification required."
+  },
+  {
+    "name": "CoinGecko",
+    "url": "https://www.coingecko.com/",
+    "logo": "coingecko.svg",
+    "category": "INFRA",
+    "description": "CoinGecko is a data aggregator, providing users with up-to-date information on prices, market caps, and trading volumes for thousands of digital assets."
   }
 ]
