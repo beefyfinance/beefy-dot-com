@@ -11,7 +11,6 @@ const IndexPage = memo(function IndexPage() {
     <>
       <Hero />
       <EarnWithBeefy />
-      <FeaturedVaults />
       <Ecosystem />
       <BIFIToken />
       <LatestArticles />
