@@ -12,7 +12,7 @@ Okay. Heads up. Rant incoming…
 
 Man… we are sick to death of lies in this industry. We’re sick of all these *“revolutionary”* rollup refinements that pledge to save Mainnet before feasting on what little activity it has left. We’re sick of all the cookie-cutter exchange *“innovation”* whose whole economic model is just an insider pump-and-dump of some useless farming token. And we’re sick of prickly liquid-staking products that promise to help *“scale security”*, before quietly robbing you of your yield at the contract level.
 
-Some days, the state of DeFi leaves us wanting for reasons to come back. And more and more, we find ourselves reminiscing about the good ol’ days of the Fantom renaissance. Really though, we just want to believe in something again. We need a guiding light to help us wade through all the bullshit.
+Some days, the state of DeFi leaves us wanting for reasons to come back. And more and more, we find ourselves reminiscing about the good ol’ days of the Fantom renaissance. Really, we just want to believe in something again. We need a guiding light to help us wade through all the bullshit.
 
 Recently though, some light has started to appear at the end of the tunnel. Once again, a new chain led by Michael Kong is pumping, Cronje is busy building some revolutionary exchange technology, and farmers new and old are rejoicing about thousand-percentage yields as real builders deliver innovation on Sonic.
 
@@ -42,7 +42,7 @@ Beefy has been operating our own Sonic validator since December and will be stak
 
 Another major change is the introduction of a new liquidity fee. The product will charge our usual 9.5% fee from earned rewards for administration and operation. The liquidity fee will take a further 10% of the earned rewards and direct them to a bespoke liquidity multi-sig, for sole use in supporting beS liquidity with bribes, incentives and protocol-liquidity. Ultimately, these funds will make their way back to beS users through indirect means (e.g., yield), but this mechanism will help to keep a healthy and active ecosystem for beS, improving user experience. And even with this fee, beS boasts the best deal in town.
 
-beS has been in stealth development for several months now, with a recent audit from Electisec. With the design and functionality all approved, beS officially launches on the Beefy frontend on Monday 7th April. Then, the real work begins…
+beS has been in stealth development for several months now, with a recent audit from Electisec. With the design and functionality all approved, beS officially launches on the [Beefy frontend](https://app.beefy.com/vault/beefy-besonic) this week. Then, the real work begins…
 
 ### beS Ecosystem
 
@@ -64,4 +64,4 @@ So now it’s time for your call to action. It’s time to believe in something 
 
 **No bullshit. Only beS.**
 
-[**beS on Beefy**](https://app.beefy.com/vault/bes) **| [beS on SwapX](https://swapx.fi/earn?orderBy=totalValueLockedUSD&orderDirection=desc&orderByCore=totalValueLockedUSD&orderDirectionCore=desc&search=beS) | [Documentation](https://docs.beefy.finance/beefy-products/beefy-escrowed-tokens/bes) | [Audit](https://github.com/beefyfinance/beefy-audits/blob/master/2025-04-05-Beefy-Electisec-beS-Audit.pdf)**
+[**beS on Beefy**](https://app.beefy.com/vault/beefy-besonic) | [**beS on SwapX**](https://swapx.fi/earn?orderBy=totalValueLockedUSD&orderDirection=desc&orderByCore=totalValueLockedUSD&orderDirectionCore=desc&search=beS) | [**Documentation**](https://docs.beefy.finance/beefy-products/beefy-escrowed-tokens/bes) | [**Audit**](https://github.com/beefyfinance/beefy-audits/blob/master/2025-04-05-Beefy-Electisec-beS-Audit.pdf)
