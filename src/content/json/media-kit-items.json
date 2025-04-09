@@ -77,13 +77,6 @@
     "versions": ["png", "svg"]
   },
   {
-    "itemId": "beftm",
-    "label": "beFTM",
-    "groupId": "tokens",
-    "background": "dark",
-    "versions": ["png", "svg"]
-  },
-  {
     "itemId": "beqi",
     "label": "beQI",
     "groupId": "tokens",
@@ -93,6 +86,13 @@
   {
     "itemId": "bevelo",
     "label": "beVELO",
+    "groupId": "tokens",
+    "background": "dark",
+    "versions": ["png", "svg"]
+  },
+   {
+    "itemId": "bes",
+    "label": "beS",
     "groupId": "tokens",
     "background": "dark",
     "versions": ["png", "svg"]
