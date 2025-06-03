@@ -1,5 +1,5 @@
 ---
-date: 2024-05-27T12:00:00Z
+date: 2025-05-27T12:00:00Z
 header_image: "/src/images/blog/2025-q1-report/cover.png"
 short_description: "Explore the first quarter of 2025 — another step forward for the Beefy DAO."
 sub_header: "Quarterly Report Q1 2025"
