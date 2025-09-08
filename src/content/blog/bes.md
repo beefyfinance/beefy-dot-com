@@ -1,12 +1,12 @@
 ---
 date: 2025-04-07T12:00:00Z
-header_image: "/src/images/blog/bes/cover.png"
+header_image: "../../images/blog/bes/cover.png"
 short_description: "Introducing the latest member of the beToken family: Beefy-escrowed Sonic!"
 sub_header: "No Word Of A Lie (Drop The beS)"
 title: "No Word Of A Lie (Drop The beS)"
 ---
 
-![](/src/images/blog/bes/cover.png)
+![](../../images/blog/bes/cover.png)
 
 Okay. Heads up. Rant incoming…
 

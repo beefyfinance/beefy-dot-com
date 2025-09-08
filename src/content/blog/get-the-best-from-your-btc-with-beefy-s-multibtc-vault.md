@@ -1,13 +1,13 @@
 ---
 title: Get The Best From Your BTC with Beefy’s multiBTC Vault
 date: 2023-01-16T12:00:00+00:00
-header_image: "/src/images/blog/multichain.png"
+header_image: "../../images/blog/multichain.png"
 sub_header: Get The Best From Your BTC with Beefy’s multiBTC Vault
 short_description: Enjoy all the benefits of Multichain’s latest product combined
   with the power of Beefy’s autocompounding vaults.
 
 ---
-![](/src/images/blog/multichain.png)  
+![](../../images/blog/multichain.png)  
 _Isn’t the original always the best?_
 
 Though we at Beefy are proud EVM-chain natives, we can’t help but harbor a soft spot for Bitcoin and the passionate support of the orange coin community. That’s why, since the earliest days of our protocol, we have sought to bring our users access to amazing autocompounding returns on their Bitcoin through EVM derivatives, like Wrapped Bitcoin (wBTC) and Synthetix’s Synthetic Bitcoin (sBTC).
@@ -34,7 +34,7 @@ As part of these efforts, MultiDAO has approved a sizeable spending package on e
 
 Needless to say, this presents an amazing opportunity for the yield farming community to earn outsized returns on their BTC.
 
-![](/src/images/blog/multi-diagram.jpg)
+![](../../images/blog/multi-diagram.jpg)
 
 _Image by Multichain, used with author’s consent. © 2023 Multichain._
 
@@ -46,7 +46,7 @@ As with all of our Curve vaults on Ethereum, we are excited to be building on to
 
 By combining the power of Multichain and multiBTC with Convex’s optimal approach to Curve liquidity rewards and Beefy’s market-leading autocompounding vaults, we can now offer users the highest returns on their BTC from across the industry, coupled with the safety and diligence that our users know and trust.
 
-![](/src/images/blog/multi.png)
+![](../../images/blog/multi.png)
 
 **Unmissable Opportunity**
 

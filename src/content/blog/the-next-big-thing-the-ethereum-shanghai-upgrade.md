@@ -1,14 +1,14 @@
 ---
 title: 'The Next Big Thing: The Ethereum Shanghai Upgrade'
 date: 2023-04-11T11:00:00+00:00
-header_image: "/src/images/blog/the_next_big_thing.png"
+header_image: "../../images/blog/the_next_big_thing.png"
 sub_header: 'The Next Big Thing: The Ethereum Shanghai Upgrade'
 short_description: Our friends at Ethereum continue to ship big improvements to their
   infrastructure. So what is the Shanghai upgrade? And what does it mean for Beefy’s
   users?
 
 ---
-![](/src/images/blog/the_next_big_thing.png)
+![](../../images/blog/the_next_big_thing.png)
 
 Fresh off the heels of their flawless execution of The Merge, the Ethereum core developer team is fast in pursuit of their next goal: the Shanghai network upgrade. Set to be implemented on 12 April, the Shanghai upgrade (also known as Capella and Shapella) promises substantial improvements to benefit the ecosystem of validators and liquid staking derivatives on Ethereum.
 
@@ -36,7 +36,7 @@ Two types of withdrawals will be actionable under the new systems: full withdraw
 
 For validators interested in more specific details of how EIP-4985 will operate in practice, the Ethereum Foundation has produced a comprehensive set of [ETH Withdrawal FAQs](https://notes.ethereum.org/@launchpad/withdrawals-faq#:\~:text=If%20a%20validator%20has%20successfully,get%20processed%20a%20lot%20slower.).
 
-![](/src/images/blog/four.png)
+![](../../images/blog/four.png)
 
 **Impact on Beefy**
 

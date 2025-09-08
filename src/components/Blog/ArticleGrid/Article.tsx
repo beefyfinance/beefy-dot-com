@@ -55,6 +55,7 @@ const Date = styled.p`
 export type ArticleProps = {
   article: ListArticlesQueryNode;
 };
+
 export const Article = memo<ArticleProps>(function ListArticle({ article }) {
   const image = article.frontmatter.header_image?.childImageSharp?.gatsbyImageData;
   const title = article.frontmatter.title;

@@ -1,6 +1,5 @@
 import React, { memo, ReactNode } from 'react';
 import '../Styles';
-import { DefaultMeta } from '../Meta/DefaultMeta';
 import { Header } from '../Header';
 import { Footer } from '../Footer';
 import styled from '@emotion/styled';
@@ -21,7 +20,6 @@ type LayoutProps = {
 export const Layout = memo<LayoutProps>(function Layout({ children }) {
   return (
     <Wrapper>
-      <DefaultMeta />
       <Header />
       <Page>{children}</Page>
       <Footer />

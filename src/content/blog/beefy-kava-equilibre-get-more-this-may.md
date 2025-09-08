@@ -1,12 +1,12 @@
 ---
 date: 2023-05-04T12:00:00Z
-header_image: "/src/images/blog/beefy-kava-equilibre-get-more-this-may/cover.jpg"
+header_image: "../../images/blog/beefy-kava-equilibre-get-more-this-may/cover.jpg"
 short_description: "Earn more this month on Kava with Vault Boosts and Trade & Earn rewards from Beefy, Kava and Équilibre"
 sub_header: "Beefy x Kava x Équilibre - Get More This May"
 title: "Beefy x Kava x Équilibre - Get More This May"
 ---
 
-![](/src/images/blog/beefy-kava-equilibre-get-more-this-may/cover.jpg)
+![](../../images/blog/beefy-kava-equilibre-get-more-this-may/cover.jpg)
 
 Ah May… what a great time of year. Long days, the sun on your back, and the best of summer is yet to come. It’s the perfect time to be out with your pals in the fresh air, sowing the seeds of future yields (or letting your favorite autocompounder do it for you!).
 
@@ -24,7 +24,7 @@ Since [launching on Kava last October](https://beefy.finance/articles/beefy-now-
 
 To celebrate our blossoming partnership, Kava, Équilibre and Beefy are coming together to launch a comprehensive Rewards Campaign in May. We’ll kick things off on May 4th with a joint Twitter Space at 15:00 UTC, to talk about all things Kava and introduce the campaign to our communities.
 
-![](/src/images/blog/beefy-kava-equilibre-get-more-this-may/ama.png)
+![](../../images/blog/beefy-kava-equilibre-get-more-this-may/ama.png)
 
 Starting with their 9th epoch on the same day, Équilibre will launch its Trade & Earn scheme, where users of the DEX will be rewarded with additional tokens corresponding to their trading volume in the promotional period. At the same time, Beefy and Kava will be launching a Vault Boost on our [Équilibre WETH-KAVA vault](https://app.beefy.finance/vault/equilibre-wkava-eth), to ratchet up your earnings to the next level. Finally, all three projects will redirect voting power on Équilibre towards the [WETH-KAVA LP](https://equilibrefinance.com/liquidity/0xb593e0a2e93864ff5f75689dade29f5f6dec64ef), to increase the rate of emissions to the liquidity pool (and consequently the vault on Beefy as well!). And the one final flourish, the LP will be receiving addition KAVA bribes to supercharge its emissions.
 

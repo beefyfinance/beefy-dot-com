@@ -1,12 +1,12 @@
 ---
 title: Beefy now supports the Kava network
 date: 2022-10-18T10:00:00+00:00
-header_image: "/src/images/blog/kava_deploy.png"
+header_image: "../../images/blog/kava_deploy.png"
 sub_header: Beefy now supports the Kava network
 short_description: Can you name 17 blockchains? Beefy can.
 
 ---
-![](/src/images/blog/kava_deploy.png)
+![](../../images/blog/kava_deploy.png)
 
 ## About Kava
 
@@ -38,4 +38,4 @@ There are currently five SushiSwap farms available:
 
 And one Curve farm available to stake in: [DAI/USDC/USDT Vault](https://app.beefy.finance/vault/curve-kava-3pool)
 
-![](/src/images/blog/k1.png)
+![](../../images/blog/k1.png)

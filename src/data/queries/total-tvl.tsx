@@ -7,7 +7,7 @@ import { fetchTvl } from '../redux/tvl/actions';
 const totalTvlQuery = graphql`
   query totalTvl {
     allBeefyTvl {
-      sum(field: tvl)
+      sum(field: { tvl: SELECT })
     }
   }
 `;

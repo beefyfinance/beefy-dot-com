@@ -1,12 +1,12 @@
 ---
 date: 2024-02-07T12:00:00Z
-header_image: "/src/images/blog/wormhole/cover.png"
+header_image: "../../images/blog/wormhole/cover.png"
 short_description: "Playing our part in the globalization of Web 3.0 with crosschain solutions."
 sub_header: "All Things Crosschain - Solving Liquidity Fragmentation with Wormhole, Circle and Beefy"
 title: "All Things Crosschain - Solving Liquidity Fragmentation with Wormhole, Circle and Beefy"
 ---
 
-![](/src/images/blog/wormhole/cover.png)
+![](../../images/blog/wormhole/cover.png)
 
 It may seem like ancient history now, but it wasn’t so long ago that we weren’t able to travel anywhere, access everything and live life without borders. Constrained by our physical capabilities, our man-made tooling and the enormity of the planet, most of mankind accepted that our world was necessarily fragmented. It took thousands of entrepreneurs and millions of innovations to slowly push the limits of where we could go and what we could access before we finally arrived at our modern age of mass distribution.
 

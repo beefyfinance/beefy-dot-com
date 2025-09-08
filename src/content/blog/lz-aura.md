@@ -1,12 +1,12 @@
 ---
 date: 2023-09-13T12:00:00Z
-header_image: "/src/images/blog/lz-aura/cover.png"
+header_image: "../../images/blog/lz-aura/cover.png"
 short_description: "Announcing a paradigm shift in Beefy's product lineup, with the introduction of LayerZero crosschain strategies in partnership with Aura Finance."
 sub_header: "The Next Generation: Crosschain Yield Optimization with Beefy x LayerZero x Aura"
 title: "The Next Generation: Crosschain Yield Optimization with Beefy x LayerZero x Aura"
 ---
 
-![](/src/images/blog/lz-aura/cover.png)
+![](../../images/blog/lz-aura/cover.png)
 
 Every once in a while, an innovation comes along that changes the way the game is played. No, we're not talking world-ending or life-changing... that may be a tad dramatic! But we are talking about a paradigm shift. An innovation that changes the way we think about the way things are and the way they can be. The key that unlocks the next generation.
 
@@ -38,7 +38,7 @@ Having started on Balancer’s native Ethereum, Aura has gradually expanded its 
 
 Bringing together the power and the potential of both LayerZero and Aura, Beefy is proud to launch our [Gyroscope wstETH-ETH vault](https://app.beefy.finance/vault/beets-eclp-wsteth-eth) and [Gyroscope stMATIC-MATIC vault](https://app.beefy.finance/vault/aura-polygon-gyro-matic-stmatic); our first strategies to take advantage of crosschain liquidity to optimize your yield. 
 
-![](/src/images/blog/lz-aura/vault.png)
+![](../../images/blog/lz-aura/vault.png)
 
 How does it work? Simple! First, Beefy takes your correlated liquidity - for instance in [Beethoven X's liquidity bootstrapping pool with Gyroscope](https://op.beets.fi/pool/0x7ca75bdea9dede97f8b13c6641b768650cb837820002000000000000000000d5) - which is already earning $BAL rewards. Then, it deposits that liquidity into [Aura's vaults](https://app.aura.finance/#/10/pool/6) to earn additional $AURA rewards for you. Next, it aims to trade those rewards for the principal asset to reinvest; at this stage it uses Aura's LayerZero OFT to bridge the $AURA rewards to Arbitrum and access the better liquidity available there. To get those rewards back to users, the received tokens are bridged back to the relevant chain using Stargate. Finally, the tokens are redeposited into the liquidity pool, to trigger the autocompounding effect which our users know and love.
 

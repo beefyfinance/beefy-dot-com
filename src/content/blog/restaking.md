@@ -1,12 +1,12 @@
 ---
 date: 2024-03-14T12:00:00Z
-header_image: "/src/images/blog/restaking/cover.png"
+header_image: "../../images/blog/restaking/cover.png"
 short_description: "Beefy enters the restaking revolution, delivering yet more yield on the most exciting opportunities of this cycle."
 sub_header: "The Restaking Renaissance: PoS, Points and Peripheral Yield"
 title: "The Restaking Renaissance: PoS, Points and Peripheral Yield"
 ---
 
-![](/src/images/blog/restaking/cover.png)
+![](../../images/blog/restaking/cover.png)
 
 *"Renaissance - a revival of or renewed interest in a given subject matter, often characterised by rapid change or new innovations after a long period of stability or consistency."*
 

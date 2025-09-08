@@ -1,13 +1,13 @@
 ---
 title: Experience the power of Beefy on Ethereum
 date: 2022-11-08T03:00:00.000+00:00
-header_image: "/src/images/blog/ethereum.PNG"
+header_image: "../../images/blog/ethereum.PNG"
 sub_header: Beefy deploys its first Vaults on Ethereum
 short_description: Beefy‘s long-awaited Ethereum launch is now live with a selection
   of Vaults.
 
 ---
-![](/src/images/blog/53b4a3fe-f359-441f-a0c4-9bbde6c50dbb.png)  
+![](../../images/blog/53b4a3fe-f359-441f-a0c4-9bbde6c50dbb.png)  
 Beefy users can now start staking across a variety of Vaults on Ethereum. This release marks Beefy’s eighteenth supported blockchain and a significant milestone for the yield optimizer. The Ethereum network´s position as the home of DeFi and its large TVL make it a natural choice for Beefy Vaults, and the team is happy to now offer services to one of the largest blockchain communities out there.
 
 ## What is Ethereum?
@@ -47,6 +47,6 @@ Beefy has launched 14 Vaults to start its Ethereum earning experience. You can a
 * Balancer Boosted USD (bb-a-USD)
 * BIFI Earnings Pool (Earn WETH)
 
-![](/src/images/blog/r1.png)
+![](../../images/blog/r1.png)
 
 Remember, to use these Vaults you‘ll need an ETH balance to pay gas fees. Make sure to check EthScan‘s gas fee tool to estimate the amount you‘ll need. Depending on the network‘s traffic, gas prices sometimes can be high due to demand.

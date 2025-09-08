@@ -3,7 +3,7 @@ import { useStaticEcosystemIcons } from '../../../data/queries/ecosystem-icons';
 import styled from '@emotion/styled';
 import { shuffle } from 'lodash';
 import { arrayRepeat } from '../../../utils/array-utils';
-import Ticker from 'react-ticker';
+// import Ticker from 'react-ticker';
 import PageVisibility from 'react-page-visibility';
 
 const size = 80;
@@ -115,9 +115,12 @@ export const IconsBackground = memo(function IconsBackground() {
   return (
     <Sizer>
       <PageVisibility onChange={setPageIsVisible}>
-        <Ticker height={visualHeight} move={pageIsVisible} mode="smooth" speed={5}>
-          {({ index }) => <IconsSet icons={iconsToUse} />}
-        </Ticker>
+        <div style={{ height: `${visualHeight}px` }}>
+          <IconsSet icons={iconsToUse} />
+        </div>
+        {/*<Ticker height={visualHeight} move={pageIsVisible} mode="smooth" speed={5}>*/}
+        {/*  {({ index }) => <IconsSet icons={iconsToUse} />}*/}
+        {/*</Ticker>*/}
       </PageVisibility>
     </Sizer>
   );

@@ -3,6 +3,7 @@ import { graphql } from 'gatsby';
 import { Meta } from '../../components/Common/Meta';
 import styled from '@emotion/styled';
 import { theme } from '../../theme';
+import { type IGatsbyImageData, getSrc } from 'gatsby-plugin-image';
 
 const Outer = styled.div`
   padding: ${theme.spacing(7.5)} 0;
@@ -15,8 +16,6 @@ const PostContainer = styled.div`
   margin-right: auto;
   padding: 0 ${theme.spacing(2)};
 `;
-
-const Post = styled.div``;
 
 const PostTitle = styled.h1`
   ${theme.h1}
@@ -112,11 +111,7 @@ type TemplateProps = {
         short_description?: string;
         header_image?: {
           childImageSharp?: {
-            fixed?: {
-              src: string;
-              width: number;
-              height: number;
-            };
+            gatsbyImageData?: IGatsbyImageData;
           };
         };
       };
@@ -130,22 +125,36 @@ const Template = memo<TemplateProps>(function Template({ data }) {
   } = data;
 
   return (
-    <>
-      <Meta
-        title={frontmatter?.title}
-        description={frontmatter?.short_description}
-        image={frontmatter?.header_image?.childImageSharp?.fixed}
-      />
-      <Outer>
-        <PostContainer>
-          <PostTitle>{frontmatter?.title}</PostTitle>
-          <PostDate>{frontmatter?.date}</PostDate>
-          <PostContent dangerouslySetInnerHTML={{ __html: html }} />
-        </PostContainer>
-      </Outer>
-    </>
+    <Outer>
+      <PostContainer>
+        <PostTitle>{frontmatter?.title}</PostTitle>
+        <PostDate>{frontmatter?.date}</PostDate>
+        <PostContent dangerouslySetInnerHTML={{ __html: html }} />
+      </PostContainer>
+    </Outer>
   );
 });
+
+export const Head = ({
+  data: {
+    markdownRemark: { frontmatter },
+  },
+}: TemplateProps) => {
+  const imageData = frontmatter?.header_image?.childImageSharp?.gatsbyImageData;
+  const src = imageData ? getSrc(imageData) : undefined;
+  const image =
+    imageData && src
+      ? {
+          src,
+          width: imageData.width,
+          height: imageData.height,
+        }
+      : undefined;
+
+  return (
+    <Meta title={frontmatter?.title} description={frontmatter?.short_description} image={image} />
+  );
+};
 
 export const pageQuery = graphql`
   query ($id: String!) {
@@ -157,11 +166,7 @@ export const pageQuery = graphql`
         short_description
         header_image {
           childImageSharp {
-            fixed(width: 1200) {
-              width
-              height
-              src
-            }
+            gatsbyImageData(width: 1200, placeholder: BLURRED, layout: FIXED)
           }
         }
       }

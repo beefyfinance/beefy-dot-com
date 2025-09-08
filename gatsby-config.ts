@@ -17,7 +17,6 @@ const config: GatsbyConfig = {
   plugins: [
     'gatsby-plugin-emotion',
     'gatsby-plugin-image',
-    'gatsby-plugin-react-helmet',
     'gatsby-plugin-sitemap',
     {
       resolve: 'gatsby-plugin-manifest',
@@ -51,7 +50,7 @@ const config: GatsbyConfig = {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'jsonContent',
-        path: './src/content/json',
+        path: './src/content/json/',
       },
     },
     {
@@ -65,12 +64,6 @@ const config: GatsbyConfig = {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
-          {
-            resolve: '@reflectivechimp/gatsby-remark-normalize-paths',
-            options: {
-              pathFields: ['header_image'],
-            },
-          },
           {
             resolve: `gatsby-remark-images`,
             options: {

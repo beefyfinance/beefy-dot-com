@@ -1,13 +1,13 @@
 ---
 title: Revolutionizing Beefy ZAP in Partnership with 1inch
 date: 2023-01-12T12:00:00+00:00
-header_image: "/src/images/blog/oneinch.png"
+header_image: "../../images/blog/oneinch.png"
 sub_header: Revolutionizing Beefy ZAP in Partnership with 1inch
 short_description: Get into and out of your favourite Beefy vaults with more ease
   and composability than ever before.
 
 ---
-![](/src/images/blog/oneinch.png)
+![](../../images/blog/oneinch.png)
 
 As THE Multichain Yield Optimizer on 18 chains, we at Beefy are all too aware that the joys of autocompounding are guarded by the complexity of building liquidity positions. This is why we invented the Beefy ZAP in May 2021, to allow our users to enter Beefy vaults with just one of the underlying tokens needed for the liquidity pool. Since then, countless users have told us how much they love ZAP, and asked for more.
 
@@ -25,7 +25,7 @@ The solution is a ZAP product which removes the need for an initial swap, taking
 
 We think 1inch is the perfect partner to help us deliver on our dream ZAP tooling. Querying 1inch’s public API, the Beefy application can display the rates offered by 1inch to our users, to give an accurate picture of how much it will cost to enter our vaults in one click (with all fees included)!
 
-![](/src/images/blog/1_click.png)
+![](../../images/blog/1_click.png)
 
 **Launching Beefy ZAP V2 powered by 1inch**
 
@@ -39,7 +39,7 @@ ZAP V2 also works for withdrawals. Simply navigate to the “Withdraw” tab and
 
 Where ZAP V2 isn’t yet available, you’ll still be able to access our the V1 tool in exactly the same way. And, where both ZAP methods are available based on the token you’ve selected, our app will select the method with the best swap rate by default, and allow you to select your preferred method by clicking on the right arrow in the header of the “Zap Route” section.
 
-![](/src/images/blog/zap_infographic_.png)
+![](../../images/blog/zap_infographic_.png)
 
 **Launch Party**
 

@@ -9,10 +9,6 @@ export type PartnerCardProps = {
   partner: NormalizedPartnerItem;
 };
 
-interface AnimatedItemProps {
-  visible: boolean;
-}
-
 const fadeIn = keyframes`
   from {
     opacity: 0;

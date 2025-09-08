@@ -1,12 +1,12 @@
 ---
 title: 'Beefy Brings wstETH Lido Vaults to Arbitrum and Optimism '
 date: 2022-10-11T10:00:00+00:00
-header_image: "/src/images/blog/lido.png"
+header_image: "../../images/blog/lido.png"
 sub_header: Start staking your wstETH in Beefy's new Vaults on Arbitrum and Optimism
 short_description: Four new wstETH Vaults let Beefy users earn optimized yields.
 
 ---
-![](/src/images/blog/lido.png)
+![](../../images/blog/lido.png)
 
 **Tuesday, October 11, 2022** – Beefy has launched four new wstETH Vaults across Arbitrum and Optimism for users to earn optimized rewards. These new yield opportunities are made possible through [Lido](https://lido.fi/), a liquid staking protocol for a selection of crypto assets across different blockchain networks.
 

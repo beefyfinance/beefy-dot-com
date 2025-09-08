@@ -1,11 +1,11 @@
 ---
 date: 2023-06-21T12:00:00Z
-header_image: "/src/images/blog/beefy-bevelov2/cover.jpg"
+header_image: "../../images/blog/beefy-bevelov2/cover.jpg"
 short_description: "Welcoming the next generation of DeFi liquidity for the Optimism ecosystem with new Beefy vaults on Velodrome V2."
 sub_header: "Gear Shift: Introducing Velodrome V2"
 title: "Gear Shift: Introducing Velodrome V2"
 ---
-![](/src/images/blog/beefy-bevelov2/cover.jpg)
+![](../../images/blog/beefy-bevelov2/cover.jpg)
 
 Today marks the launch of Velodrome’s V2 AMM model, the latest update promising to deliver a host of new features to the protocol, and kick things up a gear for DeFi users on the Optimism blockchain. As long-standing partners of Velodrome, we’re looking forward to ushering in the new design, and capitalizing on lots of new opportunities for Beefy vaults.
 

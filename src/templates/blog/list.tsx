@@ -36,23 +36,24 @@ const Template = memo<TemplateProps>(function Template({ data, pageContext }) {
   );
 
   return (
-    <>
-      <Meta title="News" description="Keep up to date with the latest Beefy News articles." />
-      <Outer>
-        <Inner>
-          <ArticleGrid articles={articles} />
-          <Pagination currentPage={pageContext.currentPage} numPages={pageContext.numPages} />
-        </Inner>
-      </Outer>
-    </>
+    <Outer>
+      <Inner>
+        <ArticleGrid articles={articles} />
+        <Pagination currentPage={pageContext.currentPage} numPages={pageContext.numPages} />
+      </Inner>
+    </Outer>
   );
 });
+
+export const Head = () => (
+  <Meta title="News" description="Keep up to date with the latest Beefy News articles." />
+);
 
 export const pageQuery = graphql`
   query ($skip: Int!, $limit: Int!) {
     allMarkdownRemark(
       filter: { frontmatter: { draft: { ne: true } } }
-      sort: { fields: [frontmatter___date], order: DESC }
+      sort: { frontmatter: { date: DESC } }
       limit: $limit
       skip: $skip
     ) {

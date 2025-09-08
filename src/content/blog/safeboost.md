@@ -1,12 +1,12 @@
 ---
 date: 2025-02-20T12:00:00Z
-header_image: "/src/images/blog/safeboost/safeboost.png"
+header_image: "../../images/blog/safeboost/safeboost.png"
 short_description: "Announcing our launch partnership with GnosisDAO and Safe DAO, and a barrage of incentives for Safe users on Gnosis Chain."
 sub_header: "SafeBoost with Beefy x Safe x Gnosis"
 title: "SafeBoost with Beefy x Safe x Gnosis"
 ---
 
-![](/src/images/blog/safeboost/safeboost.png)
+![](../../images/blog/safeboost/safeboost.png)
 
 If you’ve been using Beefy for any length of time now, you’ll know that we just looove to Boost! 🔥 We love a Partner Boost… We love a Grant Boost... These days, we even love to [give away our profits](https://vote.beefy.finance/#/proposal/0x8bca8113973382eda4154f6cbe0e16c5459997b104177a8a4d630a86f59a595b) as Boosts! 
 

@@ -2,13 +2,13 @@
 title: Beefy alters its fee structure for a selection of high-earning Vaults while
   maintaining a legacy rate for others
 date: 2022-07-30T10:00:00+00:00
-header_image: "/src/images/blog/image_6483441.JPG"
+header_image: "../../images/blog/image_6483441.JPG"
 sub_header: Introducing a new fee structure with [BIP-45]
 short_description: The Beefy DAO implements a new fee structure to support sustainability
   on the platform.
 
 ---
-![](/src/images/blog/image_6483441.JPG)
+![](../../images/blog/image_6483441.JPG)
 
 **Saturday, July 30, 2022** – As part of a restructuring initiative, The Beefy team will alter its top 20 - 50 performing Vaults’ fee structure on the Multichain Yield Optimizer Dapp. The platform will introduce a new 9.5% performance fee within two weeks on users’ accrued gains while optimizing their deposits.
 

@@ -1,13 +1,13 @@
 ---
 title: 'Safeguarding in Plain Sight: The Beefy Timelock Monitor'
 date: 2023-03-07T12:00:00+00:00
-header_image: "/src/images/blog/timelock.png"
+header_image: "../../images/blog/timelock.png"
 sub_header: 'Safeguarding in Plain Sight: The Beefy Timelock Monitor'
 short_description: Discover the secrets of Beefy’s risk management efforts for yourself
   with our latest public information feed.
 
 ---
-![](/src/images/blog/timelock.png)
+![](../../images/blog/timelock.png)
 
 At Beefy, we recognise three words to live by: SAFU First. Always. You can craft the most incredible features into your smart contracts, but if you can’t adequately safeguard user funds, your contracts don’t deserve to have users. That’s why safety is the first, last and foremost consideration in every product we release.
 

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { memo } from 'react';
 import { graphql } from 'gatsby';
 import { Meta } from '../../components/Common/Meta';
 import { ArticleGrid } from '../../components/Blog/ArticleGrid';
@@ -34,23 +34,24 @@ const TagTemplate: React.FC<TagTemplateProps> = ({ data, pageContext }) => {
   const { tag, currentPage, numPages } = pageContext;
 
   return (
-    <>
-      <Meta title={`Posts tagged with "${tag}"`} description={`Articles tagged with "${tag}"`} />
-      <Outer>
-        <Inner>
-          <ArticleGrid articles={articles} />
-          <Pagination currentPage={currentPage} numPages={numPages} tag={tag} />
-        </Inner>
-      </Outer>
-    </>
+    <Outer>
+      <Inner>
+        <ArticleGrid articles={articles} />
+        <Pagination currentPage={currentPage} numPages={numPages} tag={tag} />
+      </Inner>
+    </Outer>
   );
 };
+
+export const Head = ({ pageContext: { tag } }: TagTemplateProps) => (
+  <Meta title={`Posts tagged with "${tag}"`} description={`Articles tagged with "${tag}"`} />
+);
 
 export const pageQuery = graphql`
   query ($skip: Int!, $limit: Int!, $tag: String) {
     allMarkdownRemark(
       filter: { frontmatter: { tags: { in: [$tag] }, draft: { ne: true } } }
-      sort: { fields: [frontmatter___date], order: DESC }
+      sort: { frontmatter: { date: DESC } }
       limit: $limit
       skip: $skip
     ) {

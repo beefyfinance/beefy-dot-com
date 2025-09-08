@@ -5,8 +5,9 @@ import { EarnWithBeefy } from '../components/Home/EarnWithBeefy';
 import { Ecosystem } from '../components/Home/Ecosystem';
 import { BIFIToken } from '../components/Home/BIFIToken';
 import { LatestArticles } from '../components/Home/LatestArticles';
+import { Meta } from '../components/Common/Meta';
 
-const IndexPage = memo(function IndexPage() {
+const IndexPage = memo(() => {
   return (
     <>
       <Hero />
@@ -17,5 +18,7 @@ const IndexPage = memo(function IndexPage() {
     </>
   );
 });
+
+export const Head = () => <Meta />;
 
 export default IndexPage;

@@ -1,12 +1,12 @@
 ---
 date: 2024-01-17T12:00:00Z
-header_image: "/src/images/blog/mantle/cover.png"
+header_image: "../../images/blog/mantle/cover.png"
 short_description: "Launching into the New Year with our next new chain - Mantle Network."
 sub_header: "Upper Crust Farmers - Yield Optimization for Mantle Network"
 title: "Upper Crust Farmers - Yield Optimization for Mantle Network"
 ---
 
-![](/src/images/blog/mantle/cover.png)
+![](../../images/blog/mantle/cover.png)
 
 It’s a New Year; time for a New Start. Refreshed from the change of the holiday season, we love arriving in January with a refined mission and a renewed sense of purpose. It’s the best time of the year to push forward with ambitious new ideas, and to double down on the successes of last year.
 

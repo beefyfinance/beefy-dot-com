@@ -1,11 +1,11 @@
 ---
 date: 2023-08-03T12:00:00Z
-header_image: "/src/images/blog/exactly/cover.png"
+header_image: "../../images/blog/exactly/cover.png"
 short_description: "To celebrate our partnership with Exactly, we introduce their next-generation credit protocol and announce some tantalizing new incentives on Beefy’s Exactly vaults.👀"
 sub_header: "Decentralizing Credit Markets with Exactly on Beefy"
 title: "Decentralizing Credit Markets with Exactly on Beefy"
 ---
-![](/src/images/blog/exactly/cover.png)
+![](../../images/blog/exactly/cover.png)
 
 When thinking about the development of decentralized financial instruments, its useful to analogize the role of liquidity as something similar to water coming down from the hill. Fresh sources take time to emerge, and will continually wear away any obstacles in their path; and free-flowing bursts of water bring danger through their volatility. To harness its potential for irrigation, consumption and civilization more broadly, we must find ways to control the flow of liquidity, overcome the natural obstacles and direct it towards its potential.
 
@@ -25,7 +25,7 @@ Exactly also recently launched its [$EXA governance token](https://docs.exact.ly
 
 To celebrate the blossoming partnership between Beefy and Exactly, we’ve agreed to hold a vault Boost throughout August on our [EXA-WETH Vault](https://app.beefy.com/vault/velodrome-v2-exa-weth)! 🎉
 
-![](/src/images/blog/exactly/vault.jpg)
+![](../../images/blog/exactly/vault.jpg)
 
 Together, we’ll be boosting your returns with additional $OP rewards. This is on top of the basic deposit yield, $EXA and $VELO V2 rewards that our Beefy vault is already autocompounding. Bringing all this together, we’re talking about some serious yields.
 
