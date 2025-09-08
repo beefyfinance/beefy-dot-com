@@ -1,4 +1,4 @@
-import { useEffect, useState, useMemo } from 'react';
+import { useEffect, useLayoutEffect, useState } from 'react';
 
 const events = ['resize', 'load', 'orientationchange'];
 
@@ -8,7 +8,7 @@ export function useWindowSize() {
     height: typeof window !== 'undefined' ? window.innerHeight : 1080,
   });
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     let lastWidth = window.innerWidth || 1920;
     let lastHeight = window.innerHeight || 1080;
 
