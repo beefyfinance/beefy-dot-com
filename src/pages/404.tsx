@@ -4,6 +4,7 @@ import { Inner } from '../components/Common/Inner';
 import notFound404 from '../images/404image.svg';
 import { PrimaryLink } from '../components/Common/Buttons';
 import { theme } from '../theme';
+import { Meta } from '../components/Common/Meta';
 
 const ErrorImage = styled.img`
   margin-bottom: ${theme.spacing(4)};
@@ -23,7 +24,7 @@ const Text = styled.div`
   margin-bottom: ${theme.spacing(3)};
 `;
 
-const NotFoundPage = memo(function NotFoundPage() {
+const NotFoundPage = memo(() => {
   return (
     <Container>
       <ErrorImage src={notFound404} alt="error" />
@@ -32,5 +33,9 @@ const NotFoundPage = memo(function NotFoundPage() {
     </Container>
   );
 });
+
+export const Head = () => (
+  <Meta title={'Not Found'} description={"The page you're looking for doesn't exist."} />
+);
 
 export default NotFoundPage;

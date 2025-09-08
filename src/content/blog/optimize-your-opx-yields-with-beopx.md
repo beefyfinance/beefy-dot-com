@@ -1,13 +1,13 @@
 ---
 title: Optimize your OPX Yields with beOPX
 date: 2023-01-03T03:00:00+00:00
-header_image: "/src/images/blog/beopx.png"
+header_image: "../../images/blog/beopx.png"
 sub_header: Optimize your OPX Yields with beOPX
 short_description: Deploying Beefy’s exceptional escrow model to maximize your rewards
   on OPX.
 
 ---
-![](/src/images/blog/beopx.png)
+![](../../images/blog/beopx.png)
 
 Here at Beefy, we love seeing our strategic partners making waves on one of our 18 chains. With the arrival of OPX’s perpetual exchange on Optimism, we’ve been excited to bring you early access to the protocol through our OPX Launchpool Boost and the release of our OPX OLP vault. Now, we’re also thrilled to bring our tried and tested Beefy escrow model to OPX, to seal our relationship and maximize your OPX token rewards.
 

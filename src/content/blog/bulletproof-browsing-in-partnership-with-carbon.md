@@ -1,13 +1,13 @@
 ---
 title: Bulletproof Browsing In Partnership with Carbon
 date: 2023-03-02T12:00:00+00:00
-header_image: "/src/images/blog/carbon.png"
+header_image: "../../images/blog/carbon.png"
 sub_header: Bulletproof Browsing In Partnership with Carbon
 short_description: Welcoming our latest partner - Carbon Browser - to help users navigate
   Web 3.0 with speed, safety and decentralization every step of the way.
 
 ---
-![](/src/images/blog/carbon.png)
+![](../../images/blog/carbon.png)
 
 At Beefy, we know as well as anyone that the journey from the internet of old into Web 3.0 is a difficult one, fraught with technical issues, security risks and affronts to your privacy. These staunch differences between old and new are the main barrier separating the wonders of DeFi from its next billion users. So what’s the solution to bridge this gap?
 

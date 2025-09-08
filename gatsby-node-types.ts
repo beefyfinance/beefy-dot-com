@@ -15,7 +15,10 @@ export type BlogArticlesQueryReturnType = {
       };
     }[];
   };
-  tagsGroup: {
+};
+
+export type BlogTagsQueryReturnType = {
+  allMarkdownRemark: {
     group: {
       fieldValue: string;
     }[];

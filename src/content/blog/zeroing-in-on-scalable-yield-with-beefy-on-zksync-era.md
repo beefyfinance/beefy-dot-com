@@ -1,11 +1,11 @@
 ---
 date: 2023-04-27T12:00:00Z
-header_image: "/src/images/blog/zeroing-in-on-scalable-yield-with-beefy-on-zksync-era/cover.png"
+header_image: "../../images/blog/zeroing-in-on-scalable-yield-with-beefy-on-zksync-era/cover.png"
 short_description: "zkBeefy has finally arrived with the launch on our twentieth blockchain - zkSync Era - and our new partnership with Velocore"
 sub_header: "Zeroing in on Scalable Yield with Beefy on zkSync Era"
 title: "Zeroing in on Scalable Yield with Beefy on zkSync Era"
 ---
-![](/src/images/blog/zeroing-in-on-scalable-yield-with-beefy-on-zksync-era/cover.png)
+![](../../images/blog/zeroing-in-on-scalable-yield-with-beefy-on-zksync-era/cover.png)
 
 It’s finally here. The innovation we’ve all been waiting for. Some said it wouldn’t be possible, or would take decades to reach this point. But it seems that any doubts about this technology’s potential have been a red rag to the bull… and at Beefy, we’re always bullish 🐮
 
@@ -43,7 +43,7 @@ Velocore’s $VC governance token will be used to manage emissions to its variou
 
 To start with, we’ll be launching 3 vaults with Velocore, covering some of the favourite token pairing we’ve seen so far, to be followed by many more in the coming months.
 
-![](/src/images/blog/zeroing-in-on-scalable-yield-with-beefy-on-zksync-era/vaults-card.png)
+![](../../images/blog/zeroing-in-on-scalable-yield-with-beefy-on-zksync-era/vaults-card.png)
 
 ### Zeroing In
 

@@ -1,12 +1,12 @@
 ---
 date: 2023-06-30T12:00:00Z
-header_image: "/src/images/blog/beefy-cl/cover.jpg"
+header_image: "../../images/blog/beefy-cl/cover.jpg"
 short_description: "Concentrated liquidity has arrived on Beefy, meaning higher yields and more efficient liquidity than ever before. Learn all about our latest vaults built with Gamma and Algebra."
 sub_header: "Creative Destruction, Concentrated Liquidity and Beefy’s Next Generation"
 title: "Creative Destruction, Concentrated Liquidity and Beefy’s Next Generation"
 ---
 
-![](/src/images/blog/beefy-cl/cover.jpg)
+![](../../images/blog/beefy-cl/cover.jpg)
 
 Meditate with me for a moment on the nature of revolutionary innovation: 
 
@@ -24,7 +24,7 @@ CL works by allowing liquidity providers to configure their liquidity within a s
 
 With CL pools, projects can achieve significant liquidity for their tokens and products quickly, and with less capital deposits required. This unlocks markets for new products more quickly and efficiently than ever before. And the benefits don’t stop there: for users, CL means easier access to the tokens you’re wanting to acquire or sell; and for liquidity providers, it means greater fees and greater returns than from traditional pools.
 
-![](/src/images/blog/beefy-cl/graph.jpg)
+![](../../images/blog/beefy-cl/graph.jpg)
 
 ### No Risk, No Reward
 
@@ -40,7 +40,7 @@ With those risks in mind, we are thrilled to be bringing CL vaults to Beefy. We 
 
 Better still, by building on top of other range and fee management tools, we can offer managed CL positions that never fall out of range. With [Gamma Strategies](https://www.gamma.xyz/)’ dynamic range model, each of our new CL Beefy vaults automatically responds to price changes and volatile markets. And with [Algebra Finance](https://algebra.finance/)’s dynamic fee model, higher fees can be set in appropriate circumstances, ramping up the rate of return achieved in active or sparse markets.
 
-![](/src/images/blog/beefy-cl/vaults.png)
+![](../../images/blog/beefy-cl/vaults.png)
 
 By bringing together tools to mitigate the risks of CL positions with our autocompounding technology, Beefy is able to offer a single solution to seize the latest waves of opportunity. We are also thrilled to be delivering our latest products alongside our existing network of partners, starting off with our close friends at [Thena](https://www.thena.fi/) on BNB Chain and [QuickSwap](https://quickswap.exchange/) on Polygon. With over 15 strategies already available, new opportunities are coming in fast!
 

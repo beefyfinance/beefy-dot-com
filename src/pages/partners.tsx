@@ -39,7 +39,7 @@ function normalizePartnerItem(partner: PartnerItem): NormalizedPartnerItem {
   };
 }
 
-const Partners = memo<PartnersPageProps>(function Partners({ data }) {
+const PartnersPage = memo(({ data }: PartnersPageProps) => {
   const allPartners = useMemo(
     () =>
       sortBy(
@@ -64,32 +64,26 @@ const Partners = memo<PartnersPageProps>(function Partners({ data }) {
   );
 
   return (
-    <>
-      <Meta
-        title="Partners"
-        description="Find all partners which make the beefy ecosystem function."
-      />
-      <Outer>
-        <Inner>
-          <HeaderBox />
-          <Filters
-            selected={selectedFilter}
-            onChange={updateSelectedFilter}
-            partners={allPartners}
-          />
-          <PartnersWrapper>
-            {filteredResults.map(partner => (
-              <PartnerCard key={partner.name} partner={partner} visible={true} />
-            ))}
-          </PartnersWrapper>
-        </Inner>
-      </Outer>
-    </>
+    <Outer>
+      <Inner>
+        <HeaderBox />
+        <Filters selected={selectedFilter} onChange={updateSelectedFilter} partners={allPartners} />
+        <PartnersWrapper>
+          {filteredResults.map(partner => (
+            <PartnerCard key={partner.name} partner={partner} />
+          ))}
+        </PartnersWrapper>
+      </Inner>
+    </Outer>
   );
 });
 
+export const Head = () => (
+  <Meta title="Partners" description="Find all partners which make the beefy ecosystem function." />
+);
+
 export const pageQuery = graphql`
-  query {
+  query PartnersPage {
     allPartnersJson {
       edges {
         node {
@@ -100,4 +94,4 @@ export const pageQuery = graphql`
   }
 `;
 
-export default Partners;
+export default PartnersPage;

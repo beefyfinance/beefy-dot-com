@@ -1,12 +1,12 @@
 ---
 date: 2024-04-04T12:00:00Z
-header_image: "/src/images/blog/fraxtal/cover.png"
+header_image: "../../images/blog/fraxtal/cover.png"
 short_description: "Chain 26 - Fraxtal - arrives on Beefy, bringing with it a beautiful chaos of new opportunities."
 sub_header: "Recursive Returns with Beefy on Fraxtal"
 title: "Recursive Returns with Beefy on Fraxtal"
 ---
 
-![](/src/images/blog/fraxtal/cover.png)
+![](../../images/blog/fraxtal/cover.png)
 
 Have you ever heard of *"the Art of Roughness"*? 
 

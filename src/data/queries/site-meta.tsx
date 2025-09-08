@@ -31,5 +31,5 @@ type SiteMetadataQueryResult = {
 
 export function useStaticSiteMeta(): SiteMetadata {
   const result = useStaticQuery<SiteMetadataQueryResult>(siteMetaQuery);
-  return useMemo(() => result.site.siteMetadata, [result]);
+  return result.site.siteMetadata;
 }

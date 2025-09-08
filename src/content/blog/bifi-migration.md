@@ -1,11 +1,11 @@
 ---
 date: 2023-07-29T12:00:00Z
-header_image: "/src/images/blog/bifi-migration/cover.png"
+header_image: "../../images/blog/bifi-migration/cover.png"
 short_description: "Reviewing Plans for the Migration of our $BIFI Token, and Welcoming the Next Era for Beefy."
 sub_header: "A New Era: the $BIFI Token Migration"
 title: "A New Era: the $BIFI Token Migration"
 ---
-![](/src/images/blog/bifi-migration/cover.png)
+![](../../images/blog/bifi-migration/cover.png)
 
 In mid May, the DeFi world waited on eggshells as the latest protocol failure wreaked havoc on markets. One of the largest cross-chain bridges - Multichain - was suffering from various router failures, causing stuck transactions, chain isolation and potential loss of user funds. The media coverage wasn’t helping matters, circulating rumors that the project’s lead developer had been “disappeared” by the Chinese Communist Party (**CCP**), and that the project’s operational wallets had actually been in his sole custody the entire time. 😨
 

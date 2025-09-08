@@ -1,9 +1,10 @@
-import { BuildArgs, CreateNodeArgs, GatsbyNode, SourceNodesArgs } from 'gatsby';
+import type { BuildArgs, CreateNodeArgs, GatsbyNode, SourceNodesArgs } from 'gatsby';
 import path from 'path';
 import slugify from 'slugify';
 import {
-  BlogArticlesApiQueryReturnType,
-  BlogArticlesQueryReturnType,
+  type BlogArticlesApiQueryReturnType,
+  type BlogArticlesQueryReturnType,
+  type BlogTagsQueryReturnType,
   isFileSystemNode,
   isMarkdownNode,
 } from './gatsby-node-types';
@@ -17,35 +18,41 @@ async function createBlogPages({ graphql, actions }: BuildArgs) {
   const articleTemplate = path.resolve('src/templates/blog/article.tsx');
   const tagTemplate = path.resolve('src/templates/blog/tag.tsx');
 
-  const result = await graphql<BlogArticlesQueryReturnType>(`
-    query {
-      allMarkdownRemark(filter: { frontmatter: { draft: { ne: true } } }) {
-        edges {
-          node {
-            id
-            fields {
-              slug
-            }
-            frontmatter {
-              tags
+  const [articlesResult, tagsResult] = await Promise.all([
+    graphql<BlogArticlesQueryReturnType>(`
+      query BlogArticles {
+        allMarkdownRemark(filter: { frontmatter: { draft: { ne: true } } }) {
+          edges {
+            node {
+              id
+              fields {
+                slug
+              }
+              frontmatter {
+                tags
+              }
             }
           }
         }
       }
-      tagsGroup: allMarkdownRemark(limit: 2000) {
-        group(field: frontmatter___tags) {
-          fieldValue
+    `),
+    graphql<BlogTagsQueryReturnType>(`
+      query BlogTags {
+        allMarkdownRemark(limit: 2000) {
+          group(field: { frontmatter: { tags: SELECT } }) {
+            fieldValue
+          }
         }
       }
-    }
-  `);
+    `),
+  ]);
 
-  if (result.errors || !result.data) {
-    throw result.errors || 'No data';
+  if (articlesResult.errors || !articlesResult.data || tagsResult.errors || !tagsResult.data) {
+    throw articlesResult.errors || tagsResult.errors || 'No data';
   }
 
   // List page(s)
-  const edges = result.data.allMarkdownRemark.edges;
+  const edges = articlesResult.data.allMarkdownRemark.edges;
   const numPages = Math.ceil(edges.length / BLOG_ARTICLES_PER_PAGE);
   for (let i = 0; i < numPages; ++i) {
     actions.createPage({
@@ -72,7 +79,7 @@ async function createBlogPages({ graphql, actions }: BuildArgs) {
   });
 
   // Tag pages with pagination
-  result.data.tagsGroup.group.forEach(tag => {
+  tagsResult.data.allMarkdownRemark.group.forEach(tag => {
     const filteredEdges = edges.filter(
       edge => edge.node.frontmatter.tags && edge.node.frontmatter.tags.includes(tag.fieldValue)
     );
@@ -98,10 +105,10 @@ async function createBlogPages({ graphql, actions }: BuildArgs) {
 
 async function createBlogApi({ graphql }: BuildArgs) {
   const result = await graphql<BlogArticlesApiQueryReturnType>(`
-    query {
+    query BlogArticlesApi {
       allMarkdownRemark(
         filter: { frontmatter: { draft: { ne: true } } }
-        sort: { fields: [frontmatter___date], order: DESC }
+        sort: { frontmatter: { date: DESC } }
       ) {
         edges {
           node {
@@ -275,6 +282,20 @@ export const createSchemaCustomization: GatsbyNode['createSchemaCustomization'] 
       group: MediaKitGroupsJson @link(by: "groupId", from: "groupId")
       background: String!
       versions: [String!]!   
+    }
+    
+    type MarkdownRemark implements Node {
+      frontmatter: Frontmatter!
+    }
+    
+    type Frontmatter {
+      title: String!
+      sub_header: String!
+      short_description: String!
+      date: Date! @dateformat
+      header_image: File! @fileByRelativePath
+      draft: Boolean
+      tags: [String!]
     }
   `);
 };

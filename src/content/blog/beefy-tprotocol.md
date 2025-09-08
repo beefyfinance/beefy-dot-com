@@ -1,11 +1,11 @@
 ---
 date: 2023-07-26T12:00:00Z
-header_image: "/src/images/blog/beefy-tprotocol/cover.png"
+header_image: "../../images/blog/beefy-tprotocol/cover.png"
 short_description: "Beefy’s latest partner - TProtocol - is expanding the frontier of DeFi yields by delivering real-world debt assets as composable on-chain tokens."
 sub_header: "When Worlds Collide: Unlocking Real Yield With TProtocol x Beefy"
 title: "When Worlds Collide: Unlocking Real Yield With TProtocol x Beefy"
 ---
-![](/src/images/blog/beefy-tprotocol/cover.png)
+![](../../images/blog/beefy-tprotocol/cover.png)
 
 We all love on-chain yield. There’s nothing more satisfying than sleeping comfortably at night while the number of rewards accruing on your self-custodial deposit tick endlessly upwards. But as DeFi matures, we’re learning the hard way to be more wary of the provenance of on-chain yield, and that if you can’t tell where the yield comes from, it’s probably coming from you!
 
@@ -37,7 +37,7 @@ To celebrate the arrival of T-Bills on chain, we’re teaming up with TProtocol 
 
 As part of Beefy’s Boost Week, we’ve been running a limited-time Boost on the [wTBT-USDC Vault](https://app.beefy.com/vault/velodrome-v2-usdc-wtbt) using funding from our Optimism Governance Fund grant. To get your share of the additional $OP tokens, simply head over to the vault page, zap in in two clicks with any of your favorite tokens, and hit **“Boost Vault”** to get access.
 
-![](/src/images/blog/beefy-tprotocol/boost.png)
+![](../../images/blog/beefy-tprotocol/boost.png)
 
 Though Boost Week is sadly already over, the added Boost on $wTBT has been extended for another week, so there’s still plenty of time to soak up those boosted rewards on your stable assets. This is the perfect opportunity to check out $wTBT, and give [TProtocol](https://app.tprotocol.io/) a try!
 

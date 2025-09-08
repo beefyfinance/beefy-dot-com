@@ -1,11 +1,11 @@
 ---
 date: 2023-05-30T12:00:00Z
-header_image: "/src/images/blog/beefy-railgun/cover.png"
+header_image: "../../images/blog/beefy-railgun/cover.png"
 short_description: "Access the amenity of anonymity with Beefy yields through  the RAILGUN privacy-protecting protocol."
 sub_header: "The Next Layer of Composability: Private Yield with Beefy x RAILGUN"
 title: "The Next Layer of Composability: Private Yield with Beefy x RAILGUN"
 ---
-![](/src/images/blog/beefy-railgun/cover.png)
+![](../../images/blog/beefy-railgun/cover.png)
 
 Zero Knowledge (**ZK**) Summer 2023 is rapidly picking up steam, and we’re not even officially past Spring yet! We here at Beefy are super excited as we see new and emerging use cases rapidly coming to fruition, including the latest and greatest ways to access your Beefy yields.
 

@@ -1,13 +1,13 @@
 ---
 title: Offering True Transparency with Beefy’s Treasury Dashboard
 date: 2023-01-05T12:00:00+00:00
-header_image: "/src/images/blog/treasury-dashboard.png"
+header_image: "../../images/blog/treasury-dashboard.png"
 sub_header: Offering True Transparency with Beefy’s Treasury Dashboard
 short_description: Explore our latest UI addition for trustworthy insights into Beefy’s
   treasury and financials.
 
 ---
-![](/src/images/blog/treasury-dashboard.png)
+![](../../images/blog/treasury-dashboard.png)
 
 It’s hard to deny that 2022 was a rough year for Web 3.0. Through the never-ending red candlesticks, mounting regulatory pressure and outright fraud, we’ve all received yet another lesson in why building trustless financial systems is so important. It’s the New Year now, and a new opportunity to build trust and trustlessness in novel and exciting ways. And we’ve got a lot in store for 2023…
 

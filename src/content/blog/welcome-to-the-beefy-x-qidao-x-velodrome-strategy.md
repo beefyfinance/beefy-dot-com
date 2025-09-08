@@ -1,12 +1,12 @@
 ---
 title: Welcome to the Beefy x QiDao x Velodrome strategy
 date: 2022-09-12T10:00:00+00:00
-header_image: "/src/images/blog/advanced.png"
+header_image: "../../images/blog/advanced.png"
 sub_header: Experience Beefy's new QiDao x Velodrome optimized strategy
 short_description: Deposit WETH, WBTC, or DAI for highly-optimizted APY returns
 
 ---
-![](/src/images/blog/advanced.png)
+![](../../images/blog/advanced.png)
 
 For holders of DAI, WETH, and WBTC on Optimism, Beefy’s new earning strategy offers a new way to earn native rewards of your deposited token. By using QiDao protocol’s collateralized loans system and Velodrome’s incentivized liquidity pools, you can start earning highly-optimized WBTC, WETH, and DAI rewards with just one Vault.
 
@@ -36,7 +36,7 @@ Beefy always recommends not selling your mooTokens on unsupported platforms, bec
 4. These LP tokens are then autocompounded in Beefy Vaults.
 5. The total rewards are then converted back into the originally deposited asset (WBTC, WETH, or DAI).
 
-![](/src/images/blog/flow_3.png)
+![](../../images/blog/flow_3.png)
 
 Note that the initial debt ceilings for the MAI vaults are set at:
 

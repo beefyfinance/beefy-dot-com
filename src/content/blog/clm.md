@@ -1,12 +1,12 @@
 ---
 date: 2024-04-08T12:00:00Z
-header_image: "/src/images/blog/clm/cover.png"
+header_image: "../../images/blog/clm/cover.png"
 short_description: "Introducing the newest suite of automated liquidity solutions: Beefy CLM."
 sub_header: "Cowcentrated Liquidity: A New Era of Yield Optimization"
 title: "Cowcentrated Liquidity: A New Era of Yield Optimization"
 ---
 
-![](/src/images/blog/clm/cover.png)
+![](../../images/blog/clm/cover.png)
 
 When Beefy debuted on the Binance Smart Chain in October 2020, the frenzy of food token yield farms saw APRs soaring above 100,000%. With Beefy's exceptional automation, these yields compounded to generate APYs so staggering that they were simply represented by a 🔥 emoji. However, the euphoria of DeFi summer eventually subsided, leading to a decline in yields and token prices, prompting many to exit the space entirely. Nevertheless, Beefy remained steadfast, continuing its mission to simplify DeFi and facilitate its growth.
 
@@ -40,7 +40,7 @@ To achieve this, CLM products will
 * Put as many tokens as possible into a 50/50 position with the predetermined width for the strategy centered on the current price. We’ll call this the main position.
 * With whichever token there is more of, create another position as a 1-sided limit order just 1 tick outside of the current tick. We’ll call this the alt position.
 
-![](/src/images/blog/clm/range-graphic.png)
+![](../../images/blog/clm/range-graphic.png)
 
 By having this alt position, all capital is able to be deployed. And as much as we want our bags to go up-only, price doesn’t actually move in a straight line so this 2nd, limit-order position will frequently be utilized too.
 
@@ -52,7 +52,7 @@ You’re probably wondering how we keep the main position in range. Since we alr
 
 Beefy will schedule Gelato to call the moveTicks function on a fixed frequency which can be adjusted so the position is going to be closely following along with the price at all times.
 
-![](/src/images/blog/clm/calm-zone-graphic.png)
+![](../../images/blog/clm/calm-zone-graphic.png)
 
 ### New Era
 

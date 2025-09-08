@@ -1,11 +1,11 @@
 ---
 date: 2023-07-17T12:00:00Z
-header_image: "/src/images/blog/beefy-op-boost/cover.png"
+header_image: "../../images/blog/beefy-op-boost/cover.png"
 short_description: "Celebrating one year of innovation, creation and incentivization with Beefy on Optimism."
 sub_header: "Beefy x Optimism: A Master Class in Liquidity Incentivization"
 title: "Beefy x Optimism: A Master Class in Liquidity Incentivization"
 ---
-![](/src/images/blog/beefy-op-boost/cover.png)
+![](../../images/blog/beefy-op-boost/cover.png)
 
 We all know the truism that *the whole is greater than the sum of its parts*. As we dive deeper into the theory and economics underlying decentralized finance, we are confronted time and again with the fundamental principles of game theory: *it’s only if we are able to coordinate ourselves and work together effectively in the same direction that we can hope to achieve an outcome that is truly optimal*. 
 
@@ -37,7 +37,7 @@ In just under 10 months, we’ve distributed close to 300,000 $OP tokens – app
 
 [Financial analysis](https://www.docdroid.net/Ds2ZSwS/beefy-quarterly-report-march-2023-pdf) over recent quarters shows a broad range of activities across the Beefy ecosystem, all rowing in the same direction towards optimal liquidity. In addition to bribes and liquidity, we’ve also incentivized external developers for deploying new vaults, run comprehensive marketing campaigns to attract users, and invested in developing new tooling and technology for delivering liquidity to participants (and vice versa!).
 
-![](/src/images/blog/beefy-op-boost/financials.png)
+![](../../images/blog/beefy-op-boost/financials.png)
 
 Having deployed on 20 different blockchains over our short history, it’s safe to say that the experience in Beefy’s first year on Optimism is unparalleled.
 
@@ -49,7 +49,7 @@ Starting on Monday 10 July, we’ll be launching a boost each day for the next w
 
 We’ll be kicking things off with our [VELOV2-USDC Vault](https://app.beefy.com/vault/velodrome-v2-usdc-velo) today, with new boost announcements coming each day via Beefy’s [Twitter](https://twitter.com/beefyfinance), [Discord](https://discord.gg/yq8wfHd) and [Telegram](https://t.me/beefyfinance). Keep your eyes peeled for the pre-stake, to make sure you soak up every single second of boosted liquidity in July.
 
-![](/src/images/blog/beefy-op-boost/boosts.png)
+![](../../images/blog/beefy-op-boost/boosts.png)
 
 ### A Master Class in Liquidity Incentivization
 

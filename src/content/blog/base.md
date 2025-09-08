@@ -1,11 +1,11 @@
 ---
 date: 2023-08-04T12:00:00Z
-header_image: "/src/images/blog/base/cover.png"
+header_image: "../../images/blog/base/cover.png"
 short_description: "Beefy deploys on chain #22 - Base - ready to bring the heat this August."
 sub_header: "It’s Onchain Summer with Beefy on Base!"
 title: "It’s Onchain Summer with Beefy on Base!"
 ---
-![](/src/images/blog/base/cover.png)
+![](../../images/blog/base/cover.png)
 
 It’s vacation season people; time for some time off! But whether you’re laying on a beach, hiking in a foreign country or just minding the kids in your own backyard, you definitely don’t want to miss out on the amazing DeFi incentives out there. At times like this, it pays to have a yield optimizer handle all your farming needs for you. You can leave your screens behind. 😎
 

@@ -1,12 +1,12 @@
 ---
 date: 2023-12-18T12:00:00Z
-header_image: "/src/images/blog/linea/cover.png"
+header_image: "../../images/blog/linea/cover.png"
 short_description: "Announcing Beefy’s 24th chain - Linea - the latest zero-knowledge EVM chain that’s built for builders."
 sub_header: "Building for the Builders: Beefy on Linea"
 title: "Building for the Builders: Beefy on Linea"
 ---
 
-![](/src/images/blog/linea/cover.png)
+![](../../images/blog/linea/cover.png)
 
 If there’s one thing in Web 3.0 that’s sorely underestimated, it’s the value of community. Our goal of serving billions of users is going to require thousands of communities supporting millions of builders. Chains and projects will come and go, but those that hang around invariably grow their own identity and crowd. Community is an essential ingredient in our vision for Web 3.0.
 

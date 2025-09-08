@@ -1,12 +1,12 @@
 ---
 date: 2023-11-08T12:00:00Z
-header_image: "/src/images/blog/lido-base/cover.png"
+header_image: "../../images/blog/lido-base/cover.png"
 short_description: "A deep dive into the proliferation of Ethereum's shared security, as Lido - with a little help from Beefy - brings liquid staking to Base"
 sub_header: "Distributing Our Shared Security Base with Beefy x Lido"
 title: "Distributing Our Shared Security Base with Beefy x Lido"
 ---
 
-![](/src/images/blog/lido-base/cover.png)
+![](../../images/blog/lido-base/cover.png)
 
 Avid readers of Beefy's articles will know that we've [written many times before](https://beefy.com/articles/beefy-polygon-zkevm/) about Ethereum’s battle against the scalability trilemma. In short, the fundamental mission of our age is to figure out how to distribute our strong shared security and decentralization to billions of users without compromising their integrity. This mission should ultimately be at the heart of every Web 3.0 project, as we strive to bring the innovations we know and love to the mainstream.
 

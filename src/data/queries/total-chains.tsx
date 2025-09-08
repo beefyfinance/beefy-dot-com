@@ -12,7 +12,7 @@ import { fetchVaults } from '../redux/vaults/actions';
 const totalChainsQuery = graphql`
   query totalChains {
     allBeefyVault {
-      distinct(field: chain)
+      distinct(field: { chain: SELECT })
     }
   }
 `;

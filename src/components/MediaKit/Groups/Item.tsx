@@ -65,8 +65,9 @@ const Icon = styled(FontAwesomeIcon)`
 
 function getMediaUrl(groupId: string, itemId: string, version: string) {
   // disable inlining
-  return require(`!url-loader?limit=false!../../../images/media-kit/${groupId}/${itemId}.${version}`)
-    .default;
+  return require(
+    `!url-loader?limit=false!../../../images/media-kit/${groupId}/${itemId}.${version}`
+  ).default;
 }
 
 export type ItemProps = {

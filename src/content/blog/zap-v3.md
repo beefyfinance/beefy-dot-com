@@ -1,12 +1,12 @@
 ---
 date: 2023-12-04T12:00:00Z
-header_image: "/src/images/blog/zap-v3/cover.png"
+header_image: "../../images/blog/zap-v3/cover.png"
 short_description: "Delivering the next generation of accessibility tooling, in tandem with the largest launch campaign we've ever done."
 sub_header: "The Next Level: ZAP V3 with Beefy × Optimism × KyberSwap"
 title: "The Next Level: ZAP V3 with Beefy × Optimism × KyberSwap"
 ---
 
-![](/src/images/blog/zap-v3/cover.png)
+![](../../images/blog/zap-v3/cover.png)
 
 The accelerating pace of technological innovation is really an incredible thing. Each year, new hardware and software updates reliably usher in the future in a way that new inventions and techniques did unpredictably each decade only a few centuries ago. Better still, working with open source and permissionless technology means we don’t have to pay a premium or wait a year to get hands-on with the latest technology. In Web 3.0, the state of the art is arriving every single day, live and direct to the systems you know and love, and all at lightning-fast pace. ⚡️
 

@@ -1,11 +1,11 @@
 ---
 date: 2023-07-14T12:00:00Z
-header_image: "/src/images/blog/beefy-polygon-zkevm/art.png"
+header_image: "../../images/blog/beefy-polygon-zkevm/art.png"
 short_description: "Taking the next step towards Ethereum’s Scalability Vision with our long-standing friends at Polygon."
 sub_header: "Bring Ethereum to Everyone: Beefy on Polygon zkEVM"
 title: "Bring Ethereum to Everyone: Beefy on Polygon zkEVM"
 ---
-![](/src/images/blog/beefy-polygon-zkevm/cover.png)
+![](../../images/blog/beefy-polygon-zkevm/cover.png)
 
 In a [2017 blogpost](https://vitalik.ca/general/2017/12/31/sharding_faq.html#this-sounds-like-theres-some-kind-of-scalability-trilemma-at-play-what-is-this-trilemma-and-can-we-break-through-it), whilst pondering the limitations of blockchain throughput, Vitalik Buterin stumbled upon a conundrum. *“This sounds like there’s some kind of scalability trilemma at play,”* he reflected. *“The trilemma claims that blockchain systems can only have at most two of the following three properties: decentralization, scalability and security”*.
 
@@ -25,7 +25,7 @@ But Polygon’s answer is a different approach. Harnessing the power of zero-kno
 
 With those lofty ambitions in mind, Polygon launched it’s zero-knowledge Ethereum-virtual-machine (or **“zkEVM”**) blockchain in March of this year. Following the enormous success of its proof-of-stake Polygon chain, which has consistently captured over $1 billion of DeFi assets over the last 2 years, Polygon is betting big that Ethereum scalability is the best route to blockchain ubiquity.
 
-![](/src/images/blog/beefy-polygon-zkevm/art.png)
+![](../../images/blog/beefy-polygon-zkevm/art.png)
 
 And Polygon zkEVM is off to a flying start, having amassed $30 million of assets and 30 different DeFi protocols in just the last 3 months. As loyal Polygon users get their first taste of zero-knowledge rollups, the ecosystem expects to see its Ethereum gas prices becoming increasingly socialized between users, making it cheaper and easier to transact on zkEVM. And with Polygon announcing [big plans](https://polygon.technology/blog/introducing-polygon-2-0-the-value-layer-of-the-internet?utm_source=twitter&utm_medium=social&utm_content=polygon-2.0-value-layer) to migrate their existing technology in the same direction, we can expect a long and steep growth trajectory for zkEVM.
 

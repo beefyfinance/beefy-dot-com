@@ -1,13 +1,13 @@
 ---
 title: 'Insights That Inspire: Introducing the Beefy Yield Module'
 date: 2023-03-15T12:00:00+00:00
-header_image: "/src/images/blog/yield_module.png"
+header_image: "../../images/blog/yield_module.png"
 sub_header: 'Insights That Inspire: Introducing the Beefy Yield Module'
 short_description: 'Dive deeper into the miracle of autocompounding with the latest
   analytics tool for our web app - the Beefy Yield Module. '
 
 ---
-![](/src/images/blog/yield_module.png)
+![](../../images/blog/yield_module.png)
 
 I’m sure it’s happened to most of us before… you rush into a new opportunity for some incredible DeFi yields, only to find yourself struggling to keep track of things a few weeks later,  and confused as to whether the promise ever materialized into reality. We all know that performance is never exactly as promised, but that’s easy to forget when promise is all you have to go on.
 

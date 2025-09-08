@@ -21,7 +21,11 @@ const CustomInner = styled(FluidInner)`
   padding: ${40 + 24 * 2}px 0px;
   background-image: url(${topLeft}), url(${topRight}), url(${bottomLeft}), url(${bottomRight});
   background-repeat: no-repeat;
-  background-position: left 64px, right 64px, left bottom, right bottom;
+  background-position:
+    left 64px,
+    right 64px,
+    left bottom,
+    right bottom;
   background-size: ${(360 - 48) / 2}px ${((360 - 48) / 2) * r}px;
   min-height: 100vh;
   text-align: center;
@@ -29,7 +33,11 @@ const CustomInner = styled(FluidInner)`
   justify-content: center;
 
   @media (min-width: ${theme.breakpoints.sm}px) {
-    background-position: left 5%, right 5%, left bottom, right bottom;
+    background-position:
+      left 5%,
+      right 5%,
+      left bottom,
+      right bottom;
     background-size: ${(theme.breakpoints.sm - 48) / 2}px ${((theme.breakpoints.sm - 48) / 2) * r}px;
   }
 

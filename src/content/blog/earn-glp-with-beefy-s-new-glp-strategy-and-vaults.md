@@ -1,13 +1,13 @@
 ---
 title: Earn GLP with Beefy’s new GLP strategy and Vaults
 date: 2022-10-27T10:00:00+00:00
-header_image: "/src/images/blog/gmx.png"
+header_image: "../../images/blog/gmx.png"
 sub_header: Beefy is now taking GLP deposits on both Arbitrum and Avalanche
 short_description: Learn about Beefy's new strategy for GLP, a token minted to liquidity
   providers on GMX.
 
 ---
-![](/src/images/blog/gmx.png)
+![](../../images/blog/gmx.png)
 
 ## What is GMX?
 
@@ -35,7 +35,7 @@ The strategy works as follows:
 4. The earned multiplier points also boost earnings for more native tokens.
 5. Beefy claims fees and mints additional GLP to also earn more fees.
 
-![](/src/images/blog/v1.png)
+![](../../images/blog/v1.png)
 
 ## What are the benefits of the strategy?
 

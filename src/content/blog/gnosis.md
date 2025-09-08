@@ -1,12 +1,12 @@
 ---
 date: 2023-10-26T12:00:00Z
-header_image: "/src/images/blog/gnosis/cover.png"
+header_image: "../../images/blog/gnosis/cover.png"
 short_description: "Announcing the arrival of autocompounding on Beefy's 23rd blockchain - Gnosis Chain."
 sub_header: "Compounding For The Community: Beefy on Gnosis Chain"
 title: "Compounding For The Community: Beefy on Gnosis Chain"
 ---
 
-![](/src/images/blog/gnosis/cover.png)
+![](../../images/blog/gnosis/cover.png)
 
 *The real promise of Web 3.0 is not in the reinvention of money. It's in the solving of human coordination.* 
 

@@ -1,13 +1,13 @@
 ---
 title: Introducing beVELO, Beefy's latest escrowed token
 date: 2022-10-21T10:00:00+00:00
-header_image: "/src/images/blog/bevelo_poster-1.png"
+header_image: "../../images/blog/bevelo_poster-1.png"
 sub_header: beVELO is here to unlock your staked VELO's value
 short_description: A Beefy escrowed token that gives you real bang for your staked
   VELO buck.
 
 ---
-![](/src/images/blog/bevelo_poster-1.png)
+![](../../images/blog/bevelo_poster-1.png)
 
 After deploying Vaults on Optimism on July 27, Beefy has quickly become one of the network’s largest protocols. Our on-chain compounding amounts to roughly $34,000,000 of TVL daily - but there’s more innovation on the horizon. Now, we’re ready to bring the Cowmoonity beVELO, a Beefy escrowed token that gives you real bang for your staked VELO buck.
 
@@ -41,7 +41,7 @@ The reserves always have to be 20% of the capital locked. However, if they are d
 
 Once you’re holding beVELO, you can stake it in the [beVELO Vault](https://app.beefy.com/vault/beefy-bevelo) to earn more beVELO. As mentioned, there will be no liquidity provided for beVELO by Beefy.
 
-![](/src/images/blog/bevelo_vault-1.png)
+![](../../images/blog/bevelo_vault-1.png)
 
 ## What do I get from holding beVELO?
 

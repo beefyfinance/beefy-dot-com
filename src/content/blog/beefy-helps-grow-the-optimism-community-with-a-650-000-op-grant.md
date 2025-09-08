@@ -1,13 +1,13 @@
 ---
 title: Beefy Helps Grow the Optimism Community With a 650,000 OP Grant
 date: 2022-10-12T10:00:00+00:00
-header_image: "/src/images/blog/op_grant_2.png"
+header_image: "../../images/blog/op_grant_2.png"
 sub_header: Beefy secures a 650,000 OP Ecosystem Development Grant
 short_description: After a successful proposal for an Optimism grant, Beefy has begun
   to distribute 650,000 OP in incentives.
 
 ---
-![](/src/images/blog/op_grant_2.png)
+![](../../images/blog/op_grant_2.png)
 
 **Wednesday, October 12, 2022** – After a successful proposal for an Optimism grant, Beefy has begun to distribute 650,000 OP in boosts to selected Vaults, farms, and contributors. The incentives will help develop and support the Optimism ecosystem while also introducing it to Beefy’s users and vice versa.
 

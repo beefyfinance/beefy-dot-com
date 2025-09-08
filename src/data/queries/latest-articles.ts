@@ -12,7 +12,7 @@ const latestArticlesQuery = graphql`
   query latestArticles {
     allMarkdownRemark(
       filter: { frontmatter: { draft: { ne: true } } }
-      sort: { fields: [frontmatter___date], order: DESC }
+      sort: { frontmatter: { date: DESC } }
       limit: 4
     ) {
       edges {

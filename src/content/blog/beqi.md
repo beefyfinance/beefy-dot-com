@@ -1,12 +1,12 @@
 ---
 date: 2024-02-22T12:00:00Z
-header_image: "/src/images/blog/beqi/cover.png"
+header_image: "../../images/blog/beqi/cover.png"
 short_description: "Dive into the new dynamics as we release Version 2 of our Beefy-escrowed QI token."
 sub_header: "beQI: The Next Evolution"
 title: "beQI: The Next Evolution"
 ---
 
-![](/src/images/blog/beqi/cover.png)
+![](../../images/blog/beqi/cover.png)
 
 It is time for the next evolution of the Beefy Escrowed QI (beQI) token!
 
@@ -46,4 +46,4 @@ Beefy has enjoyed years of working with Qi Dao and is thrilled to continue worki
 
 [beQI Earnings Pool](https://app.beefy.com/vault/beqiv2-pool)
 
-![](/src/images/blog/beqi/upgrade.png)
+![](../../images/blog/beqi/upgrade.png)

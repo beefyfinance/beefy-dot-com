@@ -1,11 +1,11 @@
 ---
 date: 2023-05-31T12:00:00Z
-header_image: "/src/images/blog/beefy-scanto/cover.jpg"
+header_image: "../../images/blog/beefy-scanto/cover.jpg"
 short_description: "Unlocking flexible security for DeFi primitives with sCANTO - the new home for liquid staking on the Canto blockchain."
 sub_header: "Flexible and Secure Foundations for Canto’s DeFi Architecture"
 title: "Flexible and Secure Foundations for Canto’s DeFi Architecture"
 ---
-![](/src/images/blog/beefy-scanto/cover.jpg)
+![](../../images/blog/beefy-scanto/cover.jpg)
 
 The Great Pyramids. The Transcontinental Railroad. The World Wide Web. When you start thinking about what can be achieved with pioneering engineering, it’s hard not to be inspired by the incredible achievements of mankind. And for any builder who has taken the time to get acquainted with crypto, it’s hard not to be excited about the future we’re architecting here.
 

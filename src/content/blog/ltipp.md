@@ -1,12 +1,12 @@
 ---
 date: 2024-06-12T12:00:00Z
-header_image: "/src/images/blog/ltipp/cover.png"
+header_image: "../../images/blog/ltipp/cover.png"
 short_description: "Celebrating the full launch of Beefy's CLM products with 12 weeks of LTIPP incentives on Arbitrum."
 sub_header: "Training Wheels Off - Unleashing CLM with LTIPP on Arbitrum"
 title: "Training Wheels Off - Unleashing CLM with LTIPP on Arbitrum"
 ---
 
-![](/src/images/blog/ltipp/cover.png)
+![](../../images/blog/ltipp/cover.png)
 
 Growth and development are hard. Sure, rapid expansion is an exciting prospect and a cause for great pride in retrospect. But those actually on the path to real growth will know that it’s never easy. Things don't happen as you expect them to; progress isn’t a straight line. Living with risk and failure is always uncomfortable.
 

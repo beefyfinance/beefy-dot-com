@@ -2,13 +2,13 @@
 title: Beefy x Giddy Collaboration Brings Single-Tap Staking and DeFi Earning to a
   Wider Audience
 date: 2022-08-04T10:00:00+00:00
-header_image: "/src/images/blog/giddy.png"
+header_image: "../../images/blog/giddy.png"
 sub_header: Beefy partners with Giddy and releases its Giddy Vaults
 short_description: 'Beefy and Giddy have come together to help bring the Decentralized
   Finance earning experience to a mainstream audience. '
 
 ---
-![](/src/images/blog/giddy.png)
+![](../../images/blog/giddy.png)
 
 **Thursday, August 04, 2022** – Beefy and Giddy have come together to help bring the Decentralized Finance earning experience to a mainstream audience. Beefy’s tried-and-tested Vault systems will power some of the earning potential of the Giddy token, while the Giddy mobile app will create an easy-to-use interface for new users in the Decentralized Finance space.
 

@@ -1,5 +1,5 @@
-import { FileNode } from 'gatsby-plugin-image/dist/src/components/hooks';
 import { graphql } from 'gatsby';
+import { type IGatsbyImageData } from 'gatsby-plugin-image';
 
 export type ListArticles = {
   edges: ListArticlesQueryEdge[];
@@ -16,7 +16,11 @@ export type ListArticlesQueryNode = {
     sub_header?: string;
     date?: string;
     short_description?: string;
-    header_image?: FileNode;
+    header_image?: {
+      childImageSharp?: {
+        gatsbyImageData?: IGatsbyImageData;
+      };
+    };
   };
   fields: {
     slug: string;

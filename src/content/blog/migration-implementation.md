@@ -1,13 +1,13 @@
 ---
 date: 2023-10-10T12:00:00Z
-header_image: "/src/images/blog/migration-implementation/cover.png"
+header_image: "../../images/blog/migration-implementation/cover.png"
 short_description: "The culmination of months of planning, building and preparing... the $BIFI migration to Ethereum is almost ready for lift off."
 sub_header: "$BIFI Migration: All Engines Running"
 title: "$BIFI Migration: All Engines Running"
 
 ---
 
-![](/src/images/blog/migration-implementation/cover.png)
+![](../../images/blog/migration-implementation/cover.png)
 
 In July, [we shared updates](https://beefy.com/articles/bifi-migration/) on our plans to undertake a radical migration of Beefy's governance, revenue and incentive distribution mechanisms, to reduce our reliance on the fallen Multichain protocol and relocate our project to Ethereum. It's been 3 hard months of planning, building and preparing, but the final hours are approaching fast. This article provides all the details you need to know about when and how your new $BIFI tokens will be arriving. 👇
 
@@ -35,7 +35,7 @@ Given that the snapshot will mark the end of all use cases for the existing $BIF
 
 In the week following the official snapshot, liquidity for the new $BIFI token will be established and the migration to the new revenue bridge will be completed. The final action will be the distribution transactions.
 
-![](/src/images/blog/migration-implementation/timeline.png)
+![](../../images/blog/migration-implementation/timeline.png)
 
 ### Distribution
 

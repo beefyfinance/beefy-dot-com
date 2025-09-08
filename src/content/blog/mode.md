@@ -1,12 +1,12 @@
 ---
 date: 2024-05-16T12:00:00Z
-header_image: "/src/images/blog/mode/cover.png"
+header_image: "../../images/blog/mode/cover.png"
 short_description: "Introducing Beefy’s 27th blockchain - Mode - a chain built from the ground up to incentivize innovation."
 sub_header: "Empowering Growth: Mode, the OP Stack L2"
 title: "Empowering Growth: Mode, the OP Stack L2"
 ---
 
-![](/src/images/blog/mode/cover.png)
+![](../../images/blog/mode/cover.png)
 
 In the dynamic realm of Web 3.0, community-driven projects are reshaping the future of DeFi. Among these pioneers stands Mode, an OP Stack Layer 2 (**L2**) solution designed to foster growth and incentivize developers and protocols within the ecosystem.
  

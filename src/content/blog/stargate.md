@@ -1,13 +1,13 @@
 ---
 date: 2023-09-26T12:00:00Z
-header_image: "/src/images/blog/stargate/cover.png"
+header_image: "../../images/blog/stargate/cover.png"
 short_description: "A deepspace exploration of one of Beefy's key Omnichain partners - Stargate."
 sub_header: "Beefy x Stargate: Enter the Omnichain"
 title: "Beefy x Stargate: Enter the Omnichain"
 
 ---
 
-![](/src/images/blog/stargate/cover.png)
+![](../../images/blog/stargate/cover.png)
 
 *"Decentralized Finance was born on Ethereum. It was never meant to die here."*
 

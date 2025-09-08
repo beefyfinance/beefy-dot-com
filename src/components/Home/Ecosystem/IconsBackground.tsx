@@ -1,10 +1,9 @@
-import React, { memo, useMemo, useState } from 'react';
+import React, { memo, useDeferredValue, useMemo } from 'react';
 import { useStaticEcosystemIcons } from '../../../data/queries/ecosystem-icons';
 import styled from '@emotion/styled';
 import { shuffle } from 'lodash';
-import { arrayRepeat } from '../../../utils/array-utils';
-import Ticker from 'react-ticker';
-import PageVisibility from 'react-page-visibility';
+import { keyframes } from '@emotion/react';
+import { useWindowSize } from '../../../utils/react-utils';
 
 const size = 80;
 const gap = 16;
@@ -33,10 +32,19 @@ const IconImg = styled.img`
   transform: translate(${rotatedGap}px, ${rotatedGap}px) rotate(-45deg);
 `;
 
+const scrolling = keyframes`
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+`;
+
 const Grid = styled.div`
   position: relative;
   top: ${-rotatedGap / 2}px;
-  left: 0;
+  left: ${-rotatedSize / 2}px;
   height: ${gridHeight}px;
 `;
 
@@ -45,6 +53,15 @@ const Sizer = styled.div`
   overflow: hidden;
   width: 100%;
   height: ${visualHeight}px;
+  display: flex;
+  flex-wrap: nowrap;
+`;
+
+const Group = styled.div`
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-name: ${({ enabled }: { enabled: boolean }) => (enabled ? scrolling : 'none')};
 `;
 
 type IconProps = {
@@ -108,17 +125,27 @@ export const IconsBackground = memo(function IconsBackground() {
   const allPartnerIcons = useStaticEcosystemIcons();
   const iconsToUse = useMemo(() => {
     const end = allPartnerIcons.length - (allPartnerIcons.length % 5);
-    return arrayRepeat(shuffle(allPartnerIcons.slice(0, end)), 2);
+    return shuffle(allPartnerIcons).slice(0, end);
   }, [allPartnerIcons]);
-  const [pageIsVisible, setPageIsVisible] = useState(true);
+  const { width: pageWidth } = useWindowSize();
+  const deferredWidth = useDeferredValue(pageWidth);
+  const numIcons = iconsToUse.length;
+  const repeater = useMemo(() => {
+    const setWidth = (numIcons / 5) * iconHolderSize + iconHolderSize * 0.5;
+    return Array.from({
+      length: Math.max(1, Math.ceil(deferredWidth / setWidth)) + 1,
+    });
+  }, [deferredWidth, numIcons]);
+  const icons = <IconsSet icons={iconsToUse} />;
+  const enableAnimation = deferredWidth === pageWidth;
 
   return (
-    <Sizer>
-      <PageVisibility onChange={setPageIsVisible}>
-        <Ticker height={visualHeight} move={pageIsVisible} mode="smooth" speed={5}>
-          {({ index }) => <IconsSet icons={iconsToUse} />}
-        </Ticker>
-      </PageVisibility>
+    <Sizer aria-hidden={true}>
+      {repeater.map((_, i) => (
+        <Group key={i} enabled={enableAnimation}>
+          {icons}
+        </Group>
+      ))}
     </Sizer>
   );
 });

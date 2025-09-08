@@ -19,30 +19,31 @@ const Outer = styled.div`
 
 const Heading = styled.h1``;
 
-const MediaKitPage = memo<MediaKitPageProps>(function MediaKitPage({ data }) {
+const MediaKitPage = memo(({ data }: MediaKitPageProps) => {
   const groups = useMemo(
     () => data.allMediaKitGroupsJson.edges.map(edge => edge.node),
     [data.allMediaKitGroupsJson.edges]
   );
 
   return (
-    <>
-      <Meta
-        title="Media Kit"
-        description="Find all of Beefy's logos and token icons. Available in SVG and PNG."
-      />
-      <Outer>
-        <Inner>
-          <Heading>Media Kit</Heading>
-          <Groups groups={groups} />
-        </Inner>
-      </Outer>
-    </>
+    <Outer>
+      <Inner>
+        <Heading>Media Kit</Heading>
+        <Groups groups={groups} />
+      </Inner>
+    </Outer>
   );
 });
 
+export const Head = () => (
+  <Meta
+    title="Media Kit"
+    description="Find all of Beefy's logos and token icons. Available in SVG and PNG."
+  />
+);
+
 export const pageQuery = graphql`
-  query {
+  query MediaKitPage {
     allMediaKitGroupsJson {
       edges {
         node {
