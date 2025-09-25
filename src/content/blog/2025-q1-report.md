@@ -17,6 +17,8 @@ tags: [financial]
 
 ![](../../images/blog/2025-q1-report/3.png)
 
+![](../../images/blog/2025-q1-report/4.png)
+
 ![](../../images/blog/2025-q1-report/5.png)
 
 ![](../../images/blog/2025-q1-report/6.png)
