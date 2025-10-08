@@ -1,5 +1,5 @@
 ---
-date: 2025-04-07T12:00:00Z
+date: 2025-10-08T12:00:00Z
 header_image: "../../images/blog/5_Years_Old_Blog.png"
 short_description: "Beefy turns 5 — celebrating billions autocompounded, zero hacks, and nonstop innovation."
 sub_header: "5 Years Of Beefy"
