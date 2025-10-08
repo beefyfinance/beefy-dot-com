@@ -86,6 +86,8 @@ To celebrate our 5th birthday, we’re running a special community campaign thro
     
 To enter, simply share your story on X using the hashtag #IUsedBeefy. You can enter multiple categories, as many times as you like, with no length limits. And, for those with a talent for design, we’ve produced a [creator pack](https://www.figma.com/design/cEsGe191CezZEGWZJtUgKP/Beefy-5-creator-pack?node-id=0-1&t=5BHXRSuAzRtxLH2G-1) with visual elements to take your stories to the next level.
 
+![](../../images/blog/I used beefy BNB example.png)
+
 Our contributor team will review all entries and select winners based on wit, creativity and storytelling — not just raw numbers. We want to celebrate the fun, chaotic and human side of DeFi.
 
 Each of the five winners will receive 1 BIFI token from the contributor team’s discretionary budget. Participants will also have the chance to claim commemorative POAPs for joining the celebration.
