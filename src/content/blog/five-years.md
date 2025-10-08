@@ -72,6 +72,8 @@ To fuel adoption, Beefy secured 600,000 ARB in funding from Arbitrum DAO for a t
 
 ### Celebration
 
+![](../../images/blog/Beefy_Hall_Of_Fame_Campaign.png)
+
 Five years later, it’s remarkable to see how far both Beefy and DeFi have come. Through bull markets and bear markets alike, we’ve evolved into a more resilient, scalable, and user-centric protocol — one built to last.
 
 To celebrate our 5th birthday, we’re running a special community campaign throughout October, spotlighting your best stories from the past five years. Winners will earn eternal glory in the Beefy Hall Of Fame across the following categories:
