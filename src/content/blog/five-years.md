@@ -1,12 +1,12 @@
 ---
 date: 2025-04-07T12:00:00Z
-header_image: "../../images/blog/five-years/cover.png"
+header_image: "../../images/blog/5_Years_Old_Blog.png"
 short_description: "Beefy turns 5 — celebrating billions autocompounded, zero hacks, and nonstop innovation."
 sub_header: "5 Years Of Beefy"
 title: "5 Years Of Beefy"
 ---
 
-![](../../images/blog/bes/cover.png)
+![](../../images/blog/5_Years_Old_Blog.png)
 
 *Billions Autocompounded. Fortunes Made & Saved. An Unbeatable Product.*
 
