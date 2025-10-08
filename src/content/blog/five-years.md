@@ -18,7 +18,6 @@ To celebrate, this article recaps our journey so far and the milestones we’ve 
 
 Without further ado, let’s take a walk down memory lane…
 
-----------
 ### Creation
 
 Beefy was born in September 2020, conceived by five friends from northern Argentina: Sirbeefalot, 0xbeefy, roastby, superbeefyboy, and elcarno. The premise — laid out in the [original blog post](https://medium.com/beefyfinance/introducing-beefy-finance-yield-optimizer-on-binance-smart-chain-52cc6aaf1814) — was simple yet powerful: use lower-cost blockchains and onchain automation to maximise returns while minimising costs and labour. As future TVL would soon show, it was a billion-dollar idea.
@@ -31,7 +30,6 @@ By early 2021, Beefy had reached $10 million TVL. A month later, it surpassed $1
 
 Meanwhile, the $BIFI token’s price swung widely, with market valuations between $50 million and $250 million. The community expanded rapidly as contributors joined to build, moderate and grow the project — while early believers saw their conviction rewarded.
 
-----------
 ### Next Generation
 
 With Beefy’s meteoric rise came an influx of cowmoonity members, users and tokenholders eager to help push the project forward. The contributor base multiplied, soon including a dozen developers and dozens more moderators, designers and support heroes. Beefy had become fully capable of standing on its own four hooves.
@@ -44,7 +42,6 @@ With improved organisation, the team soon achieved its next major milestone: the
 
 The V2 project — led by Pablo — delivered a sleek dark theme and a smoother experience capable of juggling thousands of vaults across dozens of chains. After months of iterative testing, V2 officially went live in March 2022, marking the start of a new era for Beefy.
 
-----------
 ### Iteration & Innovation
 
 From 2022 onward, Beefy entered a phase defined by relentless iteration and pragmatic innovation — deploy early, ship fast, partner widely, follow the incentives.
@@ -59,7 +56,6 @@ Behind the scenes, Beefy kept innovating. The team integrated bridging, derivati
 
 The user experience improved continuously through initiatives like the Data Barn, offering full historical analytics and treasury dashboards. New features like onramping and bridging integrations transformed Beefy into a true one-stop DeFi platform, while constant UI refinements enhanced product discovery and safety.
 
-----------
 ### Migration
 
 By mid-2023, Beefy was within striking distance of overtaking Yearn as the largest yield optimiser in DeFi. The climb seemed inevitable — until disaster struck.
@@ -74,18 +70,17 @@ Emboldened, the team moved on to its next big challenge: concentrated liquidity.
 
 To fuel adoption, Beefy secured 600,000 ARB in funding from Arbitrum DAO for a three-month campaign. By year-end, CLM vaults held $70 million TVL, and Beefy had finally surpassed Yearn — becoming the largest yield optimisation protocol in DeFi.
 
-----------
 ### Celebration
 
 Five years later, it’s remarkable to see how far both Beefy and DeFi have come. Through bull markets and bear markets alike, we’ve evolved into a more resilient, scalable, and user-centric protocol — one built to last.
 
 To celebrate our 5th birthday, we’re running a special community campaign throughout October, spotlighting your best stories from the past five years. Winners will earn eternal glory in the Beefy Hall Of Fame across the following categories:
 
--   Beefiest Winner – biggest win on a single position
--   Biggest Loser – most painful loss
--   Craziest Farmer – wildest APY farmed
--   SAFU-est Stacker – saved from disaster by Beefy
--   Fastest Flipper – most insane short-term gain
+-   **Beefiest Winner** – biggest win on a single position
+-   **Biggest Loser** – most painful loss
+-   **Craziest Farmer** – wildest APY farmed
+-   **SAFU-est Stacker** – saved from disaster by Beefy
+-   **Fastest Flipper** – most insane short-term gain
     
 To enter, simply share your story on X using the hashtag #IUsedBeefy. You can enter multiple categories, as many times as you like, with no length limits. And, for those with a talent for design, we’ve produced a [creator pack](https://www.figma.com/design/cEsGe191CezZEGWZJtUgKP/Beefy-5-creator-pack?node-id=0-1&t=5BHXRSuAzRtxLH2G-1) with visual elements to take your stories to the next level.
 
