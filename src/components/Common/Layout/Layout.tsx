@@ -1,9 +1,10 @@
-import React, { memo, ReactNode, useMemo } from 'react';
+import React, { memo, ReactNode } from 'react';
 import '../Styles';
 import { Header } from '../Header';
 import { Footer } from '../Footer';
 import styled from '@emotion/styled';
 import { theme } from '../../../theme';
+import { PageProps } from 'gatsby';
 
 const Wrapper = styled.div`
   display: grid;
@@ -14,34 +15,26 @@ const Wrapper = styled.div`
   background-color: ${theme.footer};
 `;
 
+type PageComponentProps = {
+  rounded?: boolean;
+};
+
 const Page = styled.div`
-  border-radius: 24px;
+  border-radius: ${({ rounded = false }: PageComponentProps) => (rounded ? '20px' : '0')};
   background-color: ${theme.pageBg};
   @media (min-width: ${theme.breakpoints.sm}px) {
-    border-radius: 24px;
+    border-radius: ${({ rounded = false }: PageComponentProps) => (rounded ? '24px' : '0')};
   }
 `;
 
-const PageWithoutBorders = styled.div`
-  background-color: ${theme.pageBg};
-  border-radius: 0;
-  @media (min-width: ${theme.breakpoints.sm}px) {
-    border-radius: 0;
-  }
-`;
-
-type LayoutProps = {
+type LayoutProps = PageProps & {
   children: ReactNode;
 };
-export const Layout = memo<LayoutProps>(function Layout({ children }) {
-  const PageComponent = useMemo(() => {
-    return location.pathname === '/' ? PageWithoutBorders : Page;
-  }, [location.pathname]);
-
+export const Layout = memo<LayoutProps>(function Layout({ children, path }) {
   return (
     <Wrapper>
       <Header />
-      <PageComponent>{children}</PageComponent>
+      <Page rounded={path !== '/'}>{children}</Page>
       <Footer />
     </Wrapper>
   );
