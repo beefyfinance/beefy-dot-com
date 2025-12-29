@@ -5,7 +5,7 @@ header_image: "../../images/blog/gov.png"
 sub_header: Embrace Your Ownership. Define Our Direction.
 short_description: Decentralized governance is at the center of what we do. Be the
   change you’d like to see by having your say.
-
+tags: [governance]
 ---
 ![](../../images/blog/gov.png)
 

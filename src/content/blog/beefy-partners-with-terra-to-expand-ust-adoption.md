@@ -7,6 +7,7 @@ short_description: >-
   strengthen the peg, and educate newcomers.
 sub_header: Beefy Partners with Terra to expand UST adoption
 title: Beefy Partners with Terra to expand UST adoption
+tags: [partners]
 ---
 ![](../../images/blog/terra.png)
 

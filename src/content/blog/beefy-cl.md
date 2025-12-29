@@ -4,6 +4,7 @@ header_image: "../../images/blog/beefy-cl/cover.jpg"
 short_description: "Concentrated liquidity has arrived on Beefy, meaning higher yields and more efficient liquidity than ever before. Learn all about our latest vaults built with Gamma and Algebra."
 sub_header: "Creative Destruction, Concentrated Liquidity and Beefy’s Next Generation"
 title: "Creative Destruction, Concentrated Liquidity and Beefy’s Next Generation"
+tags: [products]
 ---
 
 ![](../../images/blog/beefy-cl/cover.jpg)

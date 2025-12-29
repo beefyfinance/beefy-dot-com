@@ -4,7 +4,7 @@ date: 2022-10-11T10:00:00+00:00
 header_image: "../../images/blog/lido.png"
 sub_header: Start staking your wstETH in Beefy's new Vaults on Arbitrum and Optimism
 short_description: Four new wstETH Vaults let Beefy users earn optimized yields.
-
+tags: [partners]
 ---
 ![](../../images/blog/lido.png)
 

@@ -6,6 +6,7 @@ short_description: >-
   here
 sub_header: You can now insure your Beefy deposits thanks to InsurAce
 title: Beefy's Smart Contracts are now insurable thanks to InsurAce
+tags: [security, partners]
 ---
 ![](../../images/blog/insurace.png)  
 There’s one thing that the Beefy cow knows well, and that’s making sure your deposits are secure. It’s really our number one priority. Whenever we list a project, Beefy always commits to a thorough review of all smart contracts involved. If you can trust Beefy, you can trust the project. 

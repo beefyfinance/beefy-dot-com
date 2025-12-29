@@ -4,6 +4,7 @@ header_image: "../../images/blog/linea/cover.png"
 short_description: "Announcing Beefy’s 24th chain - Linea - the latest zero-knowledge EVM chain that’s built for builders."
 sub_header: "Building for the Builders: Beefy on Linea"
 title: "Building for the Builders: Beefy on Linea"
+tags: [chains]
 ---
 
 ![](../../images/blog/linea/cover.png)

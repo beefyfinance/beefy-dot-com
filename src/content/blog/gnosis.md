@@ -4,6 +4,7 @@ header_image: "../../images/blog/gnosis/cover.png"
 short_description: "Announcing the arrival of autocompounding on Beefy's 23rd blockchain - Gnosis Chain."
 sub_header: "Compounding For The Community: Beefy on Gnosis Chain"
 title: "Compounding For The Community: Beefy on Gnosis Chain"
+tags: [chains]
 ---
 
 ![](../../images/blog/gnosis/cover.png)

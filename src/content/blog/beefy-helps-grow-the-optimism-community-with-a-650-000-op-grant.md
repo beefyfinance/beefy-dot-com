@@ -5,7 +5,7 @@ header_image: "../../images/blog/op_grant_2.png"
 sub_header: Beefy secures a 650,000 OP Ecosystem Development Grant
 short_description: After a successful proposal for an Optimism grant, Beefy has begun
   to distribute 650,000 OP in incentives.
-
+tags: [partners]
 ---
 ![](../../images/blog/op_grant_2.png)
 

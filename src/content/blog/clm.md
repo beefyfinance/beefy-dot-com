@@ -4,6 +4,7 @@ header_image: "../../images/blog/clm/cover.png"
 short_description: "Introducing the newest suite of automated liquidity solutions: Beefy CLM."
 sub_header: "Cowcentrated Liquidity: A New Era of Yield Optimization"
 title: "Cowcentrated Liquidity: A New Era of Yield Optimization"
+tags: [products]
 ---
 
 ![](../../images/blog/clm/cover.png)

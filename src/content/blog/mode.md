@@ -4,6 +4,7 @@ header_image: "../../images/blog/mode/cover.png"
 short_description: "Introducing Beefy’s 27th blockchain - Mode - a chain built from the ground up to incentivize innovation."
 sub_header: "Empowering Growth: Mode, the OP Stack L2"
 title: "Empowering Growth: Mode, the OP Stack L2"
+tags: [chains]
 ---
 
 ![](../../images/blog/mode/cover.png)

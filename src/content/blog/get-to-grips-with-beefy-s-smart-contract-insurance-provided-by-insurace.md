@@ -4,6 +4,7 @@ header_image: "../../images/blog/header.png"
 short_description: Protect your DeFi deposits for a small premium with smart contract insurance
 sub_header: Learn more about InsurAce with our in-depth AMA
 title: Get to grips with Beefy’s smart contract insurance provided by InsurAce
+tags: [security, partners]
 ---
 ![](../../images/blog/header.png)
 

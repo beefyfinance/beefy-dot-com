@@ -4,7 +4,7 @@ date: 2022-09-12T10:00:00+00:00
 header_image: "../../images/blog/advanced.png"
 sub_header: Experience Beefy's new QiDao x Velodrome optimized strategy
 short_description: Deposit WETH, WBTC, or DAI for highly-optimizted APY returns
-
+tags: [partners]
 ---
 ![](../../images/blog/advanced.png)
 

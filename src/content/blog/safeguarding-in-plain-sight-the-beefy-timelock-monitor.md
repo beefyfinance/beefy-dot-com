@@ -5,7 +5,7 @@ header_image: "../../images/blog/timelock.png"
 sub_header: 'Safeguarding in Plain Sight: The Beefy Timelock Monitor'
 short_description: Discover the secrets of Beefy’s risk management efforts for yourself
   with our latest public information feed.
-
+tags: [security]
 ---
 ![](../../images/blog/timelock.png)
 

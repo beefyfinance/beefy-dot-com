@@ -8,6 +8,7 @@ sub_header: Beefy integrates with Moonriver to expand their DeFi ecosystem
 title: >-
   Moonriver x Beefy: Beefy integrates with Moonriver to expand their
   DeFi ecosystem
+tags: [chains]
 ---
 ![](../../images/blog/image0.png)
 

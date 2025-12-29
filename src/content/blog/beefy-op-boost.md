@@ -4,6 +4,7 @@ header_image: "../../images/blog/beefy-op-boost/cover.png"
 short_description: "Celebrating one year of innovation, creation and incentivization with Beefy on Optimism."
 sub_header: "Beefy x Optimism: A Master Class in Liquidity Incentivization"
 title: "Beefy x Optimism: A Master Class in Liquidity Incentivization"
+tags: [chains, partners]
 ---
 ![](../../images/blog/beefy-op-boost/cover.png)
 

@@ -4,6 +4,7 @@ header_image: "../../images/blog/delegator_vault_header.png"
 short_description: Swap FTM for beFTM and stake it with Beefy to collectively improve your yields
 sub_header: Maximize your FTM rewards with the Delegator Vault
 title: Introducing beFTM
+tags: [products]
 ---
 ![](../../images/blog/delegator_vault_header.png)
 

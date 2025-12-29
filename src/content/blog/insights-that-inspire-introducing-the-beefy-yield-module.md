@@ -5,7 +5,7 @@ header_image: "../../images/blog/yield_module.png"
 sub_header: 'Insights That Inspire: Introducing the Beefy Yield Module'
 short_description: 'Dive deeper into the miracle of autocompounding with the latest
   analytics tool for our web app - the Beefy Yield Module. '
-
+tags: [products]
 ---
 ![](../../images/blog/yield_module.png)
 

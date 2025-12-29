@@ -4,6 +4,7 @@ header_image: "../../images/blog/title2.png"
 short_description: Incident Report
 sub_header: 'Incident Report: Grim Holiday Hack, Beefy Whitehat Response'
 title: 'Incident Report: Grim Holiday Hack, Beefy Whitehat Response'
+tags: [security]
 ---
 ![](../../images/blog/title2.png)
 

@@ -6,6 +6,7 @@ short_description: >-
   to lend and borrow $BIFI on Scream. Isn’t this exciting?
 sub_header: $BIFI is now accepted on Scream markets
 title: Are you a $BIFI holder or planning to be? This might be interesting...
+tags: [governance, partners]
 ---
 ![](../../images/blog/scream_partnership-1.png)
 

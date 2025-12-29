@@ -4,6 +4,7 @@ header_image: "../../images/blog/g.png"
 short_description: 'Beefy moves to decentralized harvests, learn what it means here'
 sub_header: Beefy partners with Gelato to decentralize the harvesting of vaults
 title: 'Thanks to Gelato, Beefy is now even more decentralized'
+tags: [partners]
 ---
 ![](../../images/blog/g.png)  
 EVM-based blockchains have many upsides, but one thing they lack is a scheduled execution of tasks. Every event on the blockchain has to execute originally from an external account. This means that if one of these tasks is part of your protocol’s core process, you will end up falling into centralized solutions to solve this problem… until now!

@@ -4,6 +4,7 @@ header_image: "../../images/blog/moonbeam-2.png"
 short_description: Start staking on a new chain and earn more with Beefy
 sub_header: The Beefy DApp now supports Moonbeam Vaults
 title: Introducing our brand new Moonbeam vaults
+tags: [products, chains]
 ---
 ![](../../images/blog/moonbeam-2.png)
 

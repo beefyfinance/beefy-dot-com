@@ -4,6 +4,7 @@ header_image: "../../images/blog/beefy-scanto/cover.jpg"
 short_description: "Unlocking flexible security for DeFi primitives with sCANTO - the new home for liquid staking on the Canto blockchain."
 sub_header: "Flexible and Secure Foundations for Canto’s DeFi Architecture"
 title: "Flexible and Secure Foundations for Canto’s DeFi Architecture"
+tags: [chains, partners]
 ---
 ![](../../images/blog/beefy-scanto/cover.jpg)
 

@@ -8,6 +8,7 @@ sub_header: Beefy and PONY Finance partner to create a Passive Omnichain Net Yie
 title: >-
   Pony Finance's new interest-bearing strategy gives Ethereum users access to
   Beefy's high yields and security for the first time.
+tags: [partners]
 ---
 ![](../../images/blog/pony-index.png)
 

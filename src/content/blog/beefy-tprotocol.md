@@ -4,6 +4,7 @@ header_image: "../../images/blog/beefy-tprotocol/cover.png"
 short_description: "Beefy’s latest partner - TProtocol - is expanding the frontier of DeFi yields by delivering real-world debt assets as composable on-chain tokens."
 sub_header: "When Worlds Collide: Unlocking Real Yield With TProtocol x Beefy"
 title: "When Worlds Collide: Unlocking Real Yield With TProtocol x Beefy"
+tags: [partners]
 ---
 ![](../../images/blog/beefy-tprotocol/cover.png)
 

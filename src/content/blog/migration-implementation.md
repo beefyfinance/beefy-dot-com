@@ -4,7 +4,7 @@ header_image: "../../images/blog/migration-implementation/cover.png"
 short_description: "The culmination of months of planning, building and preparing... the $BIFI migration to Ethereum is almost ready for lift off."
 sub_header: "$BIFI Migration: All Engines Running"
 title: "$BIFI Migration: All Engines Running"
-
+tags: [governance]
 ---
 
 ![](../../images/blog/migration-implementation/cover.png)

@@ -5,7 +5,7 @@ short_description: If you are into sports, either electronic or traditional, you
   want to read about our latest partner, BetU
 sub_header: Learn about BetU, our latest Launchpool partner
 title: Learn about BetU, our latest Launchpool partner
-
+tags: [partners]
 ---
 ![](../../images/blog/betu.png)  
 The BetU project compromises two separated platforms. BetU Fantasy and BetU

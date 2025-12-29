@@ -4,6 +4,7 @@ header_image: "../../images/blog/zap-v3/cover.png"
 short_description: "Delivering the next generation of accessibility tooling, in tandem with the largest launch campaign we've ever done."
 sub_header: "The Next Level: ZAP V3 with Beefy × Optimism × KyberSwap"
 title: "The Next Level: ZAP V3 with Beefy × Optimism × KyberSwap"
+tags: [products, partners]
 ---
 
 ![](../../images/blog/zap-v3/cover.png)

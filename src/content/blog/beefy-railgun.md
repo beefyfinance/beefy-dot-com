@@ -4,6 +4,7 @@ header_image: "../../images/blog/beefy-railgun/cover.png"
 short_description: "Access the amenity of anonymity with Beefy yields through  the RAILGUN privacy-protecting protocol."
 sub_header: "The Next Layer of Composability: Private Yield with Beefy x RAILGUN"
 title: "The Next Layer of Composability: Private Yield with Beefy x RAILGUN"
+tags: [partners]
 ---
 ![](../../images/blog/beefy-railgun/cover.png)
 

@@ -4,6 +4,7 @@ header_image: "../../images/blog/ama_recap.png"
 short_description: 'As a possible new partner, get to know Solidex before our DAO vote'
 sub_header: Beefy meets with Solidex to discuss the new project
 title: Meet Solidex in our new AMA
+tags: [partners]
 ---
 ![](../../images/blog/ama_recap.png)
 

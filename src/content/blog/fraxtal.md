@@ -4,6 +4,7 @@ header_image: "../../images/blog/fraxtal/cover.png"
 short_description: "Chain 26 - Fraxtal - arrives on Beefy, bringing with it a beautiful chaos of new opportunities."
 sub_header: "Recursive Returns with Beefy on Fraxtal"
 title: "Recursive Returns with Beefy on Fraxtal"
+tags: [chains]
 ---
 
 ![](../../images/blog/fraxtal/cover.png)

@@ -5,7 +5,7 @@ header_image: "../../images/blog/multichain.png"
 sub_header: Get The Best From Your BTC with Beefy’s multiBTC Vault
 short_description: Enjoy all the benefits of Multichain’s latest product combined
   with the power of Beefy’s autocompounding vaults.
-
+tags: [partners]
 ---
 ![](../../images/blog/multichain.png)  
 _Isn’t the original always the best?_

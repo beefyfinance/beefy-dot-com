@@ -4,6 +4,7 @@ header_image: "../../images/blog/bifi-migration/cover.png"
 short_description: "Reviewing Plans for the Migration of our $BIFI Token, and Welcoming the Next Era for Beefy."
 sub_header: "A New Era: the $BIFI Token Migration"
 title: "A New Era: the $BIFI Token Migration"
+tags: [governance]
 ---
 ![](../../images/blog/bifi-migration/cover.png)
 

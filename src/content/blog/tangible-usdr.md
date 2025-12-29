@@ -4,6 +4,8 @@ header_image: "../../images/blog/tangible-usdr/cover.png"
 short_description: "Discover the magic of Tangible's real world luxury assets, and soak up their lavish liquidity incentives now live on Beefy."
 sub_header: "The Luxury of Liquidity: Real World Yields with Tangible x Beefy"
 title: "The Luxury of Liquidity: Real World Yield with Tangible x Beefy"
+tags: [partners]
+draft: true
 ---
 ![](../../images/blog/tangible-usdr/cover.png)
 

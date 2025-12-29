@@ -4,6 +4,7 @@ header_image: "../../images/blog/safeboost/safeboost.png"
 short_description: "Announcing our launch partnership with GnosisDAO and Safe DAO, and a barrage of incentives for Safe users on Gnosis Chain."
 sub_header: "SafeBoost with Beefy x Safe x Gnosis"
 title: "SafeBoost with Beefy x Safe x Gnosis"
+tags: [chains, partners]
 ---
 
 ![](../../images/blog/safeboost/safeboost.png)

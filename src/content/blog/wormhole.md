@@ -4,6 +4,7 @@ header_image: "../../images/blog/wormhole/cover.png"
 short_description: "Playing our part in the globalization of Web 3.0 with crosschain solutions."
 sub_header: "All Things Crosschain - Solving Liquidity Fragmentation with Wormhole, Circle and Beefy"
 title: "All Things Crosschain - Solving Liquidity Fragmentation with Wormhole, Circle and Beefy"
+tags: [partners]
 ---
 
 ![](../../images/blog/wormhole/cover.png)

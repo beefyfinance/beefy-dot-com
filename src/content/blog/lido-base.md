@@ -4,6 +4,7 @@ header_image: "../../images/blog/lido-base/cover.png"
 short_description: "A deep dive into the proliferation of Ethereum's shared security, as Lido - with a little help from Beefy - brings liquid staking to Base"
 sub_header: "Distributing Our Shared Security Base with Beefy x Lido"
 title: "Distributing Our Shared Security Base with Beefy x Lido"
+tags: [chains, partners]
 ---
 
 ![](../../images/blog/lido-base/cover.png)

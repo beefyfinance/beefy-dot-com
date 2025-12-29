@@ -4,6 +4,7 @@ header_image: "../../images/blog/bnb_chain.png"
 short_description: 'Here are Beefy we don''t forget where the whole journey started '
 sub_header: The Beefy relationship with BNB Chain just gets stronger
 title: Back to our Beefy BNB Chain Roots
+tags: [chains]
 ---
 ![](../../images/blog/bnb_chain.png)
 

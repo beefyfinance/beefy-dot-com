@@ -6,7 +6,7 @@ sub_header: 'The Next Big Thing: The Ethereum Shanghai Upgrade'
 short_description: Our friends at Ethereum continue to ship big improvements to their
   infrastructure. So what is the Shanghai upgrade? And what does it mean for Beefy’s
   users?
-
+tags: [chains]
 ---
 ![](../../images/blog/the_next_big_thing.png)
 

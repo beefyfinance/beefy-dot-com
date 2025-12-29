@@ -4,6 +4,7 @@ header_image: "../../images/blog/beefy-kava-equilibre-get-more-this-may/cover.jp
 short_description: "Earn more this month on Kava with Vault Boosts and Trade & Earn rewards from Beefy, Kava and Équilibre"
 sub_header: "Beefy x Kava x Équilibre - Get More This May"
 title: "Beefy x Kava x Équilibre - Get More This May"
+tags: [chains, partners]
 ---
 
 ![](../../images/blog/beefy-kava-equilibre-get-more-this-may/cover.jpg)

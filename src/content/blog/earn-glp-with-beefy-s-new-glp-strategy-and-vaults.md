@@ -5,7 +5,7 @@ header_image: "../../images/blog/gmx.png"
 sub_header: Beefy is now taking GLP deposits on both Arbitrum and Avalanche
 short_description: Learn about Beefy's new strategy for GLP, a token minted to liquidity
   providers on GMX.
-
+tags: [products, partners]
 ---
 ![](../../images/blog/gmx.png)
 
