@@ -5,7 +5,7 @@ header_image: "../../images/blog/carbon.png"
 sub_header: Bulletproof Browsing In Partnership with Carbon
 short_description: Welcoming our latest partner - Carbon Browser - to help users navigate
   Web 3.0 with speed, safety and decentralization every step of the way.
-
+tags: [partners]
 ---
 ![](../../images/blog/carbon.png)
 

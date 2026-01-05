@@ -4,6 +4,7 @@ header_image: "../../images/blog/beefy-bevelov2/cover.jpg"
 short_description: "Welcoming the next generation of DeFi liquidity for the Optimism ecosystem with new Beefy vaults on Velodrome V2."
 sub_header: "Gear Shift: Introducing Velodrome V2"
 title: "Gear Shift: Introducing Velodrome V2"
+tags: [products, partners]
 ---
 ![](../../images/blog/beefy-bevelov2/cover.jpg)
 

@@ -4,6 +4,7 @@ header_image: "../../images/blog/v2_cover_3-1.png"
 short_description: 'Take part in our Beta launch of Beefy''s brand new look and feel. '
 sub_header: Get to know Beefy's new user interface
 title: The Beefy v2 Beta launch is here for the Cowmoonity to test
+tags: [products]
 ---
 ![](../../images/blog/v2_cover_3-1.png)
 

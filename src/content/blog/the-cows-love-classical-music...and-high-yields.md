@@ -12,6 +12,7 @@ menu:
     identifier: articles
     name: Articles
     weight: 1
+tags: [partners]
 ---
 ![](../../images/blog/beeth.png)
 

@@ -4,6 +4,7 @@ header_image: "../../images/blog/5_Years_Old_Blog.png"
 short_description: "Beefy turns 5 — celebrating billions autocompounded, zero hacks, and nonstop innovation."
 sub_header: "5 Years Of Beefy"
 title: "5 Years Of Beefy"
+tags: [governance]
 ---
 
 ![](../../images/blog/5_Years_Old_Blog.png)

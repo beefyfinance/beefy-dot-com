@@ -4,6 +4,7 @@ header_image: "../../images/blog/nexus_replace.png"
 short_description: Join Nexus Mutual for a wide range of coverage on your Beefy deposits
 sub_header: Reduce your risk with Nexus Mutual
 title: Cover your deposits with Nexus Mutual insurance alternatives
+tags: [security, partners]
 ---
 ![](../../images/blog/nexus_replace.png)
 

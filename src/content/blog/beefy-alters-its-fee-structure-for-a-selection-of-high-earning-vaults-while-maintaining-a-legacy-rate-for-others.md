@@ -6,7 +6,7 @@ header_image: "../../images/blog/image_6483441.JPG"
 sub_header: Introducing a new fee structure with [BIP-45]
 short_description: The Beefy DAO implements a new fee structure to support sustainability
   on the platform.
-
+tags: [governance]
 ---
 ![](../../images/blog/image_6483441.JPG)
 

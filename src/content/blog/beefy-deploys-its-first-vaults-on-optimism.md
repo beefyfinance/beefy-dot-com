@@ -6,6 +6,7 @@ short_description: >-
   Layer 2 blockchain
 sub_header: Start staking in five new Vaults on Optimism
 title: Beefy deploys its first Vaults on Optimism
+tags: [chains]
 ---
 ![](../../images/blog/optimism.png)
 

@@ -6,6 +6,7 @@ short_description: >-
   Trader Joe
 sub_header: Mint beJOE to earn maximized veJOE rewards
 title: Maximize your JOE earnings on Trader Joe with Beefy‘s beJOE
+tags: [products, partners]
 ---
 ![](../../images/blog/com.jpg)
 

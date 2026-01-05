@@ -4,6 +4,7 @@ header_image: "../../images/blog/beqi/cover.png"
 short_description: "Dive into the new dynamics as we release Version 2 of our Beefy-escrowed QI token."
 sub_header: "beQI: The Next Evolution"
 title: "beQI: The Next Evolution"
+tags: [products, partners]
 ---
 
 ![](../../images/blog/beqi/cover.png)

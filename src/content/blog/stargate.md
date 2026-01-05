@@ -4,7 +4,7 @@ header_image: "../../images/blog/stargate/cover.png"
 short_description: "A deepspace exploration of one of Beefy's key Omnichain partners - Stargate."
 sub_header: "Beefy x Stargate: Enter the Omnichain"
 title: "Beefy x Stargate: Enter the Omnichain"
-
+tags: [partners]
 ---
 
 ![](../../images/blog/stargate/cover.png)

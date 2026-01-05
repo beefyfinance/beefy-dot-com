@@ -6,6 +6,7 @@ short_description: >-
   for Near
 sub_header: Beefy adds Aurora support
 title: Beefy deploys on Aurora
+tags: [chains]
 ---
 ![](../../images/blog/aurora.png)
 

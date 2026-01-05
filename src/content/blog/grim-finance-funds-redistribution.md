@@ -6,6 +6,7 @@ short_description: >-
   mechanism
 sub_header: Grim Finance Funds Redistribution
 title: Grim Finance Funds Redistribution
+tags: [security]
 ---
 ![](../../images/blog/redistribution.png)
 

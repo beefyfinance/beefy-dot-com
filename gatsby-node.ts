@@ -12,8 +12,20 @@ import { getAllPrices, getTvls, getVaultsWithApy } from './src/data/api/beefy-ap
 import { mkdir, writeFile } from 'fs/promises';
 
 const BLOG_ARTICLES_PER_PAGE = 12;
+const VALID_LEGACY_SLUGS = new Set<string>([
+  'embrace-your-ownership.define-our-direction',
+  'the-cows-love-classical-music...and-high-yields',
+]);
 
-async function createBlogPages({ graphql, actions }: BuildArgs) {
+function isValidSlug(slug: string): boolean {
+  if (VALID_LEGACY_SLUGS.has(slug)) {
+    return true;
+  }
+  const slugRegex = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
+  return slugRegex.test(slug);
+}
+
+async function createBlogPages({ graphql, actions, reporter }: BuildArgs) {
   const listTemplate = path.resolve('src/templates/blog/list.tsx');
   const articleTemplate = path.resolve('src/templates/blog/article.tsx');
   const tagTemplate = path.resolve('src/templates/blog/tag.tsx');
@@ -30,6 +42,7 @@ async function createBlogPages({ graphql, actions }: BuildArgs) {
               }
               frontmatter {
                 tags
+                old_slugs
               }
             }
           }
@@ -68,18 +81,51 @@ async function createBlogPages({ graphql, actions }: BuildArgs) {
   }
 
   // Each article
+  const usedArticlePaths = new Set<string>();
   edges.forEach(edge => {
+    if (!isValidSlug(edge.node.fields.slug)) {
+      throw new Error(`Invalid slug '${edge.node.fields.slug}' for article ID ${edge.node.id}`);
+    }
+    const path = `articles/${edge.node.fields.slug}`;
+    usedArticlePaths.add(path);
     actions.createPage({
-      path: `articles/${edge.node.fields.slug}`,
+      path,
       component: articleTemplate,
       context: {
         id: edge.node.id,
       },
     });
   });
+  edges.forEach(edge => {
+    const { old_slugs } = edge.node.frontmatter;
+    if (old_slugs) {
+      const toPath = `articles/${edge.node.fields.slug}`;
+      old_slugs.forEach(oldSlug => {
+        if (!isValidSlug(oldSlug)) {
+          throw new Error(`Invalid old slug '${oldSlug}' for article ID ${edge.node.id}`);
+        }
+        const fromPath = `articles/${oldSlug}`;
+        if (usedArticlePaths.has(fromPath)) {
+          throw new Error(
+            `Old slug path conflict: ${fromPath} -> ${toPath} but ${fromPath} is already used`
+          );
+        }
+        reporter.info(`Creating redirect from ${fromPath} to ${toPath}`);
+        usedArticlePaths.add(fromPath);
+        actions.createRedirect({
+          fromPath: `/${fromPath}`,
+          toPath: `/${toPath}`,
+          isPermanent: true,
+        });
+      });
+    }
+  });
 
   // Tag pages with pagination
   tagsResult.data.allMarkdownRemark.group.forEach(tag => {
+    if (!isValidSlug(tag.fieldValue)) {
+      throw new Error(`Invalid tag slug '${tag.fieldValue}'`);
+    }
     const filteredEdges = edges.filter(
       edge => edge.node.frontmatter.tags && edge.node.frontmatter.tags.includes(tag.fieldValue)
     );
@@ -296,6 +342,7 @@ export const createSchemaCustomization: GatsbyNode['createSchemaCustomization'] 
       header_image: File! @fileByRelativePath
       draft: Boolean
       tags: [String!]
+      old_slugs: [String!]
     }
   `);
 };

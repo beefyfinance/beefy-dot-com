@@ -4,6 +4,7 @@ header_image: "../../images/blog/ltipp/cover.png"
 short_description: "Celebrating the full launch of Beefy's CLM products with 12 weeks of LTIPP incentives on Arbitrum."
 sub_header: "Training Wheels Off - Unleashing CLM with LTIPP on Arbitrum"
 title: "Training Wheels Off - Unleashing CLM with LTIPP on Arbitrum"
+tags: [products, chains, partners]
 ---
 
 ![](../../images/blog/ltipp/cover.png)

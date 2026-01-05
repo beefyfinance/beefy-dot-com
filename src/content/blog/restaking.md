@@ -4,6 +4,7 @@ header_image: "../../images/blog/restaking/cover.png"
 short_description: "Beefy enters the restaking revolution, delivering yet more yield on the most exciting opportunities of this cycle."
 sub_header: "The Restaking Renaissance: PoS, Points and Peripheral Yield"
 title: "The Restaking Renaissance: PoS, Points and Peripheral Yield"
+tags: [partners]
 ---
 
 ![](../../images/blog/restaking/cover.png)

@@ -4,6 +4,7 @@ header_image: "../../images/blog/oasis_3.png"
 short_description: Be the first to earn maximized yield on Emerald ParaTime with our Beefy Vaults
 sub_header: Start stacking APY with Beefy on Oasis Network
 title: Beefy Deploys on Oasis Network
+tags: [chains]
 ---
 ![](../../images/blog/oasis_3.png)
 

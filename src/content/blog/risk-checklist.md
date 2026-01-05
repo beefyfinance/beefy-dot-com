@@ -4,6 +4,7 @@ header_image: "../../images/blog/risk-checklist/cover.png"
 short_description: "Reflections on recent shockwaves in DeFi and the changes Beefy is implementing to better protect our users."
 sub_header: "The Scars Of Battle"
 title: "The Scars Of Battle"
+tags: [security]
 ---
 
 ![](../../images/blog/risk-checklist/cover.png)

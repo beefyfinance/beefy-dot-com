@@ -4,6 +4,7 @@ header_image: "../../images/blog/lz-aura/cover.png"
 short_description: "Announcing a paradigm shift in Beefy's product lineup, with the introduction of LayerZero crosschain strategies in partnership with Aura Finance."
 sub_header: "The Next Generation: Crosschain Yield Optimization with Beefy x LayerZero x Aura"
 title: "The Next Generation: Crosschain Yield Optimization with Beefy x LayerZero x Aura"
+tags: [products, partners]
 ---
 
 ![](../../images/blog/lz-aura/cover.png)

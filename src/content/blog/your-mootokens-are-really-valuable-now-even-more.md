@@ -8,6 +8,7 @@ sub_header: |-
   Your mooTokens are really valuable, now, even more.
   Beefy x QiDAO x Market.xyz
 title: 'Your mooTokens are really valuable, now, even more.'
+tags: [governance, partners]
 ---
 ![](../../images/blog/p1.png)
 

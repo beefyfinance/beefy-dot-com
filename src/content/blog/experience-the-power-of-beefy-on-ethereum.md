@@ -5,7 +5,7 @@ header_image: "../../images/blog/ethereum.PNG"
 sub_header: Beefy deploys its first Vaults on Ethereum
 short_description: Beefy‘s long-awaited Ethereum launch is now live with a selection
   of Vaults.
-
+tags: [chains]
 ---
 ![](../../images/blog/53b4a3fe-f359-441f-a0c4-9bbde6c50dbb.png)  
 Beefy users can now start staking across a variety of Vaults on Ethereum. This release marks Beefy’s eighteenth supported blockchain and a significant milestone for the yield optimizer. The Ethereum network´s position as the home of DeFi and its large TVL make it a natural choice for Beefy Vaults, and the team is happy to now offer services to one of the largest blockchain communities out there.

@@ -6,6 +6,7 @@ short_description: >-
   and 
 sub_header: Beefy partners with LaCucina for extra $LAC rewards
 title: Earn extra crypto rewards with Beefy's new partner LaCucina
+tags: [partners]
 ---
 ![](../../images/blog/lacucina.png)  
 LaCucina is a DeFi platform that enables users to earn extra token rewards on their staked funds without leaving any pools. This helps projects improve user engagement and incentivize participation, all without the need for withdrawing their stake from Beefy Vaults. LaCucina also wants to make sure it’s not just whales that get rewarded either. Small fish in liquidity pools can earn rewards based on their time staked and other factors.

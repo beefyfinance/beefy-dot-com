@@ -4,6 +4,7 @@ header_image: "../../images/blog/metis.png"
 short_description: Stake and earn in 11 new vaults on the recently launched Metis network
 sub_header: Beefy now supports Metis
 title: 'Metis x Beefy: Earn APY on a brand new network'
+tags: [chains]
 ---
 ![](../../images/blog/metis.png)
 

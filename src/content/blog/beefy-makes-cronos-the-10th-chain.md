@@ -6,6 +6,7 @@ short_description: >-
   success in this article
 sub_header: Beefy partners with Cronos to bring users the best yields
 title: Beefy partners with Cronos to bring users the best yields
+tags: [chains]
 ---
 ![](../../images/blog/cronos.png)
 

@@ -5,7 +5,7 @@ header_image: "../../images/blog/oneinch.png"
 sub_header: Revolutionizing Beefy ZAP in Partnership with 1inch
 short_description: Get into and out of your favourite Beefy vaults with more ease
   and composability than ever before.
-
+tags: [products, partners]
 ---
 ![](../../images/blog/oneinch.png)
 

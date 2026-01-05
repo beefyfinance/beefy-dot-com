@@ -4,6 +4,7 @@ header_image: "../../images/blog/mantle/cover.png"
 short_description: "Launching into the New Year with our next new chain - Mantle Network."
 sub_header: "Upper Crust Farmers - Yield Optimization for Mantle Network"
 title: "Upper Crust Farmers - Yield Optimization for Mantle Network"
+tags: [chains]
 ---
 
 ![](../../images/blog/mantle/cover.png)

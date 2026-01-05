@@ -4,6 +4,7 @@ header_image: "../../images/blog/frax/cover.png"
 short_description: "Celebrating Frax's V3 protocol on Beefy, and the mircale of yield-bearing stablecoins."
 sub_header: "Best of Both: Stability & Yield with Frax V3"
 title: "Best of Both: Stability & Yield with Frax V3"
+tags: [partners]
 ---
 
 ![](../../images/blog/frax/cover.png)

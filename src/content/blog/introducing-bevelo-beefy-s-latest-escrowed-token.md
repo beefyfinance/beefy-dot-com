@@ -5,7 +5,7 @@ header_image: "../../images/blog/bevelo_poster-1.png"
 sub_header: beVELO is here to unlock your staked VELO's value
 short_description: A Beefy escrowed token that gives you real bang for your staked
   VELO buck.
-
+tags: [partners]
 ---
 ![](../../images/blog/bevelo_poster-1.png)
 

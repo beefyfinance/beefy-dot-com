@@ -5,7 +5,7 @@ header_image: "../../images/blog/beopx.png"
 sub_header: Optimize your OPX Yields with beOPX
 short_description: Deploying Beefy’s exceptional escrow model to maximize your rewards
   on OPX.
-
+tags: [partners]
 ---
 ![](../../images/blog/beopx.png)
 

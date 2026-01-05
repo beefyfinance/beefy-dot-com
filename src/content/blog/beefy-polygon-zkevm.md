@@ -4,6 +4,7 @@ header_image: "../../images/blog/beefy-polygon-zkevm/art.png"
 short_description: "Taking the next step towards Ethereum’s Scalability Vision with our long-standing friends at Polygon."
 sub_header: "Bring Ethereum to Everyone: Beefy on Polygon zkEVM"
 title: "Bring Ethereum to Everyone: Beefy on Polygon zkEVM"
+tags: [chains]
 ---
 ![](../../images/blog/beefy-polygon-zkevm/cover.png)
 

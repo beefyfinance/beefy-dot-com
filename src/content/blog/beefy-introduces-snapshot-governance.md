@@ -6,6 +6,7 @@ short_description: >-
   to Snapshot
 sub_header: Free your $BIFI with our improved governance experience
 title: Welcome to Snapshot governance with Beefy
+tags: [governance]
 ---
 ![](../../images/blog/headersma.png)
 

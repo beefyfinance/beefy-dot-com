@@ -4,6 +4,7 @@ header_image: "../../images/blog/fuse.png"
 short_description: Beefy adds Fuse to its list of supported blockchains bringing the number to 11
 sub_header: Beefy launches on Fuse
 title: Beefy partners with Fuse and launches its first vaults on the blockchain
+tags: [chains]
 ---
 ![](../../images/blog/fuse.png)
 

@@ -6,6 +6,7 @@ short_description: >-
   to our high standards
 sub_header: 'Creating the open yield optimizer everyone deserve '
 title: The Beefy team is here to champion openness and transparency
+tags: [security, governance]
 ---
 ![](../../images/blog/everyone.png)
 

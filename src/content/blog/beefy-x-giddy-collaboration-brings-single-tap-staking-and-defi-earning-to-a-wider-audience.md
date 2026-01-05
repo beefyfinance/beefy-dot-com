@@ -6,7 +6,7 @@ header_image: "../../images/blog/giddy.png"
 sub_header: Beefy partners with Giddy and releases its Giddy Vaults
 short_description: 'Beefy and Giddy have come together to help bring the Decentralized
   Finance earning experience to a mainstream audience. '
-
+tags: [partners]
 ---
 ![](../../images/blog/giddy.png)
 

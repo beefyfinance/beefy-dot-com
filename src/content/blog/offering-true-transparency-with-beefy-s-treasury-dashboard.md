@@ -5,7 +5,7 @@ header_image: "../../images/blog/treasury-dashboard.png"
 sub_header: Offering True Transparency with Beefy’s Treasury Dashboard
 short_description: Explore our latest UI addition for trustworthy insights into Beefy’s
   treasury and financials.
-
+tags: [products, governance]
 ---
 ![](../../images/blog/treasury-dashboard.png)
 

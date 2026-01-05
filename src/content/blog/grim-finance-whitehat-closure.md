@@ -6,6 +6,7 @@ short_description: >-
   mechanism
 sub_header: 'Grim Finance: Whitehat Closure'
 title: 'Grim Finance: Whitehat Closure'
+tags: [security]
 ---
 ![](../../images/blog/whitehat_closure.png)
 

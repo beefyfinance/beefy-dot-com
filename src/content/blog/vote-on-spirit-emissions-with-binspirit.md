@@ -4,6 +4,7 @@ header_image: "../../images/blog/power.png"
 short_description: binSPIRIT just gained more utility as holders use their tokens as voting power
 sub_header: Make your voice heard with binSPIRIT voting
 title: Vote on Spirit emissions with binSPIRIT
+tags: [products, partners]
 ---
 ![](../../images/blog/power.png)  
 If you hold binSPIRIT and stake it with Beefy, you already enjoy the benefits of maximized staking rewards. But the advantages of holding binSPIRIT don’t stop here. You now can use your binSPIRIT to start voting on SpiritSwap farm emissions. By giving binSPIRIT holders more use cases and benefits, we also strengthen the binSPIRIT-SPIRIT peg.

@@ -4,6 +4,7 @@ header_image: "../../images/blog/bes/cover.png"
 short_description: "Introducing the latest member of the beToken family: Beefy-escrowed Sonic!"
 sub_header: "No Word Of A Lie (Drop The beS)"
 title: "No Word Of A Lie (Drop The beS)"
+tags: [products, partners]
 ---
 
 ![](../../images/blog/bes/cover.png)

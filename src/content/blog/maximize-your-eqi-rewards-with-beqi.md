@@ -6,6 +6,7 @@ short_description: >-
   for a Beefy bonus?
 sub_header: Your QiDao rewards just got maximized
 title: Maximize your eQI rewards with beQI
+tags: [products, partners]
 ---
 ![](../../images/blog/qi.png)
 

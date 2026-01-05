@@ -5,7 +5,7 @@ header_image: "../../images/blog/beefy-canto-header.png"
 sub_header: Catapulting onto Canto to Beef Up Your Yields
 short_description: 'Celebrating the arrival of Beefy onto chain #19 - Canto - with
   the launch of our new Canto DEX vaults.'
-
+tags: [chains, partners]
 ---
 ![](../../images/blog/beefy-canto-header.png)
 

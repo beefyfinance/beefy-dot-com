@@ -4,6 +4,7 @@ header_image: "../../images/blog/zeroing-in-on-scalable-yield-with-beefy-on-zksy
 short_description: "zkBeefy has finally arrived with the launch on our twentieth blockchain - zkSync Era - and our new partnership with Velocore"
 sub_header: "Zeroing in on Scalable Yield with Beefy on zkSync Era"
 title: "Zeroing in on Scalable Yield with Beefy on zkSync Era"
+tags: [chains]
 ---
 ![](../../images/blog/zeroing-in-on-scalable-yield-with-beefy-on-zksync-era/cover.png)
 
