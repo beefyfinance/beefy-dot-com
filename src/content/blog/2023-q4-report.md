@@ -5,8 +5,9 @@ short_description: "Explore the full financial report for Beefy's activities acr
 sub_header: "Annual Report 2023"
 title: "Annual Report 2023"
 tags: [financial]
+old_slugs:
+  - 2023-q4-annual-report
 ---
-
 ![](../../images/blog/2023-q4-report/cover.jpg)
 
 *See and download the published PDF report [here](https://jmp.sh/JmuNa2c5) or view in line below.*

@@ -6,7 +6,8 @@ sub_header: Quarterly Report Q1 2023
 short_description: Catch up with how Beefy has performed in the first quarter of 2023
   with our inaugural quarterly financial report.
 tags: [financial]
-
+old_slugs:
+  - quarterly-report-q1-2023
 ---
 ![](../../images/blog/2023-q1-report/report-cover.png)
 

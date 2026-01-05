@@ -5,7 +5,8 @@ short_description: "Explore the latest iteration of Beefy's financial reporting 
 sub_header: "Quarterly Report Q3 2023"
 title: "Quarterly Report Q3 2023"
 tags: [financial]
-
+old_slugs:
+  - quarterly-report-q3-2023
 ---
 ![](../../images/blog/2023-q3-report/cover.png)
 

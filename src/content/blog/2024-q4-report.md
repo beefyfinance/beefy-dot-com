@@ -5,8 +5,9 @@ short_description: "Explore our full reporting on the project and DAO's financia
 sub_header: "Annual Report 2024"
 title: "Annual Report 2024"
 tags: [financial]
+old_slugs:
+  - 2024-q4-annual-report
 ---
-
 ![](../../images/blog/2024-q4-report/cover.png)
 
 *See and download the published PDF report [here](https://jumpshare.com/v/HsrooB9Um0JPFZ2TZ4uA) or view in line below.*

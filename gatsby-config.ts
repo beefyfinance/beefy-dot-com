@@ -1,4 +1,5 @@
 import type { GatsbyConfig } from 'gatsby';
+import { createCloudRedirectsAdapter } from './adapter-cloud-redirects';
 
 const config: GatsbyConfig = {
   trailingSlash: 'always',
@@ -14,6 +15,7 @@ const config: GatsbyConfig = {
   // If you use VSCode you can also use the GraphQL plugin
   // Learn more at: https://gatsby.dev/graphql-typegen
   graphqlTypegen: true,
+  adapter: createCloudRedirectsAdapter(),
   plugins: [
     'gatsby-plugin-emotion',
     'gatsby-plugin-image',

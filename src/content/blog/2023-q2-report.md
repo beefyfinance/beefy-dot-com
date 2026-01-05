@@ -5,7 +5,8 @@ short_description: "Dive back into Beefy's financial performance in the second q
 sub_header: "Quarterly Report Q2 2023"
 title: "Quarterly Report Q2 2023"
 tags: [financial]
-
+old_slugs:
+  - quarterly-report-q2-2023
 ---
 ![](../../images/blog/2023-q2-report/cover.png)
 

@@ -11,6 +11,7 @@ export type BlogArticlesQueryReturnType = {
         };
         frontmatter: {
           tags?: string[];
+          old_slugs?: string[];
         };
       };
     }[];
