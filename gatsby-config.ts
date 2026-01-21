@@ -72,6 +72,18 @@ const config: GatsbyConfig = {
               maxWidth: 720,
             },
           },
+          {
+            resolve: 'remark-video',
+            options: {
+              autoplay: true,
+              muted: true,
+              playsinline: true,
+              loop: true,
+            },
+          },
+          {
+            resolve: 'gatsby-remark-copy-linked-files',
+          },
         ],
       },
     },

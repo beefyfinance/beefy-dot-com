@@ -45,10 +45,7 @@ Octav's [powerful API](https://docs.octav.fi/api/introduction) provides a select
 
 For Beefy, this allows us to pass on the benefits of this self-service directly to our community. The most obvious channel for this is the Beefy Discord server, where so many of our loyal, long-term users bring questions and discussion points for open debate. By integrating access to Beefy's data via the Octav API, we were able to deploy a simple bot for users to access this data. Through a range of commands, they can receive aggregate statistics and live data on our treasury activities from anywhere within our Discord server.
 
-<video autoplay loop muted playsinline>
-  <source src="/images/blog/staworth-octav-financial-systems/octav-bot.mp4" type="video/mp4" />
-  Your browser does not support the video tag.
-</video>
+![](../../images/blog/staworth-octav-financial-systems/octav-bot.mp4)
 
 The Octav Bot is now live and free to use on the Beefy Discord server. The codebase is being actively maintained, with a range of features already on offer. Feature requests and feedback will be gladly received on Discord.
 
@@ -60,10 +57,7 @@ Built on top of the Octav API, the Hub extends Octav's existing functionality, a
 
 Perhaps the most powerful feature of the Hub is an extension of the Discord bot's self-serve data facility. The Hub's [Query page](https://beefy.staworth.com/query) empowers users to not only extract data but to build charts of their own design by filtering Beefy's data on Octav. With [5 initial chart types](https://beefy.staworth.com/widget) provided, the possibilities are truly endless for the types of analysis that can be generated through the Hub.
 
-<video autoplay loop muted playsinline>
-  <source src="/images/blog/staworth-octav-financial-systems/query-widget.mp4" type="video/mp4" />
-  Your browser does not support the video tag.
-</video>
+![](../../images/blog/staworth-octav-financial-systems/query-widget.mp4)
 
 When brought together, this selection of features empowers Beefy's tokenholders, users and prospective investors to closely follow our financial performance, and inspect our data to answer their own questions and perform their own analysis.
 

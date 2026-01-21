@@ -32,6 +32,7 @@
     "gatsby-plugin-react-helmet": "^6.15.0",
     "gatsby-plugin-sharp": "^5.15.0",
     "gatsby-plugin-sitemap": "^6.15.0",
+    "gatsby-remark-copy-linked-files": "^6.15.0",
     "gatsby-remark-images": "^7.15.0",
     "gatsby-source-filesystem": "^5.15.0",
     "gatsby-transformer-json": "^5.15.0",
@@ -46,6 +47,7 @@
   "devDependencies": {
     "@types/gatsby-transformer-remark": "^2.9.4",
     "@types/lodash": "^4.17.20",
+    "@types/mdast": "^4.0.4",
     "@types/node": "^22.18.1",
     "@types/react": "^18.3.24",
     "@types/react-dom": "^18.3.7",
@@ -55,6 +57,7 @@
     "escape-string-regexp": "^5.0.0",
     "husky": "^9.1.7",
     "lint-staged": "^16.1.6",
+    "mdast": "^2.3.2",
     "prettier": "^3.6.2",
     "typescript": "^5.9.2"
   },
