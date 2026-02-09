@@ -9,16 +9,13 @@ import { Filters } from '../components/Partners/Filters/Filters';
 import { sortBy } from 'lodash';
 import styled from '@emotion/styled';
 import { theme } from '../theme';
+import { Outer } from '../components/Outer';
 
 type PartnersPageProps = {
   data: {
     allPartnersJson: PartnersQueryResult['allPartnersJson'];
   };
 };
-
-const Outer = styled.div`
-  padding: ${theme.spacing(7.5)} 0;
-`;
 
 const PartnersWrapper = styled.div`
   display: grid;
