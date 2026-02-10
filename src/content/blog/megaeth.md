@@ -9,8 +9,6 @@ tags: [chains, partners]
 
 ![](../../images/blog/megaeth/cover.png)
 
-# MegaETH: Launching Into Real-Time
-
 The early weeks of 2026 have been a strange time for Ethereum. Amidst a sea of red candles and curtain closes for leading industry figures, Vitalik has [officially unfurled](https://x.com/VitalikButerin/status/2018711006394843585) the roll-up-centric roadmap which consumed so many years of Ethereum’s efforts. Before setting out his new vision for the future of Ethereum Mainnet, he claimed: the *“original vision of L2s and their role in Ethereum no longer makes sense”*.
 
 The truth is that we’ve enjoyed low-cost blockspace with settlement to Ethereum for years, and that alone has not driven adoption. The industry is fatigued with new chain launches offering only more of the same. But that’s not to say that chains that roll up to Ethereum have no purpose any more. Rather, it simply means these chains must justify their presence through genuine, meaningful innovation and pushing boundaries that Mainnet cannot.
