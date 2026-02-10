@@ -2,7 +2,7 @@
 date: 2026-02-10T12:00:00Z
 header_image: "../../images/blog/megaeth/cover.png"
 short_description: "Explore MegaETH's real-time Ethereum vision: millisecond blocks, 100k TPS apps, and Beefy's Day 1 vaults shaping the next era of onchain performance today."
-sub_header: "Explore MegaETH's real-time Ethereum vision: millisecond blocks, 100k TPS apps, and Beefy's Day 1 vaults shaping the next era of onchain performance today."
+sub_header: "MegaETH: Launching Into Real-Time"
 title: "MegaETH: Launching Into Real-Time"
 tags: [chains, partners]
 ---
