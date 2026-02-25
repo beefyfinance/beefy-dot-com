@@ -6,16 +6,13 @@ import { Inner } from '../components/Common/Inner';
 import styled from '@emotion/styled';
 import { theme } from '../theme';
 import { Meta } from '../components/Common/Meta';
+import { Outer } from '../components/Outer';
 
 type MediaKitPageProps = {
   data: {
     allMediaKitGroupsJson: MediaKitQueryResult['allMediaKitGroupsJson'];
   };
 };
-
-const Outer = styled.div`
-  padding: ${theme.spacing(7.5)} 0;
-`;
 
 const Heading = styled.h1``;
 
