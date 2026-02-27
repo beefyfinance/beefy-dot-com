@@ -3,10 +3,19 @@ import styled from '@emotion/styled';
 import { theme } from '../../../theme';
 
 const Container = styled.div`
-  margin-bottom: ${theme.spacing(4)};
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 20px;
+  @media (min-width: ${theme.breakpoints.md}px) {
+    margin-bottom: 24px;
+  }
 `;
 
-const Header = styled.h1``;
+const Header = styled.h1`
+  font-weight: 500;
+  margin-bottom: 0;
+`;
 
 const Description = styled.p`
   ${theme.h3};

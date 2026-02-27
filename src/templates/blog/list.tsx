@@ -29,6 +29,14 @@ const Pagination = styled(ArticlePagination)`
   margin-top: ${theme.spacing(3)};
 `;
 
+const Header = styled.h1`
+  font-weight: 500;
+  margin-bottom: 20px;
+  @media (min-width: ${theme.breakpoints.md}px) {
+    margin-bottom: 24px;
+  }
+`;
+
 const Template = memo<TemplateProps>(function Template({ data, pageContext }) {
   const articles = useMemo(
     () => data.allMarkdownRemark.edges.map(edge => edge.node),
@@ -38,6 +46,7 @@ const Template = memo<TemplateProps>(function Template({ data, pageContext }) {
   return (
     <Outer>
       <Inner>
+        <Header>News</Header>
         <ArticleGrid articles={articles} />
         <Pagination currentPage={pageContext.currentPage} numPages={pageContext.numPages} />
       </Inner>
