@@ -7,6 +7,7 @@ import { ListArticles } from '../../data/queries/list-articles';
 import styled from '@emotion/styled';
 import { theme } from '../../theme';
 import { ArticlePagination } from '../../components/Blog/ArticlePagination';
+import { Outer } from '../../components/Outer';
 
 type TemplateProps = {
   data: {
@@ -21,12 +22,16 @@ type TemplateProps = {
   };
 };
 
-const Outer = styled.div`
-  padding: ${theme.spacing(7.5)} 0;
-`;
-
 const Pagination = styled(ArticlePagination)`
   margin-top: ${theme.spacing(3)};
+`;
+
+const Header = styled.h1`
+  font-weight: 500;
+  margin-bottom: 20px;
+  @media (min-width: ${theme.breakpoints.md}px) {
+    margin-bottom: 24px;
+  }
 `;
 
 const Template = memo<TemplateProps>(function Template({ data, pageContext }) {
@@ -38,6 +43,7 @@ const Template = memo<TemplateProps>(function Template({ data, pageContext }) {
   return (
     <Outer>
       <Inner>
+        <Header>News</Header>
         <ArticleGrid articles={articles} />
         <Pagination currentPage={pageContext.currentPage} numPages={pageContext.numPages} />
       </Inner>

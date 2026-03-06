@@ -14,7 +14,13 @@ type MediaKitPageProps = {
   };
 };
 
-const Heading = styled.h1``;
+const Heading = styled.h1`
+  font-weight: 500;
+  margin-bottom: 12px;
+  @media (min-width: ${theme.breakpoints.md}px) {
+    margin-bottom: 24px;
+  }
+`;
 
 const MediaKitPage = memo(({ data }: MediaKitPageProps) => {
   const groups = useMemo(

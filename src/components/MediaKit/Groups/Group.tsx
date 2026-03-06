@@ -4,11 +4,19 @@ import { MediaKitGroup } from '../../../data/queries/media-kit';
 import { Items } from './Items';
 import { theme } from '../../../theme';
 
-const GroupOuter = styled.div``;
+const GroupOuter = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  @media (min-width: ${theme.breakpoints.md}px) {
+    gap: 16px;
+  }
+`;
 
 const Label = styled.h2`
   ${theme.h3}
   color: ${theme.text.middle};
+  margin-bottom: 0;
 `;
 
 export type GroupProps = {

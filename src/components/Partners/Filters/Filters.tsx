@@ -21,7 +21,10 @@ const Container = styled.div`
   flex-wrap: wrap;
   align-items: baseline;
   gap: ${theme.spacing(2)};
-  margin-bottom: ${theme.spacing(4)};
+  margin-bottom: 20px;
+  @media (min-width: ${theme.breakpoints.md}px) {
+    margin-bottom: 24px;
+  }
 `;
 
 export const Filters = memo<FiltersProps>(function Filters({ onChange, selected, partners }) {
