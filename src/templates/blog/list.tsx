@@ -7,6 +7,7 @@ import { ListArticles } from '../../data/queries/list-articles';
 import styled from '@emotion/styled';
 import { theme } from '../../theme';
 import { ArticlePagination } from '../../components/Blog/ArticlePagination';
+import { Outer } from '../../components/Outer';
 
 type TemplateProps = {
   data: {
@@ -20,10 +21,6 @@ type TemplateProps = {
     tag?: string;
   };
 };
-
-const Outer = styled.div`
-  padding: ${theme.spacing(7.5)} 0;
-`;
 
 const Pagination = styled(ArticlePagination)`
   margin-top: ${theme.spacing(3)};
