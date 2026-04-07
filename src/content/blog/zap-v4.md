@@ -21,6 +21,8 @@ For those not already familiar, Zap aims to grease the gears of our DeFi engine.
 
 Today, we’re excited to announce the next phase in making your life easier. It’s time for a new generation of zap technology, thousands of additional routes to interact with Beefy, and an even-smoother experience for our users. We’re pleased to share how **Zap is going crosschain.**
 
+![](../../images/blog/zap-v4/walkthrough.png)
+
 ## Crosschain Zaps
 
 It’s an upgrade that does exactly what it says on the tin… Users are now able to enter hundreds of Beefy products from their chosen token across 10 of our supported blockchains. Just select the route, approve the deposit token and zap in one transaction.
