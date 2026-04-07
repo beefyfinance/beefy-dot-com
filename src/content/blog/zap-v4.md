@@ -7,7 +7,7 @@ title: "Crosschain Zaps!"
 tags: [products, partners]
 ---
 
-![](../../images/blog/zap-v4/cover.mp4)
+![](../../images/blog/zap-v4/cover.png)
 
 Amidst difficult times for DeFi and the world economy, it can be easy to fall into doubt. *What are we doing here? What change are we trying to bring to the world? What’s the real value of these tools and this work?*
 
