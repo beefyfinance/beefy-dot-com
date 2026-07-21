@@ -7,7 +7,7 @@ title: "Robinhood: Bringing Mainstream Finance Onchain"
 tags: [products]
 ---
 
-![](../../images/blog/robinhood/cover.png)
+![](../../images/blog/robinhood/cover.mp4)
 
 For most of its life, crypto has run alongside mainstream finance rather than through it. One world has the users, familiar products and global distribution; the other has programmable assets, open liquidity and markets that do not close for the weekend. Both have something the other needs.
 
