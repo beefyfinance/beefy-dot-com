@@ -42,13 +42,6 @@
     "versions": ["png", "svg"]
   },
   {
-    "itemId": "qr",
-    "label": "Beefy.com QR Code",
-    "groupId": "logos",
-    "background": "dark",
-    "versions": ["png", "svg"]
-  },
-  {
     "itemId": "mono-dark",
     "label": "Mono - Dark - Square",
     "groupId": "logos",
