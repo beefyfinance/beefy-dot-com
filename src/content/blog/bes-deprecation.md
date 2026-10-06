@@ -35,6 +35,8 @@ For beS users, this also means that you are no longer earning S rewards simply b
 
 Alternatively, a small amount of beS liquidity is still available on various DEXs on Sonic. Users not wanting to wait for the withdrawal period can swap immediately through the liquidity. With that said, the discount to the underlying S redemption value could widen as liquidity shrinks. For users aiming to maximise their withdrawals, we strongly recommend withdrawing directly from the product rather than swapping through liquidity pools.
 
+Another impacted product is mooBIFI, Beefy’s staked governance token. Beefy enabled bridging mooBIFI to Sonic in early 2025, and several hundred mooBIFI have since arrived on the chain. With Beefy’s protocol-owned liquidity now withdrawn, mooBIFI liquidity on Sonic has fallen significantly. We’re keeping the route out of Sonic open so holders can bridge their mooBIFI elsewhere, while closing the route into Sonic to prevent the supply there from growing. We encourage mooBIFI holders on Sonic to withdraw their mooBIFI through the bridge rather than swapping out through thin liquidity. 
+
 Finally, the remainder of Beefy's Sonic products have also now been deprecated. All funds have been withdrawn to the strategies, meaning they're available to withdraw at any time but not earning yield. While the chain has been hidden on the Beefy app, connecting the relevant wallet will showcase all relevant retired products in the "My Positions" tab. Fortunately, Sonic is still fully functional with Circle's CCTP bridge, meaning crosschain zaps are still possible. Users can zap now from retired products on Sonic directly into other Beefy products on 9 other chains.
 
 ### Looking Forward
