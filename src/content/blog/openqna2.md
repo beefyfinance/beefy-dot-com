@@ -7,7 +7,7 @@ title: "Beefy Open Q&A (H2 2026)"
 tags: [governance, products]
 ---
 
-![](../../images/blog/openqna1/cover.png)
+![](../../images/blog/openqna2/cover.png)
 
 Beefy's second Open Q&A event was held on 9 October 2026 on the [Beefy Discord Server](https://beefy.finance/discord). As with [the first session](openqna1.md), the floor was open for cowmoonity questions, hot topics and feedback on Beefy's progress.
 
