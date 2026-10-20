@@ -1,7 +1,7 @@
 ---
 date: 2026-10-21T12:00:00Z
 header_image: "../../images/blog/aero/cover.png"
-short_description: "Beefy is helping users navigate the migration with frontend updates and free zaps"
+short_description: "Aerodrome and Velodrome are merging into Aero, the unified liquidity hub for Ethereum. Beefy is helping users navigate the migration with frontend updates and free Zaps."
 sub_header: "Liftoff: Aero & The Great Liquidity Migration"
 title: "Liftoff: Aero & The Great Liquidity Migration"
 tags: [products, partners]
